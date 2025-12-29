@@ -57,3 +57,22 @@ WHERE empno = 7844;
 INSERT INTO EmpDept30View
 VALUES (9001, 'SIMON', 'SALESMAN', 7698, '2000-04-01', 1000, 250)
 ```
+#### WITH CHECK OPTION
+> View 中有WHERE 條件，限定要符合條件才執行
+#####  CASCADED | LOCAL
+如果View 中使用其他View
+- CASCADED 是確認所有View 的WHERE
+- LOCAL 只確認目前View 中的WHERE
+
+```SQL
+
+CREATE VIEW cmdev.EmpDept30View AS
+SELECT empno, ename, job, manager, hiredate, salary, comm, deptno
+FROM cmdev.emp
+WHERE deptno = 30
+WITH [CASCADED | LOCAL] CHECK OPTION;
+
+INSERT INTO EmpDept30View
+VALUES (9001, 'SIMON', 'SALESMAN', 7698, '2000-04-01', 1000, 250, 40);
+-- 因為不符合deptno = 30 所以會報錯
+```
