@@ -30,3 +30,4 @@ CREATE OR REPLACE VIEW *View名稱 AS *查詢語句
 -- IF EXISTS 如果沒有這個View 不會報錯
 DROP VIEW [IF EXISTS] *View名稱
 ```
+---
