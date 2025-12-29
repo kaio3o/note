@@ -31,3 +31,29 @@ CREATE OR REPLACE VIEW *View名稱 AS *查詢語句
 DROP VIEW [IF EXISTS] *View名稱
 ```
 ---
+ ### 資料維護(CREATE、UPDATE)
+ > **保證資料安全**
+ 
+ - 不可以包含計算或函式
+	 - 聚合函數 (`SUM`, `COUNT`, `AVG`...)
+	- `DISTINCT`
+	- `GROUP BY`
+	- `HAVING`
+	- `UNION`
+	- 某些複雜的 `JOIN`
+ - ALGORITHM不可以為TEMPTABLE(暫存表)
+
+```SQL
+-- 建立名稱為EmpDept30View 的View 表，查詢emp 表內符合depno = 30 的資料
+CREATE VIEW cmdev.EmpDept30View AS
+SELECT empno, ename, job, manager, hiredate, salary, comm
+FROM cmdev.emp
+WHERE deptno = 30;
+
+UPDATE EmpDept30View
+SET comm = 600
+WHERE empno = 7844;
+-- 也可以使用INSERT
+INSERT INTO EmpDept30View
+VALUES (9001, 'SIMON', 'SALESMAN', 7698, '2000-04-01', 1000, 250)
+```
