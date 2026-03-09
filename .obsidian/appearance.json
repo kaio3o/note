@@ -3,5 +3,6 @@
   "nativeMenus": false,
   "enabledCssSnippets": [
     "my_style"
-  ]
+  ],
+  "cssTheme": "Things"
 }
