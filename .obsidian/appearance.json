@@ -1,3 +1,7 @@
 {
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "my_style"
+  ]
 }
