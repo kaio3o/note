@@ -4,5 +4,6 @@
   "enabledCssSnippets": [
     "my_style"
   ],
-  "cssTheme": "Baseline"
+  "cssTheme": "Cupertino",
+  "accentColor": "#fa962a"
 }
