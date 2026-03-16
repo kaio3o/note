@@ -59,6 +59,7 @@ git status
 - **添加所有修改過的檔案：**
   ```bash
   git add .
+  git add -A
   ```
 
 ### `git commit`
