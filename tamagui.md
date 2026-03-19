@@ -1,116 +1,87 @@
-# Tamagui 2.0.0-rc.26 進階使用手冊與限制規範
+# Tamagui 2.0.0-rc.26 完整使用指南與規範
 
-本文件詳細介紹 Tamagui 的核心功能使用模式、最佳實踐以及在不同平台（Web/Native）下的技術限制。
-
----
-
-## 1. 設計代幣系統 (Design Tokens)
-
-### 使用方法
-在 `createTamagui` 中定義 `size`, `space`, `color`, `radius`, `zIndex` 等。
-```tsx
-const config = createTamagui({
-  tokens: createTokens({
-    size: { sm: 10, md: 20, true: 15 }, // true 是預設值
-    color: { primary: '#000' },
-    space: { 1: 4, 2: 8 },
-  })
-})
-```
-*   **調用方式**：`<Stack padding="$2" />`
-
-### 限制與注意
-*   **必須前綴 `$`**：在屬性中調用 token 必須加 `$`，否則會被視為原始數值（如 `padding={2}` 代表 2px）。
-*   **Token 類型固定**：某些屬性僅能接收特定類型的 Token（例如 `backgroundColor` 只能接 `color` token）。
-*   **Runtime 限制**：若不使用編譯器，過多的 Token 映射會在運行時產生輕微的效能開銷。
+本文件整合了 Tamagui 的核心屬性使用方法、進階規範及 2.0.0-rc.26 的技術限制。
 
 ---
 
-## 2. 響應式設計 (Media Queries)
+## 1. 2.0.0-rc.26 版本特性
 
-### 使用方法
-透過 `$gt` (greater than) 或 `$lt` (less than) 前綴來應用樣式。
-```tsx
-<XStack 
-  flexDirection="column" 
-  $gtMd={{ flexDirection: 'row', padding: '$4' }} 
-/>
-```
-
-### 限制與注意
-*   **Web 優先級**：在 Web 端，Tamagui 使用 CSS Media Queries，這非常高效。
-*   **Native 限制**：在 React Native 上，響應式是透過 JS 監聽螢幕尺寸變化實現的。這可能導致**螢幕旋轉時有輕微的樣式延遲**。
-*   **編譯器依賴**：強烈建議在 Web 端搭配 `@tamagui/static`，否則所有響應式樣式都會變成 Inline Styles，失去 CSS 的效能優勢。
+*   **自動路徑探索**：編譯器現在能自動識別 `tsconfig.json` 的路徑別名。
+*   **SSR 水合優化**：預置了 `PortalProvider`，大幅減少 Web 端 SSR 的水合不匹配錯誤。
+*   **效能增強**：移除了 Lucide 圖標的多餘 Source Maps，打包體積更小。
 
 ---
 
-## 3. 主題巢狀 (Theme Nesting)
+## 2. 核心屬性使用方法 (Style Props)
 
-### 使用方法
-你可以局部覆蓋主題，這對於「深色卡片內有淺色按鈕」的場景非常有用。
-```tsx
-<Theme name="dark">
-  <YStack bc="$background">
-    <Theme name="light">
-      <Button /> {/* 此按鈕將使用 light 主題 */}
-    </Theme>
-  </YStack>
-</Theme>
-```
+### 2.1 基礎樣式屬性
+Tamagui 是 React Native 樣式的超集，支援簡寫 (Shorthands)。
+*   `p`, `px`, `py`: Padding。
+*   `m`, `mx`, `my`: Margin。
+*   `bc`: `backgroundColor`。
+*   `zi`: `zIndex`。
+*   **調用 Token**：`<View p="$4" bc="$background" />` (必須加 `$` 符號)。
 
-### 限制與注意
-*   **效能開銷**：過深的主題巢狀（例如超過 5 層）會增加 Context 查找的負擔，可能導致渲染效能下降。
-*   **SSR 水合 (Hydration)**：在 2.0.0-rc.26 之前，複雜的主題巢狀常導致 Web 端初次渲染與伺服器端不一致。**rc.26 雖已優化，但仍建議避免在 `Theme` 組件上動態頻繁切換 `name`。**
+### 2.2 偽狀態 (Pseudo States)
+用於處理 Web 和 Native 的互動：
+*   `hoverStyle`: 僅 Web 支援。
+*   `pressStyle`: 按下時的縮放或變色。
+*   `focusStyle`: 獲取焦點時的樣式。
 
----
-
-## 4. `styled()` 組件與變體 (Variants)
-
-### 使用方法
-這是擴展組件邏輯的核心工具。
-```tsx
-const BoldText = styled(Text, {
-  color: '$color',
-  variants: {
-    size: {
-      huge: { fontSize: 40, lineHeight: 50 }
-    }
-  } as const
-})
-```
-
-### 限制與注意
-*   **類型安全**：必須加上 `as const`，否則 TypeScript 可能無法正確推斷 Variant 的名稱。
-*   **無法動態生成 Variant**：Variant 的鍵值必須是靜態定義的，你不能根據運行時的 API 數據動態產生新的 Variant 類別。
-*   **組合限制**：當一個組件同時有多個 Variant 影響同一個 CSS 屬性時，**最後定義的 Variant 優先級最高**，而非傳入 Props 的順序。
+### 2.3 特殊功能屬性
+*   **`asChild`**: 將樣式傳遞給唯一的子組件（不渲染多餘 DOM）。常用於整合路由 Link。
+    ```tsx
+    <Button asChild>
+      <Link href="/home">首頁</Link>
+    </Button>
+    ```
+*   **`tag`**: (僅限 Web) 強制渲染為特定 HTML 標籤。
+    ```tsx
+    <Text tag="h1">標題</Text>
+    ```
 
 ---
 
-## 5. 跨平台樣式一致性 (Cross-Platform)
+## 3. 進階功能與技術限制
 
-### 限制與陷阱
-*   **Shadows (陰影)**：
-    *   Native：主要依賴 `elevation` (Android) 或 `shadowOffset` (iOS)。
-    *   Web：轉換為 `box-shadow`。
-    *   **限制**：複雜的 CSS 內陰影 (inset shadow) 在 Native 端完全不支援。
-*   **Filter/Blur**：
-    *   Web：完整支援 `backdrop-filter`。
-    *   Native：需要額外安裝 `expo-blur` 或相關庫，Tamagui 預設不處理 Native 端的毛玻璃效果。
-*   **佈局差異**：`Text` 組件在 Web 預設是 `display: inline`，但在 Native 始終遵循 Flexbox。建議始終將 Text 放在 `Stack` 內以確保佈局一致。
+### 3.1 設計代幣 (Tokens)
+*   **用法**：在 `createTamagui` 中定義 `size`, `color`, `space` 等。
+*   **限制**：Token 映射在運行時有輕微開銷，建議搭配編譯器。
+
+### 3.2 響應式設計 (Media Queries)
+*   **用法**：`$gtSm`, `$ltMd`, `$gtLg`。
+*   **限制**：在 Native 端是透過 JS 監聽螢幕旋轉實現的，極端情況下可能有微小延遲。
+
+### 3.3 主題巢狀 (Theme Nesting)
+*   **用法**：`<Theme name="dark">...</Theme>`。
+*   **限制**：過深的主題巢狀（>5層）會影響 Context 查找效能。
+
+### 3.4 `styled()` 組件與變體 (Variants)
+*   **用法**：
+    ```tsx
+    export const MyButton = styled(Button, {
+      variants: {
+        urgent: { true: { bc: '$red10' } }
+      } as const
+    })
+    ```
+*   **限制**：Variant 名稱必須是靜態的，且必須加 `as const` 以保證類型安全。
 
 ---
 
-## 6. 編譯器與性能 (The Compiler)
+## 4. 跨平台一致性陷阱
 
-### 限制
-*   **動態求值限制**：編譯器只能優化「靜態可分析」的代碼。如果你寫 `<View padding={Math.random()} />`，編譯器會放棄優化該屬性並退回到 Runtime 模式。
-*   **Spread Operator**：`<View {...props} />` 會大幅降低編譯器的優化能力，因為它無法預知 `props` 內含有哪些樣式。
+1.  **陰影 (Shadows)**：Native 的 `elevation` 與 Web 的 `box-shadow` 在視覺上很難完全一致，建議使用 Tamagui 的 Shadow Tokens。
+2.  **模糊 (Blur)**：Native 需安裝額外庫（如 `expo-blur`），Tamagui 不會自動轉換 `backdrop-filter`。
+3.  **佈局差異**：`Text` 組件在 Web 是 `inline`，Native 是 `flex`。建議始終在外層包裹 `Stack` 以穩定佈局。
 
 ---
 
-## 7. 2.0.0-rc.26 專屬升級提醒
-*   **Lucide Icons**：此版本優化了圖標權重。若你發現圖標渲染異常，請確保 `@tamagui/lucide-icons` 同步更新至最新。
-*   **Z-Index**：rc.26 修復了某些堆疊上下文問題。若你的 `Popover` 或 `Dialog` 層級出錯，請檢查是否在 `TamaguiProvider` 中正確啟用了 `PortalProvider`。
+## 5. 性能優化建議
+
+1.  **避免 Spread Props**：`<View {...props} />` 會讓編譯器無法預先優化。
+2.  **靜態化**：盡量使用 Token 而非 inline 數值（如 `padding={10}`），這能讓編譯器將其轉換為靜態 CSS。
+3.  **清理快取**：升級 rc.26 後若樣式錯誤，請執行 `tamagui clean`。
 
 ---
 *更新日期：2026-03-19*
