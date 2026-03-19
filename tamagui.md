@@ -1,127 +1,116 @@
-# Tamagui 2.0.0-rc.26 使用說明與規範
+# Tamagui 2.0.0-rc.26 進階使用手冊與限制規範
 
-本文件針對 Tamagui **2.0.0-rc.26** 版本提供核心指南，包含基礎配置、樣式屬性、組件規範及此版本的重大更新。
-
----
-
-## 1. 2.0.0-rc.26 版本特性 (What's New)
-
-此版本是邁向 2.0 正式版的關鍵里程碑，重點在於編譯器優化與打包體積縮減。
-
-*   **編譯器增強：** 支援 `tsconfig paths` 自動探索，簡化了路徑別名的配置。
-*   **SSR 水合 (Hydration) 修復：** 在 `TamaguiProvider` 中預置了 `PortalProvider`，解決了伺服器渲染時常見的 DOM 不匹配錯誤。
-*   **體積優化：** 顯著減少了發佈包的 JS 權重，並優化了 Lucide Icons 的 Source Maps 處理。
-*   **樣式特異性 (Specificity)：** 修復了深層巢狀 `$group` 樣式屬性無法正確覆蓋的問題。
+本文件詳細介紹 Tamagui 的核心功能使用模式、最佳實踐以及在不同平台（Web/Native）下的技術限制。
 
 ---
 
-## 2. 核心配置 (Configuration)
+## 1. 設計代幣系統 (Design Tokens)
 
-Tamagui 的強大源於 `tamagui.config.ts`。在此定義你的設計系統：
-
-### 2.1 設計代幣 (Tokens)
-所有以 `$` 開頭的屬性值都對應到 Token。
-- **Size:** `$true`, `$1`, `$2`... (用於 width, height, padding, margin)
-- **Color:** `$background`, `$color`, `$blue10`...
-- **Radius:** `$2`, `$4`...
-- **ZIndex:** `$1`, `$10`...
-
-### 2.2 簡寫屬性 (Shorthands)
-為了開發效率，建議在配置中啟用 Shorthands：
-- `m`: `margin`
-- `p`: `padding`
-- `bc`: `backgroundColor`
-- `ai`: `alignItems`
-- `jc`: `justifyContent`
-- `f`: `flex`
-
----
-
-## 3. 核心組件與佈局 (Core Components)
-
-### 3.1 佈局三大件
-- **`YStack`**: 垂直堆疊 (Vertical Flex Column)。
-- **`XStack`**: 水平堆疊 (Horizontal Flex Row)。
-- **`ZStack`**: 層疊堆疊 (Absolute Positioning Overlay)。
-
-### 3.2 文本組件
-- **`Text`**: 基礎文本。
-- **`Paragraph`**: 帶有預設行高與邊距的段落文本。
-- **`Heading`**: 標題組件 (h1-h6)。
-
----
-
-## 4. 樣式屬性規範 (Style Props)
-
-### 4.1 互動偽類 (Pseudo Styles)
-Tamagui 在原生平台與 Web 之間提供了一致的互動 API：
+### 使用方法
+在 `createTamagui` 中定義 `size`, `space`, `color`, `radius`, `zIndex` 等。
 ```tsx
-<Button
-  backgroundColor="$blue10"
-  hoverStyle={{ backgroundColor: '$blue11', scale: 1.05 }}
-  pressStyle={{ backgroundColor: '$blue12', scale: 0.95 }}
-  focusStyle={{ outlineColor: '$blue8', outlineWidth: 2 }}
+const config = createTamagui({
+  tokens: createTokens({
+    size: { sm: 10, md: 20, true: 15 }, // true 是預設值
+    color: { primary: '#000' },
+    space: { 1: 4, 2: 8 },
+  })
+})
+```
+*   **調用方式**：`<Stack padding="$2" />`
+
+### 限制與注意
+*   **必須前綴 `$`**：在屬性中調用 token 必須加 `$`，否則會被視為原始數值（如 `padding={2}` 代表 2px）。
+*   **Token 類型固定**：某些屬性僅能接收特定類型的 Token（例如 `backgroundColor` 只能接 `color` token）。
+*   **Runtime 限制**：若不使用編譯器，過多的 Token 映射會在運行時產生輕微的效能開銷。
+
+---
+
+## 2. 響應式設計 (Media Queries)
+
+### 使用方法
+透過 `$gt` (greater than) 或 `$lt` (less than) 前綴來應用樣式。
+```tsx
+<XStack 
+  flexDirection="column" 
+  $gtMd={{ flexDirection: 'row', padding: '$4' }} 
 />
 ```
 
-### 4.2 響應式前綴 (Media Queries)
-使用前綴快速實現跨螢幕適配：
-- `$gtSm`: 大於 Small 尺寸。
-- `$ltMd`: 小於 Medium 尺寸。
-- `$gtLg`: 大於 Large 尺寸。
-
-```tsx
-<YStack width="100%" $gtMd={{ width: "50%", flexDirection: "row" }} />
-```
-
-### 4.3 平台與主題特定
-- `$platform-ios` / `$platform-android` / `$platform-web`
-- `$theme-light` / `$theme-dark`
+### 限制與注意
+*   **Web 優先級**：在 Web 端，Tamagui 使用 CSS Media Queries，這非常高效。
+*   **Native 限制**：在 React Native 上，響應式是透過 JS 監聽螢幕尺寸變化實現的。這可能導致**螢幕旋轉時有輕微的樣式延遲**。
+*   **編譯器依賴**：強烈建議在 Web 端搭配 `@tamagui/static`，否則所有響應式樣式都會變成 Inline Styles，失去 CSS 的效能優勢。
 
 ---
 
-## 5. 高階開發規範 (Advanced Patterns)
+## 3. 主題巢狀 (Theme Nesting)
 
-### 5.1 `styled()` 函數
-建立可複用的樣式化組件，並定義自定義變體 (Variants)：
+### 使用方法
+你可以局部覆蓋主題，這對於「深色卡片內有淺色按鈕」的場景非常有用。
 ```tsx
-import { styled, YStack } from 'tamagui'
+<Theme name="dark">
+  <YStack bc="$background">
+    <Theme name="light">
+      <Button /> {/* 此按鈕將使用 light 主題 */}
+    </Theme>
+  </YStack>
+</Theme>
+```
 
-export const MyCard = styled(YStack, {
-  name: 'MyCard', // 用於編譯器調試
-  backgroundColor: '$background',
-  padding: '$4',
-  borderRadius: '$4',
+### 限制與注意
+*   **效能開銷**：過深的主題巢狀（例如超過 5 層）會增加 Context 查找的負擔，可能導致渲染效能下降。
+*   **SSR 水合 (Hydration)**：在 2.0.0-rc.26 之前，複雜的主題巢狀常導致 Web 端初次渲染與伺服器端不一致。**rc.26 雖已優化，但仍建議避免在 `Theme` 組件上動態頻繁切換 `name`。**
 
+---
+
+## 4. `styled()` 組件與變體 (Variants)
+
+### 使用方法
+這是擴展組件邏輯的核心工具。
+```tsx
+const BoldText = styled(Text, {
+  color: '$color',
   variants: {
-    isError: {
-      true: {
-        borderColor: '$red10',
-        borderWidth: 2,
-      }
+    size: {
+      huge: { fontSize: 40, lineHeight: 50 }
     }
   } as const
 })
 ```
 
-### 5.2 `asChild` 模式
-當需要將樣式傳遞給自定義子組件時使用（常用於整合 Next.js Link 或 React Router）：
-```tsx
-<Button asChild>
-  <NextLink href="/dashboard">進入控制台</NextLink>
-</Button>
-```
+### 限制與注意
+*   **類型安全**：必須加上 `as const`，否則 TypeScript 可能無法正確推斷 Variant 的名稱。
+*   **無法動態生成 Variant**：Variant 的鍵值必須是靜態定義的，你不能根據運行時的 API 數據動態產生新的 Variant 類別。
+*   **組合限制**：當一個組件同時有多個 Variant 影響同一個 CSS 屬性時，**最後定義的 Variant 優先級最高**，而非傳入 Props 的順序。
 
 ---
 
-## 6. 性能優化建議 (Performance Tips)
+## 5. 跨平台樣式一致性 (Cross-Platform)
 
-1.  **使用靜態編譯器：** 確保在生產環境啟動 `@tamagui/static`，這能將大部分樣式轉換為 CSS，減少 JS 執行負擔。
-2.  **避免 inline objects：** 盡量使用 Token 或變體，避免在 render 中直接寫 `style={{ ... }}`，這會繞過編譯器優化。
-3.  **Clean Cache：** 在升級到 `rc.26` 後，若遇到樣式不生效，請執行 `tamagui clean` 並重啟開發伺服器。
+### 限制與陷阱
+*   **Shadows (陰影)**：
+    *   Native：主要依賴 `elevation` (Android) 或 `shadowOffset` (iOS)。
+    *   Web：轉換為 `box-shadow`。
+    *   **限制**：複雜的 CSS 內陰影 (inset shadow) 在 Native 端完全不支援。
+*   **Filter/Blur**：
+    *   Web：完整支援 `backdrop-filter`。
+    *   Native：需要額外安裝 `expo-blur` 或相關庫，Tamagui 預設不處理 Native 端的毛玻璃效果。
+*   **佈局差異**：`Text` 組件在 Web 預設是 `display: inline`，但在 Native 始終遵循 Flexbox。建議始終將 Text 放在 `Stack` 內以確保佈局一致。
 
 ---
 
-## 7. 參考連結
-- [Tamagui 官方文件](https://tamagui.dev)
-- [GitHub Release Notes](https://github.com/tamagui/tamagui/releases)
+## 6. 編譯器與性能 (The Compiler)
+
+### 限制
+*   **動態求值限制**：編譯器只能優化「靜態可分析」的代碼。如果你寫 `<View padding={Math.random()} />`，編譯器會放棄優化該屬性並退回到 Runtime 模式。
+*   **Spread Operator**：`<View {...props} />` 會大幅降低編譯器的優化能力，因為它無法預知 `props` 內含有哪些樣式。
+
+---
+
+## 7. 2.0.0-rc.26 專屬升級提醒
+*   **Lucide Icons**：此版本優化了圖標權重。若你發現圖標渲染異常，請確保 `@tamagui/lucide-icons` 同步更新至最新。
+*   **Z-Index**：rc.26 修復了某些堆疊上下文問題。若你的 `Popover` 或 `Dialog` 層級出錯，請檢查是否在 `TamaguiProvider` 中正確啟用了 `PortalProvider`。
+
+---
+*更新日期：2026-03-19*
