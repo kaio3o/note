@@ -13,9 +13,14 @@ npm install -g openclaw@latest
 # 設定openclaw
 openclaw onboard
 ```
-
+---
 ```shell
 # 開啟openclaw getway
 openclaw gateway start
 openclaw gateway stop
 ```
+ollama 推薦開啟方式
+```shell
+ollama launch openclaw
+```
+
