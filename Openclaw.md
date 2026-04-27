@@ -1,3 +1,8 @@
+1. 安裝 ollama
+```shell
+irm https://ollama.com/install.ps1 | iex
+```
+
 ```shell
 # 先安裝git、nodejs
 # PowerShell 管理員身分
