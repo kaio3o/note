@@ -14,3 +14,7 @@ npm install -g openclaw@latest
 openclaw onboard
 ```
 
+```shell
+# 開啟openclaw getway
+openclaw gateway start
+```
