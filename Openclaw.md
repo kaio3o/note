@@ -16,6 +16,8 @@ openclaw onboard
 ---
 ```shell
 # 開啟openclaw getway
+openclaw gateway
+openclaw gateway run
 openclaw gateway start
 openclaw gateway stop
 ```
@@ -23,4 +25,8 @@ ollama 推薦開啟方式
 ```shell
 ollama launch openclaw
 ```
-
+---
+安裝技能skills
+```shell
+openclaw skills install file-manager
+```
