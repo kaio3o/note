@@ -17,4 +17,5 @@ openclaw onboard
 ```shell
 # 開啟openclaw getway
 openclaw gateway start
+openclaw gateway stop
 ```
