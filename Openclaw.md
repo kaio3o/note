@@ -30,3 +30,9 @@ ollama launch openclaw
 ```shell
 openclaw skills install file-manager
 ```
+
+這我不會用好難
+換用WSL + vLLM
+
+
+./start_vllm.sh
