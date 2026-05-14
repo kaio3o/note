@@ -1,3 +1,5 @@
+[别再用 Ollama 了！OpenClaw 秒级响应方案（vLLM + 本地模型）完全免费！| 零度解说](https://www.youtube.com/watch?v=rHmdJjOytRk)
+
 1. 安裝 ollama
 ```shell
 irm https://ollama.com/install.ps1 | iex
