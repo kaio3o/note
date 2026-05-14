@@ -27,6 +27,13 @@ openclaw gateway start
 openclaw gateway stop
 ```
 
+```shell
+# 錯誤診斷
+openclaw doctor
+# 修復
+openclaw doctor --fix
+```
+
 ollama 推薦開啟方式
 ```shell
 ollama launch openclaw
@@ -60,8 +67,6 @@ source vllm-env/bin/activate
 ./start_vllm.sh
 ```
 
-
-
-
-
 ./start_vllm.sh
+
+### 電腦太爛直接用codeX
