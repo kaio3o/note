@@ -1,5 +1,8 @@
 [别再用 Ollama 了！OpenClaw 秒级响应方案（vLLM + 本地模型）完全免费！| 零度解说](https://www.youtube.com/watch?v=rHmdJjOytRk)
 
+[OpenClaw 完整攻略：從必設參數到超好用 Skills，一篇搞懂這個 199k Stars 的 AI Agent - HackMD](https://hackmd.io/@BASHCAT/rylaWmGuWe)
+
+
 1. 安裝 ollama
 ```shell
 irm https://ollama.com/install.ps1 | iex
