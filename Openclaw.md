@@ -73,8 +73,7 @@ source vllm-env/bin/activate
 ```
 
 ### 電腦太爛直接用codeX
-
-
+選擇codeX 並於瀏覽器登入
 
 ```
 ~/.openclaw/workspace/
