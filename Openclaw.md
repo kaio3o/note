@@ -75,6 +75,10 @@ source vllm-env/bin/activate
 ### 電腦太爛直接用codeX
 選擇codeX 並於瀏覽器登入
 
+### 又改看看LM Studio
+下載完成，去Developer 開啟local Server
+設定**在本地網路中提供服務**、**啟用 CORS** 開啟並取得IP 即可
+
 ```
 ~/.openclaw/workspace/
 ├── AGENTS.md # 操作手冊（主要指令文件）
