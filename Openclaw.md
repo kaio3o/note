@@ -36,8 +36,28 @@ openclaw skills install file-manager
 
 這我不會用好難
 換用WSL + vLLM
+```shell
+#./start_vllm.sh
+#!/bin/bash
+# 啟動 vLLM 伺服器 (針對 8GB 顯卡優化版)
+
+python3 -m vllm.entrypoints.openai.api_server \
+  --model Qwen/Qwen2.5-3B-Instruct-AWQ \
+  --quantization awq \
+  --gpu-memory-utilization 0.85 \
+  --max-model-len 2048 \
+  --enforce-eager \
+  --served-model-name qwen
+```
+
+```shell
+# 進入虛擬環境
 source vllm-env/bin/activate
- ./start_vllm.sh
+# 執行vllm
+./start_vllm.sh
+```
+
+
 
 
 
