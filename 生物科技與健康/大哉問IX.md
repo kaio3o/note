@@ -22,4 +22,4 @@ from: https://technews.tw/2026/05/14/engineered-commensals-for-metabolic-modulat
 
 1. 改造過後的細菌是否有針對人類的負面效果，或對有特定狀況的病患產生嚴重副作用
 2. 生物反應器，透過調整代謝環境，是否針對不同人群、生活習慣有相同效果，或需加量等
-3. 
+3. 這樣的微生物該如何保存
