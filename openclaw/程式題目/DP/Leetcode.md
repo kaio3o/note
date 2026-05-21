@@ -23,5 +23,12 @@ return b
 
 ### 746.
 ```python
-cos
+cost = [10, 15, 20]
+
+n = len(cost)
+
+dp = [0] * (n+1)
+
+for i in range(2, n+1):
+	dp[i] = min()
 ```
