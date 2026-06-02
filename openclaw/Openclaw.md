@@ -50,7 +50,6 @@ ollama launch openclaw
 openclaw skills install file-manager
 ```
 
-這我不會用好難
 換用WSL + vLLM
 ```shell
 #./start_vllm.sh
@@ -78,7 +77,7 @@ source vllm-env/bin/activate
 
 ### 又改看看LM Studio
 下載完成，去Developer 開啟local Server
-設定**在本地網路中提供服務**、**啟用 CORS** 開啟並取得IP 即可
+設定**在本地網路中提供服務**、**啟用 CORS** 開啟並取得IP 即可 還是電腦太爛>:
 
 ```
 ~/.openclaw/workspace/
@@ -108,3 +107,4 @@ source vllm-env/bin/activate
 -  **MEMORY.md** — 長期精煉的智慧。不是原始對話紀錄，而是提煉過的重要洞察。
 -  **TOOLS.md** — 本地工具偏好，例如「思考/規劃用 Claude Opus，寫程式用 Gemini Pro」。
 -  **HEARTBEAT.md** — 定義代理應該主動檢查什麼（預設每 30 分鐘一次）。
+
