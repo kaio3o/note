@@ -109,3 +109,6 @@ source vllm-env/bin/activate
 -  **HEARTBEAT.md** — 定義代理應該主動檢查什麼（預設每 30 分鐘一次）。
 
 動態RAG 個人知識資料庫
+
+
+與Codex、Ollama、LM Studio 差異
