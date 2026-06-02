@@ -6,9 +6,10 @@
 
 [如何訓練你的 OpenClaw：社群秘訣與最佳實踐 - topics - Tenten AI](https://university.tenten.co/t/openclaw/2162)
 
----
+[六个AI相互入侵服务器！谁能杀死对方？](https://www.youtube.com/watch?v=an7Dbkh7no4)
 
-1. 安裝 ollama
+---
+安裝 ollama
 ```shell
 irm https://ollama.com/install.ps1 | iex
 ```
