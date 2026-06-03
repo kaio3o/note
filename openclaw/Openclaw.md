@@ -125,7 +125,8 @@ source vllm-env/bin/activate
 1. OpenClaw 是什麼
 2. 可以做什麼
 	動態RAG 個人知識資料庫、自動化工作流程
-	整理筆記、上網搜尋並整理、叫他自己修自己
+	整理筆記、上網搜尋並整理製成workflow
+	叫他自己修自己 
 3. 怎麼用
 4. Skill/Tool - 與MCP 差異
 5. Demo
