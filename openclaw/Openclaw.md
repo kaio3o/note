@@ -108,7 +108,7 @@ source vllm-env/bin/activate
 -  **TOOLS.md** — 本地工具偏好，例如「思考/規劃用 Claude Opus，寫程式用 Gemini Pro」。
 -  **HEARTBEAT.md** — 定義代理應該主動檢查什麼（預設每 30 分鐘一次）。
 
-動態RAG 個人知識資料庫
+動態RAG 個人知識資料庫、自動化工作流程
 
 
 與Codex、Ollama、LM Studio 差異
