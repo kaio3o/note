@@ -110,11 +110,6 @@ source vllm-env/bin/activate
 -  **TOOLS.md** — 本地工具偏好，例如「思考/規劃用 Claude Opus，寫程式用 Gemini Pro」。
 -  **HEARTBEAT.md** — 定義代理應該主動檢查什麼（預設每 30 分鐘一次）。
 
-動態RAG 個人知識資料庫、自動化工作流程
-
-### 我拿來幹嘛?
-整理筆記、上網搜尋並整理、叫他自己修自己
-
 與Codex、Ollama、LM Studio 差異
 ### AI 工具核心差異對照表
 
@@ -129,10 +124,12 @@ source vllm-env/bin/activate
 
 1. OpenClaw 是什麼
 2. 可以做什麼
+	動態RAG 個人知識資料庫、自動化工作流程
+	整理筆記、上網搜尋並整理、叫他自己修自己
 3. 怎麼用
 4. Skill/Tool - 與MCP 差異
 5. Demo
 6. 與其他 AI 工具比較 ← 新增 (AI agent Antigravity、Codex、Gemini ChatGPT...)
 7. 優缺點
-幻覺、卡住、工具故障、成本、延遲時間、安全性
+	幻覺、卡住、工具故障、成本、延遲時間、安全性
 8. 未來發展
