@@ -127,8 +127,8 @@ source vllm-env/bin/activate
 	動態RAG 個人知識資料庫、自動化工作流程
 	整理筆記、上網搜尋並整理製成workflow
 	叫他自己修自己 
-3. 怎麼用
-4. Skill/Tool - 與MCP 差異
+3. Skill/Tool - 與MCP 差異
+4. 怎麼用
 5. Demo
 6. 與其他 AI 工具比較 ← 新增 (AI agent Antigravity、Codex、Gemini ChatGPT...)
 7. 優缺點
