@@ -130,8 +130,9 @@ source vllm-env/bin/activate
 1. OpenClaw 是什麼
 2. 可以做什麼
 3. 怎麼用
-4. Demo
-5. 與其他 AI 工具比較 ← 新增 (AI agent Antigravity、Codex、Gemini ChatGPT...)
-6. 優缺點
-7. 安全性
-8. 未來發展
+4. Skill/Tool - 與MCP 差異
+5. Demo
+6. 與其他 AI 工具比較 ← 新增 (AI agent Antigravity、Codex、Gemini ChatGPT...)
+7. 優缺點
+8. 安全性
+9. 未來發展
