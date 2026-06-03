@@ -134,5 +134,4 @@ source vllm-env/bin/activate
 5. Demo
 6. 與其他 AI 工具比較 ← 新增 (AI agent Antigravity、Codex、Gemini ChatGPT...)
 7. 優缺點
-8. 安全性
-9. 未來發展
+8. 未來發展
