@@ -1,12 +1,15 @@
 [别再用 Ollama 了！OpenClaw 秒级响应方案（vLLM + 本地模型）完全免费！| 零度解说](https://www.youtube.com/watch?v=rHmdJjOytRk)
 
 [OpenClaw 完整攻略：從必設參數到超好用 Skills，一篇搞懂這個 199k Stars 的 AI Agent - HackMD](https://hackmd.io/@BASHCAT/rylaWmGuWe)
+[OpenClaw — Personal AI Assistant](https://openclaw.ai/)
 
 [CanIRun.ai — Can your machine run AI models?](https://www.canirun.ai/)
 
 [如何訓練你的 OpenClaw：社群秘訣與最佳實踐 - topics - Tenten AI](https://university.tenten.co/t/openclaw/2162)
 
 [六个AI相互入侵服务器！谁能杀死对方？](https://www.youtube.com/watch?v=an7Dbkh7no4)
+
+[應用案例 | OpenClaw 台灣 | 台灣 Openclaw 中文網站](https://openclaw.com.tw/use-cases)
 
 ---
 安裝 ollama
@@ -133,4 +136,4 @@ source vllm-env/bin/activate
 6. 與其他 AI 工具比較 ← 新增 (AI agent Antigravity、Codex、Gemini ChatGPT...)
 7. 優缺點
 	幻覺、卡住、工具故障、成本、延遲時間、安全性
-8. 未來發展
+8. 未來期望
