@@ -72,12 +72,14 @@ source vllm-env/bin/activate
 ./start_vllm.sh
 ```
 
-### 電腦太爛直接用codeX
-選擇codeX 並於瀏覽器登入
-
 ### 又改看看LM Studio
 下載完成，去Developer 開啟local Server
 設定**在本地網路中提供服務**、**啟用 CORS** 開啟並取得IP 即可 還是電腦太爛>:
+### 電腦太爛直接用codeX
+選擇codeX 並於瀏覽器登入
+
+### 最後選擇
+使用WSL + Codex API
 
 ```
 ~/.openclaw/workspace/
@@ -110,6 +112,8 @@ source vllm-env/bin/activate
 
 動態RAG 個人知識資料庫、自動化工作流程
 
+### 我拿來幹嘛?
+整理筆記、上網搜尋並整理、叫他自己修自己
 
 與Codex、Ollama、LM Studio 差異
 ### AI 工具核心差異對照表
