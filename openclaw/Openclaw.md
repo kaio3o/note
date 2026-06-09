@@ -11,6 +11,8 @@
 
 [應用案例 | OpenClaw 台灣 | 台灣 Openclaw 中文網站](https://openclaw.com.tw/use-cases)
 
+[【拒绝伪需求】普通人必看！OpenClaw 提升生产力的10个实战场景 | 10 Real Ways to Boost Productivity with OpenClaw - YouTube](https://www.youtube.com/watch?v=1ORAOfHV4ag&list=WL&index=63)
+
 ---
 安裝 ollama
 ```shell
