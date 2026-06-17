@@ -20,4 +20,6 @@ from:https://technews.tw/2026/04/07/scientists-turn-probiotic-bacteria-into-tumo
 
 作業說明：請針對以上新聞提出三個疑問
 
-1. 
+1. 關於該細菌的清除方式為何，能否確保必定清除或控制
+2. 該細菌是否會有機會到其他器官，進而影響其他機能或造成其他副作用
+3. 是否會產生抗藥性
