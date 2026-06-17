@@ -137,7 +137,7 @@ source vllm-env/bin/activate
 3. Skill/Tool - 與MCP 差異
 4. 怎麼用
 5. Demo
-6. 與其他 AI 工具比較 ← 新增 (AI agent Antigravity、Codex、Gemini ChatGPT...)
+6. 與其他 AI 工具比較 ← 新增 (AI agent Antigravity、Codex、Gemini ChatGPT、hermes agent)
 7. 優缺點
 	幻覺、卡住、工具故障、成本、延遲時間、安全性
 8. 未來期望
