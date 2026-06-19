@@ -13,6 +13,8 @@
 
 [【拒绝伪需求】普通人必看！OpenClaw 提升生产力的10个实战场景 | 10 Real Ways to Boost Productivity with OpenClaw - YouTube](https://www.youtube.com/watch?v=1ORAOfHV4ag&list=WL&index=63)
 
+[OpenClaw 架構全拆解：Agent 工程師必學的六層設計](https://ai-coding.wiselychen.com/openclaw-architecture-deep-dive-what-claude-code-didnt-tell-you/)
+
 ---
 安裝 ollama
 ```shell
@@ -131,13 +133,14 @@ source vllm-env/bin/activate
 
 1. OpenClaw 是什麼
 2. 可以做什麼
+	
 	動態RAG 個人知識資料庫、自動化工作流程
 	整理筆記、上網搜尋並整理製成workflow
 	叫他自己修自己 
 3. Skill/Tool - 與MCP 差異
 4. 怎麼用
 5. Demo
-6. 與其他 AI 工具比較 ← 新增 (AI agent Antigravity、Codex、Gemini ChatGPT、hermes agent)
+6. 與其他 AI 工具比較 ← 新增 (AI agent Antigravity、Codex、Gemini ChatGPT...)
 7. 優缺點
 	幻覺、卡住、工具故障、成本、延遲時間、安全性
 8. 未來期望
