@@ -15,6 +15,7 @@
 
 [OpenClaw 架構全拆解：Agent 工程師必學的六層設計](https://ai-coding.wiselychen.com/openclaw-architecture-deep-dive-what-claude-code-didnt-tell-you/)
 
+[OpenClaw Agents 指令完全指南：add、list、config 與模型配置 | 超智諮詢](https://www.meta-intelligence.tech/insight-openclaw-agents-guide)
 ---
 安裝 ollama
 ```shell
