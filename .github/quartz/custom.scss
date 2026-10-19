@@ -105,31 +105,31 @@ blockquote {
     min-height: 0;
   }
 
-  .sidebar.left .toc {
-    flex: 0 1 auto;
-    display: flex;
-    flex-direction: column;
+  // 右欄：大綱在上、圖譜貼齊底部
+  .sidebar.right .toc {
     min-height: 2rem;
-    max-height: 40%;
-    padding-top: 1rem;
-    border-top: 1px solid var(--rule);
   }
 
-  .sidebar.left .toc .toc-content {
-    min-height: 0;
+  .sidebar.right .toc .toc-content {
+    max-height: 45vh;
     overflow-y: auto;
   }
 
+  .sidebar.right .graph {
+    margin-top: auto;
+  }
+
   .sidebar.left .explorer-content,
-  .sidebar.left .toc .toc-content {
+  .sidebar.right .toc .toc-content {
     overscroll-behavior: contain;
     scrollbar-width: thin;
     scrollbar-color: var(--gray) transparent;
   }
 }
 
-// 收合時只留下「探索」標題
-.explorer.collapsed > .explorer-content {
+// 收合時只留下標題（探索、本頁大綱）
+.explorer.collapsed > .explorer-content,
+.toc .toc-content.collapsed {
   display: none;
 }
 
