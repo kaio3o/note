@@ -9,7 +9,6 @@
   --rule: var(--lightgray);
   --muted: #8a7b6f;
   --accent: var(--secondary);
-  --glass-blur: blur(14px) saturate(140%);
 }
 
 :root[saved-theme="dark"] {
@@ -76,9 +75,8 @@ blockquote {
       overscroll-behavior: contain;
       scrollbar-width: thin;
       scrollbar-color: var(--gray) transparent;
+      // 不可用 backdrop-filter：它會讓搜尋視窗（position: fixed）被困在側欄裡
       background: var(--panel);
-      -webkit-backdrop-filter: var(--glass-blur);
-      backdrop-filter: var(--glass-blur);
     }
 
     & .sidebar.left {
@@ -525,6 +523,57 @@ blockquote {
   .home-tabs label,
   .explorer-content li > a {
     transition: none;
+  }
+}
+
+// ── 平板與手機：目錄改成右下角的浮動按鈕 ──────────────
+// 預設收起；點「目錄」展開。這裡把外掛的 collapsed 狀態反過來用，桌面版預設展開不受影響。
+@media all and not ($desktop) {
+  .page > #quartz-body .sidebar.right > .toc.toc {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 50;
+    right: max(16px, env(safe-area-inset-right, 0px));
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    flex: none;
+    width: auto;
+    max-width: min(320px, calc(100vw - 32px));
+    max-height: 70vh;
+    padding: 0.55rem 0.95rem;
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    background: var(--panel-solid);
+    box-shadow: 0 10px 30px -10px rgba(60, 30, 10, 0.3);
+
+    .toc-header {
+      align-self: flex-end;
+
+      h3 {
+        font-size: 0.85rem;
+        color: var(--dark);
+      }
+
+      .fold {
+        transform: rotateZ(180deg);
+      }
+
+      &.collapsed .fold {
+        transform: none;
+      }
+    }
+
+    .toc-content {
+      display: none;
+    }
+
+    .toc-content.collapsed {
+      display: block;
+      margin: 0.5rem 0 0.25rem;
+      overflow-y: auto;
+      max-height: calc(70vh - 3rem);
+      overscroll-behavior: contain;
+    }
   }
 }
 
