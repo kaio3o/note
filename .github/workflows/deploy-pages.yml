@@ -52,6 +52,7 @@ jobs:
         run: |
           cp ../notes/.github/quartz/quartz.config.yaml quartz.config.yaml
           cp ../notes/.github/quartz/custom.scss quartz/styles/custom.scss
+          cp ../notes/.github/quartz/og-image.png quartz/static/og-image.png # 所有頁面的分享縮圖
           cp ../notes/.github/quartz/apply-hidden.mjs apply-hidden.mjs
           node apply-hidden.mjs ../notes/.obsidian/plugins/site-publish-control/data.json quartz.config.yaml
 

@@ -109,6 +109,8 @@ lines.push("---")
 lines.push(`title: ${JSON.stringify(home.title ?? "索引目錄")}`)
 // 首頁連到每篇筆記；設成 unlisted，避免它出現在每篇筆記的反向連結與關係圖中
 lines.push("unlisted: true")
+// 分享時顯示的說明文字（首頁的筆記屬性面板已在設定中隱藏）
+lines.push(`description: ${JSON.stringify(home.subtitle ?? "")}`)
 lines.push("---")
 lines.push("")
 // HTML 區塊之間不留空行、不縮排，避免被 Markdown 當成段落或程式碼
