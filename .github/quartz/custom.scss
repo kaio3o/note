@@ -1,204 +1,230 @@
-@use "./base.scss";
+@use "./variables.scss" as *;
 
-// 橘色亮色系主題：顏色本身在 quartz.config.yaml 的 theme.colors 設定，這裡處理版面細節
+// 毛玻璃主題
+// 版面概念：奶油白底上浮著半透明的玻璃面板，背後的暖色光暈透過模糊顯現；橘色只用在連結、圖示與重點文字。
+// 基礎配色（--light、--secondary 等）在 quartz.config.yaml 的 theme.colors 設定。
 
 :root {
-  --accent: #f97316;
-  --accent-soft: #fff1e6;
-  --accent-grad: linear-gradient(135deg, #fb923c 0%, #f97316 45%, #f59e0b 100%);
-  --card-bg: #ffffff;
-  --card-shadow: 0 1px 2px rgba(194, 65, 12, 0.06), 0 8px 24px rgba(194, 65, 12, 0.08);
+  --glass-bg: rgba(255, 255, 255, 0.58);
+  --glass-bg-strong: rgba(255, 255, 255, 0.78);
+  --glass-border: rgba(255, 255, 255, 0.85);
+  --glass-edge: rgba(120, 80, 50, 0.1);
+  --glass-shadow: 0 1px 1px rgba(90, 50, 20, 0.04), 0 10px 30px -12px rgba(90, 50, 20, 0.16);
+  --glass-blur: blur(18px) saturate(150%);
+  --glow-a: rgba(251, 146, 60, 0.16);
+  --glow-b: rgba(245, 158, 11, 0.1);
+  --glow-c: rgba(234, 88, 12, 0.07);
+  --radius: 16px;
 }
 
 :root[saved-theme="dark"] {
-  --accent-soft: #2a1d12;
-  --card-bg: #241b14;
-  --card-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
+  --glass-bg: rgba(38, 31, 26, 0.55);
+  --glass-bg-strong: rgba(38, 31, 26, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.07);
+  --glass-edge: rgba(0, 0, 0, 0.35);
+  --glass-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 12px 32px -12px rgba(0, 0, 0, 0.5);
+  --glow-a: rgba(251, 146, 60, 0.1);
+  --glow-b: rgba(245, 158, 11, 0.06);
+  --glow-c: rgba(234, 88, 12, 0.06);
 }
 
-// 網站標題用漸層字
-.page-title a {
-  background: var(--accent-grad);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+@mixin glass($bg: var(--glass-bg)) {
+  background: $bg;
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    0 0 0 1px var(--glass-edge),
+    var(--glass-shadow);
 }
 
-// 連結與內文
-a.internal {
-  border-radius: 4px;
-  padding: 0 0.15em;
-}
-
-article a.internal:hover,
-article a.external:hover {
-  color: var(--accent);
+// 背景光暈：讓玻璃面板有東西可以模糊
+body {
+  background-color: var(--light);
+  background-image:
+    radial-gradient(42rem 32rem at 8% -6%, var(--glow-a), transparent 70%),
+    radial-gradient(36rem 30rem at 100% 30%, var(--glow-b), transparent 70%),
+    radial-gradient(40rem 28rem at 30% 110%, var(--glow-c), transparent 70%);
+  background-attachment: fixed;
 }
 
 ::selection {
-  background: rgba(249, 115, 22, 0.25);
+  background: var(--textHighlight);
 }
 
+// 標題與內文
 h1,
 h2,
-h3 {
+h3,
+h4 {
+  text-wrap: balance;
   letter-spacing: 0.01em;
 }
 
+.page-title a {
+  color: var(--dark);
+}
+
+article {
+  line-height: 1.8;
+}
+
 article h2 {
-  border-bottom: 2px solid var(--lightgray);
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--lightgray);
+}
+
+a.internal {
+  border-radius: 6px;
+  padding: 0 0.2em;
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: var(--textHighlight);
+  }
 }
 
 blockquote {
-  border-left-color: var(--accent);
+  border-left-color: var(--tertiary);
+}
+
+// 側欄與右欄的玻璃元件
+.search > .search-button {
+  @include glass();
+  border-radius: 10px;
+}
+
+.search > .search-container > .search-space {
+  @include glass(var(--glass-bg-strong));
+  border-radius: var(--radius);
+}
+
+.graph > .graph-outer {
+  @include glass();
+  border-radius: var(--radius);
+}
+
+.popover > .popover-inner {
+  @include glass(var(--glass-bg-strong));
+  border-radius: var(--radius);
 }
 
 // 首頁主視覺
 .home-hero {
-  position: relative;
-  overflow: hidden;
-  margin: 1rem 0 1.5rem;
-  padding: 2.5rem 2rem;
-  border-radius: 20px;
-  background: var(--accent-grad);
-  color: #fff;
-  box-shadow: 0 12px 32px rgba(249, 115, 22, 0.25);
-
-  &::after {
-    content: "";
-    position: absolute;
-    right: -60px;
-    top: -60px;
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.15);
-  }
-
-  .home-eyebrow {
-    margin: 0 0 0.5rem;
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    opacity: 0.9;
-  }
+  @include glass();
+  margin: 0.5rem 0 1.25rem;
+  padding: 2.25rem 2rem;
+  border-radius: calc(var(--radius) + 6px);
 
   .home-title {
     margin: 0;
-    font-size: 2.1rem;
-    line-height: 1.3;
-    color: #fff;
+    font-family: var(--headerFont);
+    font-size: clamp(1.7rem, 1.2rem + 1.8vw, 2.4rem);
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--dark);
 
-    span {
-      color: #fff7ed;
-      text-decoration: underline;
-      text-decoration-color: rgba(255, 255, 255, 0.5);
-      text-underline-offset: 6px;
+    em {
+      font-style: normal;
+      color: var(--secondary);
+      background: linear-gradient(transparent 62%, var(--textHighlight) 62%);
     }
   }
 
   .home-lead {
+    max-width: 34em;
     margin: 1rem 0 0;
-    max-width: 32em;
-    font-size: 1.05rem;
-    opacity: 0.95;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--darkgray);
   }
 }
 
 // 首頁功能卡片
 .home-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 0.9rem;
   margin-bottom: 2rem;
 }
 
 .home-card {
-  padding: 1.2rem 1.2rem 0.6rem;
-  border: 1px solid var(--lightgray);
-  border-radius: 14px;
-  background: var(--card-bg);
-  box-shadow: var(--card-shadow);
-  transition:
-    transform 0.15s ease,
-    border-color 0.15s ease;
+  @include glass();
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 0;
+  padding: 1.1rem 1.2rem 1rem;
+  border-radius: var(--radius);
+  transition: transform 0.2s ease;
 
   &:hover {
-    transform: translateY(-3px);
-    border-color: var(--accent);
+    transform: translateY(-2px);
   }
 
   .home-card-icon {
-    display: grid;
-    place-items: center;
-    width: 2.4rem;
-    height: 2.4rem;
-    border-radius: 10px;
-    background: var(--accent-soft);
-    font-size: 1.3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: none;
+    stroke: var(--secondary);
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
   }
 
   h3 {
-    margin: 0.8rem 0 0.3rem;
+    margin: 0.4rem 0 0;
     font-size: 1.05rem;
   }
 
   p {
-    margin: 0 0 0.6rem;
-    font-size: 0.9rem;
+    margin: 0;
+    font-size: 0.88rem;
+    line-height: 1.7;
     color: var(--darkgray);
   }
 
   kbd {
-    padding: 0 0.35em;
+    padding: 0.05em 0.4em;
     border: 1px solid var(--lightgray);
     border-bottom-width: 2px;
-    border-radius: 4px;
-    font-size: 0.8em;
-    background: var(--light);
+    border-radius: 5px;
+    background: var(--glass-bg-strong);
+    font-family: var(--codeFont);
+    font-size: 0.78em;
   }
 }
 
-// 最近更新清單（recent-notes 組件）
+// 最近更新（recent-notes 組件）
 .recent-notes {
-  margin-top: 0.5rem;
-
   > h3 {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-
-    &::before {
-      content: "";
-      width: 6px;
-      height: 1.1em;
-      border-radius: 3px;
-      background: var(--accent-grad);
-    }
+    margin-bottom: 0.75rem;
   }
 
   .recent-ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     gap: 0.75rem;
     padding: 0;
   }
 
+  // 清單只出現在首頁，所以用相對網址排除首頁本身與 404 頁
+  .recent-li:has(> .section a[href="./"]),
+  .recent-li:has(> .section a[href="./404"]) {
+    display: none;
+  }
+
   .recent-li {
+    @include glass();
+    min-width: 0;
     margin: 0;
     padding: 0.9rem 1rem;
+    border-radius: 12px;
     list-style: none;
-    border: 1px solid var(--lightgray);
-    border-left: 4px solid var(--accent);
-    border-radius: 10px;
-    background: var(--card-bg);
-    box-shadow: var(--card-shadow);
 
     .section {
-      border: none;
       padding: 0;
+      border: none;
     }
 
     h3 {
@@ -209,23 +235,21 @@ blockquote {
     .meta {
       margin: 0.3rem 0 0;
       font-size: 0.8rem;
-      opacity: 0.75;
+      color: var(--gray);
+      font-variant-numeric: tabular-nums;
     }
   }
 }
 
-// 側邊檔案總管
-.explorer .folder-container div > a,
-.explorer .folder-container div > button {
-  font-weight: 600;
+@media (prefers-reduced-motion: reduce) {
+  .home-card,
+  a.internal {
+    transition: none;
+  }
 }
 
 @media all and (max-width: 800px) {
   .home-hero {
-    padding: 1.8rem 1.4rem;
-
-    .home-title {
-      font-size: 1.6rem;
-    }
+    padding: 1.6rem 1.25rem;
   }
 }

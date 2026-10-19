@@ -17,7 +17,8 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  QUARTZ_VERSION: v5.0.0
+  # Quartz 5 v5 分支的固定版本（外掛改由 npm 安裝，並修正子路徑網址問題）
+  QUARTZ_VERSION: 97a2d05f80c4c50534959b1d0d41cc4b3895625e
 
 jobs:
   build:
@@ -42,21 +43,9 @@ jobs:
           cache: npm
           cache-dependency-path: quartz/package-lock.json
 
-      - name: Cache Quartz plugins
-        id: plugin-cache
-        uses: actions/cache@v4
-        with:
-          path: quartz/.quartz/plugins
-          key: quartz-plugins-${{ env.QUARTZ_VERSION }}-${{ hashFiles('quartz/quartz.lock.json') }}
-
       - name: Install Quartz
         working-directory: quartz
-        run: npm ci
-
-      - name: Install Quartz plugins
-        if: steps.plugin-cache.outputs.cache-hit != 'true'
-        working-directory: quartz
-        run: npx quartz plugin restore
+        run: npm ci # Quartz 5 的外掛是 npm 套件，會一併安裝
 
       - name: Apply site config
         working-directory: quartz
