@@ -1,0 +1,9 @@
+{
+  "id": "site-publish-control",
+  "name": "網站公開管理",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "在檔案總管用右鍵決定哪些筆記或資料夾不要發布到 GitHub Pages 網站。",
+  "author": "kaio3o",
+  "isDesktopOnly": false
+}
