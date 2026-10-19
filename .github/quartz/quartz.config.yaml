@@ -216,19 +216,8 @@ plugins:
     layout:
       position: footer
       priority: 50
-  # 首頁的「最近更新」（is-index 條件定義在 quartz.ts）
   - source: "@quartz-community/recent-notes"
-    enabled: true
-    options:
-      title: 最近更新
-      limit: 8 # 含首頁與 404 頁（兩者會在樣式中隱藏），實際最多顯示 6 篇
-      showTags: true
-      hideTagPages: true
-      hideFolderPages: true
-    layout:
-      position: afterBody
-      priority: 5
-      condition: is-index
+    enabled: false
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}

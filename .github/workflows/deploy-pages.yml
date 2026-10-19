@@ -51,17 +51,18 @@ jobs:
         working-directory: quartz
         run: |
           cp ../notes/.github/quartz/quartz.config.yaml quartz.config.yaml
-          cp ../notes/.github/quartz/quartz.ts quartz.ts
           cp ../notes/.github/quartz/custom.scss quartz/styles/custom.scss
           cp ../notes/.github/quartz/apply-hidden.mjs apply-hidden.mjs
           node apply-hidden.mjs ../notes/.obsidian/plugins/site-publish-control/data.json quartz.config.yaml
 
-      - name: Add homepage if missing
-        # 首頁內容在 .github/quartz/home.md；只複製到 CI 的暫存工作區，不會提交回倉庫。
+      - name: Generate homepage
+        # 依 .github/quartz/home.md 的設定與公開的筆記產生首頁；只寫入 CI 的暫存工作區，不會提交回倉庫。
         # 若在倉庫根目錄自行新增 index.md，會改用那篇當首頁。
+        working-directory: quartz
         run: |
-          if [ ! -f notes/index.md ]; then
-            cp notes/.github/quartz/home.md notes/index.md
+          if [ ! -f ../notes/index.md ]; then
+            cp ../notes/.github/quartz/build-home.mjs build-home.mjs
+            node build-home.mjs ../notes quartz.config.yaml ../notes/.github/quartz/home.md ../notes/index.md
           fi
 
       - name: Build site

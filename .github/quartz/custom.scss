@@ -1,50 +1,28 @@
 @use "./variables.scss" as *;
 
-// 毛玻璃主題
-// 版面概念：奶油白底上浮著半透明的玻璃面板，背後的暖色光暈透過模糊顯現；橘色只用在連結、圖示與重點文字。
-// 基礎配色（--light、--secondary 等）在 quartz.config.yaml 的 theme.colors 設定。
+// 版面概念：三欄工作區。左欄目錄、右欄圖譜與大綱各自獨立滾動，中間是內文；
+// 細線分隔、等寬字標籤，橘色只做點綴。基礎配色在 quartz.config.yaml 的 theme.colors。
 
 :root {
-  --glass-bg: rgba(255, 255, 255, 0.58);
-  --glass-bg-strong: rgba(255, 255, 255, 0.78);
-  --glass-border: rgba(255, 255, 255, 0.85);
-  --glass-edge: rgba(120, 80, 50, 0.1);
-  --glass-shadow: 0 1px 1px rgba(90, 50, 20, 0.04), 0 10px 30px -12px rgba(90, 50, 20, 0.16);
-  --glass-blur: blur(18px) saturate(150%);
-  --glow-a: rgba(251, 146, 60, 0.16);
-  --glow-b: rgba(245, 158, 11, 0.1);
-  --glow-c: rgba(234, 88, 12, 0.07);
-  --radius: 16px;
+  --panel: rgba(255, 255, 255, 0.45);
+  --panel-solid: #fffdfb;
+  --rule: var(--lightgray);
+  --muted: #8a7b6f;
+  --accent: var(--secondary);
+  --glass-blur: blur(14px) saturate(140%);
 }
 
 :root[saved-theme="dark"] {
-  --glass-bg: rgba(38, 31, 26, 0.55);
-  --glass-bg-strong: rgba(38, 31, 26, 0.8);
-  --glass-border: rgba(255, 255, 255, 0.07);
-  --glass-edge: rgba(0, 0, 0, 0.35);
-  --glass-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 12px 32px -12px rgba(0, 0, 0, 0.5);
-  --glow-a: rgba(251, 146, 60, 0.1);
-  --glow-b: rgba(245, 158, 11, 0.06);
-  --glow-c: rgba(234, 88, 12, 0.06);
+  --panel: rgba(30, 25, 21, 0.55);
+  --panel-solid: #1f1a16;
+  --muted: #a39486;
 }
 
-@mixin glass($bg: var(--glass-bg)) {
-  background: $bg;
-  -webkit-backdrop-filter: var(--glass-blur);
-  backdrop-filter: var(--glass-blur);
-  border: 1px solid var(--glass-border);
-  box-shadow:
-    0 0 0 1px var(--glass-edge),
-    var(--glass-shadow);
-}
-
-// 背景光暈：讓玻璃面板有東西可以模糊
 body {
   background-color: var(--light);
   background-image:
-    radial-gradient(42rem 32rem at 8% -6%, var(--glow-a), transparent 70%),
-    radial-gradient(36rem 30rem at 100% 30%, var(--glow-b), transparent 70%),
-    radial-gradient(40rem 28rem at 30% 110%, var(--glow-c), transparent 70%);
+    radial-gradient(40rem 30rem at 15% -10%, rgba(251, 146, 60, 0.1), transparent 70%),
+    radial-gradient(36rem 30rem at 95% 110%, rgba(245, 158, 11, 0.07), transparent 70%);
   background-attachment: fixed;
 }
 
@@ -52,17 +30,11 @@ body {
   background: var(--textHighlight);
 }
 
-// 標題與內文
 h1,
 h2,
 h3,
 h4 {
   text-wrap: balance;
-  letter-spacing: 0.01em;
-}
-
-.page-title a {
-  color: var(--dark);
 }
 
 article {
@@ -71,12 +43,12 @@ article {
 
 article h2 {
   padding-bottom: 0.35rem;
-  border-bottom: 1px solid var(--lightgray);
+  border-bottom: 1px solid var(--rule);
 }
 
 a.internal {
-  border-radius: 6px;
-  padding: 0 0.2em;
+  border-radius: 4px;
+  padding: 0 0.15em;
   transition: background-color 0.15s ease;
 
   &:hover {
@@ -88,168 +60,425 @@ blockquote {
   border-left-color: var(--tertiary);
 }
 
-// 側欄與右欄的玻璃元件
+// ── 三欄外框（桌面）────────────────────────────────
+@media all and ($desktop) {
+  .page {
+    max-width: none;
+  }
+
+  .page > #quartz-body {
+    column-gap: 3rem;
+
+    // 左右欄固定高度、各自滾動
+    & .sidebar {
+      padding: 1.5rem 1.25rem;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      scrollbar-width: thin;
+      scrollbar-color: var(--gray) transparent;
+      background: var(--panel);
+      -webkit-backdrop-filter: var(--glass-blur);
+      backdrop-filter: var(--glass-blur);
+    }
+
+    & .sidebar.left {
+      border-right: 1px solid var(--rule);
+    }
+
+    & .sidebar.right {
+      border-left: 1px solid var(--rule);
+    }
+
+    & .page-header {
+      margin-top: 1.5rem;
+    }
+  }
+
+  // 目錄撐滿左欄剩餘高度，在自己的範圍內滾動
+  .sidebar.left .explorer {
+    flex: 1 1 auto;
+    min-height: 0;
+  }
+
+  .sidebar.left .explorer-content {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--gray) transparent;
+  }
+}
+
+// ── 左欄 ─────────────────────────────────────────
+.page-title {
+  font-size: 1.5rem;
+
+  a {
+    color: var(--dark);
+  }
+}
+
 .search > .search-button {
-  @include glass();
-  border-radius: 10px;
+  position: relative;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: var(--panel-solid);
+
+  &::after {
+    content: "Ctrl K";
+    margin-left: auto;
+    padding: 0.05rem 0.4rem;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    font-family: var(--codeFont);
+    font-size: 0.7rem;
+    color: var(--muted);
+  }
 }
 
 .search > .search-container > .search-space {
-  @include glass(var(--glass-bg-strong));
-  border-radius: var(--radius);
+  border-radius: 12px;
+}
+
+.explorer {
+  .explorer-toggle,
+  .title-button {
+    font-family: var(--codeFont);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+  }
+
+  .explorer-content {
+    .folder-title,
+    .folder-button {
+      color: var(--dark);
+      font-weight: 600;
+    }
+
+    li > a {
+      display: block;
+      padding: 0.3rem 0.5rem;
+      border-radius: 6px;
+      color: var(--darkgray);
+      transition: background-color 0.15s ease;
+
+      &:hover {
+        background: var(--highlight);
+        color: var(--dark);
+      }
+
+      &.active {
+        background: var(--highlight);
+        color: var(--accent);
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+// ── 右欄 ─────────────────────────────────────────
+.sidebar.right h3 {
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
 }
 
 .graph > .graph-outer {
-  @include glass();
-  border-radius: var(--radius);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--panel-solid);
 }
 
-.popover > .popover-inner {
-  @include glass(var(--glass-bg-strong));
-  border-radius: var(--radius);
+.toc {
+  .toc-header h3 {
+    font-family: var(--codeFont);
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+
+  .toc-content li > a {
+    color: var(--darkgray);
+
+    &.in-view {
+      color: var(--accent);
+    }
+  }
 }
 
-// 首頁主視覺
-.home-hero {
-  @include glass();
-  margin: 0.5rem 0 1.25rem;
-  padding: 2.25rem 2rem;
-  border-radius: calc(var(--radius) + 6px);
+// 反向連結做成 [[筆記]] 卡片
+.backlinks {
+  > h3 {
+    font-family: var(--codeFont);
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+
+  ul {
+    display: grid;
+    gap: 0.5rem;
+    padding: 0;
+  }
+
+  li {
+    margin: 0;
+    list-style: none;
+
+    > a {
+      display: block;
+      padding: 0.55rem 0.75rem;
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      background: var(--panel-solid);
+      font-weight: 600;
+
+      &::before,
+      &::after {
+        font-family: var(--codeFont);
+        font-weight: 400;
+        color: var(--accent);
+      }
+
+      &::before {
+        content: "[[ ";
+      }
+
+      &::after {
+        content: " ]]";
+      }
+    }
+  }
+}
+
+// ── 首頁（由 build-home.mjs 產生）──────────────────
+.home-index {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.home-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-top: 0.5rem;
+
+  .home-crumb {
+    margin: 0;
+    font-family: var(--codeFont);
+    font-size: 0.8rem;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+
+    span {
+      margin: 0 0.3rem;
+    }
+
+    b {
+      font-weight: 500;
+      color: var(--accent);
+    }
+  }
 
   .home-title {
     margin: 0;
     font-family: var(--headerFont);
-    font-size: clamp(1.7rem, 1.2rem + 1.8vw, 2.4rem);
-    font-weight: 700;
-    line-height: 1.35;
+    font-size: clamp(2rem, 1.4rem + 2vw, 2.8rem);
+    font-weight: 500;
+    letter-spacing: 0.06em;
     color: var(--dark);
+  }
 
-    em {
-      font-style: normal;
-      color: var(--secondary);
-      background: linear-gradient(transparent 62%, var(--textHighlight) 62%);
+  .home-sub {
+    margin: 0;
+    color: var(--darkgray);
+  }
+}
+
+.home-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.5rem;
+  border-bottom: 1px solid var(--rule);
+
+  input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  label {
+    padding: 0.5rem 0 0.6rem;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    color: var(--darkgray);
+    cursor: pointer;
+    transition: color 0.15s ease;
+
+    small {
+      font-family: var(--codeFont);
+      font-size: 0.78em;
+      color: var(--muted);
+    }
+
+    &:hover {
+      color: var(--dark);
     }
   }
 
-  .home-lead {
-    max-width: 34em;
-    margin: 1rem 0 0;
-    font-size: 1rem;
-    line-height: 1.8;
-    color: var(--darkgray);
+  input:checked + label {
+    border-bottom-color: var(--accent);
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  input:focus-visible + label {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
   }
 }
 
-// 首頁功能卡片
-.home-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-  gap: 0.9rem;
-  margin-bottom: 2rem;
-}
-
-.home-card {
-  @include glass();
+.home-section-head {
   display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  min-width: 0;
-  padding: 1.1rem 1.2rem 1rem;
-  border-radius: var(--radius);
-  transition: transform 0.2s ease;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--rule);
 
-  &:hover {
-    transform: translateY(-2px);
-  }
-
-  .home-card-icon {
-    width: 1.5rem;
-    height: 1.5rem;
-    fill: none;
-    stroke: var(--secondary);
-    stroke-width: 1.6;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-  }
-
-  h3 {
-    margin: 0.4rem 0 0;
-    font-size: 1.05rem;
-  }
-
-  p {
+  h2 {
     margin: 0;
-    font-size: 0.88rem;
-    line-height: 1.7;
-    color: var(--darkgray);
+    padding: 0;
+    border: none;
+    font-size: 1.35rem;
   }
 
-  kbd {
-    padding: 0.05em 0.4em;
-    border: 1px solid var(--lightgray);
-    border-bottom-width: 2px;
-    border-radius: 5px;
-    background: var(--glass-bg-strong);
+  span {
     font-family: var(--codeFont);
-    font-size: 0.78em;
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    color: var(--muted);
   }
 }
 
-// 最近更新（recent-notes 組件）
-.recent-notes {
-  > h3 {
-    margin-bottom: 0.75rem;
-  }
+.home-entries {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-  .recent-ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-    gap: 0.75rem;
-    padding: 0;
-  }
+.home-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.2rem 1.5rem;
+  margin: 0;
+  padding: 1rem 0.25rem;
+  border-bottom: 1px solid var(--rule);
 
-  // 清單只出現在首頁，所以用相對網址排除首頁本身與 404 頁
-  .recent-li:has(> .section a[href="./"]),
-  .recent-li:has(> .section a[href="./404"]) {
+  &.is-extra {
     display: none;
   }
 
-  .recent-li {
-    @include glass();
+  .home-entry-title {
     min-width: 0;
+    padding: 0;
+    background: none;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--dark);
+
+    &:hover {
+      background: none;
+      color: var(--accent);
+    }
+  }
+
+  time {
+    font-family: var(--codeFont);
+    font-size: 0.8rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  .home-entry-desc {
+    grid-column: 1 / -1;
     margin: 0;
-    padding: 0.9rem 1rem;
-    border-radius: 12px;
-    list-style: none;
+    font-size: 0.9rem;
+    color: var(--darkgray);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
 
-    .section {
-      padding: 0;
-      border: none;
+.home-empty {
+  padding: 2rem 0;
+  color: var(--muted);
+}
+
+.home-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.5rem;
+  padding: 1.25rem 0 0.5rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.85rem;
+
+  .home-random {
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid var(--gray);
+    background: none;
+    font: inherit;
+    color: var(--dark);
+    cursor: pointer;
+
+    span {
+      font-family: var(--codeFont);
+      font-size: 0.85em;
+      color: var(--muted);
     }
 
-    h3 {
-      margin: 0;
-      font-size: 1rem;
+    &:hover {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
     }
 
-    .meta {
-      margin: 0.3rem 0 0;
-      font-size: 0.8rem;
-      color: var(--gray);
-      font-variant-numeric: tabular-nums;
+    &:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
     }
+  }
+
+  .home-rss {
+    font-family: var(--codeFont);
+    color: var(--darkgray);
+  }
+
+  .home-stats {
+    margin-left: auto;
+    font-family: var(--codeFont);
+    font-size: 0.8rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .home-card,
-  a.internal {
+  a.internal,
+  .home-tabs label,
+  .explorer-content li > a {
     transition: none;
   }
 }
 
-@media all and (max-width: 800px) {
-  .home-hero {
-    padding: 1.6rem 1.25rem;
+@media all and ($mobile) {
+  .home-foot .home-stats {
+    margin-left: 0;
+  }
+
+  .search > .search-button::after {
+    display: none;
   }
 }
