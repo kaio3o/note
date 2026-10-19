@@ -1,8 +1,9 @@
 {
   "hidden": [
     "上課筆記",
-    "openclaw",
-    "tamagui.md",
-    "選課.md"
+    "技術/tamagui.md",
+    "個人",
+    "個人/選課.md",
+    "openclaw"
   ]
 }
