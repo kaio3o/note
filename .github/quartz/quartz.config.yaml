@@ -26,26 +26,27 @@ configuration:
       body: Noto Sans TC
       code: IBM Plex Mono
     colors:
+      # 橘色亮色系
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#fffaf5"
+        lightgray: "#fde3cc"
+        gray: "#f3b98a"
+        darkgray: "#4a3a2e"
+        dark: "#2b1b10"
+        secondary: "#c2410c"
+        tertiary: "#f97316"
+        highlight: rgba(251, 146, 60, 0.14)
+        textHighlight: "#fed7aa"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#1a140f"
+        lightgray: "#3a2b20"
+        gray: "#7a5c45"
+        darkgray: "#eadccf"
+        dark: "#fff4ea"
+        secondary: "#fb923c"
+        tertiary: "#fbbf24"
+        highlight: rgba(251, 146, 60, 0.16)
+        textHighlight: "#c2410c88"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -154,11 +155,13 @@ plugins:
     layout:
       position: beforeBody
       priority: 10
+      condition: not-index
   - source: github:quartz-community/content-meta
     enabled: true
     layout:
       position: beforeBody
       priority: 20
+      condition: not-index
   - source: github:quartz-community/tag-list
     enabled: false
     layout:
@@ -200,8 +203,17 @@ plugins:
     options:
       links:
         Quartz: https://quartz.jzhao.xyz
+  # 首頁的「最近更新」（is-index 條件定義在 quartz.ts）
   - source: github:quartz-community/recent-notes
-    enabled: false
+    enabled: true
+    options:
+      title: 最近更新
+      limit: 6
+      showTags: true
+    layout:
+      position: afterBody
+      priority: 5
+      condition: is-index
   - source: github:quartz-community/spacer
     enabled: true
     options: {}

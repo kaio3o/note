@@ -42,25 +42,37 @@ jobs:
           cache: npm
           cache-dependency-path: quartz/package-lock.json
 
+      - name: Cache Quartz plugins
+        id: plugin-cache
+        uses: actions/cache@v4
+        with:
+          path: quartz/.quartz/plugins
+          key: quartz-plugins-${{ env.QUARTZ_VERSION }}-${{ hashFiles('quartz/quartz.lock.json') }}
+
       - name: Install Quartz
         working-directory: quartz
-        run: |
-          npm ci
-          npx quartz plugin restore
+        run: npm ci
+
+      - name: Install Quartz plugins
+        if: steps.plugin-cache.outputs.cache-hit != 'true'
+        working-directory: quartz
+        run: npx quartz plugin restore
 
       - name: Apply site config
         working-directory: quartz
         run: |
           cp ../notes/.github/quartz/quartz.config.yaml quartz.config.yaml
+          cp ../notes/.github/quartz/quartz.ts quartz.ts
+          cp ../notes/.github/quartz/custom.scss quartz/styles/custom.scss
           cp ../notes/.github/quartz/apply-hidden.mjs apply-hidden.mjs
           node apply-hidden.mjs ../notes/.obsidian/plugins/site-publish-control/data.json quartz.config.yaml
 
       - name: Add homepage if missing
-        # 只寫入 CI 的暫存工作區，不會提交回倉庫。
-        # 想自訂首頁，在倉庫根目錄新增 index.md 即可取代這段。
+        # 首頁內容在 .github/quartz/home.md；只複製到 CI 的暫存工作區，不會提交回倉庫。
+        # 若在倉庫根目錄自行新增 index.md，會改用那篇當首頁。
         run: |
           if [ ! -f notes/index.md ]; then
-            printf -- '---\ntitle: 筆記\n---\n\n從左側的目錄瀏覽所有筆記，或使用上方的搜尋。\n' > notes/index.md
+            cp notes/.github/quartz/home.md notes/index.md
           fi
 
       - name: Build site
