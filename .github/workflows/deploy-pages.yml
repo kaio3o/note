@@ -1,0 +1,77 @@
+# 將 Obsidian 筆記用 Quartz 4 建置成網站，並發布到 GitHub Pages。
+# 筆記檔案維持原位：建置時才另外下載 Quartz，並直接讀取倉庫根目錄的筆記。
+name: Deploy notes to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  QUARTZ_VERSION: v4.5.2
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout notes
+        uses: actions/checkout@v4
+        with:
+          path: notes
+          fetch-depth: 0 # 完整歷史，用來取得每篇筆記的最後修改日期
+
+      - name: Checkout Quartz
+        uses: actions/checkout@v4
+        with:
+          repository: jackyzha0/quartz
+          ref: ${{ env.QUARTZ_VERSION }}
+          path: quartz
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: quartz/package-lock.json
+
+      - name: Apply site config
+        run: |
+          cp notes/.github/quartz/quartz.config.ts quartz/quartz.config.ts
+          # 讓含路徑的連結（如 assets/xxx.png、[[資料夾/筆記]]）比照 Obsidian 先從目前筆記所在資料夾解析
+          git -C quartz apply ../notes/.github/quartz/obsidian-link-resolution.patch
+
+      - name: Add homepage if missing
+        # 只寫入 CI 的暫存工作區，不會提交回倉庫。
+        # 想自訂首頁，在倉庫根目錄新增 index.md 即可取代這段。
+        run: |
+          if [ ! -f notes/index.md ]; then
+            printf -- '---\ntitle: 筆記\n---\n\n從左側的目錄瀏覽所有筆記，或使用右上角的搜尋。\n' > notes/index.md
+          fi
+
+      - name: Build site
+        working-directory: quartz
+        run: |
+          npm ci
+          npx quartz build -d ../notes -o ../public
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
