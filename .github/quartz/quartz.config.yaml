@@ -73,12 +73,13 @@ plugins:
   - source: "@quartz-community/github-flavored-markdown"
     enabled: true
     order: 40
+  # 本頁大綱放在左欄、探索下方
   - source: "@quartz-community/table-of-contents"
     enabled: true
     order: 50
     layout:
-      position: right
-      priority: 30
+      position: left
+      priority: 60
   - source: "@quartz-community/crawl-links"
     enabled: true
     options:
@@ -139,6 +140,9 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      folderDefaultState: open
+      folderClickBehavior: collapse
     layout:
       position: left
       priority: 50

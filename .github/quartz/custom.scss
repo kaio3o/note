@@ -94,19 +94,43 @@ blockquote {
     }
   }
 
-  // 目錄撐滿左欄剩餘高度，在自己的範圍內滾動
-  .sidebar.left .explorer {
+  // 左欄：探索在上、本頁大綱在下，兩者各自在自己的範圍內滾動
+  .sidebar.left .explorer:not(.collapsed) {
+    flex: 1 1 auto;
+    min-height: 6rem;
+  }
+
+  .sidebar.left .explorer:not(.collapsed) .explorer-content {
     flex: 1 1 auto;
     min-height: 0;
   }
 
-  .sidebar.left .explorer-content {
-    flex: 1 1 auto;
+  .sidebar.left .toc {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 2rem;
+    max-height: 40%;
+    padding-top: 1rem;
+    border-top: 1px solid var(--rule);
+  }
+
+  .sidebar.left .toc .toc-content {
     min-height: 0;
     overflow-y: auto;
+  }
+
+  .sidebar.left .explorer-content,
+  .sidebar.left .toc .toc-content {
+    overscroll-behavior: contain;
     scrollbar-width: thin;
     scrollbar-color: var(--gray) transparent;
   }
+}
+
+// 收合時只留下「探索」標題
+.explorer.collapsed > .explorer-content {
+  display: none;
 }
 
 // ── 左欄 ─────────────────────────────────────────
@@ -151,17 +175,47 @@ blockquote {
   }
 
   .explorer-content {
+    margin-top: 0.75rem;
+
+    ul.explorer-ul,
+    .folder-outer > ul {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .folder-outer > ul {
+      margin: 0.2rem 0 0.4rem 0.55rem;
+      padding-left: 0.75rem;
+    }
+
+    .folder-container {
+      padding: 0.35rem 0.5rem;
+      border-radius: 6px;
+
+      &:hover {
+        background: var(--highlight);
+      }
+    }
+
+    .folder-icon {
+      color: var(--muted);
+    }
+
     .folder-title,
-    .folder-button {
+    .folder-button,
+    .folder-container div > a {
       color: var(--dark);
       font-weight: 600;
     }
 
     li > a {
       display: block;
-      padding: 0.3rem 0.5rem;
+      padding: 0.4rem 0.6rem;
       border-radius: 6px;
+      line-height: 1.5;
       color: var(--darkgray);
+      opacity: 1;
       transition: background-color 0.15s ease;
 
       &:hover {
@@ -191,7 +245,8 @@ blockquote {
 }
 
 .toc {
-  .toc-header h3 {
+  .toc-header h3,
+  > button h3 {
     font-family: var(--codeFont);
     font-size: 0.75rem;
     color: var(--muted);
