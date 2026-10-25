@@ -20,9 +20,13 @@
       "id": "lexifold_toeic_0001",
       "word": "have",
       "lemma": "have",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/hæv/",
+      "pos": "verb",
+      "meaning": [
+        "擁有",
+        "舉辦",
+        "經歷"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 1,
       "sourceList": "NGSL 1.2",
@@ -39,14 +43,24 @@
         "having",
         "hafta"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "We will have an important staff meeting in the main conference room at two o'clock.",
+        "zh": "我們將於下午兩點在主會議室召開一場重要的全體員工會議。"
+      },
+      "mnemonic": "基礎商務動詞，常與 meeting (開會)、experience (具備經驗) 搭配。",
+      "collocations": [
+        "have a meeting",
+        "have experience"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -54,7 +68,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -64,9 +78,13 @@
       "id": "lexifold_toeic_0002",
       "word": "do",
       "lemma": "do",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/duː/",
+      "pos": "verb",
+      "meaning": [
+        "執行",
+        "處理",
+        "從事"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 2,
       "sourceList": "NGSL 1.2",
@@ -82,14 +100,24 @@
         "done",
         "doin"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Our marketing team will do everything possible to meet the project deadline.",
+        "zh": "我們的行銷團隊將竭盡全力在專案截止日前完成。"
+      },
+      "mnemonic": "職場行動必備動詞，常搭配 business (洽商) 或 research (做市調)。",
+      "collocations": [
+        "do business",
+        "do market research"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -97,7 +125,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -107,9 +135,13 @@
       "id": "lexifold_toeic_0003",
       "word": "say",
       "lemma": "say",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/seɪ/",
+      "pos": "verb",
+      "meaning": [
+        "說",
+        "表示",
+        "說明"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 3,
       "sourceList": "NGSL 1.2",
@@ -121,14 +153,24 @@
         "saying",
         "sayings"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The financial director said that our quarterly revenue increased significantly.",
+        "zh": "財務總監表示我們本季度的營收顯著成長。"
+      },
+      "mnemonic": "轉述發言或主管報告重點的關鍵動詞，常接 that 子句。",
+      "collocations": [
+        "say that",
+        "have something to say"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -136,7 +178,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -146,9 +188,13 @@
       "id": "lexifold_toeic_0004",
       "word": "go",
       "lemma": "go",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ɡoʊ/",
+      "pos": "verb",
+      "meaning": [
+        "前往",
+        "進行",
+        "運作"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 4,
       "sourceList": "NGSL 1.2",
@@ -162,14 +208,24 @@
         "goin",
         "gonna"
       ],
-      "topics": [],
+      "topics": [
+        "機場交通",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The regional sales manager will go to Chicago on business next Monday.",
+        "zh": "區域銷售經理將於下週一前往芝加哥出差。"
+      },
+      "mnemonic": "出差與行程常客，go on business 意指公務出差。",
+      "collocations": [
+        "go on business",
+        "go over"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -177,7 +233,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -187,9 +243,12 @@
       "id": "lexifold_toeic_0005",
       "word": "all",
       "lemma": "all",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ɔːl/",
+      "pos": "determiner",
+      "meaning": [
+        "全部的",
+        "所有的"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 5,
       "sourceList": "NGSL 1.2",
@@ -197,14 +256,24 @@
       "wordForms": [
         "all"
       ],
-      "topics": [],
+      "topics": [
+        "公司政策",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "All employees must wear their identification badges inside the building.",
+        "zh": "所有員工在大樓內部皆必須配戴身分識別證。"
+      },
+      "mnemonic": "多益公告常見字，搭配複數名詞指全員，如 all staff 或 all employees。",
+      "collocations": [
+        "all employees",
+        "all staff members"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -212,7 +281,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -222,9 +291,13 @@
       "id": "lexifold_toeic_0006",
       "word": "one",
       "lemma": "one",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/wʌn/",
+      "pos": "pronoun",
+      "meaning": [
+        "一個",
+        "某個人",
+        "某一事物"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 6,
       "sourceList": "NGSL 1.2",
@@ -233,14 +306,24 @@
         "one",
         "ones"
       ],
-      "topics": [],
+      "topics": [
+        "人資招聘",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Ms. Clark is one of the most qualified candidates for the managerial opening.",
+        "zh": "克拉克女士是該主管職缺中最具資格的應徵者之一。"
+      },
+      "mnemonic": "多益閱讀與聽力極高頻句型：one of the + 複數名詞 (其中之一)。",
+      "collocations": [
+        "one of the",
+        "one another"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -248,7 +331,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -258,9 +341,12 @@
       "id": "lexifold_toeic_0007",
       "word": "about",
       "lemma": "about",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/əˈbaʊt/",
+      "pos": "preposition",
+      "meaning": [
+        "關於",
+        "大約"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 7,
       "sourceList": "NGSL 1.2",
@@ -268,14 +354,24 @@
       "wordForms": [
         "about"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "付款財務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The department head answered several questions about the proposed annual budget.",
+        "zh": "部門主管回答了數個關於擬定之年度預算的問題。"
+      },
+      "mnemonic": "會議討論主題必備介系詞，或用於數字前表示約略數額。",
+      "collocations": [
+        "talk about",
+        "concerned about"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -283,7 +379,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -293,9 +389,13 @@
       "id": "lexifold_toeic_0008",
       "word": "know",
       "lemma": "know",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/noʊ/",
+      "pos": "verb",
+      "meaning": [
+        "知道",
+        "了解",
+        "知悉"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 8,
       "sourceList": "NGSL 1.2",
@@ -307,14 +407,24 @@
         "knowing",
         "known"
       ],
-      "topics": [],
+      "topics": [
+        "客戶服務",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Please let us know if you need to modify your flight reservation.",
+        "zh": "若您需要修改航班預訂，請儘速告知我們。"
+      },
+      "mnemonic": "商務書信最標準客套句型：Please let me know / let us know。",
+      "collocations": [
+        "let someone know",
+        "know about"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -322,7 +432,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -332,9 +442,12 @@
       "id": "lexifold_toeic_0009",
       "word": "more",
       "lemma": "more",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/mɔːr/",
+      "pos": "adjective",
+      "meaning": [
+        "更多的",
+        "進一步的"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 9,
       "sourceList": "NGSL 1.2",
@@ -342,14 +455,24 @@
       "wordForms": [
         "more"
       ],
-      "topics": [],
+      "topics": [
+        "客戶服務",
+        "行銷銷售"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "For more information regarding the product launch, please contact our support center.",
+        "zh": "如需更多有關產品發布的資訊，請聯絡我們的客服支援中心。"
+      },
+      "mnemonic": "公告、廣告文宣末尾固定句型：For more information (如需更多資訊)。",
+      "collocations": [
+        "more information",
+        "more details"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -357,7 +480,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -367,9 +490,13 @@
       "id": "lexifold_toeic_0010",
       "word": "get",
       "lemma": "get",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ɡɛt/",
+      "pos": "verb",
+      "meaning": [
+        "獲得",
+        "取得",
+        "收到"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 10,
       "sourceList": "NGSL 1.2",
@@ -383,14 +510,24 @@
         "gettin",
         "gotta"
       ],
-      "topics": [],
+      "topics": [
+        "行銷銷售",
+        "採購"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Customers who place an order before noon will get a ten percent discount.",
+        "zh": "中午前下單的顧客將可享有九折優惠。"
+      },
+      "mnemonic": "多益商業情境指取得核准 (get approval) 或享有折扣 (get a discount)。",
+      "collocations": [
+        "get approval",
+        "get a discount"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -398,7 +535,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -408,9 +545,12 @@
       "id": "lexifold_toeic_0011",
       "word": "like",
       "lemma": "like",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/laɪk/",
+      "pos": "preposition",
+      "meaning": [
+        "如同",
+        "像是"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 11,
       "sourceList": "NGSL 1.2",
@@ -421,14 +561,24 @@
         "liked",
         "liking"
       ],
-      "topics": [],
+      "topics": [
+        "行銷銷售",
+        "客戶服務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Our courier service offers premium options like overnight delivery and signature confirmation.",
+        "zh": "我們的快遞服務提供諸如隔夜送達與簽收確認等尊榮選項。"
+      },
+      "mnemonic": "舉例說明服務或產品特色常用的介系詞，意為如同、例如。",
+      "collocations": [
+        "would like to",
+        "something like"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -436,7 +586,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -446,9 +596,13 @@
       "id": "lexifold_toeic_0012",
       "word": "think",
       "lemma": "think",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/θɪŋk/",
+      "pos": "verb",
+      "meaning": [
+        "認為",
+        "考慮",
+        "想"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 12,
       "sourceList": "NGSL 1.2",
@@ -460,14 +614,24 @@
         "thinking",
         "thoughts"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The board members think that opening a branch in Tokyo will boost international sales.",
+        "zh": "董事會成員認為在東京設立分公司將有助於推動國際銷售。"
+      },
+      "mnemonic": "會議中表達商業看法或評估方案的核心動詞。",
+      "collocations": [
+        "think about",
+        "think that"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -475,7 +639,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -485,9 +649,13 @@
       "id": "lexifold_toeic_0013",
       "word": "make",
       "lemma": "make",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/meɪk/",
+      "pos": "verb",
+      "meaning": [
+        "進行",
+        "制定",
+        "預約"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 13,
       "sourceList": "NGSL 1.2",
@@ -498,14 +666,24 @@
         "made",
         "making"
       ],
-      "topics": [],
+      "topics": [
+        "旅館住宿",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "You can make a hotel reservation directly through our corporate travel portal.",
+        "zh": "您可以直接透過我們的企業差旅平台預訂飯店。"
+      },
+      "mnemonic": "高頻搭配動詞：make a reservation (預約)、make a decision (做決策)。",
+      "collocations": [
+        "make a reservation",
+        "make a decision"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -513,7 +691,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -523,9 +701,13 @@
       "id": "lexifold_toeic_0014",
       "word": "time",
       "lemma": "time",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/taɪm/",
+      "pos": "noun",
+      "meaning": [
+        "時間",
+        "時刻",
+        "工時"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 14,
       "sourceList": "NGSL 1.2",
@@ -536,14 +718,24 @@
         "timed",
         "timing"
       ],
-      "topics": [],
+      "topics": [
+        "機場交通",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The flight from London arrived on time despite unfavorable weather conditions.",
+        "zh": "儘管天候不佳，自倫敦起飛的班機仍準時抵達。"
+      },
+      "mnemonic": "交通與會議考點：on time (準時)、in time (及時)。",
+      "collocations": [
+        "on time",
+        "part-time"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -551,7 +743,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -561,9 +753,13 @@
       "id": "lexifold_toeic_0015",
       "word": "see",
       "lemma": "see",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/siː/",
+      "pos": "verb",
+      "meaning": [
+        "查閱",
+        "看見",
+        "會面"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 15,
       "sourceList": "NGSL 1.2",
@@ -575,14 +771,24 @@
         "seeing",
         "seen"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Please see the attached PDF for a detailed overview of the conference schedule.",
+        "zh": "請查閱附件 PDF 以取得會議時程的詳細概述。"
+      },
+      "mnemonic": "商務書信高頻句型：Please see the attached document (請參閱附件)。",
+      "collocations": [
+        "see attached",
+        "see if"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -590,7 +796,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -600,9 +806,13 @@
       "id": "lexifold_toeic_0016",
       "word": "up",
       "lemma": "up",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ʌp/",
+      "pos": "adverb",
+      "meaning": [
+        "向上",
+        "增加",
+        "準備完畢"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 16,
       "sourceList": "NGSL 1.2",
@@ -613,14 +823,24 @@
         "upped",
         "upping"
       ],
-      "topics": [],
+      "topics": [
+        "付款財務",
+        "行銷銷售"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Our total online revenue was up fifteen percent in the second quarter.",
+        "zh": "我們第二季度的線上總營收成長了百分之十五。"
+      },
+      "mnemonic": "財報與業績常用 up 表增長，亦常搭配 set up (架設) 或 sign up (報名)。",
+      "collocations": [
+        "sign up",
+        "set up"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -628,7 +848,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -638,9 +858,12 @@
       "id": "lexifold_toeic_0017",
       "word": "some",
       "lemma": "some",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/sʌm/",
+      "pos": "determiner",
+      "meaning": [
+        "一些",
+        "若干"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 17,
       "sourceList": "NGSL 1.2",
@@ -648,14 +871,24 @@
       "wordForms": [
         "some"
       ],
-      "topics": [],
+      "topics": [
+        "採購",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "We need to order some replacement toner cartridges for the office printers.",
+        "zh": "我們需要為辦公室印表機訂購一些備用碳粉匣。"
+      },
+      "mnemonic": "採購與庫存對話中常用的數量限定詞，指某些或若干用品。",
+      "collocations": [
+        "some of the",
+        "some time"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -663,7 +896,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -673,9 +906,12 @@
       "id": "lexifold_toeic_0018",
       "word": "other",
       "lemma": "other",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈʌðər/",
+      "pos": "adjective",
+      "meaning": [
+        "其他的",
+        "另外的"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 18,
       "sourceList": "NGSL 1.2",
@@ -684,14 +920,24 @@
         "other",
         "others"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "人資招聘"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The manager spoke with two other applicants before reaching a final hiring decision.",
+        "zh": "經理在做出最終錄取決定之前，與另外兩位應徵者進行了晤談。"
+      },
+      "mnemonic": "商務對比或篩選人選常用的形容詞，常與 applicants 或 options 搭配。",
+      "collocations": [
+        "in other words",
+        "each other"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -699,7 +945,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -709,9 +955,13 @@
       "id": "lexifold_toeic_0019",
       "word": "out",
       "lemma": "out",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/aʊt/",
+      "pos": "adverb",
+      "meaning": [
+        "在外",
+        "用盡",
+        "不在辦公室"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 19,
       "sourceList": "NGSL 1.2",
@@ -723,14 +973,24 @@
         "outing",
         "outings"
       ],
-      "topics": [],
+      "topics": [
+        "採購",
+        "客戶服務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The popular office chair is temporarily out of stock due to high customer demand.",
+        "zh": "由於顧客需求量大，這款熱門辦公椅目前暫時缺貨。"
+      },
+      "mnemonic": "多益商務必考片語：out of stock (缺貨)、out of office (休假/不在辦公室)。",
+      "collocations": [
+        "out of stock",
+        "out of order"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -738,7 +998,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -748,9 +1008,13 @@
       "id": "lexifold_toeic_0020",
       "word": "good",
       "lemma": "good",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ɡʊd/",
+      "pos": "adjective",
+      "meaning": [
+        "良好的",
+        "優良的",
+        "有效的"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 20,
       "sourceList": "NGSL 1.2",
@@ -760,14 +1024,24 @@
         "better",
         "best"
       ],
-      "topics": [],
+      "topics": [
+        "客戶服務",
+        "公司政策"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Maintaining good communication with our suppliers is vital for supply chain stability.",
+        "zh": "與供應商保持良好溝通對於供應鏈的穩定至關重要。"
+      },
+      "mnemonic": "評價服務品質或產品狀況常用的基礎形容詞。",
+      "collocations": [
+        "good condition",
+        "good service"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -775,7 +1049,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -785,9 +1059,13 @@
       "id": "lexifold_toeic_0021",
       "word": "people",
       "lemma": "people",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈpiːpəl/",
+      "pos": "noun",
+      "meaning": [
+        "人員",
+        "員工",
+        "人們"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 21,
       "sourceList": "NGSL 1.2",
@@ -798,14 +1076,24 @@
         "peopled",
         "peopling"
       ],
-      "topics": [],
+      "topics": [
+        "人資招聘",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Our human resources division seeks creative people with solid analytical skills.",
+        "zh": "我們的人力資源部門正在尋找具備扎實分析能力的創新型人才。"
+      },
+      "mnemonic": "代表全體同仁或求職者的人才稱呼，商務中指具備專業能力的人才。",
+      "collocations": [
+        "sales people",
+        "key people"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -813,7 +1101,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -823,9 +1111,13 @@
       "id": "lexifold_toeic_0022",
       "word": "year",
       "lemma": "year",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/jɪr/",
+      "pos": "noun",
+      "meaning": [
+        "年",
+        "年度",
+        "會計年度"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 22,
       "sourceList": "NGSL 1.2",
@@ -834,14 +1126,24 @@
         "year",
         "years"
       ],
-      "topics": [],
+      "topics": [
+        "付款財務",
+        "公司政策"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The corporate profit margin improved considerably over the past fiscal year.",
+        "zh": "在過去這一個會計年度中，企業的利潤率有了顯著提升。"
+      },
+      "mnemonic": "財務報表與績效回顧核心詞：fiscal year 代表會計年度。",
+      "collocations": [
+        "fiscal year",
+        "calendar year"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -849,7 +1151,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -859,9 +1161,13 @@
       "id": "lexifold_toeic_0023",
       "word": "take",
       "lemma": "take",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/teɪk/",
+      "pos": "verb",
+      "meaning": [
+        "花費(時間)",
+        "採取(措施)",
+        "搭乘"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 23,
       "sourceList": "NGSL 1.2",
@@ -873,14 +1179,24 @@
         "taking",
         "taken"
       ],
-      "topics": [],
+      "topics": [
+        "公司政策",
+        "機場交通"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Management must take immediate action to address workplace safety concerns.",
+        "zh": "管理層必須立即採取行動以解決職場安全疑慮。"
+      },
+      "mnemonic": "多益常考搭配：take action (採取行動)、take advantage of (善用)。",
+      "collocations": [
+        "take action",
+        "take advantage of"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -888,7 +1204,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -898,9 +1214,12 @@
       "id": "lexifold_toeic_0024",
       "word": "well",
       "lemma": "well",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/wɛl/",
+      "pos": "adverb",
+      "meaning": [
+        "良好地",
+        "充分地"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 24,
       "sourceList": "NGSL 1.2",
@@ -911,14 +1230,24 @@
         "welled",
         "welling"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The product presentation went very well and received enthusiastic applause from investors.",
+        "zh": "產品發表會進行得非常順利，並獲得投資人熱烈的掌聲。"
+      },
+      "mnemonic": "評估專案或表現常用的副詞，片語 as well as (以及) 多益極常見。",
+      "collocations": [
+        "as well as",
+        "do well"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -926,7 +1255,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -936,9 +1265,12 @@
       "id": "lexifold_toeic_0025",
       "word": "because",
       "lemma": "because",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/bɪˈkɔːz/",
+      "pos": "conjunction",
+      "meaning": [
+        "因為",
+        "由於"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 25,
       "sourceList": "NGSL 1.2",
@@ -947,14 +1279,24 @@
         "because",
         "cos"
       ],
-      "topics": [],
+      "topics": [
+        "運輸物流",
+        "客戶服務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The express shipment arrived late because the transport flight was grounded by fog.",
+        "zh": "快捷貨件延遲送達，是因為運輸班機受到濃霧影響而停飛。"
+      },
+      "mnemonic": "說明業務延誤、退貨或取消原因的標準連接詞。",
+      "collocations": [
+        "because of",
+        "just because"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -962,7 +1304,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -972,9 +1314,12 @@
       "id": "lexifold_toeic_0026",
       "word": "very",
       "lemma": "very",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈvɛri/",
+      "pos": "adverb",
+      "meaning": [
+        "非常",
+        "很"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 26,
       "sourceList": "NGSL 1.2",
@@ -982,14 +1327,24 @@
       "wordForms": [
         "very"
       ],
-      "topics": [],
+      "topics": [
+        "客戶服務",
+        "行銷銷售"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The corporate client was very satisfied with our comprehensive technical support.",
+        "zh": "該企業客戶對我們全面的技術支援服務感到非常滿意。"
+      },
+      "mnemonic": "加強形容詞語氣的程度副詞，常用於客戶滿意度調查。",
+      "collocations": [
+        "very much",
+        "very pleased"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -997,7 +1352,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1007,9 +1362,13 @@
       "id": "lexifold_toeic_0027",
       "word": "just",
       "lemma": "just",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/dʒʌst/",
+      "pos": "adverb",
+      "meaning": [
+        "剛剛",
+        "正好",
+        "僅僅"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 27,
       "sourceList": "NGSL 1.2",
@@ -1017,14 +1376,24 @@
       "wordForms": [
         "just"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The keynote speaker just finished setting up the projector for the presentation.",
+        "zh": "主講嘉賓剛剛為簡報架設好了投影機。"
+      },
+      "mnemonic": "聽力 Part 1/2 常考時態提示詞，表剛剛完成或正好及時 (just in time)。",
+      "collocations": [
+        "just in time",
+        "just now"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1032,7 +1401,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1042,9 +1411,13 @@
       "id": "lexifold_toeic_0028",
       "word": "come",
       "lemma": "come",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/kʌm/",
+      "pos": "verb",
+      "meaning": [
+        "來臨",
+        "附帶",
+        "產生於"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 28,
       "sourceList": "NGSL 1.2",
@@ -1056,14 +1429,24 @@
         "coming",
         "cometh"
       ],
-      "topics": [],
+      "topics": [
+        "採購",
+        "生產設備"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Every brand new commercial copier comes with an all-inclusive two-year warranty.",
+        "zh": "每台全新商用影印機皆附帶為期兩年的全包式保固。"
+      },
+      "mnemonic": "產品規格與購買條件必備句型：come with (隨附/附帶)。",
+      "collocations": [
+        "come with",
+        "come up with"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1071,7 +1454,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1081,9 +1464,13 @@
       "id": "lexifold_toeic_0029",
       "word": "work",
       "lemma": "work",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/wɜːrk/",
+      "pos": "verb",
+      "meaning": [
+        "工作",
+        "運作",
+        "處理"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 29,
       "sourceList": "NGSL 1.2",
@@ -1095,14 +1482,24 @@
         "working",
         "workings"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "人資招聘"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "He will work closely with the design team to develop our new brand logo.",
+        "zh": "他將與設計團隊緊密合作以開發我們的新品牌商標。"
+      },
+      "mnemonic": "職場核心動詞，搭配 work on (致力於)、work closely with (密切合作)。",
+      "collocations": [
+        "work on",
+        "work closely with"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1110,7 +1507,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1120,9 +1517,13 @@
       "id": "lexifold_toeic_0030",
       "word": "use",
       "lemma": "use",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/juːz/",
+      "pos": "verb",
+      "meaning": [
+        "使用",
+        "運用",
+        "利用"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 30,
       "sourceList": "NGSL 1.2",
@@ -1133,14 +1534,24 @@
         "used",
         "using"
       ],
-      "topics": [],
+      "topics": [
+        "生產設備",
+        "公司政策"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Authorized technicians must use protective gear when operating the heavy machinery.",
+        "zh": "合格技術人員在操作重型機具時必須穿戴防護裝備。"
+      },
+      "mnemonic": "操作設備與落實政策常見動詞，片語 make use of 意為善加利用。",
+      "collocations": [
+        "make use of",
+        "use for"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1148,7 +1559,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1158,9 +1569,12 @@
       "id": "lexifold_toeic_0031",
       "word": "now",
       "lemma": "now",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/naʊ/",
+      "pos": "adverb",
+      "meaning": [
+        "現在",
+        "目前"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 31,
       "sourceList": "NGSL 1.2",
@@ -1168,14 +1582,24 @@
       "wordForms": [
         "now"
       ],
-      "topics": [],
+      "topics": [
+        "行銷銷售",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Early bird tickets for the international trade summit are now available online.",
+        "zh": "國際貿易峰會的早鳥票現在已可於線上購買。"
+      },
+      "mnemonic": "活動公告高頻副詞，提示當前狀態或促銷開放時機。",
+      "collocations": [
+        "right now",
+        "from now on"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1183,7 +1607,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1193,9 +1617,13 @@
       "id": "lexifold_toeic_0032",
       "word": "then",
       "lemma": "then",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ðɛn/",
+      "pos": "adverb",
+      "meaning": [
+        "然後",
+        "接著",
+        "那時"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 32,
       "sourceList": "NGSL 1.2",
@@ -1203,14 +1631,24 @@
       "wordForms": [
         "then"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "生產設備"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Please enter your employee credentials and then click the verification button.",
+        "zh": "請輸入您的員工憑證，然後點擊驗證按鈕。"
+      },
+      "mnemonic": "工作流程步驟指南（SOP）中標示前後順序的連接詞。",
+      "collocations": [
+        "since then",
+        "until then"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1218,7 +1656,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1228,9 +1666,13 @@
       "id": "lexifold_toeic_0033",
       "word": "also",
       "lemma": "also",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈɔːlsoʊ/",
+      "pos": "adverb",
+      "meaning": [
+        "也",
+        "並且",
+        "此外"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 33,
       "sourceList": "NGSL 1.2",
@@ -1238,14 +1680,24 @@
       "wordForms": [
         "also"
       ],
-      "topics": [],
+      "topics": [
+        "旅館住宿",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The corporate retreat package covers lodging and also includes complimentary meals.",
+        "zh": "企業研討營套裝方案涵蓋住宿，並且包含免費餐點。"
+      },
+      "mnemonic": "合約與宣傳文案補充福利常用的副詞，常配合 not only... but also。",
+      "collocations": [
+        "not only but also",
+        "also known as"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1253,7 +1705,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1263,9 +1715,13 @@
       "id": "lexifold_toeic_0034",
       "word": "into",
       "lemma": "into",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈɪntuː/",
+      "pos": "preposition",
+      "meaning": [
+        "進入",
+        "深入到",
+        "轉化為"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 34,
       "sourceList": "NGSL 1.2",
@@ -1273,14 +1729,24 @@
       "wordForms": [
         "into"
       ],
-      "topics": [],
+      "topics": [
+        "行銷銷售",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The software enterprise plans to expand into emerging Southeast Asian markets.",
+        "zh": "這家軟體企業計劃拓展進入新興的東南亞市場。"
+      },
+      "mnemonic": "多益商業擴張考點：expand into (打入市場) 或 look into (調查)。",
+      "collocations": [
+        "expand into",
+        "look into"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1288,7 +1754,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1298,9 +1764,13 @@
       "id": "lexifold_toeic_0035",
       "word": "only",
       "lemma": "only",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈoʊnli/",
+      "pos": "adverb",
+      "meaning": [
+        "只有",
+        "僅僅",
+        "唯一的"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 35,
       "sourceList": "NGSL 1.2",
@@ -1308,14 +1778,24 @@
       "wordForms": [
         "only"
       ],
-      "topics": [],
+      "topics": [
+        "公司政策",
+        "客戶服務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "This special corporate parking rate is available only to permanent staff members.",
+        "zh": "此專案企業停車優惠僅提供給正職員工。"
+      },
+      "mnemonic": "規章政策限制條款的核心限定詞，強調專屬性或限制範圍。",
+      "collocations": [
+        "only if",
+        "not only"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1323,7 +1803,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1333,9 +1813,13 @@
       "id": "lexifold_toeic_0036",
       "word": "look",
       "lemma": "look",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/lʊk/",
+      "pos": "verb",
+      "meaning": [
+        "尋找",
+        "注視",
+        "看起來"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 36,
       "sourceList": "NGSL 1.2",
@@ -1346,14 +1830,24 @@
         "looked",
         "looking"
       ],
-      "topics": [],
+      "topics": [
+        "人資招聘",
+        "客戶服務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Our hiring managers are looking for candidates who demonstrate strong leadership.",
+        "zh": "我們的招募經理正在尋找展現出卓越領導力的應徵者。"
+      },
+      "mnemonic": "求職與徵才極高頻片語：look for (尋找)、look forward to (期盼)。",
+      "collocations": [
+        "look for",
+        "look forward to"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1361,7 +1855,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1371,9 +1865,13 @@
       "id": "lexifold_toeic_0037",
       "word": "want",
       "lemma": "want",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/wɑːnt/",
+      "pos": "verb",
+      "meaning": [
+        "想要",
+        "希望",
+        "需求"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 37,
       "sourceList": "NGSL 1.2",
@@ -1385,14 +1883,24 @@
         "wanting",
         "wanna"
       ],
-      "topics": [],
+      "topics": [
+        "客戶服務",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "If you want to update your delivery address, please contact customer support immediately.",
+        "zh": "若您想要更新配送地址，請立即與客服中心聯繫。"
+      },
+      "mnemonic": "顧客服務信函常用句型：want to do something (想要做某事)。",
+      "collocations": [
+        "want to",
+        "want someone to"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1400,7 +1908,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1410,9 +1918,13 @@
       "id": "lexifold_toeic_0038",
       "word": "give",
       "lemma": "give",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ɡɪv/",
+      "pos": "verb",
+      "meaning": [
+        "給予",
+        "發表(簡報/演講)",
+        "提供"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 38,
       "sourceList": "NGSL 1.2",
@@ -1424,14 +1936,24 @@
         "giving",
         "given"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The vice president will give an opening speech at the regional sales conference.",
+        "zh": "副總裁將在區域銷售會議上發表開幕致詞。"
+      },
+      "mnemonic": "多益聽力 Part 3/4 高頻搭配：give a presentation / give a speech (演講/簡報)。",
+      "collocations": [
+        "give a presentation",
+        "give feedback"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1439,7 +1961,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1449,9 +1971,13 @@
       "id": "lexifold_toeic_0039",
       "word": "first",
       "lemma": "first",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/fɜːrst/",
+      "pos": "adjective",
+      "meaning": [
+        "第一的",
+        "最初的",
+        "首要的"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 39,
       "sourceList": "NGSL 1.2",
@@ -1460,14 +1986,24 @@
         "first",
         "firsts"
       ],
-      "topics": [],
+      "topics": [
+        "付款財務",
+        "行銷銷售"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "First quarter earnings reports revealed a ten percent increase in net operating profit.",
+        "zh": "第一季財報顯示營業淨利成長了百分之十。"
+      },
+      "mnemonic": "季度財報專用語：first quarter 指第一季 (Q1)。",
+      "collocations": [
+        "first quarter",
+        "first of all"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1475,7 +2011,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1485,9 +2021,12 @@
       "id": "lexifold_toeic_0040",
       "word": "new",
       "lemma": "new",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/nuː/",
+      "pos": "adjective",
+      "meaning": [
+        "新的",
+        "新進的"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 40,
       "sourceList": "NGSL 1.2",
@@ -1497,14 +2036,24 @@
         "newer",
         "newest"
       ],
-      "topics": [],
+      "topics": [
+        "人資招聘",
+        "行銷銷售"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The human resources department scheduled an orientation session for all new employees.",
+        "zh": "人力資源部門為所有新進員工安排了一場到職培訓說明會。"
+      },
+      "mnemonic": "多益職場聽力主角：new employee (新員工)、new product (新產品)。",
+      "collocations": [
+        "new employee",
+        "new product"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1512,7 +2061,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1522,9 +2071,13 @@
       "id": "lexifold_toeic_0041",
       "word": "way",
       "lemma": "way",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/weɪ/",
+      "pos": "noun",
+      "meaning": [
+        "方式",
+        "途徑",
+        "道路"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 41,
       "sourceList": "NGSL 1.2",
@@ -1533,14 +2086,24 @@
         "way",
         "ways"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "公司政策"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Implementing electronic billing is an efficient way to reduce paper waste.",
+        "zh": "導入電子帳單是減少紙張浪費的一種有效途徑。"
+      },
+      "mnemonic": "商務提案必備詞彙：an efficient way to do something (做某事的有效方式)。",
+      "collocations": [
+        "in this way",
+        "on the way"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1548,7 +2111,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1558,9 +2121,13 @@
       "id": "lexifold_toeic_0042",
       "word": "find",
       "lemma": "find",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/faɪnd/",
+      "pos": "verb",
+      "meaning": [
+        "找到",
+        "發現",
+        "查明"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 42,
       "sourceList": "NGSL 1.2",
@@ -1572,14 +2139,24 @@
         "finding",
         "findings"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "客戶服務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "You can find all previous project archives stored in the shared cloud folder.",
+        "zh": "您可以在共享雲端資料夾中找到所有過往的專案存檔。"
+      },
+      "mnemonic": "商務對話與辦公指引常用詞，片語 find out 意為查明真相或獲得訊息。",
+      "collocations": [
+        "find out",
+        "find a solution"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1587,7 +2164,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1597,9 +2174,13 @@
       "id": "lexifold_toeic_0043",
       "word": "over",
       "lemma": "over",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈoʊvər/",
+      "pos": "preposition",
+      "meaning": [
+        "超過",
+        "在...期間",
+        "遍及"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 43,
       "sourceList": "NGSL 1.2",
@@ -1608,14 +2189,24 @@
         "over",
         "overs"
       ],
-      "topics": [],
+      "topics": [
+        "付款財務",
+        "行銷銷售"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Our overseas export volume has grown significantly over the past three years.",
+        "zh": "在過去這三年期間，我們的海外出口量有了大幅增長。"
+      },
+      "mnemonic": "多益文法必考：over the past + 時間 (在過去...期間)，需搭配現在完成式。",
+      "collocations": [
+        "over the past",
+        "over time"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1623,7 +2214,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1633,9 +2224,12 @@
       "id": "lexifold_toeic_0044",
       "word": "any",
       "lemma": "any",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈɛni/",
+      "pos": "determiner",
+      "meaning": [
+        "任何的",
+        "若干"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 44,
       "sourceList": "NGSL 1.2",
@@ -1643,14 +2237,24 @@
       "wordForms": [
         "any"
       ],
-      "topics": [],
+      "topics": [
+        "客戶服務",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Please do not hesitate to reach out if you experience any technical difficulties.",
+        "zh": "如果您遇到任何技術困難，請隨時與我們聯絡。"
+      },
+      "mnemonic": "商務信件結尾標準詢問：if you have any questions (若有任何問題)。",
+      "collocations": [
+        "any questions",
+        "at any time"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1658,7 +2262,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1668,9 +2272,11 @@
       "id": "lexifold_toeic_0045",
       "word": "after",
       "lemma": "after",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈæftər/",
+      "pos": "preposition",
+      "meaning": [
+        "在...之後"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 45,
       "sourceList": "NGSL 1.2",
@@ -1678,14 +2284,24 @@
       "wordForms": [
         "after"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "運輸物流"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "A brief question-and-answer session will be held immediately after the keynote presentation.",
+        "zh": "主旨演講結束後將隨即舉行簡短的問答環節。"
+      },
+      "mnemonic": "會議時程與交貨時間常用時間介系詞，表示在某活動之後。",
+      "collocations": [
+        "soon after",
+        "after hours"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1693,7 +2309,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1703,9 +2319,13 @@
       "id": "lexifold_toeic_0046",
       "word": "day",
       "lemma": "day",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/deɪ/",
+      "pos": "noun",
+      "meaning": [
+        "日",
+        "白天",
+        "工作天"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 46,
       "sourceList": "NGSL 1.2",
@@ -1714,14 +2334,24 @@
         "day",
         "days"
       ],
-      "topics": [],
+      "topics": [
+        "運輸物流",
+        "客戶服務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Online purchases made before noon qualify for free same day delivery service.",
+        "zh": "中午前完成的線上購物可享有當日免費宅配到府服務。"
+      },
+      "mnemonic": "物流出貨重點考詞：same day delivery (當日送達)、business day (工作天)。",
+      "collocations": [
+        "business day",
+        "same day delivery"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1729,7 +2359,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1739,9 +2369,13 @@
       "id": "lexifold_toeic_0047",
       "word": "thing",
       "lemma": "thing",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/θɪŋ/",
+      "pos": "noun",
+      "meaning": [
+        "事項",
+        "事物",
+        "物件"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 47,
       "sourceList": "NGSL 1.2",
@@ -1750,14 +2384,24 @@
         "thing",
         "things"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The first thing we should discuss on this morning's agenda is the quarterly expenditure.",
+        "zh": "今天上午議程中我們首要討論的事項是季度支出。"
+      },
+      "mnemonic": "會議討論要點常用口語詞：the first thing on the agenda (議程首要事項)。",
+      "collocations": [
+        "first thing",
+        "one more thing"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1765,7 +2409,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1775,9 +2419,12 @@
       "id": "lexifold_toeic_0048",
       "word": "most",
       "lemma": "most",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/moʊst/",
+      "pos": "determiner",
+      "meaning": [
+        "大多數的",
+        "最多的"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 48,
       "sourceList": "NGSL 1.2",
@@ -1785,14 +2432,24 @@
       "wordForms": [
         "most"
       ],
-      "topics": [],
+      "topics": [
+        "行銷銷售",
+        "人資招聘"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Most registered attendees arrived early to collect their seminar registration packets.",
+        "zh": "大多數已報名的與會者都提早抵達以領取研討會報到資料袋。"
+      },
+      "mnemonic": "多益閱讀調查結果與問卷統計最常用的形容詞/代名詞。",
+      "collocations": [
+        "most of the",
+        "at most"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1800,7 +2457,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1810,9 +2467,13 @@
       "id": "lexifold_toeic_0049",
       "word": "need",
       "lemma": "need",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/niːd/",
+      "pos": "verb",
+      "meaning": [
+        "需要",
+        "必要",
+        "要求"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 49,
       "sourceList": "NGSL 1.2",
@@ -1823,14 +2484,24 @@
         "needed",
         "needing"
       ],
-      "topics": [],
+      "topics": [
+        "採購",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "We need to order additional packaging materials to fulfill all pending client orders.",
+        "zh": "我們需要訂購額外的包裝耗材以完成所有待處理的客戶訂單。"
+      },
+      "mnemonic": "採購與業務請購必備動詞，片語 in need of 意為需要。",
+      "collocations": [
+        "need to",
+        "in need of"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1838,7 +2509,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1848,9 +2519,13 @@
       "id": "lexifold_toeic_0050",
       "word": "much",
       "lemma": "much",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/mʌtʃ/",
+      "pos": "determiner",
+      "meaning": [
+        "大量的",
+        "許多",
+        "非常"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 50,
       "sourceList": "NGSL 1.2",
@@ -1858,14 +2533,24 @@
       "wordForms": [
         "much"
       ],
-      "topics": [],
+      "topics": [
+        "付款財務",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "How much funding will be allocated to the employee wellness program this year?",
+        "zh": "今年將提撥多少資金給員工身心健康計畫？"
+      },
+      "mnemonic": "詢問預算與花費的固定問法：how much + 不可數名詞。",
+      "collocations": [
+        "how much",
+        "much more"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1873,7 +2558,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1883,9 +2568,13 @@
       "id": "lexifold_toeic_0051",
       "word": "right",
       "lemma": "right",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/raɪt/",
+      "pos": "adjective",
+      "meaning": [
+        "合適的",
+        "正確的",
+        "權利"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 51,
       "sourceList": "NGSL 1.2",
@@ -1897,14 +2586,24 @@
         "righting",
         "righter"
       ],
-      "topics": [],
+      "topics": [
+        "人資招聘",
+        "公司政策"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The interview panel agreed that Mr. Gomez is the right candidate for the position.",
+        "zh": "面試小組一致認為戈梅茲先生是擔任該職位的合適人選。"
+      },
+      "mnemonic": "招募常用 the right candidate 表最理想人選；亦有 right now (馬上)。",
+      "collocations": [
+        "right candidate",
+        "right now"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1912,7 +2611,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1922,9 +2621,13 @@
       "id": "lexifold_toeic_0052",
       "word": "back",
       "lemma": "back",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/bæk/",
+      "pos": "adverb",
+      "meaning": [
+        "返回",
+        "回電",
+        "向後"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 52,
       "sourceList": "NGSL 1.2",
@@ -1935,14 +2638,24 @@
         "backed",
         "backing"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "客戶服務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "I am currently in a client conference, but I will call you back before five o'clock.",
+        "zh": "我目前正在與客戶開會，但我會在五點前回電給您。"
+      },
+      "mnemonic": "電話商務必考片語：call back (回電)、get back to someone (回覆某人)。",
+      "collocations": [
+        "call back",
+        "get back to"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1950,7 +2663,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -1960,9 +2673,13 @@
       "id": "lexifold_toeic_0053",
       "word": "mean",
       "lemma": "mean",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/miːn/",
+      "pos": "verb",
+      "meaning": [
+        "意味著",
+        "意指",
+        "打算"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 53,
       "sourceList": "NGSL 1.2",
@@ -1976,14 +2693,24 @@
         "meaner",
         "meanest"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "公司政策"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The revised safety protocol means that all factory workers must wear protective helmets.",
+        "zh": "修訂後的安全規範意味著所有工廠作業人員皆必須配戴安全帽。"
+      },
+      "mnemonic": "解釋新政策或合約條款意義的常用動詞，常接 that 子句。",
+      "collocations": [
+        "mean that",
+        "mean to"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -1991,7 +2718,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2001,9 +2728,13 @@
       "id": "lexifold_toeic_0054",
       "word": "even",
       "lemma": "even",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈiːvən/",
+      "pos": "adverb",
+      "meaning": [
+        "甚至",
+        "更加",
+        "連...都"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 54,
       "sourceList": "NGSL 1.2",
@@ -2013,14 +2744,24 @@
         "evens",
         "evened"
       ],
-      "topics": [],
+      "topics": [
+        "生產設備",
+        "行銷銷售"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The newly upgraded automated system operates even faster than the previous model.",
+        "zh": "新升級的自動化系統運作起來甚至比先前的機型更為迅速。"
+      },
+      "mnemonic": "用於加強比較級語氣 (even faster) 或片語 even though (雖然)。",
+      "collocations": [
+        "even faster",
+        "even though"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2028,7 +2769,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2038,9 +2779,12 @@
       "id": "lexifold_toeic_0055",
       "word": "here",
       "lemma": "here",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/hɪr/",
+      "pos": "adverb",
+      "meaning": [
+        "這裡",
+        "在此處"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 55,
       "sourceList": "NGSL 1.2",
@@ -2048,14 +2792,24 @@
       "wordForms": [
         "here"
       ],
-      "topics": [],
+      "topics": [
+        "運輸物流",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Please sign your name here on the receipt to acknowledge delivery of the parcel.",
+        "zh": "請在收據的這裡簽名，以確認已收到包裹。"
+      },
+      "mnemonic": "快遞簽收與櫃檯接待高頻指示副詞：sign here (在此簽名)。",
+      "collocations": [
+        "sign here",
+        "right here"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2063,7 +2817,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2073,9 +2827,12 @@
       "id": "lexifold_toeic_0056",
       "word": "many",
       "lemma": "many",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈmɛni/",
+      "pos": "determiner",
+      "meaning": [
+        "許多的",
+        "許多人"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 56,
       "sourceList": "NGSL 1.2",
@@ -2083,14 +2840,24 @@
       "wordForms": [
         "many"
       ],
-      "topics": [],
+      "topics": [
+        "人資招聘",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Many experienced engineers attended the regional technology expo last Friday.",
+        "zh": "許多資深工程師上週五參加了該區域科技博覽會。"
+      },
+      "mnemonic": "接可數複數名詞，多益聽力短對話常詢問人數或客群數量。",
+      "collocations": [
+        "many of the",
+        "how many"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2098,7 +2865,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2108,9 +2875,12 @@
       "id": "lexifold_toeic_0057",
       "word": "such",
       "lemma": "such",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/sʌtʃ/",
+      "pos": "determiner",
+      "meaning": [
+        "這樣的",
+        "如此的"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 57,
       "sourceList": "NGSL 1.2",
@@ -2118,14 +2888,24 @@
       "wordForms": [
         "such"
       ],
-      "topics": [],
+      "topics": [
+        "公司政策",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Handling such sensitive financial data requires strict compliance with privacy standards.",
+        "zh": "處理如此敏感的財務資料必須嚴格遵守隱私權標準。"
+      },
+      "mnemonic": "多益閱讀舉例與定義極高頻片語：such as (諸如、例如)。",
+      "collocations": [
+        "such as",
+        "such a"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2133,7 +2913,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2143,9 +2923,13 @@
       "id": "lexifold_toeic_0058",
       "word": "last",
       "lemma": "last",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/læst/",
+      "pos": "adjective",
+      "meaning": [
+        "上一個的",
+        "最後的",
+        "持續"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 58,
       "sourceList": "NGSL 1.2",
@@ -2156,14 +2940,24 @@
         "lasted",
         "lasting"
       ],
-      "topics": [],
+      "topics": [
+        "付款財務",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "According to the financial report, company sales increased by eight percent last month.",
+        "zh": "根據財務報告，公司銷售額上個月增長了百分之八。"
+      },
+      "mnemonic": "過去時間指標詞：last month (上個月)、last year (去年)；動詞意為持續。",
+      "collocations": [
+        "last month",
+        "last year"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2171,7 +2965,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2181,9 +2975,12 @@
       "id": "lexifold_toeic_0059",
       "word": "child",
       "lemma": "child",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/tʃaɪld/",
+      "pos": "noun",
+      "meaning": [
+        "兒童",
+        "孩子"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 59,
       "sourceList": "NGSL 1.2",
@@ -2192,14 +2989,24 @@
         "child",
         "children"
       ],
-      "topics": [],
+      "topics": [
+        "旅館住宿",
+        "公司政策"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The resort hotel offers dedicated supervision activities for guests traveling with a child.",
+        "zh": "該度假飯店為帶兒童出遊的旅客提供專門的託兒照料活動。"
+      },
+      "mnemonic": "飯店服務與員工福利常見詞：child care (托兒服務)。",
+      "collocations": [
+        "child care",
+        "with a child"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2207,7 +3014,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2217,9 +3024,13 @@
       "id": "lexifold_toeic_0060",
       "word": "tell",
       "lemma": "tell",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/tɛl/",
+      "pos": "verb",
+      "meaning": [
+        "告訴",
+        "告知",
+        "說明"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 60,
       "sourceList": "NGSL 1.2",
@@ -2230,14 +3041,24 @@
         "told",
         "telling"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The supervisor will tell the team about the upcoming revisions to the project timeline.",
+        "zh": "主管將向團隊說明專案時程即將做出的修訂。"
+      },
+      "mnemonic": "商務通訊句型：tell someone about something (告訴某人某事)。",
+      "collocations": [
+        "tell someone about",
+        "tell the difference"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2245,7 +3066,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2255,9 +3076,13 @@
       "id": "lexifold_toeic_0061",
       "word": "really",
       "lemma": "really",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈriːəli/",
+      "pos": "adverb",
+      "meaning": [
+        "非常",
+        "真正地",
+        "確實"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 61,
       "sourceList": "NGSL 1.2",
@@ -2265,14 +3090,24 @@
       "wordForms": [
         "really"
       ],
-      "topics": [],
+      "topics": [
+        "客戶服務",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "We really appreciate your patience while our technical team resolves the server issue.",
+        "zh": "在我們的技術團隊排查伺服器問題時，我們非常感謝您的耐心等候。"
+      },
+      "mnemonic": "多益書信常用客氣加強詞：really appreciate (非常感謝)。",
+      "collocations": [
+        "really appreciate",
+        "really good"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2280,7 +3115,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2290,9 +3125,13 @@
       "id": "lexifold_toeic_0062",
       "word": "call",
       "lemma": "call",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/kɔːl/",
+      "pos": "verb",
+      "meaning": [
+        "致電",
+        "召開(會議)",
+        "稱呼"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 62,
       "sourceList": "NGSL 1.2",
@@ -2303,14 +3142,24 @@
         "called",
         "calling"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "客戶服務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The committee chairman decided to call an emergency meeting to review the tender bid.",
+        "zh": "委員會主席決定召開緊急會議以審查投標文件。"
+      },
+      "mnemonic": "多益極高頻商業搭配：call a meeting (召開會議)、conference call (電話會議)。",
+      "collocations": [
+        "call a meeting",
+        "conference call"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2318,7 +3167,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2328,9 +3177,11 @@
       "id": "lexifold_toeic_0063",
       "word": "before",
       "lemma": "before",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/bɪˈfɔːr/",
+      "pos": "preposition",
+      "meaning": [
+        "在...之前"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 63,
       "sourceList": "NGSL 1.2",
@@ -2338,14 +3189,24 @@
       "wordForms": [
         "before"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "公司政策"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "All employees should submit their completed reimbursement forms before the end of the month.",
+        "zh": "所有員工應在月底之前提交填寫完畢的報帳請款單。"
+      },
+      "mnemonic": "截止期限關鍵時間詞：before the deadline (在截止日期之前)。",
+      "collocations": [
+        "before the deadline",
+        "the day before"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2353,7 +3214,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2363,9 +3224,12 @@
       "id": "lexifold_toeic_0064",
       "word": "company",
       "lemma": "company",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈkʌmpəni/",
+      "pos": "noun",
+      "meaning": [
+        "公司",
+        "企業"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 64,
       "sourceList": "NGSL 1.2",
@@ -2374,14 +3238,24 @@
         "company",
         "companies"
       ],
-      "topics": [],
+      "topics": [
+        "公司政策",
+        "行銷銷售"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Our company has grown from a local enterprise into an international manufacturer.",
+        "zh": "我們公司已從一家在地企業成長為國際製造商。"
+      },
+      "mnemonic": "多益最核心主體：company policy (公司政策)、parent company (母公司)。",
+      "collocations": [
+        "company policy",
+        "parent company"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2389,7 +3263,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2399,9 +3273,13 @@
       "id": "lexifold_toeic_0065",
       "word": "through",
       "lemma": "through",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/θruː/",
+      "pos": "preposition",
+      "meaning": [
+        "透過",
+        "經由",
+        "穿過"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 65,
       "sourceList": "NGSL 1.2",
@@ -2409,14 +3287,24 @@
       "wordForms": [
         "through"
       ],
-      "topics": [],
+      "topics": [
+        "人資招聘",
+        "行銷銷售"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Interested applicants are strongly encouraged to submit their resumes through our career website.",
+        "zh": "強烈建議有興趣的應徵者透過我們的求職網站投遞履歷。"
+      },
+      "mnemonic": "招募管道或溝通途徑標準介系詞，片語 go through 意為仔細審查。",
+      "collocations": [
+        "through the website",
+        "go through"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2424,7 +3312,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2434,9 +3322,13 @@
       "id": "lexifold_toeic_0066",
       "word": "down",
       "lemma": "down",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/daʊn/",
+      "pos": "adverb",
+      "meaning": [
+        "向下",
+        "停擺(系統)",
+        "降低"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 66,
       "sourceList": "NGSL 1.2",
@@ -2447,14 +3339,24 @@
         "downed",
         "downing"
       ],
-      "topics": [],
+      "topics": [
+        "生產設備",
+        "付款財務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The company's primary internal database was down for routine maintenance overnight.",
+        "zh": "公司的主要內部資料庫昨晚因例行維護而暫停服務。"
+      },
+      "mnemonic": "IT故障與設備維修高頻詞：server is down (伺服器停擺)；break down (故障)。",
+      "collocations": [
+        "shut down",
+        "break down"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2462,7 +3364,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2472,9 +3374,13 @@
       "id": "lexifold_toeic_0067",
       "word": "show",
       "lemma": "show",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ʃoʊ/",
+      "pos": "verb",
+      "meaning": [
+        "出示",
+        "展示",
+        "顯示"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 67,
       "sourceList": "NGSL 1.2",
@@ -2486,14 +3392,24 @@
         "showing",
         "shown"
       ],
-      "topics": [],
+      "topics": [
+        "機場交通",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Passengers must show a valid photo ID and boarding pass before entering the gate area.",
+        "zh": "旅客在進入登機門區域前必須出示有效身分證件與登機證。"
+      },
+      "mnemonic": "機場安檢必備動作：show your ID (出示證件)；名詞 trade show (商展)。",
+      "collocations": [
+        "show an ID",
+        "trade show"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2501,7 +3417,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2511,9 +3427,13 @@
       "id": "lexifold_toeic_0068",
       "word": "life",
       "lemma": "life",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/laɪf/",
+      "pos": "noun",
+      "meaning": [
+        "壽命(設備)",
+        "生涯",
+        "生活"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 68,
       "sourceList": "NGSL 1.2",
@@ -2521,14 +3441,24 @@
       "wordForms": [
         "life"
       ],
-      "topics": [],
+      "topics": [
+        "生產設備",
+        "人資招聘"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Performing routine lubrication can substantially prolong the service life of factory machinery.",
+        "zh": "進行定期潤滑可大幅延長工廠機具的使用壽命。"
+      },
+      "mnemonic": "設備保養與人事平衡必考：service life (使用壽命)、work-life balance (工作與生活平衡)。",
+      "collocations": [
+        "service life",
+        "work-life balance"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2536,7 +3466,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2546,9 +3476,13 @@
       "id": "lexifold_toeic_0069",
       "word": "man",
       "lemma": "man",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/mæn/",
+      "pos": "noun",
+      "meaning": [
+        "男士",
+        "人員",
+        "配置人力"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 69,
       "sourceList": "NGSL 1.2",
@@ -2560,14 +3494,24 @@
         "manning",
         "men"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "人資招聘"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The man who led the engineering workshop has over fifteen years of industry experience.",
+        "zh": "主持該工程工作坊的男士擁有超過十五年的產業經驗。"
+      },
+      "mnemonic": "多益聽力 Part 1/2 常考主詞或提問對象；字根衍生 manpower (人力)。",
+      "collocations": [
+        "manpower planning",
+        "salesman"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2575,7 +3519,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2585,9 +3529,13 @@
       "id": "lexifold_toeic_0070",
       "word": "change",
       "lemma": "change",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/tʃeɪndʒ/",
+      "pos": "verb",
+      "meaning": [
+        "更改",
+        "變更",
+        "零錢"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 70,
       "sourceList": "NGSL 1.2",
@@ -2598,14 +3546,24 @@
         "changed",
         "changing"
       ],
-      "topics": [],
+      "topics": [
+        "機場交通",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Airline passengers may change their departure date without paying any penalty fee.",
+        "zh": "航空公司旅客可以變更出發日期而無需支付任何罰金。"
+      },
+      "mnemonic": "行程更動與票務高頻動詞：change reservation (變更預約/機票)。",
+      "collocations": [
+        "change schedule",
+        "change reservation"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2613,7 +3571,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2623,9 +3581,13 @@
       "id": "lexifold_toeic_0071",
       "word": "place",
       "lemma": "place",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/pleɪs/",
+      "pos": "noun",
+      "meaning": [
+        "地點",
+        "放置",
+        "名額"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 71,
       "sourceList": "NGSL 1.2",
@@ -2636,14 +3598,24 @@
         "placed",
         "placing"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "採購"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The annual corporate banquet will take place in the grand ballroom of the hotel.",
+        "zh": "年度企業晚宴將於飯店的富麗宴會廳舉行。"
+      },
+      "mnemonic": "多益最愛考片語：take place (舉行)、place an order (下訂單)。",
+      "collocations": [
+        "take place",
+        "place an order"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2651,7 +3623,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2661,9 +3633,13 @@
       "id": "lexifold_toeic_0072",
       "word": "long",
       "lemma": "long",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/lɔːŋ/",
+      "pos": "adjective",
+      "meaning": [
+        "長期的",
+        "長久的",
+        "長的"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 72,
       "sourceList": "NGSL 1.2",
@@ -2676,14 +3652,24 @@
         "longer",
         "longest"
       ],
-      "topics": [],
+      "topics": [
+        "公司政策",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Establishing strong partner ties is essential for the company's long-term financial success.",
+        "zh": "建立穩固的夥伴關係對於公司的長期財務成功至關重要。"
+      },
+      "mnemonic": "商業經營關鍵詞：long-term goal (長期目標)；as long as (只要)。",
+      "collocations": [
+        "long-term",
+        "as long as"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2691,7 +3677,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2701,9 +3687,11 @@
       "id": "lexifold_toeic_0073",
       "word": "between",
       "lemma": "between",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/bɪˈtwiːn/",
+      "pos": "preposition",
+      "meaning": [
+        "在...之間"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 73,
       "sourceList": "NGSL 1.2",
@@ -2711,14 +3699,24 @@
       "wordForms": [
         "between"
       ],
-      "topics": [],
+      "topics": [
+        "運輸物流",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The courier scheduled the package delivery between two and four in the afternoon.",
+        "zh": "快遞人員已將包裹配送時段排定在下午兩點到四點之間。"
+      },
+      "mnemonic": "時間與地點範圍經典介系詞：between A and B (在A與B之間)。",
+      "collocations": [
+        "between A and B",
+        "difference between"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2726,7 +3724,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2736,9 +3734,12 @@
       "id": "lexifold_toeic_0074",
       "word": "feel",
       "lemma": "feel",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/fiːl/",
+      "pos": "verb",
+      "meaning": [
+        "感覺",
+        "認為"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 74,
       "sourceList": "NGSL 1.2",
@@ -2750,14 +3751,24 @@
         "feeling",
         "feelings"
       ],
-      "topics": [],
+      "topics": [
+        "客戶服務",
+        "人資招聘"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Please feel free to ask our customer service representative if you need any assistance.",
+        "zh": "如果您需要任何協助，請隨時向我們的客服專員詢問。"
+      },
+      "mnemonic": "商務書信與服務極高頻客氣片語：feel free to (請隨時/別客氣)。",
+      "collocations": [
+        "feel free to",
+        "feel like"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2765,7 +3776,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2775,9 +3786,13 @@
       "id": "lexifold_toeic_0075",
       "word": "too",
       "lemma": "too",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/tuː/",
+      "pos": "adverb",
+      "meaning": [
+        "太",
+        "過度",
+        "也"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 75,
       "sourceList": "NGSL 1.2",
@@ -2785,14 +3800,24 @@
       "wordForms": [
         "too"
       ],
-      "topics": [],
+      "topics": [
+        "採購",
+        "付款財務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The original quote was deemed too high, so the purchasing agent negotiated for a discount.",
+        "zh": "最初的報價被認為過高，因此採購專員進行了議價以爭取折扣。"
+      },
+      "mnemonic": "商務談判表示超出預算常用 too high / too expensive；放句尾表「也」。",
+      "collocations": [
+        "too expensive",
+        "too much"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2800,7 +3825,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2810,9 +3835,13 @@
       "id": "lexifold_toeic_0076",
       "word": "still",
       "lemma": "still",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/stɪl/",
+      "pos": "adverb",
+      "meaning": [
+        "仍然",
+        "依舊",
+        "尚待"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 76,
       "sourceList": "NGSL 1.2",
@@ -2825,14 +3854,24 @@
         "stiller",
         "stillest"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "付款財務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The accounting division is still waiting for the client to confirm invoice details.",
+        "zh": "會計部門仍在等待客戶確認發票詳細資訊。"
+      },
+      "mnemonic": "表示進度尚在處理中：still pending (仍在審核中/尚未定案)。",
+      "collocations": [
+        "still available",
+        "still pending"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2840,7 +3879,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2850,9 +3889,13 @@
       "id": "lexifold_toeic_0077",
       "word": "problem",
       "lemma": "problem",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈprɑːbləm/",
+      "pos": "noun",
+      "meaning": [
+        "問題",
+        "困難",
+        "故障"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 77,
       "sourceList": "NGSL 1.2",
@@ -2861,14 +3904,24 @@
         "problem",
         "problems"
       ],
-      "topics": [],
+      "topics": [
+        "客戶服務",
+        "生產設備"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Our support technicians are trained to identify and solve technical problems quickly.",
+        "zh": "我們的支援技術人員受過專業訓練，能夠迅速發現並解決技術問題。"
+      },
+      "mnemonic": "客服與維修的核心搭配：solve a problem (解決問題)、technical problem (技術故障)。",
+      "collocations": [
+        "solve a problem",
+        "technical problem"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2876,7 +3929,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2886,9 +3939,13 @@
       "id": "lexifold_toeic_0078",
       "word": "write",
       "lemma": "write",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/raɪt/",
+      "pos": "verb",
+      "meaning": [
+        "撰寫",
+        "書寫",
+        "開立(支票)"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 78,
       "sourceList": "NGSL 1.2",
@@ -2901,14 +3958,24 @@
         "written",
         "writings"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "付款財務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The senior research associate was asked to write a comprehensive report on market trends.",
+        "zh": "資深研究專員受命撰寫一份關於市場趨勢的綜合報告。"
+      },
+      "mnemonic": "職場公文必備動作：write a report (寫報告)、write a proposal (寫提案)。",
+      "collocations": [
+        "write a report",
+        "write a proposal"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2916,7 +3983,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2926,9 +3993,12 @@
       "id": "lexifold_toeic_0079",
       "word": "same",
       "lemma": "same",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/seɪm/",
+      "pos": "adjective",
+      "meaning": [
+        "相同的",
+        "同一的"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 79,
       "sourceList": "NGSL 1.2",
@@ -2936,14 +4006,24 @@
       "wordForms": [
         "same"
       ],
-      "topics": [],
+      "topics": [
+        "運輸物流",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "All orders placed prior to eleven in the morning are processed on the same day.",
+        "zh": "所有在上午十一點前下達的訂單都會在同一天處理完畢。"
+      },
+      "mnemonic": "電商與出貨關鍵詞：the same day (同一天)；the same as (與...相同)。",
+      "collocations": [
+        "same day",
+        "the same as"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2951,7 +4031,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2961,9 +4041,13 @@
       "id": "lexifold_toeic_0080",
       "word": "lot",
       "lemma": "lot",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/lɑːt/",
+      "pos": "noun",
+      "meaning": [
+        "停車場",
+        "大量",
+        "批次"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 80,
       "sourceList": "NGSL 1.2",
@@ -2972,14 +4056,24 @@
         "lot",
         "lots"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "生產設備"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Visitors are requested to park their cars in the designated parking lot adjacent to the hall.",
+        "zh": "訪客請將車輛停放在大廳旁的專用停車場內。"
+      },
+      "mnemonic": "多益職場場景考點：parking lot (停車場)；a lot of (許多)。",
+      "collocations": [
+        "parking lot",
+        "a lot of"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -2987,7 +4081,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -2997,9 +4091,13 @@
       "id": "lexifold_toeic_0081",
       "word": "great",
       "lemma": "great",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ɡreɪt/",
+      "pos": "adjective",
+      "meaning": [
+        "極佳的",
+        "重大的",
+        "優秀的"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 81,
       "sourceList": "NGSL 1.2",
@@ -3010,14 +4108,24 @@
         "greatest",
         "greats"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "行銷銷售"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Partnering with the logistics firm represents a great opportunity for our expansion.",
+        "zh": "與該物流公司合作為我們的業務擴張代表了一個絕佳的機會。"
+      },
+      "mnemonic": "商機讚許詞：great opportunity (大好機會)、great success (巨大成功)。",
+      "collocations": [
+        "great opportunity",
+        "great success"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3025,7 +4133,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3035,9 +4143,13 @@
       "id": "lexifold_toeic_0082",
       "word": "try",
       "lemma": "try",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/traɪ/",
+      "pos": "verb",
+      "meaning": [
+        "嘗試",
+        "試圖",
+        "努力"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 82,
       "sourceList": "NGSL 1.2",
@@ -3048,14 +4160,24 @@
         "tried",
         "trying"
       ],
-      "topics": [],
+      "topics": [
+        "行銷銷售",
+        "客戶服務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Potential clients can try the enterprise cloud software for thirty days free of charge.",
+        "zh": "潛在客戶可以免費試用這款企業級雲端軟體三十天。"
+      },
+      "mnemonic": "促銷活動必備動詞：try out (試用體驗)；try to do (努力做某事)。",
+      "collocations": [
+        "try out",
+        "try to"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3063,7 +4185,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3073,9 +4195,13 @@
       "id": "lexifold_toeic_0083",
       "word": "leave",
       "lemma": "leave",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/liːv/",
+      "pos": "verb",
+      "meaning": [
+        "離開",
+        "留下",
+        "休假(名詞)"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 83,
       "sourceList": "NGSL 1.2",
@@ -3088,14 +4214,24 @@
         "leaving",
         "leavings"
       ],
-      "topics": [],
+      "topics": [
+        "人資招聘",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Employees must submit an official written request before taking annual leave.",
+        "zh": "員工在請特休假之前必須提交正式的書面請假申請。"
+      },
+      "mnemonic": "多益人資必考雙重用法：動詞離開、名詞請假 (annual leave 特休、sick leave 病假)。",
+      "collocations": [
+        "annual leave",
+        "sick leave"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3103,7 +4239,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3113,9 +4249,13 @@
       "id": "lexifold_toeic_0084",
       "word": "number",
       "lemma": "number",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈnʌmbər/",
+      "pos": "noun",
+      "meaning": [
+        "號碼",
+        "數量",
+        "數字"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 84,
       "sourceList": "NGSL 1.2",
@@ -3127,14 +4267,24 @@
         "numbering",
         "numberings"
       ],
-      "topics": [],
+      "topics": [
+        "運輸物流",
+        "客戶服務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Please retain your package tracking number to monitor your shipment progress online.",
+        "zh": "請妥善保留您的包裹追蹤號碼，以便於線上查詢貨物運送進度。"
+      },
+      "mnemonic": "物流與客服必查：tracking number (追蹤單號)、a number of (許多)。",
+      "collocations": [
+        "tracking number",
+        "a number of"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3142,7 +4292,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3152,9 +4302,12 @@
       "id": "lexifold_toeic_0085",
       "word": "both",
       "lemma": "both",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/boʊθ/",
+      "pos": "determiner",
+      "meaning": [
+        "雙方的",
+        "兩者皆"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 85,
       "sourceList": "NGSL 1.2",
@@ -3162,14 +4315,24 @@
       "wordForms": [
         "both"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "公司政策"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Both parties agreed to the amended terms and signed the commercial partnership contract.",
+        "zh": "雙方皆同意修改後的條款，並簽署了商務合作合約。"
+      },
+      "mnemonic": "多益合約與協議高頻搭配：both parties (雙方)、both A and B (兩者皆)。",
+      "collocations": [
+        "both parties",
+        "both A and B"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3177,7 +4340,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3187,9 +4350,13 @@
       "id": "lexifold_toeic_0086",
       "word": "own",
       "lemma": "own",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/oʊn/",
+      "pos": "adjective",
+      "meaning": [
+        "自己的",
+        "獨有的",
+        "擁有(動詞)"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 86,
       "sourceList": "NGSL 1.2",
@@ -3200,14 +4367,24 @@
         "owned",
         "owning"
       ],
-      "topics": [],
+      "topics": [
+        "辦公室",
+        "公司政策"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Company policy allows developers to use their own personal laptops under supervision.",
+        "zh": "公司政策允許開發人員在受監管的前提下使用個人的筆記型電腦。"
+      },
+      "mnemonic": "個人設備與獨立作業常用：on one's own (獨自)、own business (自己的事業)。",
+      "collocations": [
+        "on one's own",
+        "own business"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3215,7 +4392,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3225,9 +4402,13 @@
       "id": "lexifold_toeic_0087",
       "word": "part",
       "lemma": "part",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/pɑːrt/",
+      "pos": "noun",
+      "meaning": [
+        "零件",
+        "部分",
+        "參與"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 87,
       "sourceList": "NGSL 1.2",
@@ -3238,14 +4419,24 @@
         "parted",
         "parting"
       ],
-      "topics": [],
+      "topics": [
+        "生產設備",
+        "採購"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The automated assembly line was paused to replace worn mechanical parts.",
+        "zh": "自動化組裝線暫時停機，以更換磨損的機械零件。"
+      },
+      "mnemonic": "製造業與工廠極高頻：spare parts (備用零件)；片語 take part in (參加)。",
+      "collocations": [
+        "spare parts",
+        "take part in"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3253,7 +4444,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3263,9 +4454,13 @@
       "id": "lexifold_toeic_0088",
       "word": "point",
       "lemma": "point",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/pɔɪnt/",
+      "pos": "noun",
+      "meaning": [
+        "重點",
+        "要點",
+        "觀點"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 88,
       "sourceList": "NGSL 1.2",
@@ -3276,14 +4471,24 @@
         "pointed",
         "pointing"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The sales director emphasized several key points regarding international market growth.",
+        "zh": "銷售總監著重強調了幾項關於國際市場增長的關鍵要點。"
+      },
+      "mnemonic": "會議發言摘要常用：key point (關鍵要點)、main point (主要重點)。",
+      "collocations": [
+        "key point",
+        "main point"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3291,7 +4496,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3301,9 +4506,13 @@
       "id": "lexifold_toeic_0089",
       "word": "little",
       "lemma": "little",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈlɪtəl/",
+      "pos": "adjective",
+      "meaning": [
+        "很少的",
+        "微小的",
+        "少量"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 89,
       "sourceList": "NGSL 1.2",
@@ -3313,14 +4522,24 @@
         "littler",
         "littlest"
       ],
-      "topics": [],
+      "topics": [
+        "付款財務",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "There is little doubt that the proposed budget reductions will impact marketing activities.",
+        "zh": "毫無疑問，擬定之預算縮減將會對行銷推廣活動產生影響。"
+      },
+      "mnemonic": "多益閱讀常見修飾不可數名詞表否定 (little doubt 毫無疑問)；a little 表少量。",
+      "collocations": [
+        "little doubt",
+        "a little"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3328,7 +4547,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3338,9 +4557,13 @@
       "id": "lexifold_toeic_0090",
       "word": "help",
       "lemma": "help",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/hɛlp/",
+      "pos": "verb",
+      "meaning": [
+        "協助",
+        "幫助",
+        "支援"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 90,
       "sourceList": "NGSL 1.2",
@@ -3352,14 +4575,24 @@
         "helping",
         "helpings"
       ],
-      "topics": [],
+      "topics": [
+        "客戶服務",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Our technical support hotline is open twenty-four hours a day to help registered users.",
+        "zh": "我們的技術支援專線全天候二十四小時開放，隨時為註冊用戶提供協助。"
+      },
+      "mnemonic": "客服宗旨用語：help someone with something (協助某人某事)；help desk (諮詢台)。",
+      "collocations": [
+        "help with",
+        "help desk"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3367,7 +4600,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3377,9 +4610,13 @@
       "id": "lexifold_toeic_0091",
       "word": "ask",
       "lemma": "ask",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/æsk/",
+      "pos": "verb",
+      "meaning": [
+        "詢問",
+        "要求",
+        "請求"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 91,
       "sourceList": "NGSL 1.2",
@@ -3390,14 +4627,24 @@
         "asked",
         "asking"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "客戶服務"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Attendees are warmly encouraged to ask questions at the conclusion of the workshop.",
+        "zh": "熱烈歡迎與會人員在工作坊結束時踴躍提問。"
+      },
+      "mnemonic": "問答環節必備動詞：ask questions (提問)；ask for approval (請求核准)。",
+      "collocations": [
+        "ask for",
+        "ask questions"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3405,7 +4652,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3415,9 +4662,13 @@
       "id": "lexifold_toeic_0092",
       "word": "meet",
       "lemma": "meet",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/miːt/",
+      "pos": "verb",
+      "meaning": [
+        "符合",
+        "滿足(需求/標準)",
+        "會面"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 92,
       "sourceList": "NGSL 1.2",
@@ -3429,14 +4680,24 @@
         "met",
         "meetings"
       ],
-      "topics": [],
+      "topics": [
+        "生產設備",
+        "商務會議"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Our latest batch of electronic components meets all strict industrial quality standards.",
+        "zh": "我們最新一批電子零組件符合所有嚴格的工業品質標準。"
+      },
+      "mnemonic": "多益最經典考點！meet 除了見面，更常考「符合/滿足」：meet standards, meet deadlines。",
+      "collocations": [
+        "meet standards",
+        "meet deadlines"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3444,7 +4705,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3454,9 +4715,13 @@
       "id": "lexifold_toeic_0093",
       "word": "start",
       "lemma": "start",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/stɑːrt/",
+      "pos": "verb",
+      "meaning": [
+        "開始",
+        "著手",
+        "啟動"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 93,
       "sourceList": "NGSL 1.2",
@@ -3467,14 +4732,24 @@
         "started",
         "starting"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "生產設備"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The orientation program for newly recruited employees will start promptly at nine o'clock.",
+        "zh": "新進員工到職培訓計畫將於上午九點整準時開始。"
+      },
+      "mnemonic": "會議、專案或機具啟動的核心動詞：start a project (啟動專案)。",
+      "collocations": [
+        "start a project",
+        "start from"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3482,7 +4757,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3492,9 +4767,13 @@
       "id": "lexifold_toeic_0094",
       "word": "talk",
       "lemma": "talk",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/tɔːk/",
+      "pos": "verb",
+      "meaning": [
+        "討論",
+        "洽談",
+        "演講(名詞)"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 94,
       "sourceList": "NGSL 1.2",
@@ -3505,14 +4784,24 @@
         "talked",
         "talking"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "人資招聘"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The human resources manager arranged a session to talk about employee benefits and healthcare.",
+        "zh": "人力資源經理安排了一場說明會，以討論員工福利與健保制度。"
+      },
+      "mnemonic": "商談必備動詞：talk about (討論某事)、talk with (與某人交談)。",
+      "collocations": [
+        "talk about",
+        "talk with"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3520,7 +4809,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3530,9 +4819,12 @@
       "id": "lexifold_toeic_0095",
       "word": "something",
       "lemma": "something",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈsʌmθɪŋ/",
+      "pos": "pronoun",
+      "meaning": [
+        "某事",
+        "某物"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 95,
       "sourceList": "NGSL 1.2",
@@ -3540,14 +4832,24 @@
       "wordForms": [
         "something"
       ],
-      "topics": [],
+      "topics": [
+        "客戶服務",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "If you notice something wrong with your online billing statement, notify customer service at once.",
+        "zh": "若您發現線上對帳單有任何異常之處，請立即通知客戶服務部。"
+      },
+      "mnemonic": "客戶問題反饋常用句型：something wrong (有異常/出問題)。",
+      "collocations": [
+        "something wrong",
+        "something new"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3555,7 +4857,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3565,9 +4867,13 @@
       "id": "lexifold_toeic_0096",
       "word": "put",
       "lemma": "put",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/pʊt/",
+      "pos": "verb",
+      "meaning": [
+        "放置",
+        "提出",
+        "投入"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 96,
       "sourceList": "NGSL 1.2",
@@ -3578,14 +4884,24 @@
         "putted",
         "putting"
       ],
-      "topics": [],
+      "topics": [
+        "商務會議",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Management decided to put together a special committee to oversee the office relocation.",
+        "zh": "管理層決定籌組一個專責委員會來督導辦公室搬遷事宜。"
+      },
+      "mnemonic": "商務片語高頻考點：put together (組建/彙整)、put off (延期)。",
+      "collocations": [
+        "put together",
+        "put off"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3593,7 +4909,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3603,9 +4919,12 @@
       "id": "lexifold_toeic_0097",
       "word": "another",
       "lemma": "another",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/əˈnʌðər/",
+      "pos": "determiner",
+      "meaning": [
+        "另一個",
+        "再一個"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 97,
       "sourceList": "NGSL 1.2",
@@ -3613,14 +4932,24 @@
       "wordForms": [
         "another"
       ],
-      "topics": [],
+      "topics": [
+        "旅館住宿",
+        "辦公室"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The guest requested another room on an upper floor away from street traffic noise.",
+        "zh": "該房客要求換到遠離街頭交通噪音的高樓層另一間客房。"
+      },
+      "mnemonic": "飯店服務與更換選項必備字：another room (另一間房)、one another (彼此)。",
+      "collocations": [
+        "another room",
+        "one another"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3628,7 +4957,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3638,9 +4967,12 @@
       "id": "lexifold_toeic_0098",
       "word": "become",
       "lemma": "become",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/bɪˈkʌm/",
+      "pos": "verb",
+      "meaning": [
+        "成為",
+        "變得"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 98,
       "sourceList": "NGSL 1.2",
@@ -3651,14 +4983,24 @@
         "became",
         "becoming"
       ],
-      "topics": [],
+      "topics": [
+        "行銷銷售",
+        "公司政策"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Through consistent product innovation, our company has become a leader in green energy technology.",
+        "zh": "透過持續的產品創新，我們公司已成為綠色能源科技領域的領導者。"
+      },
+      "mnemonic": "企業發展歷程與地位轉變常態動詞：become a leader (成為領先者)。",
+      "collocations": [
+        "become available",
+        "become a leader"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3666,7 +5008,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3676,9 +5018,13 @@
       "id": "lexifold_toeic_0099",
       "word": "interest",
       "lemma": "interest",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈɪntrɪst/",
+      "pos": "noun",
+      "meaning": [
+        "利息",
+        "興趣",
+        "利益"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 99,
       "sourceList": "NGSL 1.2",
@@ -3689,14 +5035,24 @@
         "interested",
         "interesting"
       ],
-      "topics": [],
+      "topics": [
+        "付款財務",
+        "行銷銷售"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "The commercial bank offers very competitive interest rates on corporate expansion loans.",
+        "zh": "該商業銀行針對企業擴張貸款提供極具競爭力的利率優惠。"
+      },
+      "mnemonic": "多益財務重要考點！名詞常考「利息」：interest rate (利率)；show interest in (對...展現興趣)。",
+      "collocations": [
+        "interest rate",
+        "show interest in"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3704,7 +5060,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
@@ -3714,9 +5070,12 @@
       "id": "lexifold_toeic_0100",
       "word": "country",
       "lemma": "country",
-      "phonetic": null,
-      "pos": null,
-      "meaning": null,
+      "phonetic": "/ˈkʌntri/",
+      "pos": "noun",
+      "meaning": [
+        "國家",
+        "鄉村"
+      ],
       "level": "Core words 1–1,000",
       "orderInLevel": 100,
       "sourceList": "NGSL 1.2",
@@ -3725,14 +5084,24 @@
         "country",
         "countries"
       ],
-      "topics": [],
+      "topics": [
+        "運輸物流",
+        "行銷銷售"
+      ],
       "tags": [
         "TOEIC",
-        "Lexifold"
+        "高頻單字",
+        "A2"
       ],
-      "example": null,
-      "mnemonic": null,
-      "collocations": [],
+      "example": {
+        "en": "Our international distribution network delivers consumer goods to over fifty countries globally.",
+        "zh": "我們的國際配送網路將消費性商品送達全球五十多個國家。"
+      },
+      "mnemonic": "跨國貿易與物流高頻考名詞：across the country (全國各地)、foreign country (外國)。",
+      "collocations": [
+        "across the country",
+        "foreign country"
+      ],
       "reviewDefaults": [
         1,
         3,
@@ -3740,7 +5109,7 @@
         14,
         30
       ],
-      "status": "candidate",
+      "status": "ready",
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
