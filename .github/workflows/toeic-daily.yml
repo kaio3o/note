@@ -1,0 +1,56 @@
+name: Generate daily TOEIC vocabulary
+
+on:
+  schedule:
+    # 00:00 UTC = 08:00 Asia/Taipei
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Optional date in YYYY-MM-DD format"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: toeic-daily
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate Markdown and JSON
+        env:
+          GENERATE_DATE: ${{ inputs.date }}
+        run: |
+          if [ -n "$GENERATE_DATE" ]; then
+            python scripts/generate_toeic_daily.py --date "$GENERATE_DATE"
+          else
+            python scripts/generate_toeic_daily.py
+          fi
+
+      - name: Commit and push generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "多益高頻單字" "scripts/generate_toeic_daily.py"
+          if git diff --cached --quiet; then
+            echo "No new TOEIC files to commit."
+            exit 0
+          fi
+          commit_date=$(date -u +%F)
+          git commit -m "chore(toeic): add daily vocabulary $commit_date"
+          git push origin main

@@ -1,0 +1,577 @@
+{
+  "date": "2026-10-26",
+  "level": "TOEIC 395 baseline",
+  "reviewIntervals": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "newWords": [
+    {
+      "word": "accommodate",
+      "partOfSpeech": "verb",
+      "meaning": "容納；配合",
+      "example": "The hotel can accommodate 200 guests.",
+      "tip": "想像房間把客人安排進去。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "accurate",
+      "partOfSpeech": "adjective",
+      "meaning": "準確的",
+      "example": "Please make sure the report is accurate.",
+      "tip": "accurate = correct。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "appointment",
+      "partOfSpeech": "noun",
+      "meaning": "約會；預約",
+      "example": "I have a dentist appointment at three.",
+      "tip": "常和 make 或 confirm 搭配。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "available",
+      "partOfSpeech": "adjective",
+      "meaning": "可用的；有空的",
+      "example": "The manager is available after lunch.",
+      "tip": "available = ready to be used。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "benefit",
+      "partOfSpeech": "noun/verb",
+      "meaning": "好處；受益",
+      "example": "Employees receive health benefits.",
+      "tip": "想成工作帶來的好處。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "confirm",
+      "partOfSpeech": "verb",
+      "meaning": "確認",
+      "example": "Please confirm your reservation by email.",
+      "tip": "confirm = make sure。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "convenient",
+      "partOfSpeech": "adjective",
+      "meaning": "方便的",
+      "example": "The store is convenient for commuters.",
+      "tip": "和 convenience 都與方便有關。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "department",
+      "partOfSpeech": "noun",
+      "meaning": "部門；系",
+      "example": "Contact the sales department for details.",
+      "tip": "公司裡分工的部門。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "discount",
+      "partOfSpeech": "noun/verb",
+      "meaning": "折扣",
+      "example": "Customers receive a ten percent discount.",
+      "tip": "讓價格往下掉。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "document",
+      "partOfSpeech": "noun/verb",
+      "meaning": "文件；記錄",
+      "example": "Please attach the document to your email.",
+      "tip": "文件可以被 attach。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "effective",
+      "partOfSpeech": "adjective",
+      "meaning": "有效的",
+      "example": "The new policy is effective immediately.",
+      "tip": "effective = works well。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "equipment",
+      "partOfSpeech": "noun",
+      "meaning": "設備",
+      "example": "The office purchased new equipment.",
+      "tip": "equipment 通常不可數。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "estimate",
+      "partOfSpeech": "noun/verb",
+      "meaning": "估計；估價",
+      "example": "The repair estimate is two hundred dollars.",
+      "tip": "尚未確定的數字。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "expense",
+      "partOfSpeech": "noun",
+      "meaning": "費用；支出",
+      "example": "Travel expenses will be reimbursed.",
+      "tip": "常和 pay 或 cost 一起出現。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "facility",
+      "partOfSpeech": "noun",
+      "meaning": "設施；場所",
+      "example": "The sports facility opens at six.",
+      "tip": "提供服務的場所。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "frequently",
+      "partOfSpeech": "adverb",
+      "meaning": "經常地",
+      "example": "The train runs frequently during rush hour.",
+      "tip": "frequent 的副詞形式。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "handle",
+      "partOfSpeech": "verb/noun",
+      "meaning": "處理；把手",
+      "example": "She handles customer complaints professionally.",
+      "tip": "handle a problem = 處理問題。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "immediately",
+      "partOfSpeech": "adverb",
+      "meaning": "立即地",
+      "example": "Please reply immediately.",
+      "tip": "immediately = right away。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "improve",
+      "partOfSpeech": "verb",
+      "meaning": "改善；進步",
+      "example": "The company plans to improve service quality.",
+      "tip": "常接能力或品質。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "increase",
+      "partOfSpeech": "noun/verb",
+      "meaning": "增加",
+      "example": "Sales increased by fifteen percent.",
+      "tip": "可以是名詞或動詞。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "inform",
+      "partOfSpeech": "verb",
+      "meaning": "通知",
+      "example": "We will inform you of the decision.",
+      "tip": "inform someone of something。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "ingredient",
+      "partOfSpeech": "noun",
+      "meaning": "成分；食材",
+      "example": "The label lists every ingredient.",
+      "tip": "食品標籤常見單字。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "maintenance",
+      "partOfSpeech": "noun",
+      "meaning": "維護；保養",
+      "example": "The elevator is closed for maintenance.",
+      "tip": "常和 building 或 equipment 搭配。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "manager",
+      "partOfSpeech": "noun",
+      "meaning": "經理；管理者",
+      "example": "Ask the manager for assistance.",
+      "tip": "管理 team 或 department。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "method",
+      "partOfSpeech": "noun",
+      "meaning": "方法",
+      "example": "This method saves time and money.",
+      "tip": "method = way of doing something。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "notice",
+      "partOfSpeech": "noun/verb",
+      "meaning": "注意；通知",
+      "example": "Did you notice the change in schedule?",
+      "tip": "可表示注意到或公告。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "obtain",
+      "partOfSpeech": "verb",
+      "meaning": "取得",
+      "example": "Applicants must obtain a permit.",
+      "tip": "比 get 更正式。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "operate",
+      "partOfSpeech": "verb",
+      "meaning": "操作；營運",
+      "example": "Only trained staff may operate the machine.",
+      "tip": "operate a machine or company。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "permission",
+      "partOfSpeech": "noun",
+      "meaning": "許可",
+      "example": "You need permission to enter this area.",
+      "tip": "常和 ask for 搭配。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "prepare",
+      "partOfSpeech": "verb",
+      "meaning": "準備",
+      "example": "Please prepare the materials before the meeting.",
+      "tip": "prepare for + 事件。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "product",
+      "partOfSpeech": "noun",
+      "meaning": "產品",
+      "example": "The company launched a new product.",
+      "tip": "常出現在 sales 或 marketing。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "provide",
+      "partOfSpeech": "verb",
+      "meaning": "提供",
+      "example": "The hotel provides free breakfast.",
+      "tip": "provide someone with something。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "purchase",
+      "partOfSpeech": "noun/verb",
+      "meaning": "購買",
+      "example": "The department purchased new computers.",
+      "tip": "比 buy 正式。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "recommend",
+      "partOfSpeech": "verb",
+      "meaning": "推薦",
+      "example": "I recommend this restaurant to visitors.",
+      "tip": "後面接名詞或動名詞。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "request",
+      "partOfSpeech": "noun/verb",
+      "meaning": "要求；請求",
+      "example": "We received a request for more information.",
+      "tip": "正式信件常見。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "require",
+      "partOfSpeech": "verb",
+      "meaning": "需要；要求",
+      "example": "The position requires two years of experience.",
+      "tip": "比 need 正式。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "schedule",
+      "partOfSpeech": "noun/verb",
+      "meaning": "行程；安排",
+      "example": "The meeting is scheduled for Monday.",
+      "tip": "schedule for + 日期。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "shipment",
+      "partOfSpeech": "noun",
+      "meaning": "貨物；出貨",
+      "example": "The shipment arrived this morning.",
+      "tip": "和 delivery 有關。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "temporary",
+      "partOfSpeech": "adjective",
+      "meaning": "暫時的",
+      "example": "This is a temporary position.",
+      "tip": "相反是 permanent。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    },
+    {
+      "word": "vacancy",
+      "partOfSpeech": "noun",
+      "meaning": "空缺；職缺",
+      "example": "The company posted a vacancy online.",
+      "tip": "職缺廣告常用。",
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ]
+    }
+  ],
+  "reviewWords": [],
+  "newWordCount": 40,
+  "reviewWordCount": 0,
+  "totalWordCount": 40
+}
