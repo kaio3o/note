@@ -1,0 +1,849 @@
+[
+  {
+    "word": "provide",
+    "pos": "verb",
+    "meaning": "提供",
+    "example_en": "The hotel provides free breakfast.",
+    "mnemonic": "provide someone with something。"
+  },
+  {
+    "word": "issue",
+    "pos": "noun/verb",
+    "meaning": "問題；發布",
+    "example_en": "Please report any technical issue.",
+    "mnemonic": "issue 可表示問題或發布。"
+  },
+  {
+    "word": "increase",
+    "pos": "noun/verb",
+    "meaning": "增加",
+    "example_en": "Sales increased by fifteen percent.",
+    "mnemonic": "可以是名詞或動詞。"
+  },
+  {
+    "word": "process",
+    "pos": "noun/verb",
+    "meaning": "流程；處理",
+    "example_en": "The application process takes a week.",
+    "mnemonic": "process an application。"
+  },
+  {
+    "word": "product",
+    "pos": "noun",
+    "meaning": "產品",
+    "example_en": "The company launched a new product.",
+    "mnemonic": "常出現在 sales 或 marketing。"
+  },
+  {
+    "word": "policy",
+    "pos": "noun",
+    "meaning": "政策；規定",
+    "example_en": "The company has a strict privacy policy.",
+    "mnemonic": "公司正式規定。"
+  },
+  {
+    "word": "require",
+    "pos": "verb",
+    "meaning": "需要；要求",
+    "example_en": "The position requires two years of experience.",
+    "mnemonic": "比 need 正式。"
+  },
+  {
+    "word": "available",
+    "pos": "adjective",
+    "meaning": "可用的；有空的",
+    "example_en": "The manager is available after lunch.",
+    "mnemonic": "available = ready to be used。"
+  },
+  {
+    "word": "improve",
+    "pos": "verb",
+    "meaning": "改善；進步",
+    "example_en": "The company plans to improve service quality.",
+    "mnemonic": "常接能力或品質。"
+  },
+  {
+    "word": "benefit",
+    "pos": "noun/verb",
+    "meaning": "好處；受益",
+    "example_en": "Employees receive health benefits.",
+    "mnemonic": "想成工作帶來的好處。"
+  },
+  {
+    "word": "prepare",
+    "pos": "verb",
+    "meaning": "準備",
+    "example_en": "Please prepare the materials before the meeting.",
+    "mnemonic": "prepare for + 事件。"
+  },
+  {
+    "word": "employee",
+    "pos": "noun",
+    "meaning": "員工",
+    "example_en": "Every employee receives an identification card.",
+    "mnemonic": "employ 的人。"
+  },
+  {
+    "word": "manager",
+    "pos": "noun",
+    "meaning": "經理；管理者",
+    "example_en": "Ask the manager for assistance.",
+    "mnemonic": "管理 team 或 department。"
+  },
+  {
+    "word": "notice",
+    "pos": "noun/verb",
+    "meaning": "注意；通知",
+    "example_en": "Did you notice the change in schedule?",
+    "mnemonic": "可表示注意到或公告。"
+  },
+  {
+    "word": "production",
+    "pos": "noun",
+    "meaning": "生產",
+    "example_en": "Production will begin next month.",
+    "mnemonic": "製造商品的過程。"
+  },
+  {
+    "word": "contract",
+    "pos": "noun/verb",
+    "meaning": "合約；簽約",
+    "example_en": "Both sides signed the contract.",
+    "mnemonic": "正式法律文件。"
+  },
+  {
+    "word": "department",
+    "pos": "noun",
+    "meaning": "部門；系",
+    "example_en": "Contact the sales department for details.",
+    "mnemonic": "公司裡分工的部門。"
+  },
+  {
+    "word": "method",
+    "pos": "noun",
+    "meaning": "方法",
+    "example_en": "This method saves time and money.",
+    "mnemonic": "method = way of doing something。"
+  },
+  {
+    "word": "attend",
+    "pos": "verb",
+    "meaning": "參加；出席",
+    "example_en": "All employees must attend the meeting.",
+    "mnemonic": "attend a meeting。"
+  },
+  {
+    "word": "option",
+    "pos": "noun",
+    "meaning": "選項",
+    "example_en": "Customers can choose a payment option.",
+    "mnemonic": "可選擇的項目。"
+  },
+  {
+    "word": "document",
+    "pos": "noun/verb",
+    "meaning": "文件；記錄",
+    "example_en": "Please attach the document to your email.",
+    "mnemonic": "文件可以被 attach。"
+  },
+  {
+    "word": "profit",
+    "pos": "noun",
+    "meaning": "利潤",
+    "example_en": "The business reported a higher profit.",
+    "mnemonic": "收入扣除成本後的錢。"
+  },
+  {
+    "word": "operate",
+    "pos": "verb",
+    "meaning": "操作；營運",
+    "example_en": "Only trained staff may operate the machine.",
+    "mnemonic": "operate a machine or company。"
+  },
+  {
+    "word": "professional",
+    "pos": "adjective/noun",
+    "meaning": "專業的；專業人士",
+    "example_en": "She gave a professional presentation.",
+    "mnemonic": "專業的表現。"
+  },
+  {
+    "word": "extend",
+    "pos": "verb",
+    "meaning": "延長；提供",
+    "example_en": "The store extended its opening hours.",
+    "mnemonic": "extend a deadline or service。"
+  },
+  {
+    "word": "facility",
+    "pos": "noun",
+    "meaning": "設施；場所",
+    "example_en": "The sports facility opens at six.",
+    "mnemonic": "提供服務的場所。"
+  },
+  {
+    "word": "candidate",
+    "pos": "noun",
+    "meaning": "候選人；應徵者",
+    "example_en": "Each candidate submitted a resume.",
+    "mnemonic": "求職與選舉都會使用。"
+  },
+  {
+    "word": "proposal",
+    "pos": "noun",
+    "meaning": "提案",
+    "example_en": "The board approved the proposal.",
+    "mnemonic": "正式提案。"
+  },
+  {
+    "word": "immediately",
+    "pos": "adverb",
+    "meaning": "立即地",
+    "example_en": "Please reply immediately.",
+    "mnemonic": "immediately = right away。"
+  },
+  {
+    "word": "replace",
+    "pos": "verb",
+    "meaning": "替換",
+    "example_en": "We need to replace the broken printer.",
+    "mnemonic": "replace A with B。"
+  },
+  {
+    "word": "estimate",
+    "pos": "noun/verb",
+    "meaning": "估計；估價",
+    "example_en": "The repair estimate is two hundred dollars.",
+    "mnemonic": "尚未確定的數字。"
+  },
+  {
+    "word": "purchase",
+    "pos": "noun/verb",
+    "meaning": "購買",
+    "example_en": "The department purchased new computers.",
+    "mnemonic": "比 buy 正式。"
+  },
+  {
+    "word": "recommend",
+    "pos": "verb",
+    "meaning": "推薦",
+    "example_en": "I recommend this restaurant to visitors.",
+    "mnemonic": "後面接名詞或動名詞。"
+  },
+  {
+    "word": "survey",
+    "pos": "noun/verb",
+    "meaning": "調查",
+    "example_en": "Customers completed a short survey.",
+    "mnemonic": "問卷調查。"
+  },
+  {
+    "word": "request",
+    "pos": "noun/verb",
+    "meaning": "要求；請求",
+    "example_en": "We received a request for more information.",
+    "mnemonic": "正式信件常見。"
+  },
+  {
+    "word": "effective",
+    "pos": "adjective",
+    "meaning": "有效的",
+    "example_en": "The new policy is effective immediately.",
+    "mnemonic": "effective = works well。"
+  },
+  {
+    "word": "handle",
+    "pos": "verb/noun",
+    "meaning": "處理；把手",
+    "example_en": "She handles customer complaints professionally.",
+    "mnemonic": "handle a problem = 處理問題。"
+  },
+  {
+    "word": "equipment",
+    "pos": "noun",
+    "meaning": "設備",
+    "example_en": "The office purchased new equipment.",
+    "mnemonic": "equipment 通常不可數。"
+  },
+  {
+    "word": "deliver",
+    "pos": "verb",
+    "meaning": "遞送；交付",
+    "example_en": "We deliver orders within two days.",
+    "mnemonic": "deliver an order。"
+  },
+  {
+    "word": "inform",
+    "pos": "verb",
+    "meaning": "通知",
+    "example_en": "We will inform you of the decision.",
+    "mnemonic": "inform someone of something。"
+  },
+  {
+    "word": "responsible",
+    "pos": "adjective",
+    "meaning": "負責的",
+    "example_en": "She is responsible for the budget.",
+    "mnemonic": "responsible for + 名詞。"
+  },
+  {
+    "word": "transfer",
+    "pos": "verb/noun",
+    "meaning": "轉移；轉乘",
+    "example_en": "Please transfer the payment today.",
+    "mnemonic": "轉帳或轉移。"
+  },
+  {
+    "word": "procedure",
+    "pos": "noun",
+    "meaning": "程序",
+    "example_en": "Follow the emergency procedure.",
+    "mnemonic": "正式流程。"
+  },
+  {
+    "word": "annual",
+    "pos": "adjective",
+    "meaning": "每年的",
+    "example_en": "The company holds an annual meeting.",
+    "mnemonic": "每年一次。"
+  },
+  {
+    "word": "confirm",
+    "pos": "verb",
+    "meaning": "確認",
+    "example_en": "Please confirm your reservation by email.",
+    "mnemonic": "confirm = make sure。"
+  },
+  {
+    "word": "schedule",
+    "pos": "noun/verb",
+    "meaning": "行程；安排",
+    "example_en": "The meeting is scheduled for Monday.",
+    "mnemonic": "schedule for + 日期。"
+  },
+  {
+    "word": "commercial",
+    "pos": "adjective/noun",
+    "meaning": "商業的；廣告",
+    "example_en": "The commercial promotes a new car.",
+    "mnemonic": "commercial break。"
+  },
+  {
+    "word": "promote",
+    "pos": "verb",
+    "meaning": "促銷；升遷",
+    "example_en": "The store will promote its new service.",
+    "mnemonic": "促銷或升職。"
+  },
+  {
+    "word": "revenue",
+    "pos": "noun",
+    "meaning": "收入",
+    "example_en": "Online sales increased the revenue.",
+    "mnemonic": "企業總收入。"
+  },
+  {
+    "word": "volume",
+    "pos": "noun",
+    "meaning": "數量；音量",
+    "example_en": "The store sells a large volume of goods.",
+    "mnemonic": "大量或音量。"
+  },
+  {
+    "word": "location",
+    "pos": "noun",
+    "meaning": "地點",
+    "example_en": "The new office is in a convenient location.",
+    "mnemonic": "場所的位置。"
+  },
+  {
+    "word": "objective",
+    "pos": "noun/adjective",
+    "meaning": "目標；客觀的",
+    "example_en": "Our main objective is to reduce costs.",
+    "mnemonic": "objective = goal。"
+  },
+  {
+    "word": "branch",
+    "pos": "noun",
+    "meaning": "分店；分部",
+    "example_en": "The bank opened a new branch.",
+    "mnemonic": "公司或銀行的分支。"
+  },
+  {
+    "word": "capacity",
+    "pos": "noun",
+    "meaning": "容量；能力",
+    "example_en": "The room has a capacity of 80 people.",
+    "mnemonic": "可容納的人數。"
+  },
+  {
+    "word": "regulation",
+    "pos": "noun",
+    "meaning": "規章；規定",
+    "example_en": "All drivers must follow traffic regulations.",
+    "mnemonic": "正式規則。"
+  },
+  {
+    "word": "hire",
+    "pos": "verb",
+    "meaning": "雇用",
+    "example_en": "The company plans to hire two assistants.",
+    "mnemonic": "hire new staff。"
+  },
+  {
+    "word": "expense",
+    "pos": "noun",
+    "meaning": "費用；支出",
+    "example_en": "Travel expenses will be reimbursed.",
+    "mnemonic": "常和 pay 或 cost 一起出現。"
+  },
+  {
+    "word": "guarantee",
+    "pos": "noun/verb",
+    "meaning": "保證",
+    "example_en": "The product comes with a one-year guarantee.",
+    "mnemonic": "保證品質或結果。"
+  },
+  {
+    "word": "discount",
+    "pos": "noun/verb",
+    "meaning": "折扣",
+    "example_en": "Customers receive a ten percent discount.",
+    "mnemonic": "讓價格往下掉。"
+  },
+  {
+    "word": "instruction",
+    "pos": "noun",
+    "meaning": "指示；說明",
+    "example_en": "Read the instructions before use.",
+    "mnemonic": "instructions 通常用複數。"
+  },
+  {
+    "word": "complaint",
+    "pos": "noun",
+    "meaning": "抱怨；申訴",
+    "example_en": "The manager handled the complaint quickly.",
+    "mnemonic": "customer complaint。"
+  },
+  {
+    "word": "employer",
+    "pos": "noun",
+    "meaning": "雇主",
+    "example_en": "The employer offers flexible hours.",
+    "mnemonic": "employ 別人的人。"
+  },
+  {
+    "word": "frequently",
+    "pos": "adverb",
+    "meaning": "經常地",
+    "example_en": "The train runs frequently during rush hour.",
+    "mnemonic": "frequent 的副詞形式。"
+  },
+  {
+    "word": "priority",
+    "pos": "noun",
+    "meaning": "優先事項",
+    "example_en": "Safety is our top priority.",
+    "mnemonic": "最重要的事情。"
+  },
+  {
+    "word": "salary",
+    "pos": "noun",
+    "meaning": "薪資",
+    "example_en": "The position offers a competitive salary.",
+    "mnemonic": "固定薪資。"
+  },
+  {
+    "word": "temporary",
+    "pos": "adjective",
+    "meaning": "暫時的",
+    "example_en": "This is a temporary position.",
+    "mnemonic": "相反是 permanent。"
+  },
+  {
+    "word": "appointment",
+    "pos": "noun",
+    "meaning": "約會；預約",
+    "example_en": "I have a dentist appointment at three.",
+    "mnemonic": "常和 make 或 confirm 搭配。"
+  },
+  {
+    "word": "approximately",
+    "pos": "adverb",
+    "meaning": "大約",
+    "example_en": "The trip takes approximately two hours.",
+    "mnemonic": "approximately = about。"
+  },
+  {
+    "word": "install",
+    "pos": "verb",
+    "meaning": "安裝",
+    "example_en": "Technicians will install the new software.",
+    "mnemonic": "install equipment or software。"
+  },
+  {
+    "word": "occupy",
+    "pos": "verb",
+    "meaning": "佔用",
+    "example_en": "The meeting will occupy the whole morning.",
+    "mnemonic": "占用時間或空間。"
+  },
+  {
+    "word": "efficient",
+    "pos": "adjective",
+    "meaning": "有效率的",
+    "example_en": "The new system is more efficient.",
+    "mnemonic": "少花時間或資源。"
+  },
+  {
+    "word": "distribute",
+    "pos": "verb",
+    "meaning": "分發；配送",
+    "example_en": "Staff distributed the forms to visitors.",
+    "mnemonic": "把東西分給多人。"
+  },
+  {
+    "word": "exhibit",
+    "pos": "noun/verb",
+    "meaning": "展覽品；展示",
+    "example_en": "The museum will exhibit local artwork.",
+    "mnemonic": "exhibit artwork。"
+  },
+  {
+    "word": "negotiate",
+    "pos": "verb",
+    "meaning": "協商",
+    "example_en": "The two companies negotiated a contract.",
+    "mnemonic": "negotiate a price or contract。"
+  },
+  {
+    "word": "supplier",
+    "pos": "noun",
+    "meaning": "供應商",
+    "example_en": "We changed suppliers last year.",
+    "mnemonic": "提供商品的公司。"
+  },
+  {
+    "word": "assistance",
+    "pos": "noun",
+    "meaning": "協助",
+    "example_en": "Please contact us if you need assistance.",
+    "mnemonic": "需要幫忙時使用。"
+  },
+  {
+    "word": "agenda",
+    "pos": "noun",
+    "meaning": "議程",
+    "example_en": "The agenda includes three topics.",
+    "mnemonic": "會議開始前先看議程。"
+  },
+  {
+    "word": "retail",
+    "pos": "noun/adjective",
+    "meaning": "零售",
+    "example_en": "The company operates several retail stores.",
+    "mnemonic": "retail store。"
+  },
+  {
+    "word": "submit",
+    "pos": "verb",
+    "meaning": "提交",
+    "example_en": "Please submit the form by Friday.",
+    "mnemonic": "submit an application。"
+  },
+  {
+    "word": "recruit",
+    "pos": "verb/noun",
+    "meaning": "招募；新進人員",
+    "example_en": "The firm is recruiting sales staff.",
+    "mnemonic": "recruit new employees。"
+  },
+  {
+    "word": "withdraw",
+    "pos": "verb",
+    "meaning": "撤回；提領",
+    "example_en": "He withdrew his application.",
+    "mnemonic": "撤回申請或提領金錢。"
+  },
+  {
+    "word": "entrance",
+    "pos": "noun",
+    "meaning": "入口",
+    "example_en": "The main entrance is on the left.",
+    "mnemonic": "相反是 exit。"
+  },
+  {
+    "word": "membership",
+    "pos": "noun",
+    "meaning": "會員資格",
+    "example_en": "The gym offers annual membership.",
+    "mnemonic": "member 的資格。"
+  },
+  {
+    "word": "accurate",
+    "pos": "adjective",
+    "meaning": "準確的",
+    "example_en": "Please make sure the report is accurate.",
+    "mnemonic": "accurate = correct。"
+  },
+  {
+    "word": "forecast",
+    "pos": "noun/verb",
+    "meaning": "預測",
+    "example_en": "The weather forecast predicts rain.",
+    "mnemonic": "forecast future conditions。"
+  },
+  {
+    "word": "cancel",
+    "pos": "verb",
+    "meaning": "取消",
+    "example_en": "The airline canceled the flight.",
+    "mnemonic": "cancel a reservation or event。"
+  },
+  {
+    "word": "permission",
+    "pos": "noun",
+    "meaning": "許可",
+    "example_en": "You need permission to enter this area.",
+    "mnemonic": "常和 ask for 搭配。"
+  },
+  {
+    "word": "assign",
+    "pos": "verb",
+    "meaning": "分派",
+    "example_en": "The supervisor assigned a task to me.",
+    "mnemonic": "assign a task。"
+  },
+  {
+    "word": "maintenance",
+    "pos": "noun",
+    "meaning": "維護；保養",
+    "example_en": "The elevator is closed for maintenance.",
+    "mnemonic": "常和 building 或 equipment 搭配。"
+  },
+  {
+    "word": "inquiry",
+    "pos": "noun",
+    "meaning": "詢問",
+    "example_en": "We received an inquiry about delivery.",
+    "mnemonic": "正式的 question。"
+  },
+  {
+    "word": "guideline",
+    "pos": "noun",
+    "meaning": "指導方針",
+    "example_en": "Please follow the safety guidelines.",
+    "mnemonic": "guideline 是行動規則。"
+  },
+  {
+    "word": "transportation",
+    "pos": "noun",
+    "meaning": "運輸；交通",
+    "example_en": "Public transportation is convenient here.",
+    "mnemonic": "交通方式的總稱。"
+  },
+  {
+    "word": "flexible",
+    "pos": "adjective",
+    "meaning": "有彈性的",
+    "example_en": "Our schedule is flexible this week.",
+    "mnemonic": "可調整、不固定。"
+  },
+  {
+    "word": "reservation",
+    "pos": "noun",
+    "meaning": "預訂",
+    "example_en": "I made a reservation for two people.",
+    "mnemonic": "餐廳、旅館、航班都可用。"
+  },
+  {
+    "word": "refund",
+    "pos": "noun/verb",
+    "meaning": "退款",
+    "example_en": "Customers may request a full refund.",
+    "mnemonic": "退回已支付的錢。"
+  },
+  {
+    "word": "workshop",
+    "pos": "noun",
+    "meaning": "研習會；工作坊",
+    "example_en": "Employees attended a safety workshop.",
+    "mnemonic": "學習或訓練活動。"
+  },
+  {
+    "word": "deadline",
+    "pos": "noun",
+    "meaning": "截止期限",
+    "example_en": "The application deadline is Friday.",
+    "mnemonic": "deadline 前常搭配 meet。"
+  },
+  {
+    "word": "brochure",
+    "pos": "noun",
+    "meaning": "小冊子",
+    "example_en": "The brochure describes our services.",
+    "mnemonic": "介紹產品或服務的小冊子。"
+  },
+  {
+    "word": "enclose",
+    "pos": "verb",
+    "meaning": "附上；裝入",
+    "example_en": "Please enclose a copy of your receipt.",
+    "mnemonic": "正式信件常見。"
+  },
+  {
+    "word": "shipment",
+    "pos": "noun",
+    "meaning": "貨物；出貨",
+    "example_en": "The shipment arrived this morning.",
+    "mnemonic": "和 delivery 有關。"
+  },
+  {
+    "word": "convenient",
+    "pos": "adjective",
+    "meaning": "方便的",
+    "example_en": "The store is convenient for commuters.",
+    "mnemonic": "和 convenience 都與方便有關。"
+  },
+  {
+    "word": "obtain",
+    "pos": "verb",
+    "meaning": "取得",
+    "example_en": "Applicants must obtain a permit.",
+    "mnemonic": "比 get 更正式。"
+  },
+  {
+    "word": "inventory",
+    "pos": "noun",
+    "meaning": "庫存",
+    "example_en": "The store checks its inventory weekly.",
+    "mnemonic": "inventory = stock。"
+  },
+  {
+    "word": "destination",
+    "pos": "noun",
+    "meaning": "目的地",
+    "example_en": "Paris is a popular destination.",
+    "mnemonic": "旅行最後到達的地方。"
+  },
+  {
+    "word": "postpone",
+    "pos": "verb",
+    "meaning": "延期",
+    "example_en": "The event was postponed until Monday.",
+    "mnemonic": "postpone an event。"
+  },
+  {
+    "word": "merchandise",
+    "pos": "noun",
+    "meaning": "商品",
+    "example_en": "The store displays new merchandise.",
+    "mnemonic": "商店販售的商品。"
+  },
+  {
+    "word": "reschedule",
+    "pos": "verb",
+    "meaning": "重新安排",
+    "example_en": "Can we reschedule the interview?",
+    "mnemonic": "重新安排時間。"
+  },
+  {
+    "word": "valid",
+    "pos": "adjective",
+    "meaning": "有效的",
+    "example_en": "Your passport must be valid.",
+    "mnemonic": "有效期限內。"
+  },
+  {
+    "word": "renovate",
+    "pos": "verb",
+    "meaning": "整修",
+    "example_en": "The hotel will renovate its lobby.",
+    "mnemonic": "翻新建築或房間。"
+  },
+  {
+    "word": "feedback",
+    "pos": "noun",
+    "meaning": "回饋",
+    "example_en": "Customers provided positive feedback.",
+    "mnemonic": "feedback 通常不可數。"
+  },
+  {
+    "word": "warehouse",
+    "pos": "noun",
+    "meaning": "倉庫",
+    "example_en": "The goods are stored in a warehouse.",
+    "mnemonic": "存放貨物的地方。"
+  },
+  {
+    "word": "ingredient",
+    "pos": "noun",
+    "meaning": "成分；食材",
+    "example_en": "The label lists every ingredient.",
+    "mnemonic": "食品標籤常見單字。"
+  },
+  {
+    "word": "outstanding",
+    "pos": "adjective",
+    "meaning": "傑出的；未支付的",
+    "example_en": "Please pay the outstanding balance.",
+    "mnemonic": "outstanding balance = 未付款項。"
+  },
+  {
+    "word": "authorize",
+    "pos": "verb",
+    "meaning": "授權",
+    "example_en": "Only managers can authorize refunds.",
+    "mnemonic": "authorize = give official permission。"
+  },
+  {
+    "word": "accommodate",
+    "pos": "verb",
+    "meaning": "容納；配合",
+    "example_en": "The hotel can accommodate 200 guests.",
+    "mnemonic": "想像房間把客人安排進去。"
+  },
+  {
+    "word": "verify",
+    "pos": "verb",
+    "meaning": "驗證；核實",
+    "example_en": "Please verify your contact information.",
+    "mnemonic": "確認資料是否正確。"
+  },
+  {
+    "word": "urgent",
+    "pos": "adjective",
+    "meaning": "緊急的",
+    "example_en": "This is an urgent request.",
+    "mnemonic": "需要立即處理。"
+  },
+  {
+    "word": "vacancy",
+    "pos": "noun",
+    "meaning": "空缺；職缺",
+    "example_en": "The company posted a vacancy online.",
+    "mnemonic": "職缺廣告常用。"
+  },
+  {
+    "word": "quarterly",
+    "pos": "adjective/adverb",
+    "meaning": "每季的",
+    "example_en": "The company releases quarterly results.",
+    "mnemonic": "一年四次。"
+  },
+  {
+    "word": "freight",
+    "pos": "noun",
+    "meaning": "貨運；貨物",
+    "example_en": "Freight costs have increased.",
+    "mnemonic": "大型貨物運輸。"
+  },
+  {
+    "word": "consumption",
+    "pos": "noun",
+    "meaning": "消耗量",
+    "example_en": "The report measures energy consumption.",
+    "mnemonic": "消耗能源或資源。"
+  }
+]
