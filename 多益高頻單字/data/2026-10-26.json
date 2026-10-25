@@ -1,6 +1,9 @@
 {
+  "version": "1.0",
   "date": "2026-10-26",
   "level": "TOEIC 395 baseline",
+  "totalCount": 40,
+  "reviewCount": 0,
   "reviewIntervals": [
     1,
     3,
@@ -8,570 +11,1268 @@
     14,
     30
   ],
-  "newWords": [
+  "words": [
     {
+      "id": "20261026_001",
       "word": "accommodate",
-      "partOfSpeech": "verb",
-      "meaning": "容納；配合",
-      "example": "The hotel can accommodate 200 guests.",
-      "tip": "想像房間把客人安排進去。",
+      "phonetic": null,
+      "pos": "verb",
+      "meaning": [
+        "容納",
+        "配合"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The hotel can accommodate 200 guests.",
+        "zh": ""
+      },
+      "mnemonic": "想像房間把客人安排進去。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "TSL 1.2"
       ]
     },
     {
+      "id": "20261026_002",
       "word": "accurate",
-      "partOfSpeech": "adjective",
-      "meaning": "準確的",
-      "example": "Please make sure the report is accurate.",
-      "tip": "accurate = correct。",
+      "phonetic": null,
+      "pos": "adjective",
+      "meaning": [
+        "準確的"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Please make sure the report is accurate.",
+        "zh": ""
+      },
+      "mnemonic": "accurate = correct。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_003",
       "word": "appointment",
-      "partOfSpeech": "noun",
-      "meaning": "約會；預約",
-      "example": "I have a dentist appointment at three.",
-      "tip": "常和 make 或 confirm 搭配。",
+      "phonetic": null,
+      "pos": "noun",
+      "meaning": [
+        "約會",
+        "預約"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "I have a dentist appointment at three.",
+        "zh": ""
+      },
+      "mnemonic": "常和 make 或 confirm 搭配。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_004",
       "word": "available",
-      "partOfSpeech": "adjective",
-      "meaning": "可用的；有空的",
-      "example": "The manager is available after lunch.",
-      "tip": "available = ready to be used。",
+      "phonetic": null,
+      "pos": "adjective",
+      "meaning": [
+        "可用的",
+        "有空的"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The manager is available after lunch.",
+        "zh": ""
+      },
+      "mnemonic": "available = ready to be used。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_005",
       "word": "benefit",
-      "partOfSpeech": "noun/verb",
-      "meaning": "好處；受益",
-      "example": "Employees receive health benefits.",
-      "tip": "想成工作帶來的好處。",
+      "phonetic": null,
+      "pos": "noun/verb",
+      "meaning": [
+        "好處",
+        "受益"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Employees receive health benefits.",
+        "zh": ""
+      },
+      "mnemonic": "想成工作帶來的好處。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_006",
       "word": "confirm",
-      "partOfSpeech": "verb",
-      "meaning": "確認",
-      "example": "Please confirm your reservation by email.",
-      "tip": "confirm = make sure。",
+      "phonetic": null,
+      "pos": "verb",
+      "meaning": [
+        "確認"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Please confirm your reservation by email.",
+        "zh": ""
+      },
+      "mnemonic": "confirm = make sure。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_007",
       "word": "convenient",
-      "partOfSpeech": "adjective",
-      "meaning": "方便的",
-      "example": "The store is convenient for commuters.",
-      "tip": "和 convenience 都與方便有關。",
+      "phonetic": null,
+      "pos": "adjective",
+      "meaning": [
+        "方便的"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The store is convenient for commuters.",
+        "zh": ""
+      },
+      "mnemonic": "和 convenience 都與方便有關。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "TSL 1.2"
       ]
     },
     {
+      "id": "20261026_008",
       "word": "department",
-      "partOfSpeech": "noun",
-      "meaning": "部門；系",
-      "example": "Contact the sales department for details.",
-      "tip": "公司裡分工的部門。",
+      "phonetic": null,
+      "pos": "noun",
+      "meaning": [
+        "部門",
+        "系"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Contact the sales department for details.",
+        "zh": ""
+      },
+      "mnemonic": "公司裡分工的部門。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_009",
       "word": "discount",
-      "partOfSpeech": "noun/verb",
-      "meaning": "折扣",
-      "example": "Customers receive a ten percent discount.",
-      "tip": "讓價格往下掉。",
+      "phonetic": null,
+      "pos": "noun/verb",
+      "meaning": [
+        "折扣"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Customers receive a ten percent discount.",
+        "zh": ""
+      },
+      "mnemonic": "讓價格往下掉。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_010",
       "word": "document",
-      "partOfSpeech": "noun/verb",
-      "meaning": "文件；記錄",
-      "example": "Please attach the document to your email.",
-      "tip": "文件可以被 attach。",
+      "phonetic": null,
+      "pos": "noun/verb",
+      "meaning": [
+        "文件",
+        "記錄"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Please attach the document to your email.",
+        "zh": ""
+      },
+      "mnemonic": "文件可以被 attach。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_011",
       "word": "effective",
-      "partOfSpeech": "adjective",
-      "meaning": "有效的",
-      "example": "The new policy is effective immediately.",
-      "tip": "effective = works well。",
+      "phonetic": null,
+      "pos": "adjective",
+      "meaning": [
+        "有效的"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The new policy is effective immediately.",
+        "zh": ""
+      },
+      "mnemonic": "effective = works well。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_012",
       "word": "equipment",
-      "partOfSpeech": "noun",
-      "meaning": "設備",
-      "example": "The office purchased new equipment.",
-      "tip": "equipment 通常不可數。",
+      "phonetic": null,
+      "pos": "noun",
+      "meaning": [
+        "設備"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The office purchased new equipment.",
+        "zh": ""
+      },
+      "mnemonic": "equipment 通常不可數。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_013",
       "word": "estimate",
-      "partOfSpeech": "noun/verb",
-      "meaning": "估計；估價",
-      "example": "The repair estimate is two hundred dollars.",
-      "tip": "尚未確定的數字。",
+      "phonetic": null,
+      "pos": "noun/verb",
+      "meaning": [
+        "估計",
+        "估價"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The repair estimate is two hundred dollars.",
+        "zh": ""
+      },
+      "mnemonic": "尚未確定的數字。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_014",
       "word": "expense",
-      "partOfSpeech": "noun",
-      "meaning": "費用；支出",
-      "example": "Travel expenses will be reimbursed.",
-      "tip": "常和 pay 或 cost 一起出現。",
+      "phonetic": null,
+      "pos": "noun",
+      "meaning": [
+        "費用",
+        "支出"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Travel expenses will be reimbursed.",
+        "zh": ""
+      },
+      "mnemonic": "常和 pay 或 cost 一起出現。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_015",
       "word": "facility",
-      "partOfSpeech": "noun",
-      "meaning": "設施；場所",
-      "example": "The sports facility opens at six.",
-      "tip": "提供服務的場所。",
+      "phonetic": null,
+      "pos": "noun",
+      "meaning": [
+        "設施",
+        "場所"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The sports facility opens at six.",
+        "zh": ""
+      },
+      "mnemonic": "提供服務的場所。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_016",
       "word": "frequently",
-      "partOfSpeech": "adverb",
-      "meaning": "經常地",
-      "example": "The train runs frequently during rush hour.",
-      "tip": "frequent 的副詞形式。",
+      "phonetic": null,
+      "pos": "adverb",
+      "meaning": [
+        "經常地"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The train runs frequently during rush hour.",
+        "zh": ""
+      },
+      "mnemonic": "frequent 的副詞形式。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_017",
       "word": "handle",
-      "partOfSpeech": "verb/noun",
-      "meaning": "處理；把手",
-      "example": "She handles customer complaints professionally.",
-      "tip": "handle a problem = 處理問題。",
+      "phonetic": null,
+      "pos": "verb/noun",
+      "meaning": [
+        "處理",
+        "把手"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "She handles customer complaints professionally.",
+        "zh": ""
+      },
+      "mnemonic": "handle a problem = 處理問題。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_018",
       "word": "immediately",
-      "partOfSpeech": "adverb",
-      "meaning": "立即地",
-      "example": "Please reply immediately.",
-      "tip": "immediately = right away。",
+      "phonetic": null,
+      "pos": "adverb",
+      "meaning": [
+        "立即地"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Please reply immediately.",
+        "zh": ""
+      },
+      "mnemonic": "immediately = right away。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_019",
       "word": "improve",
-      "partOfSpeech": "verb",
-      "meaning": "改善；進步",
-      "example": "The company plans to improve service quality.",
-      "tip": "常接能力或品質。",
+      "phonetic": null,
+      "pos": "verb",
+      "meaning": [
+        "改善",
+        "進步"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The company plans to improve service quality.",
+        "zh": ""
+      },
+      "mnemonic": "常接能力或品質。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_020",
       "word": "increase",
-      "partOfSpeech": "noun/verb",
-      "meaning": "增加",
-      "example": "Sales increased by fifteen percent.",
-      "tip": "可以是名詞或動詞。",
+      "phonetic": null,
+      "pos": "noun/verb",
+      "meaning": [
+        "增加"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Sales increased by fifteen percent.",
+        "zh": ""
+      },
+      "mnemonic": "可以是名詞或動詞。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_021",
       "word": "inform",
-      "partOfSpeech": "verb",
-      "meaning": "通知",
-      "example": "We will inform you of the decision.",
-      "tip": "inform someone of something。",
+      "phonetic": null,
+      "pos": "verb",
+      "meaning": [
+        "通知"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "We will inform you of the decision.",
+        "zh": ""
+      },
+      "mnemonic": "inform someone of something。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_022",
       "word": "ingredient",
-      "partOfSpeech": "noun",
-      "meaning": "成分；食材",
-      "example": "The label lists every ingredient.",
-      "tip": "食品標籤常見單字。",
+      "phonetic": null,
+      "pos": "noun",
+      "meaning": [
+        "成分",
+        "食材"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The label lists every ingredient.",
+        "zh": ""
+      },
+      "mnemonic": "食品標籤常見單字。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "TSL 1.2"
       ]
     },
     {
+      "id": "20261026_023",
       "word": "maintenance",
-      "partOfSpeech": "noun",
-      "meaning": "維護；保養",
-      "example": "The elevator is closed for maintenance.",
-      "tip": "常和 building 或 equipment 搭配。",
+      "phonetic": null,
+      "pos": "noun",
+      "meaning": [
+        "維護",
+        "保養"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The elevator is closed for maintenance.",
+        "zh": ""
+      },
+      "mnemonic": "常和 building 或 equipment 搭配。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_024",
       "word": "manager",
-      "partOfSpeech": "noun",
-      "meaning": "經理；管理者",
-      "example": "Ask the manager for assistance.",
-      "tip": "管理 team 或 department。",
+      "phonetic": null,
+      "pos": "noun",
+      "meaning": [
+        "經理",
+        "管理者"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Ask the manager for assistance.",
+        "zh": ""
+      },
+      "mnemonic": "管理 team 或 department。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_025",
       "word": "method",
-      "partOfSpeech": "noun",
-      "meaning": "方法",
-      "example": "This method saves time and money.",
-      "tip": "method = way of doing something。",
+      "phonetic": null,
+      "pos": "noun",
+      "meaning": [
+        "方法"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "This method saves time and money.",
+        "zh": ""
+      },
+      "mnemonic": "method = way of doing something。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_026",
       "word": "notice",
-      "partOfSpeech": "noun/verb",
-      "meaning": "注意；通知",
-      "example": "Did you notice the change in schedule?",
-      "tip": "可表示注意到或公告。",
+      "phonetic": null,
+      "pos": "noun/verb",
+      "meaning": [
+        "注意",
+        "通知"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Did you notice the change in schedule?",
+        "zh": ""
+      },
+      "mnemonic": "可表示注意到或公告。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_027",
       "word": "obtain",
-      "partOfSpeech": "verb",
-      "meaning": "取得",
-      "example": "Applicants must obtain a permit.",
-      "tip": "比 get 更正式。",
+      "phonetic": null,
+      "pos": "verb",
+      "meaning": [
+        "取得"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Applicants must obtain a permit.",
+        "zh": ""
+      },
+      "mnemonic": "比 get 更正式。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "TSL 1.2"
       ]
     },
     {
+      "id": "20261026_028",
       "word": "operate",
-      "partOfSpeech": "verb",
-      "meaning": "操作；營運",
-      "example": "Only trained staff may operate the machine.",
-      "tip": "operate a machine or company。",
+      "phonetic": null,
+      "pos": "verb",
+      "meaning": [
+        "操作",
+        "營運"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Only trained staff may operate the machine.",
+        "zh": ""
+      },
+      "mnemonic": "operate a machine or company。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_029",
       "word": "permission",
-      "partOfSpeech": "noun",
-      "meaning": "許可",
-      "example": "You need permission to enter this area.",
-      "tip": "常和 ask for 搭配。",
+      "phonetic": null,
+      "pos": "noun",
+      "meaning": [
+        "許可"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "You need permission to enter this area.",
+        "zh": ""
+      },
+      "mnemonic": "常和 ask for 搭配。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_030",
       "word": "prepare",
-      "partOfSpeech": "verb",
-      "meaning": "準備",
-      "example": "Please prepare the materials before the meeting.",
-      "tip": "prepare for + 事件。",
+      "phonetic": null,
+      "pos": "verb",
+      "meaning": [
+        "準備"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Please prepare the materials before the meeting.",
+        "zh": ""
+      },
+      "mnemonic": "prepare for + 事件。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_031",
       "word": "product",
-      "partOfSpeech": "noun",
-      "meaning": "產品",
-      "example": "The company launched a new product.",
-      "tip": "常出現在 sales 或 marketing。",
+      "phonetic": null,
+      "pos": "noun",
+      "meaning": [
+        "產品"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The company launched a new product.",
+        "zh": ""
+      },
+      "mnemonic": "常出現在 sales 或 marketing。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_032",
       "word": "provide",
-      "partOfSpeech": "verb",
-      "meaning": "提供",
-      "example": "The hotel provides free breakfast.",
-      "tip": "provide someone with something。",
+      "phonetic": null,
+      "pos": "verb",
+      "meaning": [
+        "提供"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The hotel provides free breakfast.",
+        "zh": ""
+      },
+      "mnemonic": "provide someone with something。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_033",
       "word": "purchase",
-      "partOfSpeech": "noun/verb",
-      "meaning": "購買",
-      "example": "The department purchased new computers.",
-      "tip": "比 buy 正式。",
+      "phonetic": null,
+      "pos": "noun/verb",
+      "meaning": [
+        "購買"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The department purchased new computers.",
+        "zh": ""
+      },
+      "mnemonic": "比 buy 正式。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_034",
       "word": "recommend",
-      "partOfSpeech": "verb",
-      "meaning": "推薦",
-      "example": "I recommend this restaurant to visitors.",
-      "tip": "後面接名詞或動名詞。",
+      "phonetic": null,
+      "pos": "verb",
+      "meaning": [
+        "推薦"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "I recommend this restaurant to visitors.",
+        "zh": ""
+      },
+      "mnemonic": "後面接名詞或動名詞。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_035",
       "word": "request",
-      "partOfSpeech": "noun/verb",
-      "meaning": "要求；請求",
-      "example": "We received a request for more information.",
-      "tip": "正式信件常見。",
+      "phonetic": null,
+      "pos": "noun/verb",
+      "meaning": [
+        "要求",
+        "請求"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "We received a request for more information.",
+        "zh": ""
+      },
+      "mnemonic": "正式信件常見。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_036",
       "word": "require",
-      "partOfSpeech": "verb",
-      "meaning": "需要；要求",
-      "example": "The position requires two years of experience.",
-      "tip": "比 need 正式。",
+      "phonetic": null,
+      "pos": "verb",
+      "meaning": [
+        "需要",
+        "要求"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The position requires two years of experience.",
+        "zh": ""
+      },
+      "mnemonic": "比 need 正式。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_037",
       "word": "schedule",
-      "partOfSpeech": "noun/verb",
-      "meaning": "行程；安排",
-      "example": "The meeting is scheduled for Monday.",
-      "tip": "schedule for + 日期。",
+      "phonetic": null,
+      "pos": "noun/verb",
+      "meaning": [
+        "行程",
+        "安排"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The meeting is scheduled for Monday.",
+        "zh": ""
+      },
+      "mnemonic": "schedule for + 日期。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_038",
       "word": "shipment",
-      "partOfSpeech": "noun",
-      "meaning": "貨物；出貨",
-      "example": "The shipment arrived this morning.",
-      "tip": "和 delivery 有關。",
+      "phonetic": null,
+      "pos": "noun",
+      "meaning": [
+        "貨物",
+        "出貨"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The shipment arrived this morning.",
+        "zh": ""
+      },
+      "mnemonic": "和 delivery 有關。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "TSL 1.2"
       ]
     },
     {
+      "id": "20261026_039",
       "word": "temporary",
-      "partOfSpeech": "adjective",
-      "meaning": "暫時的",
-      "example": "This is a temporary position.",
-      "tip": "相反是 permanent。",
+      "phonetic": null,
+      "pos": "adjective",
+      "meaning": [
+        "暫時的"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "This is a temporary position.",
+        "zh": ""
+      },
+      "mnemonic": "相反是 permanent。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
       ]
     },
     {
+      "id": "20261026_040",
       "word": "vacancy",
-      "partOfSpeech": "noun",
-      "meaning": "空缺；職缺",
-      "example": "The company posted a vacancy online.",
-      "tip": "職缺廣告常用。",
+      "phonetic": null,
+      "pos": "noun",
+      "meaning": [
+        "空缺",
+        "職缺"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The company posted a vacancy online.",
+        "zh": ""
+      },
+      "mnemonic": "職缺廣告常用。",
+      "collocations": [],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
         "2026-11-02",
         "2026-11-09",
         "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "TSL 1.2"
       ]
     }
   ],
-  "reviewWords": [],
-  "newWordCount": 40,
-  "reviewWordCount": 0,
-  "totalWordCount": 40
+  "reviewWords": []
 }
