@@ -15,11 +15,12 @@
     {
       "id": "20261026_001",
       "word": "accommodate",
-      "phonetic": null,
+      "phonetic": "/əˈkɑːmədeɪt/",
       "pos": "verb",
       "meaning": [
         "容納",
-        "配合"
+        "配合",
+        "提供住宿"
       ],
       "group": 1,
       "tags": [
@@ -28,10 +29,13 @@
       ],
       "example": {
         "en": "The hotel can accommodate 200 guests.",
-        "zh": ""
+        "zh": "這間大宴會廳最多可容納兩百位賓客同時入座。"
       },
       "mnemonic": "想像房間把客人安排進去。",
-      "collocations": [],
+      "collocations": [
+        "accommodate guests",
+        "accommodate needs"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -47,9 +51,10 @@
     {
       "id": "20261026_002",
       "word": "accurate",
-      "phonetic": null,
+      "phonetic": "/ˈækjərət/",
       "pos": "adjective",
       "meaning": [
+        "精準的",
         "準確的"
       ],
       "group": 1,
@@ -59,10 +64,13 @@
       ],
       "example": {
         "en": "Please make sure the report is accurate.",
-        "zh": ""
+        "zh": "編制財務報表時務必提供精準無誤的數據。"
       },
       "mnemonic": "accurate = correct。",
-      "collocations": [],
+      "collocations": [
+        "accurate data",
+        "highly accurate"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -78,11 +86,12 @@
     {
       "id": "20261026_003",
       "word": "appointment",
-      "phonetic": null,
+      "phonetic": "/əˈpɔɪntmənt/",
       "pos": "noun",
       "meaning": [
+        "預約",
         "約會",
-        "預約"
+        "任命"
       ],
       "group": 1,
       "tags": [
@@ -91,10 +100,13 @@
       ],
       "example": {
         "en": "I have a dentist appointment at three.",
-        "zh": ""
+        "zh": "請於抵達診所前先以電話完成看診預約。"
       },
       "mnemonic": "常和 make 或 confirm 搭配。",
-      "collocations": [],
+      "collocations": [
+        "make an appointment",
+        "schedule an appointment"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -110,11 +122,12 @@
     {
       "id": "20261026_004",
       "word": "available",
-      "phonetic": null,
+      "phonetic": "/əˈveɪləbəl/",
       "pos": "adjective",
       "meaning": [
         "可用的",
-        "有空的"
+        "有空的",
+        "有現貨的"
       ],
       "group": 1,
       "tags": [
@@ -123,10 +136,13 @@
       ],
       "example": {
         "en": "The manager is available after lunch.",
-        "zh": ""
+        "zh": "會議室目前空著可使用。"
       },
       "mnemonic": "available = ready to be used。",
-      "collocations": [],
+      "collocations": [
+        "readily available",
+        "available for"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -142,10 +158,11 @@
     {
       "id": "20261026_005",
       "word": "benefit",
-      "phonetic": null,
+      "phonetic": "/ˈbɛnəfɪt/",
       "pos": "noun/verb",
       "meaning": [
         "好處",
+        "福利",
         "受益"
       ],
       "group": 1,
@@ -155,10 +172,13 @@
       ],
       "example": {
         "en": "Employees receive health benefits.",
-        "zh": ""
+        "zh": "新政策為全體員工帶來好處。"
       },
       "mnemonic": "想成工作帶來的好處。",
-      "collocations": [],
+      "collocations": [
+        "employee benefits",
+        "benefit from"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -174,10 +194,11 @@
     {
       "id": "20261026_006",
       "word": "confirm",
-      "phonetic": null,
+      "phonetic": "/kənˈfɜːrm/",
       "pos": "verb",
       "meaning": [
-        "確認"
+        "確認",
+        "證實"
       ],
       "group": 1,
       "tags": [
@@ -186,10 +207,13 @@
       ],
       "example": {
         "en": "Please confirm your reservation by email.",
-        "zh": ""
+        "zh": "請致電飯店以確認您的訂房資料。"
       },
       "mnemonic": "confirm = make sure。",
-      "collocations": [],
+      "collocations": [
+        "confirm a reservation",
+        "confirm an appointment"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -205,9 +229,10 @@
     {
       "id": "20261026_007",
       "word": "convenient",
-      "phonetic": null,
+      "phonetic": "/kənˈviːniənt/",
       "pos": "adjective",
       "meaning": [
+        "便利的",
         "方便的"
       ],
       "group": 1,
@@ -217,10 +242,13 @@
       ],
       "example": {
         "en": "The store is convenient for commuters.",
-        "zh": ""
+        "zh": "線上預辦登機服務為商務差旅客戶提供了極大便利。"
       },
       "mnemonic": "和 convenience 都與方便有關。",
-      "collocations": [],
+      "collocations": [
+        "convenient time",
+        "convenient location"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -236,11 +264,11 @@
     {
       "id": "20261026_008",
       "word": "department",
-      "phonetic": null,
+      "phonetic": "/dɪˈpɑːrtmənt/",
       "pos": "noun",
       "meaning": [
         "部門",
-        "系"
+        "科系"
       ],
       "group": 1,
       "tags": [
@@ -249,10 +277,13 @@
       ],
       "example": {
         "en": "Contact the sales department for details.",
-        "zh": ""
+        "zh": "行銷部門位在三樓。"
       },
       "mnemonic": "公司裡分工的部門。",
-      "collocations": [],
+      "collocations": [
+        "sales department",
+        "head of department"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -268,10 +299,11 @@
     {
       "id": "20261026_009",
       "word": "discount",
-      "phonetic": null,
+      "phonetic": "/ˈdɪskaʊnt/",
       "pos": "noun/verb",
       "meaning": [
-        "折扣"
+        "折扣",
+        "減價"
       ],
       "group": 1,
       "tags": [
@@ -280,10 +312,13 @@
       ],
       "example": {
         "en": "Customers receive a ten percent discount.",
-        "zh": ""
+        "zh": "凡大量訂購辦公文具者均可享有批量折扣。"
       },
       "mnemonic": "讓價格往下掉。",
-      "collocations": [],
+      "collocations": [
+        "bulk discount",
+        "special discount"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -299,11 +334,11 @@
     {
       "id": "20261026_010",
       "word": "document",
-      "phonetic": null,
+      "phonetic": "/ˈdɑːkjumənt/",
       "pos": "noun/verb",
       "meaning": [
         "文件",
-        "記錄"
+        "公文"
       ],
       "group": 1,
       "tags": [
@@ -312,10 +347,13 @@
       ],
       "example": {
         "en": "Please attach the document to your email.",
-        "zh": ""
+        "zh": "請於簽署前仔細閱讀文件。"
       },
       "mnemonic": "文件可以被 attach。",
-      "collocations": [],
+      "collocations": [
+        "confidential document",
+        "official document"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -331,10 +369,11 @@
     {
       "id": "20261026_011",
       "word": "effective",
-      "phonetic": null,
+      "phonetic": "/ɪˈfɛktɪv/",
       "pos": "adjective",
       "meaning": [
-        "有效的"
+        "有效的",
+        "生效的"
       ],
       "group": 2,
       "tags": [
@@ -343,10 +382,13 @@
       ],
       "example": {
         "en": "The new policy is effective immediately.",
-        "zh": ""
+        "zh": "新的考勤規範將於下個月初正式生效。"
       },
       "mnemonic": "effective = works well。",
-      "collocations": [],
+      "collocations": [
+        "effective immediately",
+        "cost-effective"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -362,10 +404,11 @@
     {
       "id": "20261026_012",
       "word": "equipment",
-      "phonetic": null,
+      "phonetic": "/ɪˈkwɪpmənt/",
       "pos": "noun",
       "meaning": [
-        "設備"
+        "設備",
+        "器材"
       ],
       "group": 2,
       "tags": [
@@ -374,10 +417,13 @@
       ],
       "example": {
         "en": "The office purchased new equipment.",
-        "zh": ""
+        "zh": "工廠安裝了最先進的檢驗設備。"
       },
       "mnemonic": "equipment 通常不可數。",
-      "collocations": [],
+      "collocations": [
+        "office equipment",
+        "safety equipment"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -393,11 +439,11 @@
     {
       "id": "20261026_013",
       "word": "estimate",
-      "phonetic": null,
+      "phonetic": "/ˈɛstɪmeɪt/",
       "pos": "noun/verb",
       "meaning": [
         "估計",
-        "估價"
+        "估價單"
       ],
       "group": 2,
       "tags": [
@@ -406,10 +452,13 @@
       ],
       "example": {
         "en": "The repair estimate is two hundred dollars.",
-        "zh": ""
+        "zh": "承包商提供了一份詳細的翻修費用估價單。"
       },
       "mnemonic": "尚未確定的數字。",
-      "collocations": [],
+      "collocations": [
+        "cost estimate",
+        "provide an estimate"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -425,11 +474,12 @@
     {
       "id": "20261026_014",
       "word": "expense",
-      "phonetic": null,
+      "phonetic": "/ɪkˈspɛns/",
       "pos": "noun",
       "meaning": [
+        "支出",
         "費用",
-        "支出"
+        "開銷"
       ],
       "group": 2,
       "tags": [
@@ -438,10 +488,13 @@
       ],
       "example": {
         "en": "Travel expenses will be reimbursed.",
-        "zh": ""
+        "zh": "出差員工請在差旅結束後檢據申請差旅費核銷。"
       },
       "mnemonic": "常和 pay 或 cost 一起出現。",
-      "collocations": [],
+      "collocations": [
+        "travel expenses",
+        "expense report"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -457,10 +510,11 @@
     {
       "id": "20261026_015",
       "word": "facility",
-      "phonetic": null,
+      "phonetic": "/fəˈsɪləti/",
       "pos": "noun",
       "meaning": [
         "設施",
+        "廠房",
         "場所"
       ],
       "group": 2,
@@ -470,10 +524,13 @@
       ],
       "example": {
         "en": "The sports facility opens at six.",
-        "zh": ""
+        "zh": "工廠設施配備了最先進的安全系統。"
       },
       "mnemonic": "提供服務的場所。",
-      "collocations": [],
+      "collocations": [
+        "manufacturing facility",
+        "modern facilities"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -489,9 +546,10 @@
     {
       "id": "20261026_016",
       "word": "frequently",
-      "phonetic": null,
+      "phonetic": "/ˈfriːkwəntli/",
       "pos": "adverb",
       "meaning": [
+        "頻繁地",
         "經常地"
       ],
       "group": 2,
@@ -501,10 +559,13 @@
       ],
       "example": {
         "en": "The train runs frequently during rush hour.",
-        "zh": ""
+        "zh": "這列機場接駁專車尖峰時段每十分鐘密集發車。"
       },
       "mnemonic": "frequent 的副詞形式。",
-      "collocations": [],
+      "collocations": [
+        "frequently asked questions",
+        "travel frequently"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -520,10 +581,11 @@
     {
       "id": "20261026_017",
       "word": "handle",
-      "phonetic": null,
+      "phonetic": "/ˈhændəl/",
       "pos": "verb/noun",
       "meaning": [
         "處理",
+        "應對",
         "把手"
       ],
       "group": 2,
@@ -533,10 +595,13 @@
       ],
       "example": {
         "en": "She handles customer complaints professionally.",
-        "zh": ""
+        "zh": "客服團隊妥善處理了所有客訴案件。"
       },
       "mnemonic": "handle a problem = 處理問題。",
-      "collocations": [],
+      "collocations": [
+        "handle complaints",
+        "handle inquiries"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -552,10 +617,11 @@
     {
       "id": "20261026_018",
       "word": "immediately",
-      "phonetic": null,
+      "phonetic": "/ɪˈmiːdiətli/",
       "pos": "adverb",
       "meaning": [
-        "立即地"
+        "立刻",
+        "馬上"
       ],
       "group": 2,
       "tags": [
@@ -564,10 +630,13 @@
       ],
       "example": {
         "en": "Please reply immediately.",
-        "zh": ""
+        "zh": "收到客訴信函後請立即回覆。"
       },
       "mnemonic": "immediately = right away。",
-      "collocations": [],
+      "collocations": [
+        "reply immediately",
+        "effective immediately"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -583,11 +652,12 @@
     {
       "id": "20261026_019",
       "word": "improve",
-      "phonetic": null,
+      "phonetic": "/ɪmˈpruːv/",
       "pos": "verb",
       "meaning": [
         "改善",
-        "進步"
+        "提升",
+        "改進"
       ],
       "group": 2,
       "tags": [
@@ -596,10 +666,13 @@
       ],
       "example": {
         "en": "The company plans to improve service quality.",
-        "zh": ""
+        "zh": "我們希望提升客戶滿意度。"
       },
       "mnemonic": "常接能力或品質。",
-      "collocations": [],
+      "collocations": [
+        "improve quality",
+        "improve efficiency"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -615,10 +688,11 @@
     {
       "id": "20261026_020",
       "word": "increase",
-      "phonetic": null,
+      "phonetic": "/ɪnˈkriːs/",
       "pos": "noun/verb",
       "meaning": [
-        "增加"
+        "增加",
+        "成長"
       ],
       "group": 2,
       "tags": [
@@ -627,10 +701,13 @@
       ],
       "example": {
         "en": "Sales increased by fifteen percent.",
-        "zh": ""
+        "zh": "銷售額增長了百分之十五。"
       },
       "mnemonic": "可以是名詞或動詞。",
-      "collocations": [],
+      "collocations": [
+        "increase sales",
+        "significant increase"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -646,10 +723,11 @@
     {
       "id": "20261026_021",
       "word": "inform",
-      "phonetic": null,
+      "phonetic": "/ɪnˈfɔːrm/",
       "pos": "verb",
       "meaning": [
-        "通知"
+        "通知",
+        "告知"
       ],
       "group": 3,
       "tags": [
@@ -658,10 +736,13 @@
       ],
       "example": {
         "en": "We will inform you of the decision.",
-        "zh": ""
+        "zh": "我們遺憾地通知您班機將延誤啟程。"
       },
       "mnemonic": "inform someone of something。",
-      "collocations": [],
+      "collocations": [
+        "inform someone of",
+        "keep someone informed"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -677,11 +758,12 @@
     {
       "id": "20261026_022",
       "word": "ingredient",
-      "phonetic": null,
+      "phonetic": "/ɪnˈɡriːdiənt/",
       "pos": "noun",
       "meaning": [
+        "原料",
         "成分",
-        "食材"
+        "要素"
       ],
       "group": 3,
       "tags": [
@@ -690,10 +772,13 @@
       ],
       "example": {
         "en": "The label lists every ingredient.",
-        "zh": ""
+        "zh": "這家餐廳堅持只選用新鮮在地的有機食材烹調料理。"
       },
       "mnemonic": "食品標籤常見單字。",
-      "collocations": [],
+      "collocations": [
+        "natural ingredients",
+        "key ingredient"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -709,11 +794,12 @@
     {
       "id": "20261026_023",
       "word": "maintenance",
-      "phonetic": null,
+      "phonetic": "/ˈmeɪntənəns/",
       "pos": "noun",
       "meaning": [
         "維護",
-        "保養"
+        "保養",
+        "維修"
       ],
       "group": 3,
       "tags": [
@@ -722,10 +808,13 @@
       ],
       "example": {
         "en": "The elevator is closed for maintenance.",
-        "zh": ""
+        "zh": "本週末因進行空調系統例行維護，辦公大樓將暫停開放。"
       },
       "mnemonic": "常和 building 或 equipment 搭配。",
-      "collocations": [],
+      "collocations": [
+        "routine maintenance",
+        "maintenance fee"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -741,11 +830,11 @@
     {
       "id": "20261026_024",
       "word": "manager",
-      "phonetic": null,
+      "phonetic": "/ˈmænɪdʒər/",
       "pos": "noun",
       "meaning": [
         "經理",
-        "管理者"
+        "主管"
       ],
       "group": 3,
       "tags": [
@@ -754,10 +843,13 @@
       ],
       "example": {
         "en": "Ask the manager for assistance.",
-        "zh": ""
+        "zh": "專案經理審核了時程表。"
       },
       "mnemonic": "管理 team 或 department。",
-      "collocations": [],
+      "collocations": [
+        "project manager",
+        "general manager"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -773,10 +865,11 @@
     {
       "id": "20261026_025",
       "word": "method",
-      "phonetic": null,
+      "phonetic": "/ˈmɛθəd/",
       "pos": "noun",
       "meaning": [
-        "方法"
+        "方法",
+        "方式"
       ],
       "group": 3,
       "tags": [
@@ -785,10 +878,13 @@
       ],
       "example": {
         "en": "This method saves time and money.",
-        "zh": ""
+        "zh": "這是一種更有效率的付款方式。"
       },
       "mnemonic": "method = way of doing something。",
-      "collocations": [],
+      "collocations": [
+        "payment method",
+        "effective method"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -804,11 +900,12 @@
     {
       "id": "20261026_026",
       "word": "notice",
-      "phonetic": null,
+      "phonetic": "/ˈnoʊtɪs/",
       "pos": "noun/verb",
       "meaning": [
-        "注意",
-        "通知"
+        "通知",
+        "公告",
+        "注意"
       ],
       "group": 3,
       "tags": [
@@ -817,10 +914,13 @@
       ],
       "example": {
         "en": "Did you notice the change in schedule?",
-        "zh": ""
+        "zh": "請注意這項即將發生的變更。"
       },
       "mnemonic": "可表示注意到或公告。",
-      "collocations": [],
+      "collocations": [
+        "advance notice",
+        "until further notice"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -836,10 +936,12 @@
     {
       "id": "20261026_027",
       "word": "obtain",
-      "phonetic": null,
+      "phonetic": "/əbˈteɪn/",
       "pos": "verb",
       "meaning": [
-        "取得"
+        "獲得",
+        "取得",
+        "買到"
       ],
       "group": 3,
       "tags": [
@@ -848,10 +950,13 @@
       ],
       "example": {
         "en": "Applicants must obtain a permit.",
-        "zh": ""
+        "zh": "進口外國設備前必須先向相關主管機關取得核准執照。"
       },
       "mnemonic": "比 get 更正式。",
-      "collocations": [],
+      "collocations": [
+        "obtain permission",
+        "obtain approval"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -867,10 +972,11 @@
     {
       "id": "20261026_028",
       "word": "operate",
-      "phonetic": null,
+      "phonetic": "/ˈɑːpəreɪt/",
       "pos": "verb",
       "meaning": [
         "操作",
+        "運轉",
         "營運"
       ],
       "group": 3,
@@ -880,10 +986,13 @@
       ],
       "example": {
         "en": "Only trained staff may operate the machine.",
-        "zh": ""
+        "zh": "只有受過訓練的技術員才能操作這台機器。"
       },
       "mnemonic": "operate a machine or company。",
-      "collocations": [],
+      "collocations": [
+        "operate machinery",
+        "operate smoothly"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -899,10 +1008,11 @@
     {
       "id": "20261026_029",
       "word": "permission",
-      "phonetic": null,
+      "phonetic": "/pərˈmɪʃən/",
       "pos": "noun",
       "meaning": [
-        "許可"
+        "許可",
+        "核准"
       ],
       "group": 3,
       "tags": [
@@ -911,10 +1021,13 @@
       ],
       "example": {
         "en": "You need permission to enter this area.",
-        "zh": ""
+        "zh": "員工進入伺服器機房前必須取得主管的正式許可。"
       },
       "mnemonic": "常和 ask for 搭配。",
-      "collocations": [],
+      "collocations": [
+        "grant permission",
+        "obtain permission"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -930,10 +1043,11 @@
     {
       "id": "20261026_030",
       "word": "prepare",
-      "phonetic": null,
+      "phonetic": "/prɪˈpɛr/",
       "pos": "verb",
       "meaning": [
-        "準備"
+        "準備",
+        "籌備"
       ],
       "group": 3,
       "tags": [
@@ -942,10 +1056,13 @@
       ],
       "example": {
         "en": "Please prepare the materials before the meeting.",
-        "zh": ""
+        "zh": "她為會議準備了簡報資料。"
       },
       "mnemonic": "prepare for + 事件。",
-      "collocations": [],
+      "collocations": [
+        "prepare a report",
+        "prepare for"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -961,10 +1078,11 @@
     {
       "id": "20261026_031",
       "word": "product",
-      "phonetic": null,
+      "phonetic": "/ˈprɑːdʌkt/",
       "pos": "noun",
       "meaning": [
-        "產品"
+        "產品",
+        "製品"
       ],
       "group": 4,
       "tags": [
@@ -973,10 +1091,13 @@
       ],
       "example": {
         "en": "The company launched a new product.",
-        "zh": ""
+        "zh": "公司推出了一項新產品。"
       },
       "mnemonic": "常出現在 sales 或 marketing。",
-      "collocations": [],
+      "collocations": [
+        "new product",
+        "product line"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -992,10 +1113,11 @@
     {
       "id": "20261026_032",
       "word": "provide",
-      "phonetic": null,
+      "phonetic": "/prəˈvaɪd/",
       "pos": "verb",
       "meaning": [
-        "提供"
+        "提供",
+        "供應"
       ],
       "group": 4,
       "tags": [
@@ -1004,10 +1126,13 @@
       ],
       "example": {
         "en": "The hotel provides free breakfast.",
-        "zh": ""
+        "zh": "這家飯店提供免費早餐。"
       },
       "mnemonic": "provide someone with something。",
-      "collocations": [],
+      "collocations": [
+        "provide assistance",
+        "provide details"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -1023,10 +1148,12 @@
     {
       "id": "20261026_033",
       "word": "purchase",
-      "phonetic": null,
+      "phonetic": "/ˈpɜːrtʃəs/",
       "pos": "noun/verb",
       "meaning": [
-        "購買"
+        "購買",
+        "採購",
+        "採購品"
       ],
       "group": 4,
       "tags": [
@@ -1035,10 +1162,13 @@
       ],
       "example": {
         "en": "The department purchased new computers.",
-        "zh": ""
+        "zh": "請保留收據作為這筆購買的證明。"
       },
       "mnemonic": "比 buy 正式。",
-      "collocations": [],
+      "collocations": [
+        "proof of purchase",
+        "purchase order"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -1054,10 +1184,11 @@
     {
       "id": "20261026_034",
       "word": "recommend",
-      "phonetic": null,
+      "phonetic": "/ˌrɛkəˈmɛnd/",
       "pos": "verb",
       "meaning": [
-        "推薦"
+        "推薦",
+        "建議"
       ],
       "group": 4,
       "tags": [
@@ -1066,10 +1197,13 @@
       ],
       "example": {
         "en": "I recommend this restaurant to visitors.",
-        "zh": ""
+        "zh": "我強烈推薦這款軟體以提高工作效率。"
       },
       "mnemonic": "後面接名詞或動名詞。",
-      "collocations": [],
+      "collocations": [
+        "highly recommend",
+        "recommend that"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -1085,11 +1219,12 @@
     {
       "id": "20261026_035",
       "word": "request",
-      "phonetic": null,
+      "phonetic": "/rɪˈkwɛst/",
       "pos": "noun/verb",
       "meaning": [
+        "請求",
         "要求",
-        "請求"
+        "申請"
       ],
       "group": 4,
       "tags": [
@@ -1098,10 +1233,13 @@
       ],
       "example": {
         "en": "We received a request for more information.",
-        "zh": ""
+        "zh": "我們收到了客戶提出的退款申請。"
       },
       "mnemonic": "正式信件常見。",
-      "collocations": [],
+      "collocations": [
+        "upon request",
+        "make a request"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -1117,7 +1255,7 @@
     {
       "id": "20261026_036",
       "word": "require",
-      "phonetic": null,
+      "phonetic": "/rɪˈkwaɪər/",
       "pos": "verb",
       "meaning": [
         "需要",
@@ -1130,10 +1268,13 @@
       ],
       "example": {
         "en": "The position requires two years of experience.",
-        "zh": ""
+        "zh": "該職位需要兩年工作經驗。"
       },
       "mnemonic": "比 need 正式。",
-      "collocations": [],
+      "collocations": [
+        "require experience",
+        "be required to"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -1149,11 +1290,12 @@
     {
       "id": "20261026_037",
       "word": "schedule",
-      "phonetic": null,
+      "phonetic": "/ˈskɛdʒuːl/",
       "pos": "noun/verb",
       "meaning": [
         "行程",
-        "安排"
+        "排程",
+        "時間表"
       ],
       "group": 4,
       "tags": [
@@ -1162,10 +1304,13 @@
       ],
       "example": {
         "en": "The meeting is scheduled for Monday.",
-        "zh": ""
+        "zh": "新專案的時程表已發送給所有相關主管。"
       },
       "mnemonic": "schedule for + 日期。",
-      "collocations": [],
+      "collocations": [
+        "ahead of schedule",
+        "behind schedule"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -1181,11 +1326,12 @@
     {
       "id": "20261026_038",
       "word": "shipment",
-      "phonetic": null,
+      "phonetic": "/ˈʃɪpmənt/",
       "pos": "noun",
       "meaning": [
         "貨物",
-        "出貨"
+        "出貨",
+        "運輸批次"
       ],
       "group": 4,
       "tags": [
@@ -1194,10 +1340,13 @@
       ],
       "example": {
         "en": "The shipment arrived this morning.",
-        "zh": ""
+        "zh": "新一批零件貨物預計將於本週四清關完成並送達。"
       },
       "mnemonic": "和 delivery 有關。",
-      "collocations": [],
+      "collocations": [
+        "track a shipment",
+        "shipment delay"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -1213,9 +1362,10 @@
     {
       "id": "20261026_039",
       "word": "temporary",
-      "phonetic": null,
+      "phonetic": "/ˈtɛmpərɛri/",
       "pos": "adjective",
       "meaning": [
+        "臨時的",
         "暫時的"
       ],
       "group": 4,
@@ -1225,10 +1375,13 @@
       ],
       "example": {
         "en": "This is a temporary position.",
-        "zh": ""
+        "zh": "我們在購物旺季僱用了十位臨時工作人員。"
       },
       "mnemonic": "相反是 permanent。",
-      "collocations": [],
+      "collocations": [
+        "temporary staff",
+        "temporary position"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
@@ -1244,11 +1397,12 @@
     {
       "id": "20261026_040",
       "word": "vacancy",
-      "phonetic": null,
+      "phonetic": "/ˈveɪkənsi/",
       "pos": "noun",
       "meaning": [
-        "空缺",
-        "職缺"
+        "職缺",
+        "空房",
+        "空位"
       ],
       "group": 4,
       "tags": [
@@ -1257,10 +1411,13 @@
       ],
       "example": {
         "en": "The company posted a vacancy online.",
-        "zh": ""
+        "zh": "人事部門已在官方徵才網站刊登資深會計主管的職缺。"
       },
       "mnemonic": "職缺廣告常用。",
-      "collocations": [],
+      "collocations": [
+        "job vacancy",
+        "no vacancy"
+      ],
       "reviewDates": [
         "2026-10-27",
         "2026-10-29",
