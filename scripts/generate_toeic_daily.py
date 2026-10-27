@@ -15,6 +15,19 @@ NOTES_DIR = ROOT / "多益高頻單字"
 DATA_DIR = NOTES_DIR / "data"
 BANK_PATH = NOTES_DIR / "vocabulary-bank.json"
 INTERVALS = (1, 3, 7, 14, 30)
+DAILY_WORD_COUNT = 40
+FOUNDATION_WORD_COUNT = 8
+
+# 詞庫尚未有獨立的商務情境分類，故以來源等級作為可重複、可解釋的選字依據。
+# 每日保留 8 個最常用核心字打底，其餘 32 個優先挑選 TOEIC 專用或較進階的商務字彙。
+BUSINESS_LEVEL_PRIORITY = {
+    "TOEIC essentials": 0,
+    "TOEIC high-score words": 1,
+    "Core words 2,001–2,809": 2,
+    "Core words 1,001–2,000": 3,
+}
+FOUNDATION_LEVEL = "Core words 1–1,000"
+
 
 def is_ready_complete(item: dict) -> bool:
     """檢查單字是否為 status: ready 且具備所有必需欄位。"""
@@ -56,6 +69,37 @@ def used_words(exclude: Path | None = None) -> set[str]:
             continue
         result.update(line.strip().lower() for line in path.read_text(encoding="utf-8").splitlines() if line.strip().isalpha())
     return result
+
+def select_daily_words(bank: list[dict], used: set[str]) -> list[dict]:
+    """選出 40 個新字：8 個核心基礎字 + 32 個優先商務／TOEIC 字。"""
+    available = [item for item in bank if item["word"] not in used]
+
+    business = sorted(
+        (item for item in available if item.get("level") in BUSINESS_LEVEL_PRIORITY),
+        key=lambda item: BUSINESS_LEVEL_PRIORITY[item["level"]],
+    )
+    foundation = [item for item in available if item.get("level") == FOUNDATION_LEVEL]
+    other = [
+        item
+        for item in available
+        if item.get("level") not in BUSINESS_LEVEL_PRIORITY and item.get("level") != FOUNDATION_LEVEL
+    ]
+
+    selected = business[: DAILY_WORD_COUNT - FOUNDATION_WORD_COUNT]
+    selected.extend(foundation[:FOUNDATION_WORD_COUNT])
+
+    # 某一類字彙不足時，按優先順序補滿，仍不會重複使用過去的單字。
+    remaining = DAILY_WORD_COUNT - len(selected)
+    if remaining:
+        selected.extend(business[len(selected) : len(selected) + remaining])
+    remaining = DAILY_WORD_COUNT - len(selected)
+    if remaining:
+        selected.extend(foundation[FOUNDATION_WORD_COUNT : FOUNDATION_WORD_COUNT + remaining])
+    remaining = DAILY_WORD_COUNT - len(selected)
+    if remaining:
+        selected.extend(other[:remaining])
+
+    return selected
 
 
 def due_reviews(target: date) -> list[dict]:
@@ -115,12 +159,12 @@ def build_payload(target: date) -> dict:
     if md_path.exists():
         existing_words = [line.strip().lower() for line in md_path.read_text(encoding="utf-8").splitlines() if line.strip()]
         selected = [bank_by_word[word] for word in existing_words if word in bank_by_word]
-        if len(selected) != 40:
+        if len(selected) != DAILY_WORD_COUNT:
             raise RuntimeError(f"既有 {md_path.name} 必須包含詞庫中已完成的 40 個單字，目前只有 {len(selected)} 個可解析。")
     else:
         used = used_words()
-        selected = [item for item in bank if item["word"] not in used][:40]
-    if len(selected) < 40:
+        selected = select_daily_words(bank, used)
+    if len(selected) < DAILY_WORD_COUNT:
         raise RuntimeError(f"已完成詞庫只剩 {len(selected)} 個未使用單字，拒絕重複產生；請先補齊 vocabulary-bank.json。")
 
     new_words = [daily_item(item, target, index) for index, item in enumerate(selected, start=1)]
