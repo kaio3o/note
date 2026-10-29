@@ -130,7 +130,7 @@ def as_example(value) -> dict:
 
 
 def daily_item(item: dict, target: date, index: int) -> dict:
-    return {
+    entry = {
         "id": f"{target:%Y%m%d}_{index:03d}",
         "word": item["word"],
         "phonetic": item.get("phonetic"),
@@ -144,6 +144,10 @@ def daily_item(item: dict, target: date, index: int) -> dict:
         "reviewDates": [(target + timedelta(days=days)).isoformat() for days in INTERVALS],
         "sourceRefs": item.get("sourceRefs", []),
     }
+    # roots（字根字首）為選填：沒有明顯字根的字不輸出，App 便不會顯示該區塊。
+    if item.get("roots"):
+        entry["roots"] = item["roots"]
+    return entry
 
 
 def build_payload(target: date) -> dict:

@@ -1517,6 +1517,12 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "TSL 1.2"
+      ],
+      "roots": [
+        "ac- 向",
+        "com- 一起",
+        "mod 尺度、適合",
+        "-ate 動詞"
       ]
     },
     {
@@ -1588,6 +1594,11 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "ap- 向",
+        "point 點",
+        "-ment 名詞"
       ]
     },
     {
@@ -1624,6 +1635,11 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "a- 向 (ad-)",
+        "vail 價值",
+        "-able 可…的"
       ]
     },
     {
@@ -1660,6 +1676,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "bene 好",
+        "fit 做 → 做好事"
       ]
     },
     {
@@ -1695,6 +1715,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "con- 完全",
+        "firm 堅固 → 確認"
       ]
     },
     {
@@ -1730,6 +1754,11 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "TSL 1.2"
+      ],
+      "roots": [
+        "con- 一起",
+        "ven 來 → 湊在一起正好",
+        "-ient 形容詞"
       ]
     },
     {
@@ -1800,6 +1829,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "dis- 去除",
+        "count 計算"
       ]
     },
     {
@@ -1835,6 +1868,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "doc 教導",
+        "-ument 名詞 → 用來教導／佐證的文件"
       ]
     },
     {
@@ -1905,6 +1942,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "equip 裝備",
+        "-ment 名詞"
       ]
     },
     {
@@ -1976,6 +2017,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "ex- 向外",
+        "pens 秤、花費 → 付出去"
       ]
     },
     {
@@ -2012,6 +2057,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "facil 容易",
+        "-ity 名詞"
       ]
     },
     {
@@ -2154,6 +2203,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "im- 使 (in-)",
+        "prove 利益"
       ]
     },
     {
@@ -2189,6 +2242,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "in- 向內",
+        "crease 成長"
       ]
     },
     {
@@ -2224,6 +2281,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "in- 向內",
+        "form 形成 → 使心中成形、告知"
       ]
     },
     {
@@ -2296,6 +2357,11 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "main 手",
+        "tain 握住",
+        "-ance 名詞"
       ]
     },
     {
@@ -2331,6 +2397,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "man 手",
+        "-er 做…的人"
       ]
     },
     {
@@ -2438,6 +2508,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "TSL 1.2"
+      ],
+      "roots": [
+        "ob- 向",
+        "tain 握住 → 取得"
       ]
     },
     {
@@ -2474,6 +2548,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "oper 工作",
+        "-ate 動詞"
       ]
     },
     {
@@ -2509,6 +2587,11 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "per- 透過",
+        "miss 送 → 放行",
+        "-ion 名詞"
       ]
     },
     {
@@ -2544,6 +2627,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "pre- 預先",
+        "par 準備"
       ]
     },
     {
@@ -2614,6 +2701,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "pro- 向前",
+        "vid 看 → 事先看顧、供應"
       ]
     },
     {
@@ -2685,6 +2776,11 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "re- 再",
+        "com- 完全",
+        "mend 託付"
       ]
     },
     {
@@ -2721,6 +2817,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "re- 再",
+        "quest 尋求"
       ]
     },
     {
@@ -2756,6 +2856,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
+      ],
+      "roots": [
+        "re- 再",
+        "quir 尋求 → 一再要求"
       ]
     },
     {
@@ -2828,6 +2932,10 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "TSL 1.2"
+      ],
+      "roots": [
+        "ship 運送",
+        "-ment 名詞"
       ]
     },
     {
@@ -2863,7 +2971,8 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "NGSL 1.2"
-      ]
+      ],
+      "roots": "tempor 時間 + -ary 形容詞 → 暫時的"
     },
     {
       "id": "20261026_040",
@@ -2899,7 +3008,8 @@
       "sourceRefs": [
         "Lexifold TOEIC",
         "TSL 1.2"
-      ]
+      ],
+      "roots": "vac 空 + -ancy 名詞"
     }
   ]
 }

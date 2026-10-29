@@ -22,6 +22,12 @@ DAILY_REQUIRED_KEYS = ["version", "date", "totalCount", "words", "reviewWords"]
 WORD_REQUIRED_KEYS = ["id", "word", "group", "example", "mnemonic", "collocations", "reviewDates"]
 
 
+def valid_roots(value) -> bool:
+    if isinstance(value, str):
+        return bool(value.strip())
+    return isinstance(value, list) and len(value) > 0 and all(isinstance(r, str) and r.strip() for r in value)
+
+
 def run_checks():
     print("=== 1. JSON 格式檢查 ===")
     try:
@@ -82,6 +88,13 @@ def run_checks():
     print(f"✓ 完整符合七大欄位規格之 ready 單字數: {len(complete_readies)}")
     print(f"ℹ 既有早期（尚未補齊音標/例句中譯/搭配詞）之 ready 單字數: {len(incomplete_readies)}")
 
+    print("\n=== 3b. roots 欄位格式檢查（選填） ===")
+    bad_roots = [w["word"] for w in words if "roots" in w and not valid_roots(w["roots"])]
+    if bad_roots:
+        print(f"✗ roots 格式錯誤（須為非空字串或字串陣列）: {bad_roots}")
+        sys.exit(1)
+    print(f"✓ 含 roots 的單字數: {sum(1 for w in words if 'roots' in w)}")
+
     print("\n=== 4. 執行 generate_toeic_daily.py --date 2026-10-26 ===")
     res = subprocess.run(
         [sys.executable, str(ROOT / "scripts" / "generate_toeic_daily.py"), "--date", "2026-10-26"],
@@ -111,6 +124,10 @@ def run_checks():
             assert w[wk] is not None, f"單字 [{w.get('word')}] 欄位 {wk} 為 None"
         # 額外確認 example 包含 en
         assert "en" in w["example"], f"單字 [{w.get('word')}] example 缺少 'en'"
+
+    for w in daily_words:
+        if "roots" in w:
+            assert valid_roots(w["roots"]), f"單字 [{w.get('word')}] roots 格式錯誤"
 
     print("✓ 每日 JSON (2026-10-26.json) 所有 40 個單字均包含：")
     for wk in WORD_REQUIRED_KEYS:
