@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Linux 伺服器架設｜考試手寫速查表</title>
+  <style>
+    :root { --ink:#171717; --paper:#fff; --soft:#f7f7f8; --line:#c9c9cd; --red:#e4002b; --muted:#59595f; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#e9e9ec; color:var(--ink); font-family:"Helvetica Neue", Arial, "Noto Sans TC", sans-serif; font-size:11px; line-height:1.42; }
+    .page { width:297mm; min-height:210mm; margin:8mm auto; padding:8mm 9mm; background:var(--paper); box-shadow:0 2px 16px #0002; position:relative; overflow:hidden; }
+    .page::after { content:"伺服器架設 Linux · 考試手寫速查"; position:absolute; right:9mm; bottom:4mm; color:var(--muted); font-size:8px; letter-spacing:.08em; }
+    header { display:grid; grid-template-columns:1fr auto; gap:12px; align-items:end; border-bottom:3px solid var(--red); padding-bottom:5px; margin-bottom:7px; }
+    h1 { margin:0; font-size:26px; letter-spacing:-.06em; line-height:1; font-weight:800; }
+    .subtitle { color:var(--muted); font-size:10px; margin-top:4px; }
+    .folio { color:var(--red); font-size:36px; font-weight:800; line-height:.8; letter-spacing:-.08em; }
+    .notice { border-left:5px solid var(--red); background:var(--soft); padding:5px 8px; margin:0 0 7px; font-size:10px; }
+    .grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:7px; }
+    .grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:6px; }
+    .section { border-top:1px solid var(--ink); margin-top:7px; break-inside:avoid; }
+    .section h2 { display:flex; align-items:baseline; gap:7px; margin:0; padding:4px 0 3px; font-size:14px; letter-spacing:-.03em; }
+    .section h2 span { color:var(--red); font-size:22px; line-height:1; letter-spacing:-.1em; }
+    h3 { margin:5px 0 2px; color:var(--red); font-size:10px; letter-spacing:.03em; }
+    p { margin:2px 0; }
+    ul { margin:3px 0 4px; padding-left:15px; }
+    li { margin:1px 0; }
+    code { font-family:"Cascadia Mono", Consolas, monospace; font-size:.94em; background:#f0f0f2; padding:0 2px; overflow-wrap:anywhere; }
+    .cmd { margin:3px 0; padding:4px 5px; background:#111; color:#fff; font-family:"Cascadia Mono", Consolas, monospace; font-size:9px; line-height:1.45; overflow-wrap:anywhere; }
+    .cmd b { color:#ff6b80; font-weight:600; }
+    table { width:100%; border-collapse:collapse; font-size:9.5px; margin:3px 0 5px; }
+    th { background:var(--ink); color:#fff; text-align:left; font-weight:700; }
+    th, td { border:1px solid var(--line); padding:3px 4px; vertical-align:top; }
+    tr:nth-child(even) td { background:var(--soft); }
+    .key { color:var(--red); font-weight:700; }
+    .mini { color:var(--muted); font-size:9px; }
+    .steps { counter-reset:step; padding:0; margin:3px 0; list-style:none; }
+    .steps li { counter-increment:step; padding-left:18px; position:relative; margin:2px 0; }
+    .steps li::before { content:counter(step); color:var(--red); font-weight:800; position:absolute; left:0; }
+    .q-intro { margin:2px 0 5px; color:var(--muted); }
+    .questions { display:grid; grid-template-columns:1fr 1fr; gap:5px; }
+    .q { border:1px solid var(--line); display:grid; grid-template-columns:31px 1fr; break-inside:avoid; min-width:0; }
+    .q-num { grid-row:span 3; background:var(--ink); color:#fff; display:flex; justify-content:center; align-items:flex-start; padding-top:5px; font-weight:800; font-size:10px; }
+    .q-part { padding:3px 5px; min-width:0; }
+    .q-part + .q-part { border-top:1px solid var(--line); }
+    .q-label { display:inline-block; color:var(--red); font-size:8px; font-weight:800; letter-spacing:.08em; margin-right:4px; }
+    .answer { background:var(--soft); }
+    .pitfall { color:var(--muted); font-size:9px; }
+    .check { display:grid; grid-template-columns:repeat(2,1fr); gap:2px 10px; margin:4px 0; }
+    .check div::before { content:"□ "; color:var(--red); font-weight:800; }
+    @media print { @page { size:A4 landscape; margin:0; } body { background:#fff; } .page { width:297mm; height:210mm; min-height:0; margin:0; box-shadow:none; page-break-after:always; } .page:last-child { page-break-after:auto; } }
+    @media screen and (max-width:900px) { .page { width:100%; min-height:0; margin:0; padding:18px; } .grid-2,.grid-3,.questions { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="page">
+      <header>
+        <div><h1>Linux 伺服器架設</h1><div class="subtitle">考試手寫速查表｜第 1 面：基礎操作、帳號權限、重導與題庫 Q1–Q19</div></div>
+        <div class="folio">01</div>
+      </header>
+      <div class="notice"><b>作答原則：</b>先看身分、位置、目標，再修改。要求「重開機後仍有效」時，設定必須寫入設定檔或啟用開機服務；每題完成立即驗證。<br><code>whoami; pwd; ip -br a; lsblk -f; systemctl status &lt;服務&gt;</code></div>
+
+      <div class="grid-2">
+        <section class="section">
+          <h2><span>01</span>系統、路徑、檔案</h2>
+          <table><tr><th>目的</th><th>指令／關鍵點</th></tr>
+            <tr><td>確認系統</td><td><code>uname -r</code> 核心；<code>cat /etc/os-release</code> 發行版；<code>hostnamectl</code> 主機名與系統資訊。</td></tr>
+            <tr><td>路徑</td><td><code>/</code> 根、<code>~</code> 家目錄、<code>.</code> 目前、<code>..</code> 上層、<code>cd -</code> 前一目錄；絕對路徑從 <code>/</code> 開始。</td></tr>
+            <tr><td>列出／詳細屬性</td><td><code>ls -lah</code>；<code>stat f</code> 看 inode、大小、權限、三種時間與 SELinux context。</td></tr>
+            <tr><td>建立／複製／刪除</td><td><code>touch f</code> 建空檔或更新時間；<code>mkdir -p a/b/c</code>；<code>cp -a src dst</code> 保留屬性；<code>mv -i</code>；<code>rm -ri</code>。</td></tr>
+            <tr><td>查看文字</td><td><code>cat -n</code>、<code>less</code>（<code>/字</code> 搜尋、<code>q</code> 離開）、<code>head -n N</code>、<code>tail -f log</code>。</td></tr>
+          </table>
+          <h3>搜尋、欄位與文字修改</h3>
+          <div class="cmd">grep -rinE 'error|fail' /var/log<br>find /etc -type f -name '*.conf'<br>awk -F: '{print $1}' /etc/passwd<br>sed -i 's/old/new/g' file</div>
+          <p><code>find -mtime -1</code>：一天內；<code>n</code>：約 n 天前；<code>+n</code>：超過 n 天。<code>which</code> 只找 PATH 執行檔；<code>type</code> 可辨識 alias／內建／函式／檔案。</p>
+          <h3>vim 最小集合</h3>
+          <p><code>i</code> 插入 → <code>Esc</code>；<code>:w</code> 存、<code>:q</code> 離開、<code>:wq</code> 存離開、<code>:q!</code> 放棄；<code>dd</code> 刪行、<code>yy</code> 複製、<code>p</code> 貼上、<code>u</code> 復原、<code>gg/G</code> 首／尾。history：<code>!!</code>、<code>!18</code>、<code>!mkdir</code>。</p>
+        </section>
+
+        <section class="section">
+          <h2><span>02</span>帳號、群組、權限</h2>
+          <table><tr><th>檔案</th><th>用途</th></tr>
+            <tr><td><code>/etc/passwd</code></td><td>帳號基本資料，7 欄：帳號、x、UID、GID、說明、家目錄、shell。</td></tr>
+            <tr><td><code>/etc/shadow</code></td><td>密碼雜湊與期限；僅 root／受控程式可讀。</td></tr>
+            <tr><td><code>/etc/group</code></td><td>群組：名稱、x、GID、附加成員。</td></tr>
+          </table>
+          <div class="cmd">useradd -m -s /bin/bash -g &lt;主要群組&gt; -G &lt;附加群組&gt; user<br>usermod -aG wheel user &nbsp; # 加群組不可漏 -a<br>gpasswd -a user group &nbsp; | &nbsp; userdel -r user<br>newusers users.txt &nbsp; | &nbsp; chpasswd &lt; pw.txt</div>
+          <p><code>id user</code> 查 UID/GID/群組；<code>su - user</code> 載入目標登入環境；<code>sudo cmd</code> 以授權身分執行。批次密碼檔含明碼，練習後應刪除。</p>
+          <h3>權限換算與目錄特性</h3>
+          <table><tr><th>數值</th><th>意義</th><th>常見用途</th></tr>
+            <tr><td><b>r=4, w=2, x=1</b></td><td>依 u／g／o 三組相加</td><td>644 普通檔、600 私密檔、755 腳本／公開目錄、700 私人目錄</td></tr>
+            <tr><td>目錄 r</td><td>列出內容</td><td>無 x 時可能看得到名字卻不能進入</td></tr>
+            <tr><td>目錄 w</td><td>新增／刪除項目</td><td>刪檔看父目錄權限，不只看檔案本身</td></tr>
+            <tr><td>目錄 x</td><td>進入／穿越</td><td>要存取子目錄，所有上層都需 x</td></tr>
+          </table>
+          <div class="cmd">chmod 640 file &nbsp; | &nbsp; chmod u+x script<br>chown user:group file &nbsp; | &nbsp; chgrp group file<br>setfacl -m u:alice:rwx dir<br>setfacl -d -m u:alice:rwx dir  # 日後新增項目繼承</div>
+          <p><span class="key">多人目錄：</span>所有人同屬一個主要群組時，不能直接授權該群組；先 <code>chmod -R 700 /dir</code>，再以 ACL 對指定帳號授權，並補父目錄的 <code>--x</code>。</p>
+        </section>
+      </div>
+
+      <div class="grid-2">
+        <section class="section"><h2><span>03</span>重導、管線、文字處理</h2>
+          <table><tr><th>語法</th><th>結果</th></tr>
+            <tr><td><code>cmd &gt; f</code>／<code>&gt;&gt; f</code></td><td>stdout 覆寫／追加。</td></tr>
+            <tr><td><code>cmd 2&gt; err</code></td><td>stderr 另存。</td></tr>
+            <tr><td><code>cmd &gt; all 2&gt;&amp;1</code></td><td>stdout 先導向 all，再讓 stderr 跟到 stdout；可寫 <code>&amp;&gt; all</code>。</td></tr>
+            <tr><td><code>cmd1 | cmd2</code></td><td>只把 cmd1 的 stdout 給 cmd2；錯誤要先 <code>2&gt;&amp;1</code> 才會進管線。</td></tr>
+            <tr><td><code>cmd | tee log | cmd2</code></td><td>同時顯示、存檔、往下傳遞。</td></tr>
+          </table>
+          <p><span class="key">陷阱：</span><code>cat f &gt; f</code> 會先截斷輸出檔，f 變空；原地修改改用 <code>sed -i</code>、<code>sort -o f f</code> 或暫存檔＋<code>mv</code>。</p>
+        </section>
+        <section class="section"><h2><span>04</span>題庫 Q1–Q19</h2><p class="q-intro">題庫改為分欄卡片：<b>題意</b>＝辨識題目；<b>作答</b>＝考場要輸入；<b>提醒</b>＝常見失分點。</p>
+          <div class="questions">
+            <div class="q"><div class="q-num">Q1</div><div class="q-part"><span class="q-label">題意</span>安裝 httpd。</div><div class="q-part answer"><span class="q-label">作答</span><code>sudo dnf install httpd</code></div><div class="q-part pitfall">確認 <code>rpm -q httpd</code>；要服務：<code>systemctl enable --now httpd</code>。</div></div>
+            <div class="q"><div class="q-num">Q2</div><div class="q-part"><span class="q-label">題意</span>移除 httpd。</div><div class="q-part answer"><span class="q-label">作答</span><code>sudo dnf remove httpd</code></div><div class="q-part pitfall">先看 dnf 列出的連帶移除套件。</div></div>
+            <div class="q"><div class="q-num">Q3</div><div class="q-part"><span class="q-label">題意</span>設定 IP。</div><div class="q-part answer"><span class="q-label">作答</span><code>sudo nmtui</code>；或 <code>nmcli con modify ...</code> 後 <code>nmcli con up &lt;連線&gt;</code>。</div><div class="q-part pitfall">修改後一定重新啟用連線。</div></div>
+            <div class="q"><div class="q-num">Q4</div><div class="q-part"><span class="q-label">題意</span>Windows 開網路連線。</div><div class="q-part answer"><span class="q-label">作答</span>Win+R：<code>ncpa.cpl</code></div><div class="q-part pitfall">看 IP 詳細資訊用 <code>ipconfig /all</code>。</div></div>
+            <div class="q"><div class="q-num">Q5</div><div class="q-part"><span class="q-label">題意</span>判斷哪張網卡是 NAT。</div><div class="q-part answer"><span class="q-label">作答</span>比 <code>ip a</code> 的 IP 網段／MAC 與 VMware VMnet8。</div><div class="q-part pitfall">不可只以 ens160、ens192 編號判斷。</div></div>
+            <div class="q"><div class="q-num">Q6</div><div class="q-part"><span class="q-label">題意</span>主機名設定位置與改名。</div><div class="q-part answer"><span class="q-label">作答</span><code>/etc/hostname</code>；<code>hostnamectl set-hostname Server1</code></div><div class="q-part pitfall">重登入或開新終端才更新提示字元。</div></div>
+            <div class="q"><div class="q-num">Q7</div><div class="q-part"><span class="q-label">題意</span><code>touch</code> 其他功能。</div><div class="q-part answer"><span class="q-label">作答</span>不存在時建立 0 byte 空檔。</div><div class="q-part pitfall"><code>touch -d '2026-01-01 08:00' f</code> 可指定時間。</div></div>
+            <div class="q"><div class="q-num">Q8</div><div class="q-part"><span class="q-label">題意</span>看完整檔案屬性。</div><div class="q-part answer"><span class="q-label">作答</span><code>stat /etc/passwd</code></div><div class="q-part pitfall">比 <code>ls -l</code> 多 inode、三種時間、context。</div></div>
+            <div class="q"><div class="q-num">Q9</div><div class="q-part"><span class="q-label">題意</span>遞迴列出 a/。</div><div class="q-part answer"><span class="q-label">作答</span><code>ls -R a/</code>；保留 X 排序：<code>ls -XR a/</code></div><div class="q-part pitfall">樹狀可用 <code>tree</code>，可能需安裝。</div></div>
+            <div class="q"><div class="q-num">Q10</div><div class="q-part"><span class="q-label">題意</span>重跑 history 第 18 條。</div><div class="q-part answer"><span class="q-label">作答</span><code>!18</code></div><div class="q-part pitfall"><code>!!</code> 上一條；<code>!mkdir</code> 最近的 mkdir。</div></div>
+            <div class="q"><div class="q-num">Q11</div><div class="q-part"><span class="q-label">題意</span>sample1 的 <code>:</code> 改 <code>,</code> 且寫回。</div><div class="q-part answer"><span class="q-label">作答</span><code>sed -i 's/:/,/g' sample1</code></div><div class="q-part pitfall">第一次可先不加 <code>-i</code> 預覽，或用 <code>-i.bak</code>。</div></div>
+            <div class="q"><div class="q-num">Q12</div><div class="q-part"><span class="q-label">題意</span>刪除含 sync 的行且寫回。</div><div class="q-part answer"><span class="q-label">作答</span><code>sed -i '/sync/d' sample1</code></div><div class="q-part pitfall"><code>/sync/</code> 比對行；<code>d</code> 是 delete。</div></div>
+            <div class="q"><div class="q-num">Q13</div><div class="q-part"><span class="q-label">題意</span>讓 /opt/hello 可執行。</div><div class="q-part answer"><span class="q-label">作答</span><code>sudo chmod +x /opt/hello</code> 或 <code>755</code></div><div class="q-part pitfall">腳本首行寫 <code>#!/bin/bash</code>；全路徑執行不用 PATH。</div></div>
+            <div class="q"><div class="q-num">Q14</div><div class="q-part"><span class="q-label">題意</span>顯示 PATH。</div><div class="q-part answer"><span class="q-label">作答</span><code>echo $PATH</code>／<code>printenv PATH</code></div><div class="q-part pitfall">不可漏 <code>$</code>；不需 sudo。</div></div>
+            <div class="q"><div class="q-num">Q15</div><div class="q-part"><span class="q-label">題意</span>批次建帳號、改密碼。</div><div class="q-part answer"><span class="q-label">作答</span><code>newusers users.txt</code>；<code>chpasswd &lt; pw.txt</code></div><div class="q-part pitfall">或 useradd 迴圈；密碼檔為明碼。</div></div>
+            <div class="q"><div class="q-num">Q16</div><div class="q-part"><span class="q-label">題意</span>建 /class 三個子目錄失敗。</div><div class="q-part answer"><span class="q-label">作答</span><code>sudo mkdir -p /class/{public,grp1,grp2}</code></div><div class="q-part pitfall">上層 /class 不存在，且 / 下需 root。</div></div>
+            <div class="q"><div class="q-num">Q17</div><div class="q-part"><span class="q-label">題意</span>public/grp1/grp2 權限。</div><div class="q-part answer"><span class="q-label">作答</span><code>chmod 777 public; chmod 770 grp1; chmod 775 grp2</code></div><div class="q-part pitfall">rwx=7；r-x=5；---=0。</div></div>
+            <div class="q"><div class="q-num">Q18</div><div class="q-part"><span class="q-label">題意</span>stdout、stderr 都存 log。</div><div class="q-part answer"><span class="q-label">作答</span><code>ls sample2 &gt;log.txt 2&gt;&amp;1</code> 或 <code>&amp;&gt;log.txt</code></div><div class="q-part pitfall">順序不可寫成 <code>2&gt;&amp;1 &gt;log</code>。</div></div>
+            <div class="q"><div class="q-num">Q19</div><div class="q-part"><span class="q-label">題意</span><code>cat log.txt &gt; log.txt</code> 的結果。</div><div class="q-part answer"><span class="q-label">作答</span>log.txt 被清空。</div><div class="q-part pitfall">Shell 先完成重導才執行 cat。</div></div>
+          </div>
+        </section>
+      </div>
+    </article>
+
+    <article class="page">
+      <header>
+        <div><h1>Linux 伺服器架設</h1><div class="subtitle">考試手寫速查表｜第 2 面：行程、服務、網路、期末實作與題庫 Q20–Q30</div></div>
+        <div class="folio">02</div>
+      </header>
+      <div class="grid-2">
+        <section class="section"><h2><span>05</span>行程、資源、時間與排程</h2>
+          <table><tr><th>面向</th><th>指令／判讀</th></tr>
+            <tr><td>CPU／記憶體</td><td><code>top</code>（P 依 CPU、M 依記憶體排序）、<code>free -h</code>、<code>uptime</code>（1/5/15 分鐘 load average）。</td></tr>
+            <tr><td>行程快照</td><td><code>ps aux</code>；父子樹：<code>ps auxf</code>／<code>ps -ef --forest</code>／<code>pstree -p</code>。</td></tr>
+            <tr><td>找／停行程</td><td><code>pgrep httpd</code>、<code>pidof sshd</code>；先 <code>kill -TERM PID</code>，確認無效才 <code>kill -KILL PID</code>。</td></tr>
+            <tr><td>時間</td><td><code>timedatectl</code>；<code>set-timezone Asia/Taipei</code>；<code>hwclock -w</code> 系統→硬體 RTC，<code>-s</code> 反向。</td></tr>
+            <tr><td>chrony</td><td>編 <code>/etc/chrony.conf</code>：<code>server &lt;host&gt; iburst</code>；<code>systemctl restart chronyd</code>；<code>chronyc sources -v</code>。</td></tr>
+            <tr><td>cron</td><td><code>分 時 日 月 週 命令</code>；<code>crontab -e/-l</code>；<code>/etc/crontab</code> 額外有執行者欄；log：<code>tail -f /var/log/cron</code>。</td></tr>
+          </table>
+          <div class="cmd">0 2 * * * /usr/local/sbin/backup.sh &gt;&gt; /var/log/backup.log 2&gt;&amp;1<br>systemctl list-timers  # 查 systemd timer</div>
+        </section>
+        <section class="section"><h2><span>06</span>磁碟、網路、套件、服務</h2>
+          <h3>新增磁碟與永久掛載 SOP</h3>
+          <ol class="steps"><li><code>lsblk -f</code>：辨識裝置與既有檔案系統；題目可能有資料，<b>不可直接 mkfs</b>。</li><li>必要才 <code>mkfs.xfs /dev/sdb</code>；建掛載點 <code>mkdir -p /data</code>；暫掛 <code>mount /dev/sdb /data</code>。</li><li><code>blkid /dev/sdb</code> 取 UUID；fstab 加：<code>UUID=... /data xfs defaults 0 0</code>。</li><li><code>mount -a</code> 無錯，再以 <code>findmnt /data</code>／<code>df -h</code> 驗證。</li></ol>
+          <p>XFS 擴充：先擴底層空間，再 <code>xfs_growfs /data</code>。XFS 只能擴，參數是<b>掛載點</b>。</p>
+          <h3>網路診斷與設定</h3>
+          <div class="cmd">ip -br a → ip route → ping -c 4 &lt;gateway&gt; → host &lt;name&gt; &lt;dns&gt; → curl -I &lt;URL&gt;<br>nmcli con modify &lt;連線&gt; ipv4.method manual ipv4.addresses &lt;IP/24&gt; ipv4.gateway &lt;GW&gt; ipv4.dns &lt;DNS&gt; connection.autoconnect yes<br>nmcli con up &lt;連線&gt;</div>
+          <p><code>ss -tulpen</code> 查監聽 port；<code>host</code>／<code>dig +short</code> 查 DNS；<code>ping</code> 成功不代表 HTTP 等服務可用。</p>
+          <h3>套件、systemd、log、firewall</h3>
+          <p><code>dnf search/info/install/remove</code>；<code>dnf provides '*/mail'</code>；<code>dnf repolist --all</code>；啟 repo：<code>dnf config-manager --set-enabled baseos</code>。<code>rpm -q/-qi/-ql/-qf</code> 查已安裝／來源。</p>
+          <p><code>systemctl enable --now svc</code>＝立即＋開機；<code>status</code>；<code>journalctl -u svc -b -n 100 -f</code>。防火牆永久規則：<code>firewall-cmd --permanent --add-service=http</code> 後 <code>--reload</code>。</p>
+        </section>
+      </div>
+
+      <section class="section"><h2><span>07</span>題庫 Q20–Q30</h2>
+        <div class="questions">
+          <div class="q"><div class="q-num">Q20</div><div class="q-part"><span class="q-label">題意</span>top 取最吃資源前 3 支。</div><div class="q-part answer"><span class="q-label">作答</span><code>top -b -n 1 | head -n 10 | tail -n 3</code></div><div class="q-part pitfall">前 7 行是摘要／欄位，第 8 行才是第一支程式。</div></div>
+          <div class="q"><div class="q-num">Q21</div><div class="q-part"><span class="q-label">題意</span>看行程上下層樹狀關係。</div><div class="q-part answer"><span class="q-label">作答</span><code>ps auxf</code>／<code>ps -ef --forest</code>／<code>pstree -p</code></div><div class="q-part pitfall"><code>-p</code> 顯示 PID，方便後續追查。</div></div>
+          <div class="q"><div class="q-num">Q22</div><div class="q-part"><span class="q-label">題意</span>依名稱找 PID。</div><div class="q-part answer"><span class="q-label">作答</span><code>pgrep httpd</code>／<code>pidof sshd</code></div><div class="q-part pitfall"><code>ps aux | grep</code> 可能抓到 grep 自己。</div></div>
+          <div class="q"><div class="q-num">Q23</div><div class="q-part"><span class="q-label">題意</span>令 NTP service 變 inactive。</div><div class="q-part answer"><span class="q-label">作答</span><code>systemctl stop chronyd</code> 或 <code>timedatectl set-ntp false</code></div><div class="q-part pitfall">需開機不啟動再加 <code>systemctl disable chronyd</code>。</div></div>
+          <div class="q"><div class="q-num">Q24</div><div class="q-part"><span class="q-label">題意</span>改台北時區。</div><div class="q-part answer"><span class="q-label">作答</span><code>timedatectl set-timezone Asia/Taipei</code></div><div class="q-part pitfall">用 <code>timedatectl</code> 確認 +0800。</div></div>
+          <div class="q"><div class="q-num">Q25</div><div class="q-part"><span class="q-label">題意</span>篩 CPU 53.5% 的 PID。</div><div class="q-part answer"><span class="q-label">作答</span><code>ps aux | awk '$3 &gt;= 53 {print $2}'</code></div><div class="q-part pitfall">第 3 欄是 %CPU、第 2 欄 PID；門檻不能太低。</div></div>
+          <div class="q"><div class="q-num">Q26</div><div class="q-part"><span class="q-label">題意</span>直接結束 Q25 篩選的 PID。</div><div class="q-part answer"><span class="q-label">作答</span><code>kill $(ps aux | awk '$3 &gt;= 53 {print $2}')</code></div><div class="q-part pitfall">考場可照題；實務先只跑 awk 確認，避免誤殺。</div></div>
+          <div class="q"><div class="q-num">Q27</div><div class="q-part"><span class="q-label">題意</span>系統時間寫入 RTC。</div><div class="q-part answer"><span class="q-label">作答</span><code>sudo hwclock -w</code></div><div class="q-part pitfall"><code>-s</code> 是硬體時間寫回系統。</div></div>
+          <div class="q"><div class="q-num">Q28</div><div class="q-part"><span class="q-label">題意</span>即時監看 cron log。</div><div class="q-part answer"><span class="q-label">作答</span><code>sudo tail -f /var/log/cron</code></div><div class="q-part pitfall">也可 <code>journalctl -u crond -f</code>。</div></div>
+          <div class="q"><div class="q-num">Q29</div><div class="q-part"><span class="q-label">題意</span>測 fstab 自動掛載。</div><div class="q-part answer"><span class="q-label">作答</span><code>umount /mydata; mount -a; df -h /mydata</code></div><div class="q-part pitfall">重開機前一定先 mount -a，否則可能進 emergency mode。</div></div>
+          <div class="q"><div class="q-num">Q30</div><div class="q-part"><span class="q-label">題意</span>擴充 XFS 到 /mydata。</div><div class="q-part answer"><span class="q-label">作答</span><code>sudo xfs_growfs /mydata</code></div><div class="q-part pitfall">傳掛載點不是裝置；XFS 無法縮小。</div></div>
+        </div>
+      </section>
+
+      <div class="grid-2">
+        <section class="section"><h2><span>08</span>期末實作整合題</h2>
+          <h3>UUID 檔案、可疑行程、Swap</h3>
+          <div class="cmd">find /etc -type f -regextype posix-extended -regex '.*/[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}/[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}\.exam'<br>cp &lt;找到的檔&gt; /tmp/exam_file.txt</div>
+          <p>可疑行程：<code>journalctl -f</code> 記 PID → <code>ps -p PID -o pid,ppid,user,cmd</code> → <code>ls -l /proc/PID/exe</code> → 複製原程式到指定備份位置並取消執行權 → 在 <code>/etc/crontab</code>、<code>/etc/cron.d</code>、使用者 crontab 或 timer 找觸發項 → 停觸發、kill、刪原程式。</p>
+          <p>Swap：<code>swapon --show</code> 找 TYPE=file → <code>swapoff /swapfile</code> → 註解／刪除 <code>/etc/fstab</code> 對應行 → <code>free -h</code> 驗證。</p>
+          <h3>Web + PHP + MariaDB</h3>
+          <div class="cmd">dnf install -y mariadb-server httpd php php-mysqlnd php-pdo<br>systemctl enable --now mariadb httpd<br>mysql -uroot -p -e "CREATE DATABASE exam;"<br>mysql -uroot -p exam &lt; /exam_resource/db_backup/file.sql</div>
+          <p>部署 PHP 到 <code>/var/www/html/</code>；防火牆開 http；以 <code>curl http://localhost/file.php</code> 測。403 看權限／<code>restorecon -Rv /var/www/html</code>；DB 被 SELinux 擋：<code>setsebool -P httpd_can_network_connect_db 1</code>。</p>
+        </section>
+        <section class="section"><h2><span>09</span>NFS、VirtualHost、DNS</h2>
+          <h3>NFS（Server2 分享、Server1 掛載）</h3>
+          <div class="cmd"># Server2 /etc/exports
+/web-roots  10.6.X.0/24(ro,sync)
+dnf install -y nfs-utils; systemctl enable --now nfs-server
+exportfs -rav
+# Server1 /etc/fstab
+10.6.X.12:/web-roots /var/www/html nfs defaults,_netdev 0 0</div>
+          <p>Server2 防火牆開 <code>nfs,mountd,rpc-bind</code>；Server1 <code>mount -a</code>。httpd 讀 NFS：<code>setsebool -P httpd_use_nfs 1</code>。VirtualHost 用 <code>/etc/httpd/conf.d/vhosts.conf</code>，每個網域各自設定 <code>ServerName</code> 與 <code>DocumentRoot</code>；<code>apachectl configtest</code> 後重載／啟動。</p>
+          <h3>DNS 必背</h3>
+          <table><tr><th>記錄</th><th>用途</th></tr><tr><td>A／AAAA</td><td>名稱→IPv4／IPv6</td></tr><tr><td>PTR</td><td>IP→名稱（反解）</td></tr><tr><td>CNAME</td><td>別名→正式名稱</td></tr><tr><td>MX／NS／TXT</td><td>郵件／名稱伺服器／文字驗證或註記</td></tr></table>
+          <p>改 zone 後 SOA serial +1；語法檢查：<code>named-checkconf</code>、<code>named-checkzone &lt;zone&gt; &lt;file&gt;</code>；重載：<code>rndc reload</code>；查詢：<code>host -t a/txt/cname &lt;名稱&gt; &lt;DNS-IP&gt;</code>。</p>
+        </section>
+      </div>
+      <section class="section"><h2><span>10</span>交卷前重開機檢查</h2>
+        <div class="check"><div><code>mount -a</code> 無錯，<code>findmnt</code> 有正確掛載。</div><div><code>systemctl is-enabled</code> 確認應自啟服務。</div><div><code>ip -br a</code>、<code>ping -c 4</code> 確認互通。</div><div><code>ss -tulpen</code>、<code>curl</code> 確認服務真能使用。</div><div><code>firewall-cmd --list-all</code> 有永久規則。</div><div>依題目要求重開機；不要修改 root 密碼；X 代入本人代號。</div></div>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
