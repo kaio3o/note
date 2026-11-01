@@ -131,8 +131,25 @@
       ['systemctl / journalctl / firewall-cmd','systemctl enable --now 服務；journalctl -u 服務；firewall-cmd','管理服務、日誌與網路通行規則。','enable --now：開機＋現在<br>is-active/is-enabled：查狀態<br>--permanent：永久<br>--reload：立即套用','httpd、chronyd 等服務啟動與排錯。','<code>systemctl status svc → journalctl -u svc -b → ss -tulpen</code>。','start 不等於 enable；永久 firewall 規則後須 reload。']
     ]}
   ];
-  const esc = s => s;
-  const card = ([name, syntax, plain, params, uses, combo, alarm]) => `<div class="single"><h3>${name}</h3><div class="body"><p><b>寫法：</b><code>${syntax}</code></p><p><span class="label">白話定位</span><br>${plain}</p><p><span class="label">參數／後綴</span></p><ul>${params.split('<br>').map(x=>'<li>'+x+'</li>').join('')}</ul><p><span class="label">常用時機</span><br>${uses}</p><div class="combo"><span class="label">實務組合</span><br>${combo}</div><div class="alarm"><b>翻車警報：</b>${alarm}</div></div></div>`;
+  const questionMap = {
+    'ls':'Q8、Q9、Q17', 'cd':'Q17', 'pwd':'延伸實務／搭配使用', 'mkdir':'Q10、Q16',
+    'touch':'Q7', 'cp':'期中實作延伸', 'mv':'延伸實務／搭配使用', 'rm':'延伸實務／搭配使用',
+    'stat':'Q8', 'cat':'Q19', 'less':'延伸實務／搭配使用', 'head':'Q20', 'tail':'Q20、Q28',
+    'grep':'延伸實務／搭配使用', 'find':'延伸實務／搭配使用', 'awk':'Q25、Q26',
+    'sed':'Q11、Q12', 'cut / sort / uniq':'延伸實務／搭配使用',
+    'useradd':'Q15', 'usermod':'延伸實務／搭配使用', 'groupadd / gpasswd':'Q15',
+    'newusers / chpasswd':'Q15', 'chmod':'Q13、Q17', 'chown / chgrp':'延伸實務／搭配使用',
+    'umask / setfacl':'延伸實務／搭配使用', '輸出重導 > / >>':'Q18、Q19',
+    '錯誤重導 2> / 2>&1':'Q18', '管線 | / tee / xargs':'Q20、Q25、Q26',
+    'ps / top / pgrep / pidof':'Q20、Q21、Q22、Q25', 'kill':'Q26',
+    'timedatectl / chronyc / hwclock':'Q23、Q24、Q27', 'crontab':'Q28',
+    'tail -f /var/log/cron':'Q28', 'journalctl':'Q23、Q28（延伸）', 'logger / 常見 log':'延伸實務／搭配使用',
+    'lsblk / blkid / df / du':'Q29、Q30', 'mount / umount / fstab':'Q29',
+    'xfs_growfs / swapon':'Q30', 'ip / nmcli / nmtui':'Q3、Q5',
+    'ping / ss / host / curl / traceroute':'Q3、Q5（網路驗證）', 'rpm / dnf':'Q1、Q2',
+    'systemctl / journalctl / firewall-cmd':'Q1、Q2、Q23（服務管理）'
+  };
+  const card = ([name, syntax, plain, params, uses, combo, alarm]) => `<div class="single"><h3>${name}</h3><div class="body"><p><b>寫法：</b><code>${syntax}</code></p><p><span class="label">題庫對應</span><br><b>${questionMap[name] || '延伸實務／搭配使用'}</b></p><p><span class="label">白話定位</span><br>${plain}</p><p><span class="label">參數／後綴</span></p><ul>${params.split('<br>').map(x=>'<li>'+x+'</li>').join('')}</ul><p><span class="label">常用時機</span><br>${uses}</p><div class="combo"><span class="label">實務組合</span><br>${combo}</div><div class="alarm"><b>翻車警報：</b>${alarm}</div></div></div>`;
   const main = document.querySelector('main');
   [...groups].reverse().forEach((g,i) => {
     const article = document.createElement('article');
