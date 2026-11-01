@@ -69,4 +69,76 @@
 <div class="q"><h3>Q29　卸載 <code>/mydata/</code> 後，要測試 <code>/etc/fstab</code> 自動掛載設定是否正確，輸入什麼指令？</h3><div class="body"><div class="answer"><code>sudo umount /mydata</code><br><code>sudo mount -a</code><br><code>df -h /mydata</code> 或 <code>findmnt /mydata</code>。重開機前一定先 mount -a。</div></div></div>
 <div class="q"><h3>Q30　如何把 XFS 檔案系統擴充到指定掛載點（例如 <code>/mydata</code>）？</h3><div class="body"><div class="answer"><code>sudo xfs_growfs /mydata</code><br>參數是掛載點，不是裝置；先擴底層空間，再 growfs，最後 <code>df -h</code> 確認。XFS 只能擴大，不能縮小。</div></div></div></section>
 <section class="section"><h2>交卷前 30 秒</h2><div class="check"><div><code>mount -a</code> 無錯，再考慮重開機。</div><div><code>systemctl is-enabled</code> 查需自啟服務。</div><div><code>ip -br a</code>、<code>ping -c 4</code> 驗網路。</div><div><code>ss -tulpen</code> 確認 port。</div><div>指令有破壞性時，先 pwd、ls、lsblk -f。</div><div>題目要求的 X 代入本人考試代號。</div></div></section>
-</article></main></body></html>
+</article></main>
+<style>
+.single-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px}.single{border:1px solid var(--line);break-inside:avoid}.single h3{margin:0;background:var(--ink);color:#fff;padding:5px 7px;font:700 13px Consolas,"Cascadia Mono",monospace}.single .body{padding:6px 7px}.single p{margin:3px 0}.single ul{margin:3px 0;padding-left:18px}.single li{margin:2px 0}.single .combo{border-top:1px solid var(--line);background:var(--soft);padding:5px 7px;margin:5px -7px -6px}.logbox{border:1px solid var(--red);background:var(--note);padding:7px;margin:7px 0}.logbox h3{margin:0 0 3px;color:var(--red);font-size:14px}@media(max-width:900px){.single-grid{grid-template-columns:1fr}}
+</style>
+<script>
+(() => {
+  const old = [...document.querySelectorAll('main > article')].slice(0,3);
+  old.forEach(el => el.style.display = 'none');
+  const groups = [
+    {title:'檔案與目錄', items:[
+      ['ls','ls -l -a -h -R <目錄>','像檔案總管打開資料夾；列出檔案與目錄內容。','-l：詳細欄位（權限、擁有者、群組、大小、時間）<br>-a：全部，含隱藏檔<br>-h：大小 K/M/G<br>-R：遞迴列出子目錄<br>-X：依副檔名排序','盤點目錄、看權限、找隱藏設定檔。','<code>ls -XR a/</code>：遞迴列 a/ 並按副檔名排序（Q9）。','題目要 inode、SELinux context、三種時間時，改用 stat。'],
+      ['cd','cd <路徑>','像在檔案總管進入指定資料夾。','cd ..：上層<br>cd -：上一個目錄<br>cd ~：家目錄','切換工作位置；任何檔案操作前可先 cd。','<code>cd /opt && ls -l</code>：成功進入 /opt 才列出內容。','相對路徑會受目前位置影響；不確定先 pwd。'],
+      ['pwd','pwd','顯示目前工作目錄，相當於看位址列。','無常用參數。','避免在錯誤位置建立、刪除或修改資料。','<code>pwd; ls -lah</code>：先確認位置再看內容。','做 rm、chmod、mv 前必看，尤其使用相對路徑時。'],
+      ['mkdir','mkdir -p <目錄>','建立資料夾。','-p（parents）：連不存在的父目錄一起建立<br>{a,b,c}：一次展開多個名稱','建立練習目錄、多層目錄、題目指定的目錄結構。','<code>sudo mkdir -p /class/{public,grp1,grp2}</code>（Q16）。','漏 -p 時父目錄不存在會報錯；/ 下建立內容需 sudo。'],
+      ['touch','touch <檔案>','檔案不存在就建立 0 byte 空檔；存在則更新時間。','-d "日期時間"：指定時間<br>-t YYYYMMDDhhmm：固定格式指定時間','快速建立測試檔、考時間戳記。','<code>touch -d "2026-01-01 08:00" newfile</code>。','touch 不會建立目錄；父目錄要先存在。'],
+      ['cp','cp -a <來源> <目的地>','複製，像影印一份原件。','-r：遞迴複製目錄<br>-a（archive）：保留權限、時間、連結等<br>-i：覆寫前詢問','備份、複製題目找到的檔案。','<code>cp <找到檔> /tmp/exam_file.txt</code>：複製成指定名稱。','來源是目錄卻漏 -r 會失敗。'],
+      ['mv','mv <舊名/來源> <新名/目的地>','搬家或改名；同一目錄內就是重新命名。','-i：覆寫前詢問','把腳本移進 PATH、改檔名、移動資料。','<code>sudo mv /opt/exam_check_disk /usr/local/bin/</code>。','目的地已有同名檔會覆寫；用 -i 較安全。'],
+      ['rm','rm -r -i <目標>','永久刪除，不會進資源回收桶。','-r：遞迴刪目錄<br>-i：每次詢問<br>-f：強制、不詢問','清除測試檔、題目要求刪除。','<code>rm -ri testdir</code>：逐項確認刪除。','不要在不確定 pwd 時用 rm -rf；無法復原。'],
+      ['stat','stat <檔案>','查看檔案完整身分證。','無必背短參數。','查大小、inode、權限、SELinux context、Access/Modify/Change 時間。','<code>stat /etc/passwd</code>（Q8）。','ls -l 只顯示部分資料，不能取代 stat。']
+    ]},
+    {title:'讀檔、搜尋與文字處理', items:[
+      ['cat','cat -n <檔案>','一次印出檔案內容；適合短檔。','-n：加行號','快速看設定或短文字檔。','<code>cat -n /etc/hostname</code>：看內容與行號。','<code>cat f > f</code> 會先清空 f（Q19）；大檔改 less。'],
+      ['less','less <檔案>','分頁閱讀器，可在檔內搜尋。','/文字：搜尋<br>n：下一筆<br>q：離開','讀大 log、設定檔、指令輸出。','<code>journalctl -u sshd | less</code>：分頁看服務日誌。','不是編輯器；只負責閱讀。'],
+      ['head','head -n <行數> <檔案>','只看檔案開頭幾行。','-n N：前 N 行','看標題、欄位、檔案格式。','<code>head -n 10 file</code>。','和 tail 搭配切出中間範圍。'],
+      ['tail','tail -n <行數> <檔案>','看最後幾行；-f 會持續追新增內容。','-n N：後 N 行<br>-f（follow）：即時追蹤','看最新 log、確認 cron 是否執行。','<code>tail -f /var/log/cron</code>（Q28）。','Ctrl+C 停止追蹤；-f 不會自己結束。'],
+      ['grep','grep -r -i -n -E <模式> <路徑>','在檔案內容找文字。','-r：遞迴<br>-i：忽略大小寫<br>-n：行號<br>-v：排除符合行<br>-E：延伸正規式','找設定、錯誤訊息、觸發程式的 cron。','<code>grep -r "程式名" /etc/cron* /var/spool/cron</code>。','grep 找內容；找檔名請用 find。'],
+      ['find','find <路徑> -type f -name "模式"','依路徑、名稱、類型、時間、大小找檔。','-type f/d：檔案/目錄<br>-name：檔名<br>-mtime：修改時間<br>-regex：正規路徑','找 UUID 檔、log、設定檔。','<code>find /etc -type f -name "*.conf"</code>。','萬用字元建議用單引號，避免 shell 先展開。'],
+      ['awk','awk -F: \'{print $1}\' <檔案>','把每行當資料列，依欄位取值與篩選。','-F：欄位分隔符<br>$1/$2/$3：第幾欄<br>print：輸出','依 CPU、PID 或 passwd 欄位處理資料。','<code>ps aux | awk \'$3 >= 53 {print $2}\'</code>（Q25）。','門檻太低會選中多個 PID；$3 是 awk 欄位。'],
+      ['sed','sed -i \'s/舊/新/g\' <檔案>','批次取代文字或刪除符合條件的整行。','-i（in place）：直接寫回<br>s：取代<br>g：同一行全部<br>d：刪除行','題目要求直接改檔案、批次清理行。','<code>sed -i \'s/:/,/g\' sample1</code>（Q11）；<code>sed -i \'/sync/d\' sample1</code>（Q12）。','漏 -i 只印畫面；第一次可用 -i.bak 留備份。'],
+      ['cut / sort / uniq','cut -d: -f1 | sort | uniq -c','cut 取固定欄位；sort 排序；uniq 統計連續相同行。','cut -d：分隔符<br>-f：欄位<br>uniq -c：計數','統計、清單去重、取 passwd 帳號。','<code>cut -d: -f1 /etc/passwd | sort | uniq -c</code>。','uniq 前通常先 sort，否則分散的同值不會合併。']
+    ]},
+    {title:'帳號、群組與權限', items:[
+      ['useradd','useradd -m -g <主要群組> -G <附加群組> <帳號>','建立 Linux 帳號。','-m：建家目錄<br>-g：主要群組<br>-G：附加群組<br>-s：指定 shell','建立一般帳號、指定題目的主要群組。','<code>useradd -g avengers nick</code>。','-g 與 -G 作用不同；先確認群組存在。'],
+      ['usermod','usermod -aG <群組> <帳號>','修改既有帳號設定。','-aG（append groups）：保留原群組並追加<br>-L/-U：鎖定/解鎖','把人加入 wheel 或專案群組。','<code>usermod -aG wheel student</code>。','漏 -a 的 -G 會覆蓋原附加群組。'],
+      ['groupadd / gpasswd','groupadd <群組>；gpasswd -a <帳號> <群組>','建立群組，或把帳號加入群組。','groupadd -g：指定 GID<br>gpasswd -a/-d：加入/移除','先建部門／專案群組，再安排成員。','<code>groupadd avengers; gpasswd -a nick avengers</code>。','主要群組仍存在使用者時不能 groupdel。'],
+      ['newusers / chpasswd','newusers users.txt；chpasswd < pw.txt','依文字名單批次建帳號／改密碼。','newusers：7 欄 passwd 格式<br>chpasswd：帳號:密碼','大量帳號與統一密碼題。','<code>sudo newusers users.txt</code>；<code>sudo chpasswd < pw.txt</code>（Q15）。','名單存明碼密碼，用完刪除或妥善保管。'],
+      ['chmod','chmod 755 <檔案/目錄>','改存取權限。','r=4,w=2,x=1<br>u/g/o：owner/group/other<br>-R：遞迴','讓腳本可執行、設定考題目錄權限。','<code>chmod 777 public; chmod 770 grp1; chmod 775 grp2</code>（Q17）。','目錄 x 是「可進入」；chmod -R 可能使檔案不必要地可執行。'],
+      ['chown / chgrp','chown 使用者:群組 <檔>；chgrp 群組 <檔>','改擁有者與群組。','-R：遞迴套用','交接檔案、部署服務資料夾。','<code>chown -R root:class /srv/share</code>。','chown u:g 才同時改兩者；只改群組用 chgrp。'],
+      ['umask / setfacl','umask 027；setfacl -m u:alice:rwx <目錄>','umask 控制新檔預設扣掉的權限；ACL 給特定使用者額外權限。','setfacl -m：修改<br>-d -m：預設繼承<br>getfacl：查看','多人目錄要指定個別使用者、未來新增也要繼承。','<code>setfacl -d -m u:nick:rwx /avenger</code>。','要存取子目錄時，每一層父目錄都要有 x。']
+    ]},
+    {title:'重導、行程、時間與 log', items:[
+      ['輸出重導 > / >>','cmd > 檔案；cmd >> 檔案','把 stdout 從螢幕改送檔案。','>：覆寫<br>>>：追加','產生 log、輸出報表。','<code>date >> /tmp/systime.txt</code>。','> 會先清空目的檔；不要把輸入檔同時當輸出檔。'],
+      ['錯誤重導 2> / 2>&1','cmd 2> err.log；cmd > all.log 2>&1','把 stderr 分開或合併存檔。','2>：只錯誤<br>2>&1：stderr 跟 stdout 去處','考題要求成功與失敗訊息一起存。','<code>ls sample2 > log.txt 2>&1</code>（Q18）。','2>&1 必須放在 > log 後，順序反了錯誤仍跑螢幕。'],
+      ['管線 | / tee / xargs','cmd1 | cmd2；cmd | tee log；... | xargs kill','把前一指令 stdout 交給下一指令；tee 另存；xargs 當參數。','tee -a：追加<br>xargs -0：安全處理含空白檔名','串起篩選、記錄、批次操作。','<code>ps aux | awk \'$3>=53 {print $2}\' | xargs kill</code>（Q26）。','管線預設不傳 stderr；需要時前段加 2>&1。'],
+      ['ps / top / pgrep / pidof','ps auxf；top -b -n 1；pgrep httpd','看行程、即時資源、按名稱找 PID。','ps auxf：樹狀<br>top -b：批次<br>-n 1：一次<br>pgrep -a：含命令列','CPU 過高、找行程、看父子關係。','<code>top -b -n 1 | head -n 10 | tail -n 3</code>（Q20）。','ps aux | grep 會抓到 grep 自己；優先 pgrep。'],
+      ['kill','kill <PID>；kill -TERM <PID>；kill -KILL <PID>','對行程送結束訊號。','-TERM（15）：請正常結束<br>-KILL（9）：強制結束','確認 PID 後停止卡住程式。','<code>kill $(ps aux | awk \'$3>=53 {print $2}\')</code>（Q26）。','先 TERM，再 KILL；kill -9 不讓程式清理。'],
+      ['timedatectl / chronyc / hwclock','timedatectl；chronyc sources -v；hwclock -w','管理時區、NTP、硬體時鐘。','set-timezone：改時區<br>set-ntp false：停 NTP<br>-w：系統→RTC','台北時區、NTP、RTC 題。','<code>timedatectl set-timezone Asia/Taipei</code>（Q24）。','停 chronyd 只停當下；要永久停再 systemctl disable。'],
+      ['crontab','crontab -e；crontab -l','設定／列出目前使用者的定時排程。','-e：編輯<br>-l：列出<br>欄位：分 時 日 月 週','定時備份、每分鐘記錄。','<code>* * * * * date >> /tmp/time.log</code>。','使用者 crontab 沒使用者欄；/etc/crontab 才有。'],
+      ['tail -f /var/log/cron','tail -f /var/log/cron','即時盯著 cron 是否真的執行。','-f（follow）：持續追蹤新增行','排程完成後立刻驗證。','<code>tail -f /var/log/cron</code>（Q28）。','Ctrl+C 離開；沒有 log 不表示沒執行，也可查 journalctl -u crond -f。'],
+      ['journalctl','journalctl -u <服務> -b -n 100 -f','讀 systemd journal，集中查看服務日誌。','-u：服務<br>-b：本次開機<br>-n：最近 N 行<br>-f：即時<br>-p：嚴重度','服務失敗、啟動後看錯誤。','<code>journalctl -u chronyd -b -f</code>。','沒加 -b 可能混入前次開機 log；服務名稱要正確。'],
+      ['logger / 常見 log','logger -t class -p user.info "訊息"','自己寫測試訊息進系統 log；常見位置：/var/log/cron、/var/log/messages、/var/log/secure、httpd 的 access_log/error_log。','-t：tag<br>-p：facility.severity','測試日誌管線、確認服務寫 log。','<code>logger -t exam -p user.info "cron test"; journalctl -t exam</code>。','不同 Rocky/RHEL 設定的檔案 log 可能不同；journalctl 是較通用的查法。']
+    ]},
+    {title:'磁碟、網路、套件與服務', items:[
+      ['lsblk / blkid / df / du','lsblk -f；blkid /dev/sdb；df -hT；du -sh','看磁碟拓樸、UUID、檔案系統剩餘空間、目錄用量。','lsblk -f：FSTYPE/UUID<br>df -hT：易讀/類型<br>du -sh：總用量','掛載前辨識正確裝置、容量排錯。','<code>lsblk -f → blkid /dev/sdb</code>：取 fstab 所需 UUID。','格式化前一定 lsblk -f；不可猜 /dev/sdb 是否有資料。'],
+      ['mount / umount / fstab','mount 裝置 掛載點；umount 掛載點；mount -a','把檔案系統接到目錄；fstab 讓開機自動掛載。','mount -a：依 fstab 掛所有尚未掛載項','永久掛載與重開前驗證。','<code>umount /mydata; mount -a; df -h /mydata</code>（Q29）。','fstab 寫錯可卡 emergency mode，重開前務必 mount -a。'],
+      ['xfs_growfs / swapon','xfs_growfs /掛載點；swapon --show','擴大 XFS；查 swap 類型與來源。','xfs_growfs 參數是掛載點<br>--show：列 swap','擴磁碟、停 file 型 swap。','<code>xfs_growfs /mydata</code>（Q30）。','XFS 只能擴不能縮；mkfs 會清空資料。'],
+      ['ip / nmcli / nmtui','ip -br a；nmcli connection modify；nmtui','ip 看網卡/IP/路由；nmcli/nmtui 設 NetworkManager。','ip -br：短格式<br>ipv4.method manual：固定 IP<br>connection.autoconnect yes：開機自連','設定 IP、找未配置網卡。','<code>nmcli con modify ...; nmcli con up &lt;連線&gt;</code>（Q3）。','改完必須 con up；NAT 請比網段/MAC，不可只看 ens 編號。'],
+      ['ping / ss / host / curl / traceroute','ping -c 4；ss -tulpen；host 名稱；curl -I URL','分別測連通、監聽 port、DNS、HTTP、路由跳點。','-c：次數<br>ss -tulpen：TCP/UDP/listen/PID<br>host -t：記錄類型<br>curl -I：header','網路分層排錯。','<code>ip -br a → ip route → ping gateway → host 名稱 → curl -I URL</code>。','ping 通不代表 HTTP 通；ss 看到 port 才代表本機服務正在聽。'],
+      ['rpm / dnf','rpm -q；dnf install/remove/provides/repolist','rpm 查已裝套件；dnf 安裝、移除、查提供者與 repo。','rpm -qi/-ql/-qf：資訊/檔案/擁有者<br>dnf -y：自動 yes<br>repolist --all：含 disabled','httpd、mail、repo 題。','<code>dnf list httpd → dnf install httpd → rpm -q httpd</code>（Q1）。','rpm -i 不會解相依性；一般安裝用 dnf。'],
+      ['systemctl / journalctl / firewall-cmd','systemctl enable --now 服務；journalctl -u 服務；firewall-cmd','管理服務、日誌與網路通行規則。','enable --now：開機＋現在<br>is-active/is-enabled：查狀態<br>--permanent：永久<br>--reload：立即套用','httpd、chronyd 等服務啟動與排錯。','<code>systemctl status svc → journalctl -u svc -b → ss -tulpen</code>。','start 不等於 enable；永久 firewall 規則後須 reload。']
+    ]}
+  ];
+  const esc = s => s;
+  const card = ([name, syntax, plain, params, uses, combo, alarm]) => `<div class="single"><h3>${name}</h3><div class="body"><p><b>寫法：</b><code>${syntax}</code></p><p><span class="label">白話定位</span><br>${plain}</p><p><span class="label">參數／後綴</span></p><ul>${params.split('<br>').map(x=>'<li>'+x+'</li>').join('')}</ul><p><span class="label">常用時機</span><br>${uses}</p><div class="combo"><span class="label">實務組合</span><br>${combo}</div><div class="alarm"><b>翻車警報：</b>${alarm}</div></div></div>`;
+  const main = document.querySelector('main');
+  [...groups].reverse().forEach((g,i) => {
+    const article = document.createElement('article');
+    article.className='page command-page';
+    article.innerHTML = `<header><div><h1>期中指令詳解</h1><div class="sub">${g.title}｜每張卡只說一個指令或符號</div></div><div class="no">C${groups.length-i}</div></header><section class="section"><h2>${g.title}</h2><div class="single-grid">${g.items.map(card).join('')}</div></section></article>`;
+    main.insertBefore(article, main.firstChild);
+  });
+})();
+</script></body></html>
