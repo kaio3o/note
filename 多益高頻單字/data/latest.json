@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "level": "TOEIC 395 baseline",
   "totalCount": 40,
-  "reviewCount": 80,
+  "reviewCount": 120,
   "reviewIntervals": [
     1,
     3,
@@ -12,6 +12,4588 @@
     30
   ],
   "words": [
+    {
+      "id": "20261102_001",
+      "word": "politics",
+      "phonetic": "/ˈpɑːlətɪks/",
+      "pos": "noun",
+      "meaning": [
+        "政治",
+        "政見",
+        "辦公室政治(office politics)"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "Human resources managers strive to cultivate a transparent culture free of toxic office politics.",
+        "zh": "人力資源經理致力於營造遠離惡性辦公室政治的透明企業文化。"
+      },
+      "mnemonic": "polit- (城市、公民) ＝ 政治運作；office politics (辦公室政治人事角力)。",
+      "collocations": [
+        "office politics",
+        "internal politics"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "polit- 城市、公民",
+        "-ics 學術/事務名詞"
+      ]
+    },
+    {
+      "id": "20261102_002",
+      "word": "reply",
+      "phonetic": "/rɪˈplaɪ/",
+      "pos": "verb",
+      "meaning": [
+        "回覆",
+        "答覆",
+        "回信/答覆(名詞)"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Our support center guarantees that agents will reply to client inquiries within two hours.",
+        "zh": "我們的客服中心保證客服專員會在兩小時之內回覆客戶諮詢。"
+      },
+      "mnemonic": "re- (回) + ply (折疊、回應) ＝ 回覆信函 (reply to an email)。",
+      "collocations": [
+        "reply to",
+        "prompt reply"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "re- 回",
+        "plic- 折疊、回應"
+      ]
+    },
+    {
+      "id": "20261102_003",
+      "word": "display",
+      "phonetic": "/dɪˈspleɪ/",
+      "pos": "verb",
+      "meaning": [
+        "展示",
+        "陳列",
+        "螢幕顯示器/展出(名詞)"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "New retail tablet models will be prominently displayed on the front showroom floor.",
+        "zh": "新款零售平板電腦樣機將醒目地展示陳列在前側展廳展示區。"
+      },
+      "mnemonic": "dis- (分開、向外) + play (展開、折疊) ＝ 展開供眾人觀看 ＝ 陳列、展示。",
+      "collocations": [
+        "on display",
+        "display screen"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "dis- 分開",
+        "plic- 折疊、展開"
+      ]
+    },
+    {
+      "id": "20261102_004",
+      "word": "perfect",
+      "phonetic": "/ˈpɜːrfɪkt/",
+      "pos": "adjective",
+      "meaning": [
+        "完美的",
+        "極合適的",
+        "使完美(動詞 /pərˈfekt/)"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Her bilingual fluency and international marketing experience make her a perfect candidate for the post.",
+        "zh": "她的雙語流利程度與跨國行銷歷練使她成為該職位的最佳完美人選。"
+      },
+      "mnemonic": "per- (澈底) + fect (做) ＝ 澈底做完做到極致 ＝ 完美的。",
+      "collocations": [
+        "perfect candidate",
+        "perfect fit"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "per- 徹底",
+        "fect- 做"
+      ]
+    },
+    {
+      "id": "20261102_005",
+      "word": "slightly",
+      "phonetic": "/ˈslaɪtli/",
+      "pos": "adverb",
+      "meaning": [
+        "稍微地",
+        "略微地"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "Quarterly operational operating expenditures were slightly lower than preliminary financial projections.",
+        "zh": "第三季營業營運支出略低於原先初期的財務預算預測。"
+      },
+      "mnemonic": "slight (輕微的) + -ly (副詞尾) ＝ 稍微 (slightly higher / lower than)。",
+      "collocations": [
+        "slightly higher",
+        "slightly different"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_006",
+      "word": "overall",
+      "phonetic": "/ˌoʊvərˈɔːl/",
+      "pos": "adjective",
+      "meaning": [
+        "整體的",
+        "全面的",
+        "總體上(副詞)"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "The corporate annual financial audit demonstrated a noticeable improvement in overall enterprise profitability.",
+        "zh": "企業年度財務查核報告顯示整體企業獲利能力呈現顯著改善。"
+      },
+      "mnemonic": "over (涵蓋全部) + all (全部) ＝ 全面的、總體的 (overall performance)。",
+      "collocations": [
+        "overall performance",
+        "overall strategy"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_007",
+      "word": "intend",
+      "phonetic": "/ɪnˈtend/",
+      "pos": "verb",
+      "meaning": [
+        "打算",
+        "意圖",
+        "企圖"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "The pharmaceutical company intends to open three new medical research labs in Singapore.",
+        "zh": "這間製藥公司打算在新加坡設立三座新的醫藥研發實驗室。"
+      },
+      "mnemonic": "in- (向內) + tend (伸展、傾向) ＝ 心之所向 ＝ 打算做某事 (intend to do)。",
+      "collocations": [
+        "intend to",
+        "intended audience"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "in- 向內",
+        "tend- 伸展、傾向"
+      ]
+    },
+    {
+      "id": "20261102_008",
+      "word": "user",
+      "phonetic": "/ˈjuːzər/",
+      "pos": "noun",
+      "meaning": [
+        "使用者",
+        "用戶"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Software engineers conducted usability testing sessions with more than two hundred active users.",
+        "zh": "軟體工程師與兩百多位活躍用戶共同進行了軟體易用性測試會。"
+      },
+      "mnemonic": "use (使用) + -er (人) ＝ 軟體或產品的使用者 (user manual / experience)。",
+      "collocations": [
+        "user manual",
+        "user experience"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_009",
+      "word": "respond",
+      "phonetic": "/rɪˈspɑːnd/",
+      "pos": "verb",
+      "meaning": [
+        "回覆",
+        "回應",
+        "應對"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "Customer service agents are required to respond to urgent complaints within one business day.",
+        "zh": "客服專員被要求必須在一個工作天內回應緊急客訴問題。"
+      },
+      "mnemonic": "re- (回) + spond (承諾、回答) ＝ 給予承諾回覆 ＝ 回應 (respond to)。",
+      "collocations": [
+        "respond to",
+        "respond promptly"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "re- 回",
+        "spond- 承諾、回答"
+      ]
+    },
+    {
+      "id": "20261102_010",
+      "word": "dinner",
+      "phonetic": "/ˈdɪnər/",
+      "pos": "noun",
+      "meaning": [
+        "晚餐",
+        "晚宴"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The annual corporate recognition award dinner will be hosted in the hotel grand ballroom.",
+        "zh": "年度企業優秀員工表揚晚宴將在飯店的大宴會廳隆重舉行。"
+      },
+      "mnemonic": "商務社交必備：annual dinner (年終晚宴)、business dinner (商務晚宴)。",
+      "collocations": [
+        "annual dinner",
+        "business dinner"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_011",
+      "word": "slow",
+      "phonetic": "/sloʊ/",
+      "pos": "adjective",
+      "meaning": [
+        "緩慢的",
+        "遲緩的",
+        "放慢(動詞)"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Retail commerce historically experiences a slow sales turnaround period during early February.",
+        "zh": "零售商業在歷史數據上往往於二月上旬經歷一段較為遲緩的銷售淡季。"
+      },
+      "mnemonic": "景氣或淡季常用：slow season (淡季)、slow down (減速)。",
+      "collocations": [
+        "slow down",
+        "slow season"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_012",
+      "word": "regular",
+      "phonetic": "/ˈreɡjələr/",
+      "pos": "adjective",
+      "meaning": [
+        "定期的",
+        "常規的",
+        "老顧客(名詞)"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "Conducting regular preventative maintenance extends the operating lifespan of factory machinery.",
+        "zh": "進行定期的預防性維護檢修可有效延長廠區機械設備的使用壽命。"
+      },
+      "mnemonic": "regul- (規則) + -ar ＝ 照規則定期的 ＝ 常規的 (regular meeting)。",
+      "collocations": [
+        "regular customer",
+        "regular maintenance"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "reg- 規則、管理",
+        "-ar 形容詞"
+      ]
+    },
+    {
+      "id": "20261102_013",
+      "word": "physical",
+      "phonetic": "/ˈfɪzɪkl/",
+      "pos": "adjective",
+      "meaning": [
+        "實體的",
+        "身體的",
+        "健康檢查(名詞)"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "The retail book company maintains physical storefronts alongside a booming e-commerce platform.",
+        "zh": "這家連鎖書商在蓬勃發展電子商務平台的同時，依然維持著實體門市營運。"
+      },
+      "mnemonic": "physic (自然、身體) + -al ＝ 實體的 (physical store) 或健檢 (physical exam)。",
+      "collocations": [
+        "physical store",
+        "physical examination"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "phys- 自然、身體",
+        "-al 形容詞"
+      ]
+    },
+    {
+      "id": "20261102_014",
+      "word": "apart",
+      "phonetic": "/əˈpɑːrt/",
+      "pos": "adverb",
+      "meaning": [
+        "分開地",
+        "相隔",
+        "除...之外(apart from)"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "Apart from minor cosmetic packaging flaws, all shipments fulfilled strict quality standards.",
+        "zh": "除了少數包裝上的輕微外觀瑕疵外，全數出貨均符合嚴格的品質標準。"
+      },
+      "mnemonic": "a- + part (部分) ＝ 各自成一部分；片語 apart from (除了...之外)。",
+      "collocations": [
+        "apart from",
+        "fall apart"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_015",
+      "word": "suit",
+      "phonetic": "/suːt/",
+      "pos": "verb",
+      "meaning": [
+        "適合",
+        "套裝/西裝(名詞)",
+        "訴訟(lawsuit)"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Flexible hybrid remote hours suit the productivity needs of our digital design team.",
+        "zh": "彈性的混合遠距上班工時極為適合我們數位設計團隊的產能需求。"
+      },
+      "mnemonic": "職場服儀：business suit (商務西裝套裝)；動詞指合適 (suit one's needs)。",
+      "collocations": [
+        "business suit",
+        "suit one's needs"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_016",
+      "word": "federal",
+      "phonetic": "/ˈfedərəl/",
+      "pos": "adjective",
+      "meaning": [
+        "聯邦的",
+        "中央政府的"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "All domestic corporate financial statements must strictly comply with federal tax laws.",
+        "zh": "所有國內企業的財務報表均必須嚴格遵守聯邦稅法規定。"
+      },
+      "mnemonic": "聯邦規範與稅務：federal tax (聯邦稅)、federal regulation (聯邦法規)。",
+      "collocations": [
+        "federal regulation",
+        "federal government"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "feder- 聯盟、盟約",
+        "-al 形容詞"
+      ]
+    },
+    {
+      "id": "20261102_017",
+      "word": "reveal",
+      "phonetic": "/rɪˈviːl/",
+      "pos": "verb",
+      "meaning": [
+        "揭露",
+        "顯示",
+        "公布"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "The internal corporate financial audit revealed several opportunities for cost optimization.",
+        "zh": "企業內部財務查核結果顯示了數個可供成本優化的絕佳機會。"
+      },
+      "mnemonic": "re- (反、回) + veal (面紗) ＝ 掀開面紗 ＝ 揭曉、揭露。",
+      "collocations": [
+        "reveal information",
+        "survey reveals"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "re- 反向",
+        "vel- 面紗、覆蓋"
+      ]
+    },
+    {
+      "id": "20261102_018",
+      "word": "percentage",
+      "phonetic": "/pərˈsentɪdʒ/",
+      "pos": "noun",
+      "meaning": [
+        "百分比",
+        "比例",
+        "抽成"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "A significant percentage of quarterly corporate revenue is reinvested in research initiatives.",
+        "zh": "企業季度營收中有相當高的百分比被重新投入於研發計畫中。"
+      },
+      "mnemonic": "percent (百分之...) + -age (名詞總稱) ＝ 百分比率。",
+      "collocations": [
+        "high percentage",
+        "percentage of"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "per- 每",
+        "cent- 百",
+        "-age 名詞"
+      ]
+    },
+    {
+      "id": "20261102_019",
+      "word": "peace",
+      "phonetic": "/piːs/",
+      "pos": "noun",
+      "meaning": [
+        "平靜",
+        "和平",
+        "安心(peace of mind)"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Our comprehensive equipment warranty gives corporate clients complete peace of mind.",
+        "zh": "我們全面的設備保固服務為企業客戶帶來完全的安心保障。"
+      },
+      "mnemonic": "行銷與保固文案極常見搭配：peace of mind (安心、無後顧之憂)。",
+      "collocations": [
+        "peace of mind",
+        "peaceful environment"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_020",
+      "word": "status",
+      "phonetic": "/ˈsteɪtəs/",
+      "pos": "noun",
+      "meaning": [
+        "進度狀態",
+        "地位",
+        "身分"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "Customers can track the real-time delivery status of their shipments through our portal.",
+        "zh": "客戶可透過我們的入口網站即時追蹤其貨物的運送處理狀態。"
+      },
+      "mnemonic": "stat- (站立、處於) ＝ 事情目前所處的狀況 ＝ 進度狀態 (project status)。",
+      "collocations": [
+        "status report",
+        "current status"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "sta- 站立、處於",
+        "-us 名詞"
+      ]
+    },
+    {
+      "id": "20261102_021",
+      "word": "crime",
+      "phonetic": "/kraɪm/",
+      "pos": "noun",
+      "meaning": [
+        "犯罪",
+        "違法行為",
+        "資安犯罪(cybercrime)"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "The bank invested millions into cutting-edge cybersecurity to combat financial cybercrime.",
+        "zh": "該銀行斥資數百萬美元建置先進網路資安系統，以打擊金融科技犯罪。"
+      },
+      "mnemonic": "資安防護與法規考點：cybercrime (網路犯罪)、fight crime。",
+      "collocations": [
+        "cyber crime",
+        "prevent crime"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_022",
+      "word": "decline",
+      "phonetic": "/dɪˈklaɪn/",
+      "pos": "verb",
+      "meaning": [
+        "下降",
+        "衰退",
+        "婉拒",
+        "下滑(名詞)"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "The regional sales manager had to decline the invitation due to a scheduling conflict.",
+        "zh": "該區域業務經理因行程衝突而不得不婉拒該項邀請。"
+      },
+      "mnemonic": "de- (向下) + clin (傾斜) ＝ 向下傾斜 ＝ 下降；禮貌婉拒邀請 (decline an offer)。",
+      "collocations": [
+        "decline an invitation",
+        "sharp decline"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "de- 向下",
+        "clin- 傾斜"
+      ]
+    },
+    {
+      "id": "20261102_023",
+      "word": "decade",
+      "phonetic": "/ˈdekeɪd/",
+      "pos": "noun",
+      "meaning": [
+        "十年",
+        "十年期間"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "Over the past decade, our automotive manufacturing company has doubled its export volume.",
+        "zh": "在過去十年間，我們的汽車製造公司的出口貿易量已實現翻倍成長。"
+      },
+      "mnemonic": "dec- (十) + -ade (名詞) ＝ 十年期間 (over the past decade)。",
+      "collocations": [
+        "past decade",
+        "last decade"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "dec- 十",
+        "-ade 名詞"
+      ]
+    },
+    {
+      "id": "20261102_024",
+      "word": "launch",
+      "phonetic": "/lɔːntʃ/",
+      "pos": "verb",
+      "meaning": [
+        "發表/推出(產品)",
+        "發起(活動)",
+        "上市發表會(名詞)"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "The technology startup plans to launch its flagship smartphone application next month.",
+        "zh": "這家科技新創公司計劃於下個月正式推出其旗艦智慧型手機應用程式。"
+      },
+      "mnemonic": "產品上市行銷核心詞：launch a product (發表產品)、product launch (產品發表會)。",
+      "collocations": [
+        "launch a campaign",
+        "product launch"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_025",
+      "word": "warn",
+      "phonetic": "/wɔːrn/",
+      "pos": "verb",
+      "meaning": [
+        "警告",
+        "提醒",
+        "預先告誡"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Safety signs prominently warn plant technicians to wear protective eyewear at all times.",
+        "zh": "安全警示標誌醒目地提醒廠區技術人員必須隨時配戴護目鏡。"
+      },
+      "mnemonic": "名詞 warning (警報/警告通知)；warn someone about/of (提醒某人某事)。",
+      "collocations": [
+        "warn about",
+        "warn in advance"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_026",
+      "word": "consumer",
+      "phonetic": "/kənˈsuːmər/",
+      "pos": "noun",
+      "meaning": [
+        "消費者",
+        "顧客"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "Extensive consumer behavior market surveys helped guide the design of our new packaging.",
+        "zh": "廣泛的消費者行為市場調查引導了我們新包裝的設計方向。"
+      },
+      "mnemonic": "consume (消費、消耗) + -er (人) ＝ 消費者 (consumer confidence / goods)。",
+      "collocations": [
+        "consumer demand",
+        "consumer goods"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "con- 共同",
+        "sum- 拿取、花費",
+        "-er 人"
+      ]
+    },
+    {
+      "id": "20261102_027",
+      "word": "favor",
+      "phonetic": "/ˈfeɪvər/",
+      "pos": "noun",
+      "meaning": [
+        "支持",
+        "偏袒",
+        "幫忙",
+        "偏愛/贊成(動詞)"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "A clear majority of board members voted in favor of the international joint venture.",
+        "zh": "大多數董事會成員投票贊成這項跨國合資合作案。"
+      },
+      "mnemonic": "商務表決極高頻片語：in favor of (贊成、支持)；ask a favor (請求協助)。",
+      "collocations": [
+        "in favor of",
+        "do a favor"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_028",
+      "word": "dry",
+      "phonetic": "/draɪ/",
+      "pos": "adjective",
+      "meaning": [
+        "乾燥的",
+        "使乾燥(動詞)",
+        "乾洗(dry clean)"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Hotel guests may drop off executive business garments for same-day dry cleaning service.",
+        "zh": "飯店房客可送交商務西裝衣物以享受當日送交取件的乾洗服務。"
+      },
+      "mnemonic": "飯店服務常用：dry cleaning (乾洗服務)；dry storage (乾貨常溫存放)。",
+      "collocations": [
+        "dry cleaning",
+        "keep dry"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_029",
+      "word": "partner",
+      "phonetic": "/ˈpɑːrtnər/",
+      "pos": "noun",
+      "meaning": [
+        "合作夥伴",
+        "合夥人",
+        "與...合作(動詞)"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "We established a long-term strategic partnership with a reliable regional logistics provider.",
+        "zh": "我們與一家可靠的區域物流供應商建立了長期戰略合作夥伴關係。"
+      },
+      "mnemonic": "part (部分、股份) + -ner (人) ＝ 共同持股共事的人 ＝ 夥伴 (business partner)。",
+      "collocations": [
+        "business partner",
+        "strategic partner"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_030",
+      "word": "institution",
+      "phonetic": "/ˌɪnstɪˈtuːʃn/",
+      "pos": "noun",
+      "meaning": [
+        "機構",
+        "體制",
+        "金融機構"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "Leading financial institutions tightened corporate loan qualification standards this year.",
+        "zh": "各大主要金融機構於今年收緊了企業貸款審核資格標準。"
+      },
+      "mnemonic": "in- (向內) + statut- (設立) + -ion ＝ 設立的公法人組織 ＝ 金融/學術機構。",
+      "collocations": [
+        "financial institution",
+        "academic institution"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "in- 進入",
+        "stat- 建立、站立",
+        "-ion 名詞"
+      ]
+    },
+    {
+      "id": "20261102_031",
+      "word": "spot",
+      "phonetic": "/spɑːt/",
+      "pos": "noun",
+      "meaning": [
+        "地點",
+        "車位(parking spot)",
+        "發現/注意到(動詞)"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Reserved parking spots are designated specifically for carpool employees and corporate clients.",
+        "zh": "預留的專屬停車格位專門規劃給共乘員工與企業客戶使用。"
+      },
+      "mnemonic": "停車位與現場：parking spot (停車位)、on the spot (當場)。",
+      "collocations": [
+        "parking spot",
+        "on the spot"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_032",
+      "word": "horse",
+      "phonetic": "/hɔːrs/",
+      "pos": "noun",
+      "meaning": [
+        "馬匹",
+        "馬力(horsepower)"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The industrial plant installed a high-efficiency motor with superior horsepower capability.",
+        "zh": "該工業廠區安裝了一台具備卓越馬力效能的高效率馬達。"
+      },
+      "mnemonic": "工業機械規格常用複合詞：horsepower (馬力，簡寫 HP)。",
+      "collocations": [
+        "horsepower",
+        "horse racing"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_033",
+      "word": "great",
+      "phonetic": "/ɡreɪt/",
+      "pos": "adjective",
+      "meaning": [
+        "極佳的",
+        "重大的",
+        "優秀的"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Partnering with the logistics firm represents a great opportunity for our expansion.",
+        "zh": "與該物流公司合作為我們的業務擴張代表了一個絕佳的機會。"
+      },
+      "mnemonic": "商機讚許詞：great opportunity (大好機會)、great success (巨大成功)。",
+      "collocations": [
+        "great opportunity",
+        "great success"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_034",
+      "word": "try",
+      "phonetic": "/traɪ/",
+      "pos": "verb",
+      "meaning": [
+        "嘗試",
+        "試圖",
+        "努力"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Potential clients can try the enterprise cloud software for thirty days free of charge.",
+        "zh": "潛在客戶可以免費試用這款企業級雲端軟體三十天。"
+      },
+      "mnemonic": "促銷活動必備動詞：try out (試用體驗)；try to do (努力做某事)。",
+      "collocations": [
+        "try out",
+        "try to"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_035",
+      "word": "leave",
+      "phonetic": "/liːv/",
+      "pos": "verb",
+      "meaning": [
+        "離開",
+        "留下",
+        "休假(名詞)"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Employees must submit an official written request before taking annual leave.",
+        "zh": "員工在請特休假之前必須提交正式的書面請假申請。"
+      },
+      "mnemonic": "多益人資必考雙重用法：動詞離開、名詞請假 (annual leave 特休、sick leave 病假)。",
+      "collocations": [
+        "annual leave",
+        "sick leave"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_036",
+      "word": "number",
+      "phonetic": "/ˈnʌmbər/",
+      "pos": "noun",
+      "meaning": [
+        "號碼",
+        "數量",
+        "數字"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Please retain your package tracking number to monitor your shipment progress online.",
+        "zh": "請妥善保留您的包裹追蹤號碼，以便於線上查詢貨物運送進度。"
+      },
+      "mnemonic": "物流與客服必查：tracking number (追蹤單號)、a number of (許多)。",
+      "collocations": [
+        "tracking number",
+        "a number of"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_037",
+      "word": "both",
+      "phonetic": "/boʊθ/",
+      "pos": "determiner",
+      "meaning": [
+        "雙方的",
+        "兩者皆"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Both parties agreed to the amended terms and signed the commercial partnership contract.",
+        "zh": "雙方皆同意修改後的條款，並簽署了商務合作合約。"
+      },
+      "mnemonic": "多益合約與協議高頻搭配：both parties (雙方)、both A and B (兩者皆)。",
+      "collocations": [
+        "both parties",
+        "both A and B"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_038",
+      "word": "own",
+      "phonetic": "/oʊn/",
+      "pos": "adjective",
+      "meaning": [
+        "自己的",
+        "獨有的",
+        "擁有(動詞)"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Company policy allows developers to use their own personal laptops under supervision.",
+        "zh": "公司政策允許開發人員在受監管的前提下使用個人的筆記型電腦。"
+      },
+      "mnemonic": "個人設備與獨立作業常用：on one's own (獨自)、own business (自己的事業)。",
+      "collocations": [
+        "on one's own",
+        "own business"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_039",
+      "word": "part",
+      "phonetic": "/pɑːrt/",
+      "pos": "noun",
+      "meaning": [
+        "零件",
+        "部分",
+        "參與"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The automated assembly line was paused to replace worn mechanical parts.",
+        "zh": "自動化組裝線暫時停機，以更換磨損的機械零件。"
+      },
+      "mnemonic": "製造業與工廠極高頻：spare parts (備用零件)；片語 take part in (參加)。",
+      "collocations": [
+        "spare parts",
+        "take part in"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261102_040",
+      "word": "point",
+      "phonetic": "/pɔɪnt/",
+      "pos": "noun",
+      "meaning": [
+        "重點",
+        "要點",
+        "觀點"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The sales director emphasized several key points regarding international market growth.",
+        "zh": "銷售總監著重強調了幾項關於國際市場增長的關鍵要點。"
+      },
+      "mnemonic": "會議發言摘要常用：key point (關鍵要點)、main point (主要重點)。",
+      "collocations": [
+        "key point",
+        "main point"
+      ],
+      "reviewDates": [
+        "2026-11-03",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-12-02"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    }
+  ],
+  "reviewWords": [
+    {
+      "id": "20261026_001",
+      "word": "accommodate",
+      "phonetic": "/əˈkɑːmədeɪt/",
+      "pos": "verb",
+      "meaning": [
+        "容納",
+        "配合",
+        "提供住宿"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The hotel can accommodate 200 guests.",
+        "zh": "這間大宴會廳最多可容納兩百位賓客同時入座。"
+      },
+      "mnemonic": "想像房間把客人安排進去。",
+      "collocations": [
+        "accommodate guests",
+        "accommodate needs"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "TSL 1.2"
+      ],
+      "roots": [
+        "ac- 向",
+        "com- 一起",
+        "mod 尺度、適合",
+        "-ate 動詞"
+      ]
+    },
+    {
+      "id": "20261026_002",
+      "word": "accurate",
+      "phonetic": "/ˈækjərət/",
+      "pos": "adjective",
+      "meaning": [
+        "精準的",
+        "準確的"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Please make sure the report is accurate.",
+        "zh": "編制財務報表時務必提供精準無誤的數據。"
+      },
+      "mnemonic": "accurate = correct。",
+      "collocations": [
+        "accurate data",
+        "highly accurate"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261026_003",
+      "word": "appointment",
+      "phonetic": "/əˈpɔɪntmənt/",
+      "pos": "noun",
+      "meaning": [
+        "預約",
+        "約會",
+        "任命"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "I have a dentist appointment at three.",
+        "zh": "請於抵達診所前先以電話完成看診預約。"
+      },
+      "mnemonic": "常和 make 或 confirm 搭配。",
+      "collocations": [
+        "make an appointment",
+        "schedule an appointment"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "ap- 向",
+        "point 點",
+        "-ment 名詞"
+      ]
+    },
+    {
+      "id": "20261026_004",
+      "word": "available",
+      "phonetic": "/əˈveɪləbəl/",
+      "pos": "adjective",
+      "meaning": [
+        "可用的",
+        "有空的",
+        "有現貨的"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The manager is available after lunch.",
+        "zh": "會議室目前空著可使用。"
+      },
+      "mnemonic": "available = ready to be used。",
+      "collocations": [
+        "readily available",
+        "available for"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "a- 向 (ad-)",
+        "vail 價值",
+        "-able 可…的"
+      ]
+    },
+    {
+      "id": "20261026_005",
+      "word": "benefit",
+      "phonetic": "/ˈbɛnəfɪt/",
+      "pos": "noun/verb",
+      "meaning": [
+        "好處",
+        "福利",
+        "受益"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Employees receive health benefits.",
+        "zh": "新政策為全體員工帶來好處。"
+      },
+      "mnemonic": "想成工作帶來的好處。",
+      "collocations": [
+        "employee benefits",
+        "benefit from"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "bene 好",
+        "fit 做 → 做好事"
+      ]
+    },
+    {
+      "id": "20261026_006",
+      "word": "confirm",
+      "phonetic": "/kənˈfɜːrm/",
+      "pos": "verb",
+      "meaning": [
+        "確認",
+        "證實"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Please confirm your reservation by email.",
+        "zh": "請致電飯店以確認您的訂房資料。"
+      },
+      "mnemonic": "confirm = make sure。",
+      "collocations": [
+        "confirm a reservation",
+        "confirm an appointment"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "con- 完全",
+        "firm 堅固 → 確認"
+      ]
+    },
+    {
+      "id": "20261026_007",
+      "word": "convenient",
+      "phonetic": "/kənˈviːniənt/",
+      "pos": "adjective",
+      "meaning": [
+        "便利的",
+        "方便的"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The store is convenient for commuters.",
+        "zh": "線上預辦登機服務為商務差旅客戶提供了極大便利。"
+      },
+      "mnemonic": "和 convenience 都與方便有關。",
+      "collocations": [
+        "convenient time",
+        "convenient location"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "TSL 1.2"
+      ],
+      "roots": [
+        "con- 一起",
+        "ven 來 → 湊在一起正好",
+        "-ient 形容詞"
+      ]
+    },
+    {
+      "id": "20261026_008",
+      "word": "department",
+      "phonetic": "/dɪˈpɑːrtmənt/",
+      "pos": "noun",
+      "meaning": [
+        "部門",
+        "科系"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Contact the sales department for details.",
+        "zh": "行銷部門位在三樓。"
+      },
+      "mnemonic": "公司裡分工的部門。",
+      "collocations": [
+        "sales department",
+        "head of department"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261026_009",
+      "word": "discount",
+      "phonetic": "/ˈdɪskaʊnt/",
+      "pos": "noun/verb",
+      "meaning": [
+        "折扣",
+        "減價"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Customers receive a ten percent discount.",
+        "zh": "凡大量訂購辦公文具者均可享有批量折扣。"
+      },
+      "mnemonic": "讓價格往下掉。",
+      "collocations": [
+        "bulk discount",
+        "special discount"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "dis- 去除",
+        "count 計算"
+      ]
+    },
+    {
+      "id": "20261026_010",
+      "word": "document",
+      "phonetic": "/ˈdɑːkjumənt/",
+      "pos": "noun/verb",
+      "meaning": [
+        "文件",
+        "公文"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Please attach the document to your email.",
+        "zh": "請於簽署前仔細閱讀文件。"
+      },
+      "mnemonic": "文件可以被 attach。",
+      "collocations": [
+        "confidential document",
+        "official document"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "doc 教導",
+        "-ument 名詞 → 用來教導／佐證的文件"
+      ]
+    },
+    {
+      "id": "20261026_011",
+      "word": "effective",
+      "phonetic": "/ɪˈfɛktɪv/",
+      "pos": "adjective",
+      "meaning": [
+        "有效的",
+        "生效的"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The new policy is effective immediately.",
+        "zh": "新的考勤規範將於下個月初正式生效。"
+      },
+      "mnemonic": "effective = works well。",
+      "collocations": [
+        "effective immediately",
+        "cost-effective"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261026_012",
+      "word": "equipment",
+      "phonetic": "/ɪˈkwɪpmənt/",
+      "pos": "noun",
+      "meaning": [
+        "設備",
+        "器材"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The office purchased new equipment.",
+        "zh": "工廠安裝了最先進的檢驗設備。"
+      },
+      "mnemonic": "equipment 通常不可數。",
+      "collocations": [
+        "office equipment",
+        "safety equipment"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "equip 裝備",
+        "-ment 名詞"
+      ]
+    },
+    {
+      "id": "20261026_013",
+      "word": "estimate",
+      "phonetic": "/ˈɛstɪmeɪt/",
+      "pos": "noun/verb",
+      "meaning": [
+        "估計",
+        "估價單"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The repair estimate is two hundred dollars.",
+        "zh": "承包商提供了一份詳細的翻修費用估價單。"
+      },
+      "mnemonic": "尚未確定的數字。",
+      "collocations": [
+        "cost estimate",
+        "provide an estimate"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261026_014",
+      "word": "expense",
+      "phonetic": "/ɪkˈspɛns/",
+      "pos": "noun",
+      "meaning": [
+        "支出",
+        "費用",
+        "開銷"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Travel expenses will be reimbursed.",
+        "zh": "出差員工請在差旅結束後檢據申請差旅費核銷。"
+      },
+      "mnemonic": "常和 pay 或 cost 一起出現。",
+      "collocations": [
+        "travel expenses",
+        "expense report"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "ex- 向外",
+        "pens 秤、花費 → 付出去"
+      ]
+    },
+    {
+      "id": "20261026_015",
+      "word": "facility",
+      "phonetic": "/fəˈsɪləti/",
+      "pos": "noun",
+      "meaning": [
+        "設施",
+        "廠房",
+        "場所"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The sports facility opens at six.",
+        "zh": "工廠設施配備了最先進的安全系統。"
+      },
+      "mnemonic": "提供服務的場所。",
+      "collocations": [
+        "manufacturing facility",
+        "modern facilities"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "facil 容易",
+        "-ity 名詞"
+      ]
+    },
+    {
+      "id": "20261026_016",
+      "word": "frequently",
+      "phonetic": "/ˈfriːkwəntli/",
+      "pos": "adverb",
+      "meaning": [
+        "頻繁地",
+        "經常地"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The train runs frequently during rush hour.",
+        "zh": "這列機場接駁專車尖峰時段每十分鐘密集發車。"
+      },
+      "mnemonic": "frequent 的副詞形式。",
+      "collocations": [
+        "frequently asked questions",
+        "travel frequently"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261026_017",
+      "word": "handle",
+      "phonetic": "/ˈhændəl/",
+      "pos": "verb/noun",
+      "meaning": [
+        "處理",
+        "應對",
+        "把手"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "She handles customer complaints professionally.",
+        "zh": "客服團隊妥善處理了所有客訴案件。"
+      },
+      "mnemonic": "handle a problem = 處理問題。",
+      "collocations": [
+        "handle complaints",
+        "handle inquiries"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261026_018",
+      "word": "immediately",
+      "phonetic": "/ɪˈmiːdiətli/",
+      "pos": "adverb",
+      "meaning": [
+        "立刻",
+        "馬上"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Please reply immediately.",
+        "zh": "收到客訴信函後請立即回覆。"
+      },
+      "mnemonic": "immediately = right away。",
+      "collocations": [
+        "reply immediately",
+        "effective immediately"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261026_019",
+      "word": "improve",
+      "phonetic": "/ɪmˈpruːv/",
+      "pos": "verb",
+      "meaning": [
+        "改善",
+        "提升",
+        "改進"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The company plans to improve service quality.",
+        "zh": "我們希望提升客戶滿意度。"
+      },
+      "mnemonic": "常接能力或品質。",
+      "collocations": [
+        "improve quality",
+        "improve efficiency"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "im- 使 (in-)",
+        "prove 利益"
+      ]
+    },
+    {
+      "id": "20261026_020",
+      "word": "increase",
+      "phonetic": "/ɪnˈkriːs/",
+      "pos": "noun/verb",
+      "meaning": [
+        "增加",
+        "成長"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Sales increased by fifteen percent.",
+        "zh": "銷售額增長了百分之十五。"
+      },
+      "mnemonic": "可以是名詞或動詞。",
+      "collocations": [
+        "increase sales",
+        "significant increase"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "in- 向內",
+        "crease 成長"
+      ]
+    },
+    {
+      "id": "20261026_021",
+      "word": "inform",
+      "phonetic": "/ɪnˈfɔːrm/",
+      "pos": "verb",
+      "meaning": [
+        "通知",
+        "告知"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "We will inform you of the decision.",
+        "zh": "我們遺憾地通知您班機將延誤啟程。"
+      },
+      "mnemonic": "inform someone of something。",
+      "collocations": [
+        "inform someone of",
+        "keep someone informed"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "in- 向內",
+        "form 形成 → 使心中成形、告知"
+      ]
+    },
+    {
+      "id": "20261026_022",
+      "word": "ingredient",
+      "phonetic": "/ɪnˈɡriːdiənt/",
+      "pos": "noun",
+      "meaning": [
+        "原料",
+        "成分",
+        "要素"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The label lists every ingredient.",
+        "zh": "這家餐廳堅持只選用新鮮在地的有機食材烹調料理。"
+      },
+      "mnemonic": "食品標籤常見單字。",
+      "collocations": [
+        "natural ingredients",
+        "key ingredient"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "TSL 1.2"
+      ]
+    },
+    {
+      "id": "20261026_023",
+      "word": "maintenance",
+      "phonetic": "/ˈmeɪntənəns/",
+      "pos": "noun",
+      "meaning": [
+        "維護",
+        "保養",
+        "維修"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The elevator is closed for maintenance.",
+        "zh": "本週末因進行空調系統例行維護，辦公大樓將暫停開放。"
+      },
+      "mnemonic": "常和 building 或 equipment 搭配。",
+      "collocations": [
+        "routine maintenance",
+        "maintenance fee"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "main 手",
+        "tain 握住",
+        "-ance 名詞"
+      ]
+    },
+    {
+      "id": "20261026_024",
+      "word": "manager",
+      "phonetic": "/ˈmænɪdʒər/",
+      "pos": "noun",
+      "meaning": [
+        "經理",
+        "主管"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Ask the manager for assistance.",
+        "zh": "專案經理審核了時程表。"
+      },
+      "mnemonic": "管理 team 或 department。",
+      "collocations": [
+        "project manager",
+        "general manager"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "man 手",
+        "-er 做…的人"
+      ]
+    },
+    {
+      "id": "20261026_025",
+      "word": "method",
+      "phonetic": "/ˈmɛθəd/",
+      "pos": "noun",
+      "meaning": [
+        "方法",
+        "方式"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "This method saves time and money.",
+        "zh": "這是一種更有效率的付款方式。"
+      },
+      "mnemonic": "method = way of doing something。",
+      "collocations": [
+        "payment method",
+        "effective method"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261026_026",
+      "word": "notice",
+      "phonetic": "/ˈnoʊtɪs/",
+      "pos": "noun/verb",
+      "meaning": [
+        "通知",
+        "公告",
+        "注意"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Did you notice the change in schedule?",
+        "zh": "請注意這項即將發生的變更。"
+      },
+      "mnemonic": "可表示注意到或公告。",
+      "collocations": [
+        "advance notice",
+        "until further notice"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261026_027",
+      "word": "obtain",
+      "phonetic": "/əbˈteɪn/",
+      "pos": "verb",
+      "meaning": [
+        "獲得",
+        "取得",
+        "買到"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Applicants must obtain a permit.",
+        "zh": "進口外國設備前必須先向相關主管機關取得核准執照。"
+      },
+      "mnemonic": "比 get 更正式。",
+      "collocations": [
+        "obtain permission",
+        "obtain approval"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "TSL 1.2"
+      ],
+      "roots": [
+        "ob- 向",
+        "tain 握住 → 取得"
+      ]
+    },
+    {
+      "id": "20261026_028",
+      "word": "operate",
+      "phonetic": "/ˈɑːpəreɪt/",
+      "pos": "verb",
+      "meaning": [
+        "操作",
+        "運轉",
+        "營運"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Only trained staff may operate the machine.",
+        "zh": "只有受過訓練的技術員才能操作這台機器。"
+      },
+      "mnemonic": "operate a machine or company。",
+      "collocations": [
+        "operate machinery",
+        "operate smoothly"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "oper 工作",
+        "-ate 動詞"
+      ]
+    },
+    {
+      "id": "20261026_029",
+      "word": "permission",
+      "phonetic": "/pərˈmɪʃən/",
+      "pos": "noun",
+      "meaning": [
+        "許可",
+        "核准"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "You need permission to enter this area.",
+        "zh": "員工進入伺服器機房前必須取得主管的正式許可。"
+      },
+      "mnemonic": "常和 ask for 搭配。",
+      "collocations": [
+        "grant permission",
+        "obtain permission"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "per- 透過",
+        "miss 送 → 放行",
+        "-ion 名詞"
+      ]
+    },
+    {
+      "id": "20261026_030",
+      "word": "prepare",
+      "phonetic": "/prɪˈpɛr/",
+      "pos": "verb",
+      "meaning": [
+        "準備",
+        "籌備"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "Please prepare the materials before the meeting.",
+        "zh": "她為會議準備了簡報資料。"
+      },
+      "mnemonic": "prepare for + 事件。",
+      "collocations": [
+        "prepare a report",
+        "prepare for"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "pre- 預先",
+        "par 準備"
+      ]
+    },
+    {
+      "id": "20261026_031",
+      "word": "product",
+      "phonetic": "/ˈprɑːdʌkt/",
+      "pos": "noun",
+      "meaning": [
+        "產品",
+        "製品"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The company launched a new product.",
+        "zh": "公司推出了一項新產品。"
+      },
+      "mnemonic": "常出現在 sales 或 marketing。",
+      "collocations": [
+        "new product",
+        "product line"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261026_032",
+      "word": "provide",
+      "phonetic": "/prəˈvaɪd/",
+      "pos": "verb",
+      "meaning": [
+        "提供",
+        "供應"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The hotel provides free breakfast.",
+        "zh": "這家飯店提供免費早餐。"
+      },
+      "mnemonic": "provide someone with something。",
+      "collocations": [
+        "provide assistance",
+        "provide details"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "pro- 向前",
+        "vid 看 → 事先看顧、供應"
+      ]
+    },
+    {
+      "id": "20261026_033",
+      "word": "purchase",
+      "phonetic": "/ˈpɜːrtʃəs/",
+      "pos": "noun/verb",
+      "meaning": [
+        "購買",
+        "採購",
+        "採購品"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The department purchased new computers.",
+        "zh": "請保留收據作為這筆購買的證明。"
+      },
+      "mnemonic": "比 buy 正式。",
+      "collocations": [
+        "proof of purchase",
+        "purchase order"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261026_034",
+      "word": "recommend",
+      "phonetic": "/ˌrɛkəˈmɛnd/",
+      "pos": "verb",
+      "meaning": [
+        "推薦",
+        "建議"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "I recommend this restaurant to visitors.",
+        "zh": "我強烈推薦這款軟體以提高工作效率。"
+      },
+      "mnemonic": "後面接名詞或動名詞。",
+      "collocations": [
+        "highly recommend",
+        "recommend that"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "re- 再",
+        "com- 完全",
+        "mend 託付"
+      ]
+    },
+    {
+      "id": "20261026_035",
+      "word": "request",
+      "phonetic": "/rɪˈkwɛst/",
+      "pos": "noun/verb",
+      "meaning": [
+        "請求",
+        "要求",
+        "申請"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "We received a request for more information.",
+        "zh": "我們收到了客戶提出的退款申請。"
+      },
+      "mnemonic": "正式信件常見。",
+      "collocations": [
+        "upon request",
+        "make a request"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "re- 再",
+        "quest 尋求"
+      ]
+    },
+    {
+      "id": "20261026_036",
+      "word": "require",
+      "phonetic": "/rɪˈkwaɪər/",
+      "pos": "verb",
+      "meaning": [
+        "需要",
+        "要求"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The position requires two years of experience.",
+        "zh": "該職位需要兩年工作經驗。"
+      },
+      "mnemonic": "比 need 正式。",
+      "collocations": [
+        "require experience",
+        "be required to"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "re- 再",
+        "quir 尋求 → 一再要求"
+      ]
+    },
+    {
+      "id": "20261026_037",
+      "word": "schedule",
+      "phonetic": "/ˈskɛdʒuːl/",
+      "pos": "noun/verb",
+      "meaning": [
+        "行程",
+        "排程",
+        "時間表"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The meeting is scheduled for Monday.",
+        "zh": "新專案的時程表已發送給所有相關主管。"
+      },
+      "mnemonic": "schedule for + 日期。",
+      "collocations": [
+        "ahead of schedule",
+        "behind schedule"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261026_038",
+      "word": "shipment",
+      "phonetic": "/ˈʃɪpmənt/",
+      "pos": "noun",
+      "meaning": [
+        "貨物",
+        "出貨",
+        "運輸批次"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The shipment arrived this morning.",
+        "zh": "新一批零件貨物預計將於本週四清關完成並送達。"
+      },
+      "mnemonic": "和 delivery 有關。",
+      "collocations": [
+        "track a shipment",
+        "shipment delay"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "TSL 1.2"
+      ],
+      "roots": [
+        "ship 運送",
+        "-ment 名詞"
+      ]
+    },
+    {
+      "id": "20261026_039",
+      "word": "temporary",
+      "phonetic": "/ˈtɛmpərɛri/",
+      "pos": "adjective",
+      "meaning": [
+        "臨時的",
+        "暫時的"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "This is a temporary position.",
+        "zh": "我們在購物旺季僱用了十位臨時工作人員。"
+      },
+      "mnemonic": "相反是 permanent。",
+      "collocations": [
+        "temporary staff",
+        "temporary position"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": "tempor 時間 + -ary 形容詞 → 暫時的"
+    },
+    {
+      "id": "20261026_040",
+      "word": "vacancy",
+      "phonetic": "/ˈveɪkənsi/",
+      "pos": "noun",
+      "meaning": [
+        "職缺",
+        "空房",
+        "空位"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "Lexifold"
+      ],
+      "example": {
+        "en": "The company posted a vacancy online.",
+        "zh": "人事部門已在官方徵才網站刊登資深會計主管的職缺。"
+      },
+      "mnemonic": "職缺廣告常用。",
+      "collocations": [
+        "job vacancy",
+        "no vacancy"
+      ],
+      "reviewDates": [
+        "2026-10-27",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-25"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "TSL 1.2"
+      ],
+      "roots": "vac 空 + -ancy 名詞"
+    },
+    {
+      "id": "20261030_001",
+      "word": "difficulty",
+      "phonetic": "/ˈdɪfɪkəlti/",
+      "pos": "noun",
+      "meaning": [
+        "困難",
+        "阻礙"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "If you experience any technical difficulty during online registration, please call support.",
+        "zh": "如果您在線上註冊期間遇到任何技術困難，請致電支援中心。"
+      },
+      "mnemonic": "difficult (困難的) + -y (名詞尾)；片語 have difficulty in (做...有困難)。",
+      "collocations": [
+        "technical difficulty",
+        "financial difficulty"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "dif- 否定 (dis-)",
+        "fic 做",
+        "-ty 名詞"
+      ]
+    },
+    {
+      "id": "20261030_002",
+      "word": "shoot",
+      "phonetic": "/ʃuːt/",
+      "pos": "verb",
+      "meaning": [
+        "拍攝",
+        "發射",
+        "攝影/外景拍攝(名詞)"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The marketing crew will shoot promotional video clips at the production plant.",
+        "zh": "行銷團隊將在生產廠區拍攝宣傳影片短片。"
+      },
+      "mnemonic": "拍攝廣告影片常用動詞 (shoot a video/commercial)。",
+      "collocations": [
+        "shoot video",
+        "photo shoot"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_003",
+      "word": "announce",
+      "phonetic": "/əˈnaʊns/",
+      "pos": "verb",
+      "meaning": [
+        "宣布",
+        "公布",
+        "發表"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "The board of directors will announce the newly appointed managing director tomorrow.",
+        "zh": "董事會將於明天公布新任常務董事人選。"
+      },
+      "mnemonic": "ad- (向) + nounce (宣告、報告) ＝ 向大眾宣告。",
+      "collocations": [
+        "announce officially",
+        "announce retirement"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "ad- 向 (an-)",
+        "nounc- 宣告"
+      ]
+    },
+    {
+      "id": "20261030_004",
+      "word": "unless",
+      "phonetic": "/ənˈles/",
+      "pos": "conjunction",
+      "meaning": [
+        "除非"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "Visitors may not enter the high-security facility unless escorted by staff.",
+        "zh": "訪客除非有員工陪同，否則不得進入高度維安設施。"
+      },
+      "mnemonic": "條件連接詞，等同於 if ... not，多益文法題極高頻。",
+      "collocations": [
+        "unless otherwise noted",
+        "unless required"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_005",
+      "word": "independent",
+      "phonetic": "/ˌɪndɪˈpendənt/",
+      "pos": "adjective",
+      "meaning": [
+        "獨立的",
+        "客觀公正的"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "An independent accounting auditor was hired to inspect our annual ledger records.",
+        "zh": "公司聘請了一位獨立的會計查核員來審查我們的年度總帳紀錄。"
+      },
+      "mnemonic": "in- (不) + de- (下) + pend (懸掛、依靠) + -ent ＝ 不倚靠他人 ＝ 獨立的。",
+      "collocations": [
+        "independent auditor",
+        "independent contractor"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "in- 不",
+        "de- 下",
+        "pend- 懸掛、依賴",
+        "-ent 形容詞"
+      ]
+    },
+    {
+      "id": "20261030_006",
+      "word": "majority",
+      "phonetic": "/məˈdʒɔːrəti/",
+      "pos": "noun",
+      "meaning": [
+        "多數",
+        "過半數"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "A clear majority of voting shareholders approved the proposed corporate merger.",
+        "zh": "絕大多數具投票權的股東通過了提議的企業合併案。"
+      },
+      "mnemonic": "major (較大的) + -ity (名詞尾) ＝ 大多數。",
+      "collocations": [
+        "vast majority",
+        "majority vote"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "major- 較大",
+        "-ity 名詞"
+      ]
+    },
+    {
+      "id": "20261030_007",
+      "word": "stick",
+      "phonetic": "/stɪk/",
+      "pos": "verb",
+      "meaning": [
+        "堅持",
+        "黏貼",
+        "棍杖/記憶卡(名詞)"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Project teams must stick strictly to the established budget guidelines and limits.",
+        "zh": "專案團隊必須嚴格恪遵既定的預算準則與上限限制。"
+      },
+      "mnemonic": "片語 stick to (堅持、遵循規定)；memory stick (記憶卡)。",
+      "collocations": [
+        "stick to",
+        "memory stick"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_008",
+      "word": "rich",
+      "phonetic": "/rɪtʃ/",
+      "pos": "adjective",
+      "meaning": [
+        "豐富的",
+        "富有的"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Our new senior engineering consultant brings a rich background in automated logistics.",
+        "zh": "我們的新任資深工程顧問具備自動化物流領域的豐富資歷。"
+      },
+      "mnemonic": "職場常考「經驗/資源豐富」(rich in experience/features)。",
+      "collocations": [
+        "rich experience",
+        "rich in"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_009",
+      "word": "wind",
+      "phonetic": "/wɪnd/",
+      "pos": "noun",
+      "meaning": [
+        "風",
+        "風力(wind power)"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The energy corporation invested heavily in offshore wind power turbine technology.",
+        "zh": "該能源公司在離岸風力渦輪發電機技術上進行了巨額投資。"
+      },
+      "mnemonic": "綠色能源考題常見：wind power (風力發電)、wind turbine (風力發電機)。",
+      "collocations": [
+        "wind power",
+        "wind energy"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_010",
+      "word": "none",
+      "phonetic": "/nʌn/",
+      "pos": "pronoun",
+      "meaning": [
+        "無人",
+        "毫無",
+        "沒有一個"
+      ],
+      "group": 1,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "None of the defective inventory items were shipped out to retail stores.",
+        "zh": "瑕疵庫存品中沒有任何一件被運送至零售門市。"
+      },
+      "mnemonic": "not one 的縮合 ＝ 沒有任何一個。",
+      "collocations": [
+        "none of",
+        "none other than"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_011",
+      "word": "exchange",
+      "phonetic": "/ɪksˈtʃeɪndʒ/",
+      "pos": "verb",
+      "meaning": [
+        "交換",
+        "兌換",
+        "交易所(名詞)"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "International business travelers can exchange currencies at the airport arrivals terminal.",
+        "zh": "跨國商務旅客可在機場入境航廈兌換各國外幣。"
+      },
+      "mnemonic": "ex- (出、外) + change (改變) ＝ 雙方相互更換 ＝ 匯兌、換貨。",
+      "collocations": [
+        "exchange rate",
+        "currency exchange"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "ex- 向外",
+        "change 改變"
+      ]
+    },
+    {
+      "id": "20261030_012",
+      "word": "budget",
+      "phonetic": "/ˈbʌdʒɪt/",
+      "pos": "noun",
+      "meaning": [
+        "預算",
+        "編列預算(動詞)",
+        "經濟實惠的(形容詞)"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The marketing director submitted a revised quarterly advertising budget for review.",
+        "zh": "行銷總監提交了一份修訂後的季度廣告預算以供審查。"
+      },
+      "mnemonic": "多益商業財報極核心字彙：annual budget (年度預算)、on a budget (節省預算)。",
+      "collocations": [
+        "annual budget",
+        "budget cut"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_013",
+      "word": "famous",
+      "phonetic": "/ˈfeɪməs/",
+      "pos": "adjective",
+      "meaning": [
+        "著名的",
+        "知名的"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The resort is world-famous for its luxurious beachfront accommodations and spa.",
+        "zh": "這座度假勝地因其奢華的濱海住宿與水療設施而舉世聞名。"
+      },
+      "mnemonic": "fame (名氣) + -ous (充滿...的形容詞尾) ＝ 著名的。",
+      "collocations": [
+        "world famous",
+        "famous for"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "fam- 說、聲明",
+        "-ous 形容詞"
+      ]
+    },
+    {
+      "id": "20261030_014",
+      "word": "blood",
+      "phonetic": "/blʌd/",
+      "pos": "noun",
+      "meaning": [
+        "血液",
+        "血壓(blood pressure)"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The company wellness fair offers complimentary blood pressure screenings to all employees.",
+        "zh": "公司員工健康展向全體員工提供免費的血壓量測服務。"
+      },
+      "mnemonic": "員工健檢 (health screening) 與福利常考搭配：blood test (驗血)、blood pressure (血壓)。",
+      "collocations": [
+        "blood pressure",
+        "blood test"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_015",
+      "word": "appropriate",
+      "phonetic": "/əˈproʊpriət/",
+      "pos": "adjective",
+      "meaning": [
+        "適當的",
+        "合宜的",
+        "撥款/挪用(動詞)"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "All factory technicians must wear appropriate safety gear when entering the cleanroom.",
+        "zh": "所有廠區技術人員進入無塵室時均必須穿戴適當的安全護具。"
+      },
+      "mnemonic": "ad- (朝向) + propri (適當、專屬) + -ate ＝ 適合該場合的。",
+      "collocations": [
+        "appropriate action",
+        "appropriate attire"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "ad- 向 (ap-)",
+        "propri- 自己的、適當",
+        "-ate 形容詞/動詞"
+      ]
+    },
+    {
+      "id": "20261030_016",
+      "word": "block",
+      "phonetic": "/blɑːk/",
+      "pos": "noun",
+      "meaning": [
+        "街區",
+        "阻礙(動詞)",
+        "大樓/大型模組"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The regional corporate branch office is situated just two blocks from the metro station.",
+        "zh": "該區域企業分部辦公室距離捷運站僅僅兩個街區。"
+      },
+      "mnemonic": "名詞指市區「街區 (two blocks away)」，動詞指「阻擋 (block access)」。",
+      "collocations": [
+        "office block",
+        "block traffic"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_017",
+      "word": "warm",
+      "phonetic": "/wɔːrm/",
+      "pos": "adjective",
+      "meaning": [
+        "溫暖的",
+        "熱情的",
+        "使溫暖(動詞)"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The hotel receptionist extended a warm greeting to every newly arrived guest.",
+        "zh": "飯店櫃檯接待員向每位新抵達的房客致上熱誠的問候。"
+      },
+      "mnemonic": "服務業禮貌接待用語：warm welcome (熱情歡迎)。",
+      "collocations": [
+        "warm welcome",
+        "warm regards"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_018",
+      "word": "count",
+      "phonetic": "/kaʊnt/",
+      "pos": "verb",
+      "meaning": [
+        "計算",
+        "重要/算數",
+        "計數/統計(名詞)"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Warehouse clerks count physical inventory items at the close of every fiscal quarter.",
+        "zh": "倉儲庫存人員在每個會計季度末盤點計算實體庫存品。"
+      },
+      "mnemonic": "多益盤點必備：inventory count (盤點庫存)；片語 count on (指望、信賴)。",
+      "collocations": [
+        "inventory count",
+        "count on"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_019",
+      "word": "scene",
+      "phonetic": "/siːn/",
+      "pos": "noun",
+      "meaning": [
+        "現場",
+        "場景",
+        "景象"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Emergency maintenance engineers arrived at the factory accident scene within minutes.",
+        "zh": "緊急維修工程師在數分鐘內便抵達了工廠事故現場。"
+      },
+      "mnemonic": "事故處理或影視廣告必備：on the scene (在現場)。",
+      "collocations": [
+        "behind the scenes",
+        "accident scene"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_020",
+      "word": "writer",
+      "phonetic": "/ˈraɪtər/",
+      "pos": "noun",
+      "meaning": [
+        "作者",
+        "撰寫人",
+        "文案專員"
+      ],
+      "group": 2,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Our advertising agency hired an experienced copywriter to craft website marketing content.",
+        "zh": "我們的廣告代理商聘請了一位經驗豐富的文案專員來撰寫網站行銷內容。"
+      },
+      "mnemonic": "write (寫) + -er (人) ＝ 撰稿人、文案創作者 (copywriter)。",
+      "collocations": [
+        "technical writer",
+        "freelance writer"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_021",
+      "word": "content",
+      "phonetic": "/ˈkɑːntent/",
+      "pos": "noun",
+      "meaning": [
+        "內容",
+        "滿意的(形容詞 /ˈkəntent/)"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "The corporate communications team regularly updates digital media content on our portal.",
+        "zh": "企業公關團隊定期在我們的入口網站上更新數位媒體內容。"
+      },
+      "mnemonic": "con- (共同) + ten- (保持、容納) ＝ 容納於其中的東西 ＝ 內容。",
+      "collocations": [
+        "table of contents",
+        "content marketing"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "con- 共同",
+        "ten- 握住、容納"
+      ]
+    },
+    {
+      "id": "20261030_022",
+      "word": "prevent",
+      "phonetic": "/prɪˈvent/",
+      "pos": "verb",
+      "meaning": [
+        "防止",
+        "預防",
+        "避免"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "Routine equipment calibration helps prevent costly production assembly line stoppages.",
+        "zh": "常規的設備校準有助於防止代價高昂的產線停工事故。"
+      },
+      "mnemonic": "pre- (預先) + vent (來) ＝ 在問題來之前先擋下 ＝ 預防。",
+      "collocations": [
+        "prevent damage",
+        "prevent accidents"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "pre- 預先",
+        "vent- 來"
+      ]
+    },
+    {
+      "id": "20261030_023",
+      "word": "safe",
+      "phonetic": "/seɪf/",
+      "pos": "adjective",
+      "meaning": [
+        "安全的",
+        "保險箱(名詞)"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Guests are strongly advised to keep personal valuables inside their hotel room safe.",
+        "zh": "強烈建議房客將個人貴重物品妥善存放於飯店客房保險箱內。"
+      },
+      "mnemonic": "形容詞指安全的，名詞指「客房保險箱」(in-room safe)。",
+      "collocations": [
+        "safe working environment",
+        "in-room safe"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_024",
+      "word": "invite",
+      "phonetic": "/ɪnˈvaɪt/",
+      "pos": "verb",
+      "meaning": [
+        "邀請",
+        "徵求"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "We cordially invite all regional business partners to attend our annual product showcase.",
+        "zh": "我們誠摯地邀請所有區域商業夥伴出席我們的年度產品發表會。"
+      },
+      "mnemonic": "名詞 invitation (邀請函)，多益商務社交極常見動詞。",
+      "collocations": [
+        "cordially invite",
+        "invite bids"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_025",
+      "word": "mix",
+      "phonetic": "/mɪks/",
+      "pos": "verb",
+      "meaning": [
+        "混合",
+        "結合",
+        "組合/調配(名詞)"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Our strategic marketing mix includes targeted digital advertising and sponsored industry events.",
+        "zh": "我們的行銷組合策略涵蓋了精準數位廣告投放與贊助行業盛會。"
+      },
+      "mnemonic": "行銷核心名詞搭配：marketing mix (行銷組合)、product mix (產品線組合)。",
+      "collocations": [
+        "marketing mix",
+        "mix of"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_026",
+      "word": "element",
+      "phonetic": "/ˈelɪmənt/",
+      "pos": "noun",
+      "meaning": [
+        "要素",
+        "成分",
+        "元素"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "Clear accountability is an essential element of modern corporate governance standards.",
+        "zh": "清晰的權責劃分是現代企業治理標準不可或缺的核心要素。"
+      },
+      "mnemonic": "重要構成要素：key element (關鍵要素)、essential element (不可或缺的要素)。",
+      "collocations": [
+        "key element",
+        "essential element"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_027",
+      "word": "correct",
+      "phonetic": "/kəˈrekt/",
+      "pos": "adjective",
+      "meaning": [
+        "正確的",
+        "修正/批改(動詞)"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Please ensure that your billing address details are entirely correct before checkout.",
+        "zh": "結帳之前請務必確認您的帳單地址資料完全正確無誤。"
+      },
+      "mnemonic": "cor- (共同、完全) + rect (正、直) ＝ 完全端正 ＝ 正確的。",
+      "collocations": [
+        "correct procedure",
+        "correct error"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "cor- 完全 (con-)",
+        "rect- 正、直"
+      ]
+    },
+    {
+      "id": "20261030_028",
+      "word": "medical",
+      "phonetic": "/ˈmedɪkl/",
+      "pos": "adjective",
+      "meaning": [
+        "醫療的",
+        "醫學的"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The corporate employee benefits package includes full comprehensive medical and dental insurance.",
+        "zh": "該企業員工福利方案涵蓋了全面的醫療與牙科保險保障。"
+      },
+      "mnemonic": "福利制度考點：medical insurance (醫療保險)、medical leave (病假)。",
+      "collocations": [
+        "medical insurance",
+        "medical leave"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "med- 醫治",
+        "-al 形容詞"
+      ]
+    },
+    {
+      "id": "20261030_029",
+      "word": "admit",
+      "phonetic": "/ədˈmɪt/",
+      "pos": "verb",
+      "meaning": [
+        "准許進入",
+        "承認"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "B1"
+      ],
+      "example": {
+        "en": "Only pre-registered trade attendees will be admitted to the exhibition hall today.",
+        "zh": "今天只有事先完成報名的商務人士方能獲准進入展覽大廳。"
+      },
+      "mnemonic": "ad- (向) + mit (送、放行) ＝ 放行進入或承認。",
+      "collocations": [
+        "admit to",
+        "be admitted"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_030",
+      "word": "beat",
+      "phonetic": "/biːt/",
+      "pos": "verb",
+      "meaning": [
+        "擊敗",
+        "超越",
+        "節奏(名詞)"
+      ],
+      "group": 3,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Our discount airfare policy promises to beat any competitor price by ten percent.",
+        "zh": "我們的折扣機票保證比任何競爭對手的價格再優惠百分之十。"
+      },
+      "mnemonic": "商業競爭常見：beat the competition (擊敗競爭對手)、beat the deadline (趕在期限前)。",
+      "collocations": [
+        "beat competition",
+        "beat deadline"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_031",
+      "word": "telephone",
+      "phonetic": "/ˈtelɪfoʊn/",
+      "pos": "noun",
+      "meaning": [
+        "電話",
+        "打電話(動詞)"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The client requested a follow-up telephone consultation to review the proposal terms.",
+        "zh": "客戶要求安排後續電話諮詢，以審視企劃書各項條款。"
+      },
+      "mnemonic": "tele- (遠距離) + phone (聲音) ＝ 電話溝通。",
+      "collocations": [
+        "telephone call",
+        "telephone directory"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ],
+      "roots": [
+        "tele- 遠",
+        "phon- 聲音"
+      ]
+    },
+    {
+      "id": "20261030_032",
+      "word": "copy",
+      "phonetic": "/ˈkɑːpi/",
+      "pos": "noun",
+      "meaning": [
+        "副本",
+        "複製(動詞)",
+        "文案"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Please print a hard copy of the final audit report for today's executive review.",
+        "zh": "請為今天的主管審核會議列印一份最終審計報告的紙本副本。"
+      },
+      "mnemonic": "辦公室必備：hard copy (紙本列印)、make a copy (影印)。",
+      "collocations": [
+        "hard copy",
+        "make copies"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_033",
+      "word": "such",
+      "phonetic": "/sʌtʃ/",
+      "pos": "determiner",
+      "meaning": [
+        "這樣的",
+        "如此的"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Handling such sensitive financial data requires strict compliance with privacy standards.",
+        "zh": "處理如此敏感的財務資料必須嚴格遵守隱私權標準。"
+      },
+      "mnemonic": "多益閱讀舉例與定義極高頻片語：such as (諸如、例如)。",
+      "collocations": [
+        "such as",
+        "such a"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_034",
+      "word": "last",
+      "phonetic": "/læst/",
+      "pos": "adjective",
+      "meaning": [
+        "上一個的",
+        "最後的",
+        "持續"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "According to the financial report, company sales increased by eight percent last month.",
+        "zh": "根據財務報告，公司銷售額上個月增長了百分之八。"
+      },
+      "mnemonic": "過去時間指標詞：last month (上個月)、last year (去年)；動詞意為持續。",
+      "collocations": [
+        "last month",
+        "last year"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_035",
+      "word": "child",
+      "phonetic": "/tʃaɪld/",
+      "pos": "noun",
+      "meaning": [
+        "兒童",
+        "孩子"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The resort hotel offers dedicated supervision activities for guests traveling with a child.",
+        "zh": "該度假飯店為帶兒童出遊的旅客提供專門的託兒照料活動。"
+      },
+      "mnemonic": "飯店服務與員工福利常見詞：child care (托兒服務)。",
+      "collocations": [
+        "child care",
+        "with a child"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_036",
+      "word": "tell",
+      "phonetic": "/tɛl/",
+      "pos": "verb",
+      "meaning": [
+        "告訴",
+        "告知",
+        "說明"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The supervisor will tell the team about the upcoming revisions to the project timeline.",
+        "zh": "主管將向團隊說明專案時程即將做出的修訂。"
+      },
+      "mnemonic": "商務通訊句型：tell someone about something (告訴某人某事)。",
+      "collocations": [
+        "tell someone about",
+        "tell the difference"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_037",
+      "word": "really",
+      "phonetic": "/ˈriːəli/",
+      "pos": "adverb",
+      "meaning": [
+        "非常",
+        "真正地",
+        "確實"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "We really appreciate your patience while our technical team resolves the server issue.",
+        "zh": "在我們的技術團隊排查伺服器問題時，我們非常感謝您的耐心等候。"
+      },
+      "mnemonic": "多益書信常用客氣加強詞：really appreciate (非常感謝)。",
+      "collocations": [
+        "really appreciate",
+        "really good"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_038",
+      "word": "call",
+      "phonetic": "/kɔːl/",
+      "pos": "verb",
+      "meaning": [
+        "致電",
+        "召開(會議)",
+        "稱呼"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "The committee chairman decided to call an emergency meeting to review the tender bid.",
+        "zh": "委員會主席決定召開緊急會議以審查投標文件。"
+      },
+      "mnemonic": "多益極高頻商業搭配：call a meeting (召開會議)、conference call (電話會議)。",
+      "collocations": [
+        "call a meeting",
+        "conference call"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_039",
+      "word": "before",
+      "phonetic": "/bɪˈfɔːr/",
+      "pos": "preposition",
+      "meaning": [
+        "在...之前"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "All employees should submit their completed reimbursement forms before the end of the month.",
+        "zh": "所有員工應在月底之前提交填寫完畢的報帳請款單。"
+      },
+      "mnemonic": "截止期限關鍵時間詞：before the deadline (在截止日期之前)。",
+      "collocations": [
+        "before the deadline",
+        "the day before"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
+    {
+      "id": "20261030_040",
+      "word": "company",
+      "phonetic": "/ˈkʌmpəni/",
+      "pos": "noun",
+      "meaning": [
+        "公司",
+        "企業"
+      ],
+      "group": 4,
+      "tags": [
+        "TOEIC",
+        "高頻單字",
+        "A2"
+      ],
+      "example": {
+        "en": "Our company has grown from a local enterprise into an international manufacturer.",
+        "zh": "我們公司已從一家在地企業成長為國際製造商。"
+      },
+      "mnemonic": "多益最核心主體：company policy (公司政策)、parent company (母公司)。",
+      "collocations": [
+        "company policy",
+        "parent company"
+      ],
+      "reviewDates": [
+        "2026-10-31",
+        "2026-11-02",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-29"
+      ],
+      "sourceRefs": [
+        "Lexifold TOEIC",
+        "NGSL 1.2"
+      ]
+    },
     {
       "id": "20261101_001",
       "word": "highly",
@@ -1515,3016 +6097,6 @@
         "2026-11-08",
         "2026-11-15",
         "2026-12-01"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    }
-  ],
-  "reviewWords": [
-    {
-      "id": "20261029_001",
-      "word": "forecast",
-      "phonetic": "/ˈfɔːrkæst/",
-      "pos": "noun/verb",
-      "meaning": [
-        "預測",
-        "預報"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The weather forecast predicts rain.",
-        "zh": "最新的市場趨勢預測顯示明年度消費需求將強勁復甦。"
-      },
-      "mnemonic": "forecast future conditions。",
-      "collocations": [
-        "sales forecast",
-        "weather forecast"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_002",
-      "word": "cancel",
-      "phonetic": "/ˈkænsəl/",
-      "pos": "verb",
-      "meaning": [
-        "取消",
-        "廢止"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The airline canceled the flight.",
-        "zh": "旅客因暴風雨受困，不得不取消原本預訂的航班。"
-      },
-      "mnemonic": "cancel a reservation or event。",
-      "collocations": [
-        "cancel a reservation",
-        "cancel a flight"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_003",
-      "word": "assign",
-      "phonetic": "/əˈsaɪn/",
-      "pos": "verb",
-      "meaning": [
-        "分配",
-        "指派"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The supervisor assigned a task to me.",
-        "zh": "專案主管將市場分析的任務指派給資深顧問處理。"
-      },
-      "mnemonic": "assign a task。",
-      "collocations": [
-        "assign a task",
-        "assign roles"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_004",
-      "word": "inquiry",
-      "phonetic": "/ɪnˈkwaɪəri/",
-      "pos": "noun",
-      "meaning": [
-        "詢問",
-        "查詢",
-        "調查"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "We received an inquiry about delivery.",
-        "zh": "我們的客服專員會在收到諮詢後的二十四小時內回覆您。"
-      },
-      "mnemonic": "正式的 question。",
-      "collocations": [
-        "general inquiry",
-        "respond to inquiries"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_005",
-      "word": "guideline",
-      "phonetic": "/ˈɡaɪdlaɪn/",
-      "pos": "noun",
-      "meaning": [
-        "指導方針",
-        "準則",
-        "規範"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Please follow the safety guidelines.",
-        "zh": "所有行銷文案必須遵守公司最新發布的品牌準則。"
-      },
-      "mnemonic": "guideline 是行動規則。",
-      "collocations": [
-        "follow guidelines",
-        "safety guidelines"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_006",
-      "word": "transportation",
-      "phonetic": "/ˌtrænspərˈteɪʃən/",
-      "pos": "noun",
-      "meaning": [
-        "交通",
-        "運輸工具"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Public transportation is convenient here.",
-        "zh": "會展中心地理位置極佳，大眾交通工具非常便利。"
-      },
-      "mnemonic": "交通方式的總稱。",
-      "collocations": [
-        "public transportation",
-        "transportation costs"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_007",
-      "word": "flexible",
-      "phonetic": "/ˈflɛksəbəl/",
-      "pos": "adjective",
-      "meaning": [
-        "彈性的",
-        "靈活的"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Our schedule is flexible this week.",
-        "zh": "公司實施彈性上下班工時，讓員工能更好地平衡生活。"
-      },
-      "mnemonic": "可調整、不固定。",
-      "collocations": [
-        "flexible working hours",
-        "flexible schedule"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_008",
-      "word": "survey",
-      "phonetic": "/ˈsɜːrveɪ/",
-      "pos": "noun/verb",
-      "meaning": [
-        "調查",
-        "問卷"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Customers completed a short survey.",
-        "zh": "請撥冗填寫我們的客戶滿意度調查。"
-      },
-      "mnemonic": "問卷調查。",
-      "collocations": [
-        "customer survey",
-        "conduct a survey"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_009",
-      "word": "deliver",
-      "phonetic": "/dɪˈlɪvər/",
-      "pos": "verb",
-      "meaning": [
-        "運送",
-        "遞送",
-        "發表演說"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "We deliver orders within two days.",
-        "zh": "包裹將於明天下午親自遞送到府。"
-      },
-      "mnemonic": "deliver an order。",
-      "collocations": [
-        "deliver goods",
-        "deliver a speech"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_010",
-      "word": "responsible",
-      "phonetic": "/rɪˈspɑːnsəbəl/",
-      "pos": "adjective",
-      "meaning": [
-        "負責的",
-        "有責任的"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "She is responsible for the budget.",
-        "zh": "經理負責主導海外市場擴張企劃。"
-      },
-      "mnemonic": "responsible for + 名詞。",
-      "collocations": [
-        "responsible for",
-        "hold responsible"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_011",
-      "word": "transfer",
-      "phonetic": "/trænsˈfɜːr/",
-      "pos": "verb/noun",
-      "meaning": [
-        "調職",
-        "轉讓",
-        "轉移",
-        "轉乘"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Please transfer the payment today.",
-        "zh": "他申請調任至芝加哥分公司服務。"
-      },
-      "mnemonic": "轉帳或轉移。",
-      "collocations": [
-        "transfer to",
-        "wire transfer"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_012",
-      "word": "procedure",
-      "phonetic": "/prəˈsiːdʒər/",
-      "pos": "noun",
-      "meaning": [
-        "程序",
-        "手續",
-        "步驟"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Follow the emergency procedure.",
-        "zh": "所有員工必須嚴格遵守安全作業程序。"
-      },
-      "mnemonic": "正式流程。",
-      "collocations": [
-        "standard operating procedure",
-        "safety procedure"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_013",
-      "word": "annual",
-      "phonetic": "/ˈænjuəl/",
-      "pos": "adjective",
-      "meaning": [
-        "年度的",
-        "每年的"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The company holds an annual meeting.",
-        "zh": "公司年度股東大會將於五月召開。"
-      },
-      "mnemonic": "每年一次。",
-      "collocations": [
-        "annual meeting",
-        "annual report"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_014",
-      "word": "commercial",
-      "phonetic": "/kəˈmɜːrʃəl/",
-      "pos": "adjective/noun",
-      "meaning": [
-        "商業的",
-        "廣告"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The commercial promotes a new car.",
-        "zh": "這是一座供企業租用的現代化商辦大樓。"
-      },
-      "mnemonic": "commercial break。",
-      "collocations": [
-        "commercial space",
-        "commercial television"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_015",
-      "word": "promote",
-      "phonetic": "/prəˈmoʊt/",
-      "pos": "verb",
-      "meaning": [
-        "升職",
-        "促銷",
-        "推廣"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The store will promote its new service.",
-        "zh": "由於績效優異，她獲得晉升為資深專案協調員。"
-      },
-      "mnemonic": "促銷或升職。",
-      "collocations": [
-        "promote a product",
-        "promote to manager"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_016",
-      "word": "revenue",
-      "phonetic": "/ˈrɛvənuː/",
-      "pos": "noun",
-      "meaning": [
-        "營收",
-        "收入"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Online sales increased the revenue.",
-        "zh": "公司本會計年度的總營業收入成長兩成。"
-      },
-      "mnemonic": "企業總收入。",
-      "collocations": [
-        "annual revenue",
-        "generate revenue"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_017",
-      "word": "volume",
-      "phonetic": "/ˈvɑːljuːm/",
-      "pos": "noun",
-      "meaning": [
-        "銷售量",
-        "總額",
-        "容積",
-        "音量"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The store sells a large volume of goods.",
-        "zh": "本季度的出口貨物總量創下歷史新高。"
-      },
-      "mnemonic": "大量或音量。",
-      "collocations": [
-        "sales volume",
-        "volume discount"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_018",
-      "word": "location",
-      "phonetic": "/loʊˈkeɪʃən/",
-      "pos": "noun",
-      "meaning": [
-        "地點",
-        "位置",
-        "分店"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The new office is in a convenient location.",
-        "zh": "新旗艦店的地理位置鄰近市中心主要捷運站。"
-      },
-      "mnemonic": "場所的位置。",
-      "collocations": [
-        "convenient location",
-        "store location"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_019",
-      "word": "objective",
-      "phonetic": "/əbˈdʒɛktɪv/",
-      "pos": "noun/adjective",
-      "meaning": [
-        "目標",
-        "客觀的"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Our main objective is to reduce costs.",
-        "zh": "行銷部門本季度的首要目標是提升品牌知名度。"
-      },
-      "mnemonic": "objective = goal。",
-      "collocations": [
-        "primary objective",
-        "achieve an objective"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_020",
-      "word": "branch",
-      "phonetic": "/bræntʃ/",
-      "pos": "noun",
-      "meaning": [
-        "分公司",
-        "分行",
-        "樹枝"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The bank opened a new branch.",
-        "zh": "該銀行將於下個月在西區開設新分行。"
-      },
-      "mnemonic": "公司或銀行的分支。",
-      "collocations": [
-        "branch office",
-        "local branch"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_021",
-      "word": "capacity",
-      "phonetic": "/kəˈpæsəti/",
-      "pos": "noun",
-      "meaning": [
-        "容量",
-        "產能",
-        "職能"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The room has a capacity of 80 people.",
-        "zh": "宴會大廳最多可容納四百名賓客入席。"
-      },
-      "mnemonic": "可容納的人數。",
-      "collocations": [
-        "maximum capacity",
-        "operating at full capacity"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_022",
-      "word": "regulation",
-      "phonetic": "/ˌrɛɡjəˈleɪʃən/",
-      "pos": "noun",
-      "meaning": [
-        "規章",
-        "條例",
-        "管制"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "All drivers must follow traffic regulations.",
-        "zh": "所有實驗室作業皆必須符合政府環保規章。"
-      },
-      "mnemonic": "正式規則。",
-      "collocations": [
-        "safety regulations",
-        "comply with regulations"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_023",
-      "word": "hire",
-      "phonetic": "/ˈhaɪər/",
-      "pos": "verb",
-      "meaning": [
-        "僱用",
-        "聘請",
-        "租借"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The company plans to hire two assistants.",
-        "zh": "公司計畫於第四季度招募五名軟體工程師。"
-      },
-      "mnemonic": "hire new staff。",
-      "collocations": [
-        "hire staff",
-        "new hire"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_024",
-      "word": "guarantee",
-      "phonetic": "/ˌɡærənˈtiː/",
-      "pos": "noun/verb",
-      "meaning": [
-        "保證",
-        "保固",
-        "擔保"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The product comes with a one-year guarantee.",
-        "zh": "所有電器設備皆附帶為期一年的品質保固。"
-      },
-      "mnemonic": "保證品質或結果。",
-      "collocations": [
-        "money-back guarantee",
-        "guarantee satisfaction"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_025",
-      "word": "instruction",
-      "phonetic": "/ɪnˈstrʌkʃən/",
-      "pos": "noun",
-      "meaning": [
-        "指示",
-        "說明書",
-        "指導"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Read the instructions before use.",
-        "zh": "組裝辦公家具前請先詳細閱讀說明書。"
-      },
-      "mnemonic": "instructions 通常用複數。",
-      "collocations": [
-        "instruction manual",
-        "follow instructions"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_026",
-      "word": "complaint",
-      "phonetic": "/kəmˈpleɪnt/",
-      "pos": "noun",
-      "meaning": [
-        "投訴",
-        "抱怨",
-        "控告"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The manager handled the complaint quickly.",
-        "zh": "客戶服務中心正在審理顧客對配送延誤的投訴。"
-      },
-      "mnemonic": "customer complaint。",
-      "collocations": [
-        "file a complaint",
-        "customer complaint"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_027",
-      "word": "employer",
-      "phonetic": "/ɪmˈplɔɪər/",
-      "pos": "noun",
-      "meaning": [
-        "雇主",
-        "用人單位"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The employer offers flexible hours.",
-        "zh": "作為負責任的雇主，公司提供完善的健康保險。"
-      },
-      "mnemonic": "employ 別人的人。",
-      "collocations": [
-        "prospective employer",
-        "equal opportunity employer"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_028",
-      "word": "priority",
-      "phonetic": "/praɪˈɔːrəti/",
-      "pos": "noun",
-      "meaning": [
-        "優先事項",
-        "優先權"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Safety is our top priority.",
-        "zh": "確保職場安全始終是我們工廠的最優先考量。"
-      },
-      "mnemonic": "最重要的事情。",
-      "collocations": [
-        "top priority",
-        "high priority"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_029",
-      "word": "salary",
-      "phonetic": "/ˈsæləri/",
-      "pos": "noun",
-      "meaning": [
-        "薪水",
-        "薪資"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The position offers a competitive salary.",
-        "zh": "該職位提供極具競爭力的薪資與獎金制度。"
-      },
-      "mnemonic": "固定薪資。",
-      "collocations": [
-        "competitive salary",
-        "annual salary"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_030",
-      "word": "approximately",
-      "phonetic": "/əˈprɑːksɪmətli/",
-      "pos": "adverb",
-      "meaning": [
-        "大約",
-        "大概"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The trip takes approximately two hours.",
-        "zh": "搭乘計程車前往會展中心大約需要四十分鐘車程。"
-      },
-      "mnemonic": "approximately = about。",
-      "collocations": [
-        "approximately two hours",
-        "cost approximately"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_031",
-      "word": "install",
-      "phonetic": "/ɪnˈstɔːl/",
-      "pos": "verb",
-      "meaning": [
-        "安裝",
-        "裝設"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Technicians will install the new software.",
-        "zh": "技術團隊本週末將在伺服器機房安裝新空調設備。"
-      },
-      "mnemonic": "install equipment or software。",
-      "collocations": [
-        "install software",
-        "install equipment"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_032",
-      "word": "occupy",
-      "phonetic": "/ˈɑːkjəpaɪ/",
-      "pos": "verb",
-      "meaning": [
-        "佔用",
-        "進駐",
-        "居住"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The meeting will occupy the whole morning.",
-        "zh": "所有宴會客房在國際會展期間皆已全數客滿。"
-      },
-      "mnemonic": "占用時間或空間。",
-      "collocations": [
-        "fully occupied",
-        "occupy space"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_033",
-      "word": "need",
-      "phonetic": "/niːd/",
-      "pos": "verb",
-      "meaning": [
-        "需要",
-        "必要",
-        "要求"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "We need to order additional packaging materials to fulfill all pending client orders.",
-        "zh": "我們需要訂購額外的包裝耗材以完成所有待處理的客戶訂單。"
-      },
-      "mnemonic": "採購與業務請購必備動詞，片語 in need of 意為需要。",
-      "collocations": [
-        "need to",
-        "in need of"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_034",
-      "word": "much",
-      "phonetic": "/mʌtʃ/",
-      "pos": "determiner",
-      "meaning": [
-        "大量的",
-        "許多",
-        "非常"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "How much funding will be allocated to the employee wellness program this year?",
-        "zh": "今年將提撥多少資金給員工身心健康計畫？"
-      },
-      "mnemonic": "詢問預算與花費的固定問法：how much + 不可數名詞。",
-      "collocations": [
-        "how much",
-        "much more"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_035",
-      "word": "right",
-      "phonetic": "/raɪt/",
-      "pos": "adjective",
-      "meaning": [
-        "合適的",
-        "正確的",
-        "權利"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The interview panel agreed that Mr. Gomez is the right candidate for the position.",
-        "zh": "面試小組一致認為戈梅茲先生是擔任該職位的合適人選。"
-      },
-      "mnemonic": "招募常用 the right candidate 表最理想人選；亦有 right now (馬上)。",
-      "collocations": [
-        "right candidate",
-        "right now"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_036",
-      "word": "back",
-      "phonetic": "/bæk/",
-      "pos": "adverb",
-      "meaning": [
-        "返回",
-        "回電",
-        "向後"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "I am currently in a client conference, but I will call you back before five o'clock.",
-        "zh": "我目前正在與客戶開會，但我會在五點前回電給您。"
-      },
-      "mnemonic": "電話商務必考片語：call back (回電)、get back to someone (回覆某人)。",
-      "collocations": [
-        "call back",
-        "get back to"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_037",
-      "word": "mean",
-      "phonetic": "/miːn/",
-      "pos": "verb",
-      "meaning": [
-        "意味著",
-        "意指",
-        "打算"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The revised safety protocol means that all factory workers must wear protective helmets.",
-        "zh": "修訂後的安全規範意味著所有工廠作業人員皆必須配戴安全帽。"
-      },
-      "mnemonic": "解釋新政策或合約條款意義的常用動詞，常接 that 子句。",
-      "collocations": [
-        "mean that",
-        "mean to"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_038",
-      "word": "even",
-      "phonetic": "/ˈiːvən/",
-      "pos": "adverb",
-      "meaning": [
-        "甚至",
-        "更加",
-        "連...都"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The newly upgraded automated system operates even faster than the previous model.",
-        "zh": "新升級的自動化系統運作起來甚至比先前的機型更為迅速。"
-      },
-      "mnemonic": "用於加強比較級語氣 (even faster) 或片語 even though (雖然)。",
-      "collocations": [
-        "even faster",
-        "even though"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_039",
-      "word": "here",
-      "phonetic": "/hɪr/",
-      "pos": "adverb",
-      "meaning": [
-        "這裡",
-        "在此處"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Please sign your name here on the receipt to acknowledge delivery of the parcel.",
-        "zh": "請在收據的這裡簽名，以確認已收到包裹。"
-      },
-      "mnemonic": "快遞簽收與櫃檯接待高頻指示副詞：sign here (在此簽名)。",
-      "collocations": [
-        "sign here",
-        "right here"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261029_040",
-      "word": "many",
-      "phonetic": "/ˈmɛni/",
-      "pos": "determiner",
-      "meaning": [
-        "許多的",
-        "許多人"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Many experienced engineers attended the regional technology expo last Friday.",
-        "zh": "許多資深工程師上週五參加了該區域科技博覽會。"
-      },
-      "mnemonic": "接可數複數名詞，多益聽力短對話常詢問人數或客群數量。",
-      "collocations": [
-        "many of the",
-        "how many"
-      ],
-      "reviewDates": [
-        "2026-10-30",
-        "2026-11-01",
-        "2026-11-05",
-        "2026-11-12",
-        "2026-11-28"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_001",
-      "word": "committee",
-      "phonetic": "/kəˈmɪti/",
-      "pos": "noun",
-      "meaning": [
-        "委員會"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The corporate executive steering committee approved the new overseas expansion strategy.",
-        "zh": "企業執行指導委員會核准了新的海外擴張戰略規劃。"
-      },
-      "mnemonic": "com- (共同) + mit (託付) + -ee (被託付的人群) ＝ 受託處理事務的委員會。",
-      "collocations": [
-        "steering committee",
-        "advisory committee"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "com- 共同",
-        "mit- 送出、託付",
-        "-ee 人群/接受者"
-      ]
-    },
-    {
-      "id": "20261031_002",
-      "word": "aware",
-      "phonetic": "/əˈwer/",
-      "pos": "adjective",
-      "meaning": [
-        "察覺的",
-        "意識到的",
-        "知悉的"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Employees should be fully aware of company data privacy and cybersecurity regulations.",
-        "zh": "全體員工應當完全知悉公司的數據隱私保護與網路資安規範。"
-      },
-      "mnemonic": "常見片語：be aware of (知悉、意識到)；名詞 awareness (知名度/警覺性)。",
-      "collocations": [
-        "be aware of",
-        "brand awareness"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_003",
-      "word": "advice",
-      "phonetic": "/ədˈvaɪs/",
-      "pos": "noun",
-      "meaning": [
-        "建議",
-        "忠告",
-        "諮詢"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "We consulted a certified financial planner for professional advice on corporate tax restructuring.",
-        "zh": "我們諮詢了認證理財規劃師，就企業稅務重組獲取專業建議。"
-      },
-      "mnemonic": "注意是不可數名詞！動詞形式為 advise (提供建議)。",
-      "collocations": [
-        "seek advice",
-        "professional advice"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_004",
-      "word": "glass",
-      "phonetic": "/ɡlæs/",
-      "pos": "noun",
-      "meaning": [
-        "玻璃",
-        "玻璃杯",
-        "鏡片(複數 glasses)"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The modern corporate office design features energy-efficient double-glazed glass partitions.",
-        "zh": "這間現代化辦公室採用了節能的雙層隔熱玻璃隔間設計。"
-      },
-      "mnemonic": "常指玻璃建材或餐旅飲品容器 (glass of water)。",
-      "collocations": [
-        "glass door",
-        "safety glass"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_005",
-      "word": "trial",
-      "phonetic": "/ˈtraɪəl/",
-      "pos": "noun",
-      "meaning": [
-        "試用期",
-        "審判",
-        "試驗"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "New subscribers are entitled to a thirty-day free trial of our project management platform.",
-        "zh": "新註冊用戶享有我們專案管理平台的三十天免費試用期優惠。"
-      },
-      "mnemonic": "軟體推廣極高頻詞：free trial (免費試用)、trial period (試用期)。",
-      "collocations": [
-        "free trial",
-        "trial period"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_006",
-      "word": "stress",
-      "phonetic": "/stres/",
-      "pos": "noun",
-      "meaning": [
-        "壓力",
-        "強調(動詞)"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The keynote speaker stressed the paramount importance of continuous workforce upskilling.",
-        "zh": "主題演講貴賓特別強調了持續提升員工專業技能的無比重要性。"
-      },
-      "mnemonic": "名詞指工作壓力，動詞常考「強調某論點」(stress the importance of)。",
-      "collocations": [
-        "stress the importance",
-        "workplace stress"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_007",
-      "word": "radio",
-      "phonetic": "/ˈreɪdioʊ/",
-      "pos": "noun",
-      "meaning": [
-        "廣播",
-        "無線電",
-        "廣播電台"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The automotive dealership ran an aggressive radio advertisement campaign over the holiday weekend.",
-        "zh": "該汽車經銷商在假期週末推出了密集的廣播廣告宣傳活動。"
-      },
-      "mnemonic": "廣告媒體通路：radio advertisement (廣播廣告)、on the radio。",
-      "collocations": [
-        "radio station",
-        "radio commercial"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "radi- 光線、輻射"
-      ]
-    },
-    {
-      "id": "20261031_008",
-      "word": "administration",
-      "phonetic": "/ədˌmɪnɪˈstreɪʃn/",
-      "pos": "noun",
-      "meaning": [
-        "行政",
-        "管理",
-        "行政部門"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The hospital administration introduced streamlined electronic patient record management systems.",
-        "zh": "醫院行政管理階層引入了簡化流程的電子病歷管理系統。"
-      },
-      "mnemonic": "ad- (向) + minister (服務、管理) + -ation ＝ 行政主管機構。",
-      "collocations": [
-        "business administration",
-        "administration office"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "ad- 向",
-        "ministr- 服務、管理",
-        "-ation 名詞"
-      ]
-    },
-    {
-      "id": "20261031_009",
-      "word": "complex",
-      "phonetic": "/ˈkɑːmpleks/",
-      "pos": "adjective",
-      "meaning": [
-        "複雜的",
-        "綜合大樓/複合式園區(名詞)"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Our international engineering firm relocated its headquarters to a modern office complex.",
-        "zh": "我們的國際工程公司已將總部遷入一座現代化的綜合辦公大樓園區。"
-      },
-      "mnemonic": "com- (共同) + plex (重疊、編織) ＝ 盤根錯節的 ＝ 複雜的、建築綜合體。",
-      "collocations": [
-        "office complex",
-        "complex problem"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "com- 共同",
-        "plex- 折疊、編織"
-      ]
-    },
-    {
-      "id": "20261031_010",
-      "word": "text",
-      "phonetic": "/tekst/",
-      "pos": "noun",
-      "meaning": [
-        "簡訊",
-        "文本",
-        "傳簡訊(動詞)"
-      ],
-      "group": 1,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The automated reservation system sent a confirmation text message to the client's phone.",
-        "zh": "自動預約系統發送了一則確認簡訊至客戶的手機。"
-      },
-      "mnemonic": "text message (簡訊通知)，客服即時通知核心考點。",
-      "collocations": [
-        "text message",
-        "text alert"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_011",
-      "word": "context",
-      "phonetic": "/ˈkɑːntekst/",
-      "pos": "noun",
-      "meaning": [
-        "背景",
-        "前後脈絡",
-        "語境"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The market analyst explained our recent revenue decline within the context of global inflation.",
-        "zh": "市場分析師在考量全球通膨背景下解釋了我們近期的營收下滑現象。"
-      },
-      "mnemonic": "con- (共同) + text (編織) ＝ 共同織出的時空脈絡 ＝ 背景、上下文。",
-      "collocations": [
-        "in the context of",
-        "historical context"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "con- 共同",
-        "text- 編織"
-      ]
-    },
-    {
-      "id": "20261031_012",
-      "word": "ride",
-      "phonetic": "/raɪd/",
-      "pos": "verb",
-      "meaning": [
-        "搭乘",
-        "騎乘",
-        "搭車(名詞)"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Complimentary shuttle bus rides to the airport terminal are provided every thirty minutes.",
-        "zh": "前往機場航廈的免費接駁巴士每三十分鐘提供一趟乘車服務。"
-      },
-      "mnemonic": "交通工具接送常用：give someone a ride (順道載某人一程)。",
-      "collocations": [
-        "give a ride",
-        "bus ride"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_013",
-      "word": "directly",
-      "phonetic": "/dəˈrektli/",
-      "pos": "adverb",
-      "meaning": [
-        "直接地",
-        "立即地"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Inquiries regarding commercial loan applications should be submitted directly to our branch.",
-        "zh": "有關商業貸款申請的諮詢事宜，請直接向本行分行提出。"
-      },
-      "mnemonic": "direct (直接的) + -ly (副詞尾) ＝ 直接、逕行。",
-      "collocations": [
-        "directly to",
-        "report directly to"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "di- 分開 (dis-)",
-        "rect- 正、直",
-        "-ly 副詞"
-      ]
-    },
-    {
-      "id": "20261031_014",
-      "word": "heavy",
-      "phonetic": "/ˈhevi/",
-      "pos": "adjective",
-      "meaning": [
-        "沈重的",
-        "大量的",
-        "繁忙擁擠的"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Delivery trucks encountered extended transit delays due to unusually heavy highway traffic.",
-        "zh": "由於高速公路交通異常擁塞繁忙，物流貨車遭遇了嚴重的運送延誤。"
-      },
-      "mnemonic": "交通或降雨極常見修飾詞：heavy traffic (交通擁塞)、heavy rain (暴雨)。",
-      "collocations": [
-        "heavy traffic",
-        "heavy workload"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_015",
-      "word": "remove",
-      "phonetic": "/rɪˈmuːv/",
-      "pos": "verb",
-      "meaning": [
-        "移除",
-        "撤除",
-        "免職"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Facilities staff will remove obsolete electronic computer equipment from the third floor.",
-        "zh": "總務總理人員將從三樓撤除淘汰的老舊電腦設備。"
-      },
-      "mnemonic": "re- (回、離開) + move (移動) ＝ 移走、去除。",
-      "collocations": [
-        "remove from",
-        "remove barrier"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "re- 回、離",
-        "mov- 移動"
-      ]
-    },
-    {
-      "id": "20261031_016",
-      "word": "conduct",
-      "phonetic": "/kənˈdʌkt/",
-      "pos": "verb",
-      "meaning": [
-        "進行",
-        "引導",
-        "行為操守(名詞 /ˈkɑːndʌkt/)"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The quality assurance department will conduct an unannounced audit of the production facility.",
-        "zh": "品保部門將對廠區生產設施進行一場無預警的品質稽核。"
-      },
-      "mnemonic": "con- (共同) + duct (引導) ＝ 引領推進 ＝ 舉辦、執行調研。",
-      "collocations": [
-        "conduct a survey",
-        "conduct an interview"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "con- 共同",
-        "duct- 引導"
-      ]
-    },
-    {
-      "id": "20261031_017",
-      "word": "otherwise",
-      "phonetic": "/ˈʌðərwaɪz/",
-      "pos": "adverb",
-      "meaning": [
-        "否則",
-        "在其他方面",
-        "另外的"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "All invoices must be settled within thirty days unless explicitly specified otherwise.",
-        "zh": "所有發票必須在三十天內結清，除非合約中另有特別說明規定。"
-      },
-      "mnemonic": "other (其他) + -wise (方式) ＝ 換個角度、否則 (unless otherwise noted)。",
-      "collocations": [
-        "unless otherwise noted",
-        "or otherwise"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_018",
-      "word": "title",
-      "phonetic": "/ˈtaɪtl/",
-      "pos": "noun",
-      "meaning": [
-        "職稱",
-        "頭銜",
-        "產權證書"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Please write down your official job title and department division on the security badge form.",
-        "zh": "請在門禁識別證申請表上填寫您的正式職稱與所屬部門。"
-      },
-      "mnemonic": "人資面試與證件常見：job title (職稱頭銜)、property title (不動產所有權狀)。",
-      "collocations": [
-        "job title",
-        "official title"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_019",
-      "word": "extra",
-      "phonetic": "/ˈekstrə/",
-      "pos": "adjective",
-      "meaning": [
-        "額外的",
-        "附加的",
-        "額外加收(副詞)"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Airlines impose extra handling fees for oversized baggage exceeding standard dimensions.",
-        "zh": "航空公司針對超出標準尺寸的超大行李加收額外的手續處理費。"
-      },
-      "mnemonic": "extra- (超出)，商務常見 extra charge / extra cost (額外收費)。",
-      "collocations": [
-        "extra charge",
-        "extra cost"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "extra- 超出、外在"
-      ]
-    },
-    {
-      "id": "20261031_020",
-      "word": "executive",
-      "phonetic": "/ɪɡˈzekjətɪv/",
-      "pos": "noun",
-      "meaning": [
-        "高階主管",
-        "行政的/決策的(形容詞)"
-      ],
-      "group": 2,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Senior corporate executives met privately to deliberate potential overseas acquisition bids.",
-        "zh": "高階企業主管召開不公開閉門會議，以審議潛在的海外併購提案。"
-      },
-      "mnemonic": "execute (執行) + -ive ＝ 具備決策執行權力的階層 ＝ 高階管理人員 (CEO)。",
-      "collocations": [
-        "chief executive",
-        "executive director"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "ex- 出",
-        "secut- 跟隨 (sequ-)",
-        "-ive 人/形容詞"
-      ]
-    },
-    {
-      "id": "20261031_021",
-      "word": "chair",
-      "phonetic": "/tʃer/",
-      "pos": "noun",
-      "meaning": [
-        "主席",
-        "主持(動詞)",
-        "椅子"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Dr. Ramirez was selected to chair the international environmental policy symposium.",
-        "zh": "拉米瑞茲博士獲選主持本屆國際環境保護政策研討大會。"
-      },
-      "mnemonic": "會議必考：chair a meeting (主持會議)、committee chair (委員會主席)。",
-      "collocations": [
-        "chair a meeting",
-        "committee chair"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_022",
-      "word": "expensive",
-      "phonetic": "/ɪkˈspensɪv/",
-      "pos": "adjective",
-      "meaning": [
-        "昂貴的",
-        "高價的"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Upgrading older enterprise computer servers immediately would prove unnecessarily expensive.",
-        "zh": "若立刻全面升級老舊的企業伺服器將顯得過於昂貴且非必要。"
-      },
-      "mnemonic": "ex- (出) + pens (花費、秤重支付) + -ive ＝ 花費巨大的 ＝ 昂貴的。",
-      "collocations": [
-        "too expensive",
-        "expensive equipment"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "ex- 出",
-        "pens- 支付、衡量",
-        "-ive 形容詞"
-      ]
-    },
-    {
-      "id": "20261031_023",
-      "word": "sample",
-      "phonetic": "/ˈsæmpl/",
-      "pos": "noun",
-      "meaning": [
-        "樣品",
-        "樣本",
-        "品嚐/取樣(動詞)"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Prospective corporate buyers received complimentary product samples at the trade booth.",
-        "zh": "潛在的企業採購客戶在展位上領取了免費的產品樣品。"
-      },
-      "mnemonic": "商貿展覽必備：free sample (免費樣品)、sample product (樣品)。",
-      "collocations": [
-        "free sample",
-        "product sample"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_024",
-      "word": "sex",
-      "phonetic": "/seks/",
-      "pos": "noun",
-      "meaning": [
-        "性別"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Corporate hiring regulations prohibit workplace discrimination based on race or sex.",
-        "zh": "企業聘僱規章嚴格禁止基於種族或性別的任何職場歧視。"
-      },
-      "mnemonic": "人事申請表格或反歧視政策 (equal opportunity) 核心名詞。",
-      "collocations": [
-        "equal sex",
-        "without regard to sex"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_025",
-      "word": "video",
-      "phonetic": "/ˈvɪdioʊ/",
-      "pos": "noun",
-      "meaning": [
-        "視訊",
-        "影片",
-        "錄影(動詞)"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The global project team organized a weekly video conference to coordinate deliverables.",
-        "zh": "跨國專案小組每週安排一次視訊會議以協調整合各項交付工作。"
-      },
-      "mnemonic": "vid- (看) ＝ 影像視訊；video conference (視訊會議) 多益必備。",
-      "collocations": [
-        "video conference",
-        "promotional video"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "vid- 看"
-      ]
-    },
-    {
-      "id": "20261031_026",
-      "word": "connection",
-      "phonetic": "/kəˈnekʃn/",
-      "pos": "noun",
-      "meaning": [
-        "連結",
-        "轉乘班機/車次",
-        "人脈網絡"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Due to weather delays in Chicago, passenger flight connections were automatically rebooked.",
-        "zh": "由於芝加哥的惡劣天氣延誤，旅客的轉機航班已由系統自動重新改訂。"
-      },
-      "mnemonic": "con- (共同) + nect (綁定) + -ion ＝ 轉機 (connecting flight) 或網路連結。",
-      "collocations": [
-        "flight connection",
-        "internet connection"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "con- 共同",
-        "nect- 綁、連結",
-        "-ion 名詞"
-      ]
-    },
-    {
-      "id": "20261031_027",
-      "word": "primary",
-      "phonetic": "/ˈpraɪmeri/",
-      "pos": "adjective",
-      "meaning": [
-        "主要的",
-        "首要的",
-        "最初的"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Customer satisfaction retention is the primary objective of our new service charter.",
-        "zh": "提高客戶滿意度與維繫率是我們新服務憲章的首要核心目標。"
-      },
-      "mnemonic": "prim- (第一、最初) + -ary ＝ 首屈一指的、首要的。",
-      "collocations": [
-        "primary goal",
-        "primary source"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "prim- 第一",
-        "-ary 形容詞"
-      ]
-    },
-    {
-      "id": "20261031_028",
-      "word": "weather",
-      "phonetic": "/ˈweðər/",
-      "pos": "noun",
-      "meaning": [
-        "天氣",
-        "氣候",
-        "安然度過(動詞)"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Regional flight schedules were temporarily delayed due to severe thunderstorm weather.",
-        "zh": "由於遭遇嚴重的雷雨天氣，該地區的多架航班行程暫時遭到延誤。"
-      },
-      "mnemonic": "機場廣播與物流延遲常客：severe weather (惡劣氣候)、weather forecast (天氣預報)。",
-      "collocations": [
-        "severe weather",
-        "weather forecast"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_029",
-      "word": "collect",
-      "phonetic": "/kəˈlekt/",
-      "pos": "verb",
-      "meaning": [
-        "收集",
-        "領取",
-        "代收貨款(形容詞/副詞)"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Customers may collect their online orders directly from the store pickup counter.",
-        "zh": "顧客可直接於門市取貨櫃檯領取其線上訂購的商品。"
-      },
-      "mnemonic": "col- (共同) + lect (挑選、集合) ＝ 聚集到一處 ＝ 收集、取件。",
-      "collocations": [
-        "collect payment",
-        "collect parcel"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "col- 共同 (con-)",
-        "lect- 選擇、聚集"
-      ]
-    },
-    {
-      "id": "20261031_030",
-      "word": "principle",
-      "phonetic": "/ˈprɪnsəpl/",
-      "pos": "noun",
-      "meaning": [
-        "原則",
-        "準則",
-        "原理"
-      ],
-      "group": 3,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "Our corporate business philosophy is founded on strict ethical and transparency principles.",
-        "zh": "我們的企業經營哲學建立在嚴格的道德與透明度原則之上。"
-      },
-      "mnemonic": "prin- (第一) + cip- (拿取) ＝ 最根本的依據 ＝ 原則；注意與 principal (校長/本金) 區分。",
-      "collocations": [
-        "in principle",
-        "basic principle"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "prim- 第一",
-        "cip- 拿取"
-      ]
-    },
-    {
-      "id": "20261031_031",
-      "word": "straight",
-      "phonetic": "/streɪt/",
-      "pos": "adjective",
-      "meaning": [
-        "直接的",
-        "筆直的",
-        "連續的",
-        "直接地(副詞)"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Take a straight path through the concourse toward passenger boarding gate forty-two.",
-        "zh": "沿著大廳筆直向前走，即可抵達四十二號登機門。"
-      },
-      "mnemonic": "交通指引常用：go straight (直走)；straightforward (直截了當的)。",
-      "collocations": [
-        "go straight",
-        "straight answer"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_032",
-      "word": "appeal",
-      "phonetic": "/əˈpiːl/",
-      "pos": "verb",
-      "meaning": [
-        "吸引",
-        "申訴",
-        "呼籲",
-        "吸引力(名詞)"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "B1"
-      ],
-      "example": {
-        "en": "The innovative smartphone sleek design appeals strongly to young tech-savvy consumers.",
-        "zh": "這款智慧型手機的創新流線外型對年輕科技族群具有極大的吸引力。"
-      },
-      "mnemonic": "ad- (向) + pel- (驅使、推) ＝ 把人心推向它 ＝ 吸引 (appeal to)。",
-      "collocations": [
-        "appeal to",
-        "broad appeal"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ],
-      "roots": [
-        "ad- 向 (ap-)",
-        "pel- 推動、驅使"
-      ]
-    },
-    {
-      "id": "20261031_033",
-      "word": "through",
-      "phonetic": "/θruː/",
-      "pos": "preposition",
-      "meaning": [
-        "透過",
-        "經由",
-        "穿過"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Interested applicants are strongly encouraged to submit their resumes through our career website.",
-        "zh": "強烈建議有興趣的應徵者透過我們的求職網站投遞履歷。"
-      },
-      "mnemonic": "招募管道或溝通途徑標準介系詞，片語 go through 意為仔細審查。",
-      "collocations": [
-        "through the website",
-        "go through"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_034",
-      "word": "down",
-      "phonetic": "/daʊn/",
-      "pos": "adverb",
-      "meaning": [
-        "向下",
-        "停擺(系統)",
-        "降低"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The company's primary internal database was down for routine maintenance overnight.",
-        "zh": "公司的主要內部資料庫昨晚因例行維護而暫停服務。"
-      },
-      "mnemonic": "IT故障與設備維修高頻詞：server is down (伺服器停擺)；break down (故障)。",
-      "collocations": [
-        "shut down",
-        "break down"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_035",
-      "word": "show",
-      "phonetic": "/ʃoʊ/",
-      "pos": "verb",
-      "meaning": [
-        "出示",
-        "展示",
-        "顯示"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Passengers must show a valid photo ID and boarding pass before entering the gate area.",
-        "zh": "旅客在進入登機門區域前必須出示有效身分證件與登機證。"
-      },
-      "mnemonic": "機場安檢必備動作：show your ID (出示證件)；名詞 trade show (商展)。",
-      "collocations": [
-        "show an ID",
-        "trade show"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_036",
-      "word": "life",
-      "phonetic": "/laɪf/",
-      "pos": "noun",
-      "meaning": [
-        "壽命(設備)",
-        "生涯",
-        "生活"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Performing routine lubrication can substantially prolong the service life of factory machinery.",
-        "zh": "進行定期潤滑可大幅延長工廠機具的使用壽命。"
-      },
-      "mnemonic": "設備保養與人事平衡必考：service life (使用壽命)、work-life balance (工作與生活平衡)。",
-      "collocations": [
-        "service life",
-        "work-life balance"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_037",
-      "word": "man",
-      "phonetic": "/mæn/",
-      "pos": "noun",
-      "meaning": [
-        "男士",
-        "人員",
-        "配置人力"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The man who led the engineering workshop has over fifteen years of industry experience.",
-        "zh": "主持該工程工作坊的男士擁有超過十五年的產業經驗。"
-      },
-      "mnemonic": "多益聽力 Part 1/2 常考主詞或提問對象；字根衍生 manpower (人力)。",
-      "collocations": [
-        "manpower planning",
-        "salesman"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_038",
-      "word": "change",
-      "phonetic": "/tʃeɪndʒ/",
-      "pos": "verb",
-      "meaning": [
-        "更改",
-        "變更",
-        "零錢"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Airline passengers may change their departure date without paying any penalty fee.",
-        "zh": "航空公司旅客可以變更出發日期而無需支付任何罰金。"
-      },
-      "mnemonic": "行程更動與票務高頻動詞：change reservation (變更預約/機票)。",
-      "collocations": [
-        "change schedule",
-        "change reservation"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_039",
-      "word": "place",
-      "phonetic": "/pleɪs/",
-      "pos": "noun",
-      "meaning": [
-        "地點",
-        "放置",
-        "名額"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "The annual corporate banquet will take place in the grand ballroom of the hotel.",
-        "zh": "年度企業晚宴將於飯店的富麗宴會廳舉行。"
-      },
-      "mnemonic": "多益最愛考片語：take place (舉行)、place an order (下訂單)。",
-      "collocations": [
-        "take place",
-        "place an order"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
-      ],
-      "sourceRefs": [
-        "Lexifold TOEIC",
-        "NGSL 1.2"
-      ]
-    },
-    {
-      "id": "20261031_040",
-      "word": "long",
-      "phonetic": "/lɔːŋ/",
-      "pos": "adjective",
-      "meaning": [
-        "長期的",
-        "長久的",
-        "長的"
-      ],
-      "group": 4,
-      "tags": [
-        "TOEIC",
-        "高頻單字",
-        "A2"
-      ],
-      "example": {
-        "en": "Establishing strong partner ties is essential for the company's long-term financial success.",
-        "zh": "建立穩固的夥伴關係對於公司的長期財務成功至關重要。"
-      },
-      "mnemonic": "商業經營關鍵詞：long-term goal (長期目標)；as long as (只要)。",
-      "collocations": [
-        "long-term",
-        "as long as"
-      ],
-      "reviewDates": [
-        "2026-11-01",
-        "2026-11-03",
-        "2026-11-07",
-        "2026-11-14",
-        "2026-11-30"
       ],
       "sourceRefs": [
         "Lexifold TOEIC",
